@@ -37,8 +37,9 @@ function App() {
         <Grid container spacing={2}>
           <Grid item xs={12} md={6}>
             <Card sx={{ minWidth: 275 }}>
+              <h2>HELLLOOOOOOOO</h2>
               <CardContent>
-                <WorldMap name={this.state.name} />
+                <WorldMap  />
                 <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                   Box 1
                 </Typography>
