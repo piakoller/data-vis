@@ -1,64 +1,90 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 import vegaEmbed from "vega-embed";
 import { useRef, useEffect } from "react";
 
+import WorldMap from './WorldMap';
+
+import Box from '@mui/material/Box';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+import Grid from '@mui/material/Grid';
+
 function App() {
-  const vegaLiteSpec = {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {
-      "values": [
-        { "category": "A", "count": 28 },
-        { "category": "B", "count": 55 },
-        { "category": "C", "count": 43 },
-        { "category": "D", "count": 91 },
-        { "category": "E", "count": 81 },
-        { "category": "F", "count": 28 },
-        { "category": "G", "count": 22 },
-        { "category": "H", "count": 99 },
-        { "category": "I", "count": 5 },
-        { "category": "J", "count": 54 },
-      ],
-    },
-    "mark": "bar",
-    "encoding": {
-      "x": { "field": "category", "type": "ordinal" },
-      "y": { "field": "count", "type": "quantitative" },
-    },
-  };
 
-  const VegaLiteChart = ({ spec }) => {
-    const containerRef = useRef(null);
+  const bull = (
+    <Box
+      component="span"
+      sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
+    >
+      •
+    </Box>
+  );
 
-    useEffect(() => {
-      if (containerRef.current) {
-        vegaEmbed(containerRef.current, spec);
-      }
-    }, [spec]);
-
-    return <div ref={containerRef}></div>;
-  };
-
+  const mapData = [
+    { country: "United States", population: 328200000 },
+    { country: "China", population: 1439323776 },
+    { country: "India", population: 1380004385 },
+    { country: "Brazil", population: 213993437 },
+    // ... other countries with their respective population data
+  ];
 
   return (
     <div className="App">
       <header className="App-header">
-        <div className="parent">
-          <div className="box1">
-            <VegaLiteChart spec={vegaLiteSpec} />
-          </div>
-          <div className="box2">
-            BOX 2
-          </div>
-          <div className="box3">
-            BOX 3
-          </div>
-          <div className="box4">
-            BOX 3
-          </div>
-        </div>
+        <Grid container spacing={2}>
+          <Grid item xs={12} md={6}>
+            <Card sx={{ minWidth: 275 }}>
+              <CardContent>
+                <WorldMap name={this.state.name} />
+                <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                  Box 1
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid item xs={12} md={6}>
+            <Card sx={{ minWidth: 275 }}>
+              <CardContent>
+                <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                  Word of the Day
+                </Typography>
+                <Typography variant="h5" component="div">
+                  be{bull}nev{bull}o{bull}lent
+                </Typography>
+                <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                  adjective
+                </Typography>
+                <Typography variant="body2">
+                  well meaning and kindly.
+                  <br />
+                  {'"a benevolent smile"'}
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid item xs={12} md={6}>
+            <Card sx={{ minWidth: 275 }}>
+              <CardContent>
+                <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                  box 3
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid item xs={12} md={6}>
+            <Card sx={{ minWidth: 275 }}>
+              <CardContent>
+                <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                  Box 4
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+        </Grid>
       </header>
-
     </div>
   );
 }
