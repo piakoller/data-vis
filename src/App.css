@@ -59,3 +59,9 @@
 .rainbow-text-animation {
   animation: rainbow 4s infinite; /* Adjust the duration as needed */
 }
+
+.input-range__slider-container { transition: none; }
+
+.input-range__track {
+  transition: none;
+}

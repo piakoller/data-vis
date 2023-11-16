@@ -27,15 +27,15 @@ function App() {
 
   return (
     <div className="App">
-    {/* <header className="App-header">
-        <h1 className='rainbow-text-animation'>DATA VIZARDS</h1>
-      </header> */}
+      <header className="App-header">
+        <h1>WORLD OF HAPPYHOLICS</h1>
+      </header>
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={2}>
           <Grid item xs={8}>
             <Item>
               <CardContent>
-              <WorldMap key="unique-key-for-world-map" />
+                <WorldMap key="unique-key-for-world-map" />
                 <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                   World Map
                 </Typography>
@@ -44,28 +44,28 @@ function App() {
           </Grid>
           <Grid item xs={4}>
             <Item>
-            <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                  box 3
-            </Typography>
+              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                box 3
+              </Typography>
             </Item>
           </Grid>
           <Grid item xs={4}>
             <Item>
-            <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                  box 3
-            </Typography>
+              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                box 3
+              </Typography>
             </Item>
           </Grid>
           <Grid item xs={8}>
             <Item>
-            <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                  box 3
-            </Typography>
+              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                box 3
+              </Typography>
             </Item>
           </Grid>
         </Grid>
       </Box>
-    
+
     </div>
   );
 }
