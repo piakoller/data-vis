@@ -2,26 +2,10 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -60,4 +44,18 @@
 .box4 {
   grid-area: 4 / 4 / 6 / 6;
   border: 1px solid #61dafb;
+}
+
+@keyframes rainbow {
+  0% { color: red; }
+  16.66% { color: orange; }
+  33.33% { color: yellow; }
+  50% { color: green; }
+  66.66% { color: blue; }
+  83.33% { color: indigo; }
+  100% { color: violet; }
+}
+
+.rainbow-text-animation {
+  animation: rainbow 4s infinite; /* Adjust the duration as needed */
 }

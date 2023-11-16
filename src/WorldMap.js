@@ -24,7 +24,7 @@ export default class Map extends React.Component {
     }
 
     render() {
-        const width = 500;
+        const width = 1000;
         const height = width * 0.5;
         const projection = geoMercator().fitExtent(
             [[0, 0], [width * 0.9, height * 0.9]],
