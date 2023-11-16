@@ -4,6 +4,7 @@ import { geoMercator, geoPath } from 'd3-geo';
 import { select } from 'd3-selection';
 import * as d3 from 'd3';
 import Papa from 'papaparse';
+import Slider from '@mui/material/Slider';
 
 const Tooltip = ({ x, y, location, value }) => (
     <foreignObject x={x} y={y} width={200} height={100}>
@@ -20,6 +21,14 @@ const Map = () => {
 
     const [tooltip, setTooltip] = useState(null);
     const [formattedData, setFormattedData] = useState({});
+
+    const [value, setValue] = React.useState(2019);
+
+  const handleChange = async (event, newValue)  => {
+    if (typeof newValue === 'number') {
+      setSelectedYear(newValue);
+    }
+  };
 
 
     useEffect(() => {
@@ -59,15 +68,20 @@ const Map = () => {
 
     return (
         <div>
-            <input
-                type="range"
-                min={1960}
-                max={2021}
-                step={1}
-                value={selectedYear}
-                onChange={(e) => setSelectedYear(parseInt(e.target.value))}
+            <div style={{padding: 20, width: "50%", margin: "auto"}}>
+            <Slider
+              value={selectedYear}
+              onChange={handleChange}
+              aria-label="Year"
+              valueLabelDisplay="auto"
+              step={1}
+              marks
+              min={1960}
+              max={2019}
             />
-            {selectedYear}
+            <h2>Year: {selectedYear}</h2>
+            </div>
+            
             <svg width={width} height={height}>
                 <g className="geo-layer">
                     {geo.features.map(d => {

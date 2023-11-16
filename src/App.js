@@ -11,18 +11,10 @@ import Typography from '@mui/material/Typography';
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-import Slider from '@mui/material/Slider';
-import './App.css';
+
 
 function App() {
 
-  const [value, setValue] = React.useState(2019);
-
-  const handleChange = async (event, newValue)  => {
-    if (typeof newValue === 'number') {
-      setValue(newValue);
-    }
-  };
 
 
   const Item = styled(Paper)(({ theme }) => ({
