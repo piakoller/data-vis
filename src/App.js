@@ -1,14 +1,11 @@
 import React from 'react';
-import vegaEmbed from "vega-embed";
 import { useRef, useEffect } from "react";
 
 import WorldMap from './WorldMap';
 
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 
@@ -23,21 +20,12 @@ function App() {
     </Box>
   );
 
-  const mapData = [
-    { country: "United States", population: 328200000 },
-    { country: "China", population: 1439323776 },
-    { country: "India", population: 1380004385 },
-    { country: "Brazil", population: 213993437 },
-    // ... other countries with their respective population data
-  ];
-
   return (
     <div className="App">
       <header className="App-header">
         <Grid container spacing={2}>
           <Grid item xs={12} md={6}>
             <Card sx={{ minWidth: 275 }}>
-              <h2>HELLLOOOOOOOO</h2>
               <CardContent>
                 <WorldMap  />
                 <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
