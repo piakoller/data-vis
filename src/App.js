@@ -35,7 +35,9 @@ function App() {
 
   return (
     <div className="App">
-    <header className="App-header">
+    {/* <header className="App-header">
+        <h1 className='rainbow-text-animation'>DATA VIZARDS</h1>
+      </header> */}
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={2}>
           <Grid item xs={8}>
@@ -71,7 +73,7 @@ function App() {
           </Grid>
         </Grid>
       </Box>
-    </header>
+    
     </div>
   );
 }
