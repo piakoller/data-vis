@@ -6,10 +6,17 @@ import * as d3 from 'd3';
 import Papa from 'papaparse';
 import { useSelectedCountry } from './SelectedCountry';
 
+import Slider from '@mui/material/Slider';
+import { debounce } from 'lodash';
+import './App.css';
 
 const Tooltip = ({ x, y, location, value }) => (
     <foreignObject x={x} y={y} width={200} height={100}>
         <div style={{ background: 'white', borderRadius: '10px', padding: '3px', outline: '1px solid black' }}>
+            <h4>{location}</h4>
+            <p>{value}</p>
+        </div>
+        <div style={{ background: 'white', borderRadius: '8px', padding: '3px', outline: '1px solid black' }}>
             <h4>{location}</h4>
             <p>{value}</p>
         </div>
@@ -23,6 +30,15 @@ const Map = () => {
 
     const [tooltip, setTooltip] = useState(null);
     const [formattedData, setFormattedData] = useState({});
+
+
+
+    const debouncedHandleChange = debounce(async (event, newValue) => {
+        if (typeof newValue === 'number') {
+            setSelectedYear(newValue);
+        }
+    }, 300);
+
 
 
     useEffect(() => {
@@ -73,15 +89,20 @@ const Map = () => {
 
     return (
         <div>
-            <input
-                type="range"
-                min={1960}
-                max={2021}
-                step={1}
-                value={selectedYear}
-                onChange={(e) => setSelectedYear(parseInt(e.target.value))}
-            />
-            {selectedYear}
+            <div style={{ padding: 20, width: "50%", margin: "auto" }}>
+                <Slider
+                    value={selectedYear}
+                    onChange={(event, newValue) => debouncedHandleChange(event, newValue)}
+                    aria-label="Year"
+                    valueLabelDisplay="auto"
+                    step={1}
+                    marks
+                    min={1960}
+                    max={2019}
+                />
+                <h2>Year: {selectedYear}</h2>
+            </div>
+
             <svg width={width} height={height}>
                 <g className="geo-layer">
                     {geo.features.map(d => {
