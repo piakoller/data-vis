@@ -1,5 +1,4 @@
 import React from 'react';
-import { useState } from "react";
 
 import WorldMap from './WorldMap';
 import LineChart from './LineChart';
@@ -8,7 +7,6 @@ import { SelectedCountryProvider } from './SelectedCountry';
 import './App.css';
 
 import Box from '@mui/material/Box';
-import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import { styled } from '@mui/material/styles';
@@ -37,7 +35,7 @@ function App() {
           <Grid container spacing={2}>
             <Grid item xs={8}>
               <Item>
-                <CardContent>
+                <CardContent style={{ height: '100%' }}>
                   <WorldMap key="unique-key-for-world-map"/>
                   <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                     World Map

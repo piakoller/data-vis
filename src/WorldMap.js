@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from "react";
-import geo from './components/geo.json';
+import geo from './components/map.json';
 import { geoMercator, geoPath } from 'd3-geo';
 import { select } from 'd3-selection';
 import * as d3 from 'd3';
@@ -29,9 +29,6 @@ const Map = () => {
     const { selectedCountry, setSelectedCountry } = useSelectedCountry();
 
     const [tooltip, setTooltip] = useState(null);
-    const [formattedData, setFormattedData] = useState({});
-
-
 
     const debouncedHandleChange = debounce(async (event, newValue) => {
         if (typeof newValue === 'number') {
@@ -68,7 +65,7 @@ const Map = () => {
         return (value) => color(value / 25);
     }, []);
 
-    const width = 1000;
+    const width = 1500;
     const height = width * 0.5;
     const projection = geoMercator().fitExtent(
         [[0, 0], [width * 0.9, height * 0.9]],
@@ -88,7 +85,7 @@ const Map = () => {
       };
 
     return (
-        <div>
+        <div width="100%" height="100%" viewBox="0 0 1000 500">
             <div style={{ padding: 20, width: "50%", margin: "auto" }}>
                 <Slider
                     value={selectedYear}

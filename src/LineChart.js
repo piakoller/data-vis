@@ -89,7 +89,7 @@ const LineChart = () => {
 
     return (
     <div id="line-chart-container">
-        {selectedCountry}
+        <h2>{selectedCountry}</h2>
     </div>);
 };
 
