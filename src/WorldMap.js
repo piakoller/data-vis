@@ -77,22 +77,19 @@ const Map = () => {
 
 
     const handleCountryClick = (location, value) => {
-        if (selectedCountry !== location) {
+        if (!selectedCountry.includes(location)) {
             setSelectedCountry(location);
             setTooltip({ location, value });
             // Add the country to selectedCountries if it's not already in the list
             if (!selectedCountry.includes(location)) {
                 setSelectedCountry([...selectedCountry, location]);
-            }
-        } else {
-            setSelectedCountry(null);
-            setTooltip(null);
-            // Remove the country from selectedCountries
-            const updatedSelectedCountries = selectedCountry.filter(
-                (country) => country !== location
-            );
+            }}
+            else if (selectedCountry.includes(location)) {
+            const updatedSelectedCountries = selectedCountry.filter(country => country !== location);
             setSelectedCountry(updatedSelectedCountries);
+            console.log("DELETE")
         }
+
     };
 
     return (
@@ -131,7 +128,7 @@ const Map = () => {
                         const value = data[selectedYear]?.[location] || 0;
                         const color = getColor(value, location);
                         return (
-                            <g key={d.properties.Name}>
+                            <g key={d.properties.name}>
                                 <path
                                     d={path(d)}
                                     fill={color}
@@ -147,7 +144,7 @@ const Map = () => {
                                     // onMouseOut={(e) => {
                                     //     select(e.target).attr('fill', getColor(value));
                                     // }}
-                                    selectedCountry={selectedCountry}
+                                    /* selectedCountry={selectedCountry} */
                                 />
                                 {/* {tooltip && (
                                     <Tooltip x={tooltip.x} y={tooltip.y} location={tooltip.location} value={tooltip.value} />
