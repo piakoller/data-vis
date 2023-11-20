@@ -87,7 +87,6 @@ const Map = () => {
             else if (selectedCountry.includes(location)) {
             const updatedSelectedCountries = selectedCountry.filter(country => country !== location);
             setSelectedCountry(updatedSelectedCountries);
-            console.log("DELETE")
         }
 
     };
