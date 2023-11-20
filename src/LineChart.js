@@ -78,8 +78,8 @@ const LineChart = () => {
             console.log(data);
 
             // Set up scales
-            const x = d3.scaleLinear()
-                .domain(d3.extent(data, d => d.date))
+            const x = d3.scaleTime() // Use time scale for x-axis
+                .domain(d3.extent(data, d => d.date)) // Set the x-domain based on the date range
                 .range([0, width]);
 
             const y = d3.scaleLinear()
