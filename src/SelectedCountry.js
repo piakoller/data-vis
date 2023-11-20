@@ -8,7 +8,7 @@ export function useSelectedCountry() {
 }
 
 export function SelectedCountryProvider({ children }) {
-  const [selectedCountry, setSelectedCountry] = useState(null);
+  const [selectedCountry, setSelectedCountry] = useState([]);
 
   return (
     <SelectedCountryContext.Provider value={{ selectedCountry, setSelectedCountry }}>

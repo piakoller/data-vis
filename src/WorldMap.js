@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useMemo } from "react";
 import geo from './components/map.json';
 import { geoMercator, geoPath } from 'd3-geo';
-import { select } from 'd3-selection';
 import * as d3 from 'd3';
 import Papa from 'papaparse';
 import { useSelectedCountry } from './SelectedCountry';
 
 import Slider from '@mui/material/Slider';
+import Chip from '@mui/material/Chip';
 import { debounce } from 'lodash';
 import './App.css';
 
@@ -61,9 +61,11 @@ const Map = () => {
     }, []);
 
     const getColor = useMemo(() => {
-        const color = d3.scaleSequential(d3.interpolateOranges);
-        return (value) => color(value / 25);
-    }, []);
+        const colorScale = d3.scaleSequential(d3.interpolateOranges);
+        return (value, location) =>
+          selectedCountry.includes(location) ? 'blue' : colorScale(value / 25);
+      }, [selectedCountry]);
+    
 
     const width = 1500;
     const height = width * 0.5;
@@ -76,13 +78,22 @@ const Map = () => {
 
     const handleCountryClick = (location, value) => {
         if (selectedCountry !== location) {
-          setSelectedCountry(location);
-          setTooltip({ location, value });
+            setSelectedCountry(location);
+            setTooltip({ location, value });
+            // Add the country to selectedCountries if it's not already in the list
+            if (!selectedCountry.includes(location)) {
+                setSelectedCountry([...selectedCountry, location]);
+            }
         } else {
-          setSelectedCountry(null);
-          setTooltip(null);
+            setSelectedCountry(null);
+            setTooltip(null);
+            // Remove the country from selectedCountries
+            const updatedSelectedCountries = selectedCountry.filter(
+                (country) => country !== location
+            );
+            setSelectedCountry(updatedSelectedCountries);
         }
-      };
+    };
 
     return (
         <div width="100%" height="100%" viewBox="0 0 1000 500">
@@ -99,26 +110,37 @@ const Map = () => {
                 />
                 <h2>Year: {selectedYear}</h2>
             </div>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, padding: 16 }}>
+                {/* Render selected countries as filter chips */}
+                {selectedCountry &&
+                    selectedCountry.map((country) => (
+                        <Chip
+                            key={country}
+                            label={country}
+                            onDelete={() => {
+                                setSelectedCountry(selectedCountry.filter((c) => c !== country));
+                            }}
+                        />
+                    ))}
+            </div>
 
             <svg width={width} height={height}>
                 <g className="geo-layer">
                     {geo.features.map(d => {
                         const location = d.properties.sovereignt;
                         const value = data[selectedYear]?.[location] || 0;
-                        const isSelected = selectedCountry !== location;
-
+                        const color = getColor(value, location);
                         return (
                             <g key={d.properties.Name}>
                                 <path
                                     d={path(d)}
-                                    fill={getColor(value)}
+                                    fill={color}
                                     stroke="#0e1724"
                                     strokeWidth="1"
                                     strokeOpacity="0.5"
                                     onClick={(e) => {
                                         handleCountryClick(location, value);
-                                        select(e.target).attr('fill', isSelected ? 'blue' : getColor(value));
-                                      }}
+                                    }}
                                     // onMouseEnter={(e) => {
                                     //     select(e.target).attr('fill', 'grey');
                                     // }}
@@ -127,9 +149,9 @@ const Map = () => {
                                     // }}
                                     selectedCountry={selectedCountry}
                                 />
-                                {tooltip && (
+                                {/* {tooltip && (
                                     <Tooltip x={tooltip.x} y={tooltip.y} location={tooltip.location} value={tooltip.value} />
-                                )}
+                                )} */}
                             </g>
                         );
                     })}
