@@ -1,7 +1,5 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import * as d3 from 'd3';
-import { nest } from 'd3-array';
-
 import Papa from 'papaparse';
 import { useSelectedCountry } from './SelectedCountry';
 
@@ -67,25 +65,16 @@ const LineChart = () => {
                 .append('g')
                 .attr('transform', `translate(${margin.left},${margin.top})`);
 
-            // // Group data by country
-            // const groupedData = data.reduce((acc, cur) => {
-            //     if (!acc[cur.LOCATION]) {
-            //         acc[cur.LOCATION] = [];
-            //     }
-            //     acc[cur.LOCATION].push(cur);
-            //     return acc;
-            // }, {});
-            var sumstat = d3.nest()
-                .key(d => d.media)
-                .entries(data);
+            // Group data by country
+            const groupedData = data.reduce((acc, cur) => {
+                if (!acc[cur.LOCATION]) {
+                    acc[cur.LOCATION] = [];
+                }
+                acc[cur.LOCATION].push(cur);
+                return acc;
+            }, {});
 
-            console.log(sumstat)
-
-            //set color pallete for different vairables
-            var mediaName = sumstat.map(d => d.key)
-            var color = d3.scaleOrdinal().domain(mediaName).range(d3.schemeCategory10)
-
-            // const color = d3.scaleOrdinal(d3.schemeCategory10);
+            const color = d3.scaleOrdinal(d3.schemeCategory10);
             console.log(data);
 
             // Set up scales
@@ -104,7 +93,7 @@ const LineChart = () => {
                 .y(d => y(d.value));
 
             // Draw multiple lines based on grouped data
-            Object.entries(sumstat).forEach(([country, countryData]) => {
+            Object.entries(groupedData).forEach(([country, countryData]) => {
                 svg.append('path')
                     .datum(countryData)
                     .attr('fill', 'none')
@@ -113,6 +102,13 @@ const LineChart = () => {
                     .attr('d', line);
             });
 
+            // Draw x-axis
+            svg.append('g')
+                .attr('transform', `translate(0,${height})`)
+                .call(d3.axisBottom(x));
+
+            // Draw y-axis
+            svg.append('g').call(d3.axisLeft(y));
         }
     }, [data]);
 
