@@ -60,7 +60,7 @@ function App() {
             <Grid item xs={8}>
               <Item>
                 <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                  box 3
+                  box 4
                 </Typography>
               </Item>
             </Grid>

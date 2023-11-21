@@ -9,6 +9,7 @@ import Slider from '@mui/material/Slider';
 import Chip from '@mui/material/Chip';
 import { debounce } from 'lodash';
 import './App.css';
+import './WorldMap.css'
 
 const Tooltip = ({ x, y, location, value }) => (
     <foreignObject x={x} y={y} width={200} height={100}>
@@ -62,9 +63,9 @@ const Map = () => {
 
     const getColor = useMemo(() => {
         const colorScale = d3.scaleSequential(d3.interpolateOranges);
-        return (value, location) =>
-          selectedCountry.includes(location) ? 'blue' : colorScale(value / 25);
-      }, [selectedCountry]);
+        return (value) =>
+          colorScale(value / 25);
+      }, []);
     
 
     const width = 1500;
@@ -127,23 +128,25 @@ const Map = () => {
                         const location = d.properties.sovereignt;
                         const value = data[selectedYear]?.[location] || 0;
                         const color = getColor(value, location);
+                        const outline = selectedCountry.includes(location) ? 'blue' : '#d0d0d0'
+                        const outlineStroke = selectedCountry.includes(location) ? '3' : '1'
                         return (
                             <g key={d.properties.name}>
-                                <path
+                                <path 
+                                    //class="outlined"
                                     d={path(d)}
                                     fill={color}
-                                    stroke="#0e1724"
-                                    strokeWidth="1"
-                                    strokeOpacity="0.5"
+                                    stroke={outline}
+                                    strokeWidth={outlineStroke}
                                     onClick={(e) => {
                                         handleCountryClick(location, value);
                                     }}
-                                    // onMouseEnter={(e) => {
-                                    //     select(e.target).attr('fill', 'grey');
-                                    // }}
-                                    // onMouseOut={(e) => {
-                                    //     select(e.target).attr('fill', getColor(value));
-                                    // }}
+                                    onMouseEnter={(e) => {
+                                        Tooltip(e);
+                                    }}
+                                    onMouseOut={(e) => {
+                                        Tooltip(e);
+                                    }}
                                     /* selectedCountry={selectedCountry} */
                                 />
                                 {/* {tooltip && (
