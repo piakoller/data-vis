@@ -49,6 +49,10 @@ const LineChart = () => {
 
     useEffect(() => {
         // Create chart here using 'data' state
+        const svg = d3.select('#line-chart-container svg');
+        // Clear existing chart content before rendering a new one
+        svg.selectAll('*').remove();
+
         if (Object.keys(data).length > 0) {
             // Clear existing chart content before rendering a new one
             d3.select('#line-chart-container').select('svg').remove();
@@ -82,15 +86,21 @@ const LineChart = () => {
                 .x(d => x(d.date))
                 .y(d => y(d.value));
 
-            // Draw the lines
-            Object.entries(data).forEach(([country, values]) => {
+            // Filter data for selected countries
+            const filteredData = Object.entries(data).filter(([country]) =>
+                selectedCountry.includes(country)
+            );
+
+            // Draw the lines for selected countries
+            filteredData.forEach(([country, values]) => {
                 svg.append('path')
                     .datum(values)
                     .attr('fill', 'none')
-                    .attr('stroke', color(country)) // You might want to use a different color for each line
+                    .attr('stroke', color(country))
                     .attr('stroke-width', 1.5)
                     .attr('d', line);
             });
+
 
             // Draw x-axis
             svg.append('g')
