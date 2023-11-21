@@ -11,45 +11,45 @@ const LineChart = () => {
     const [data, setData] = useState({});
     const [tooltipContent, setTooltipContent] = useState(null);
 
-    const fetchDataForCountry = useCallback(
-        country => {
-            fetch('./data/merged_data.csv')
-                .then(response => response.text())
-                .then(csvData => {
-                    const parsedData = Papa.parse(csvData, { header: true });
-                    const countryData = parsedData.data
-                        .filter(entry => entry.LOCATION === country)
-                        .map(entry => ({
-                            date: new Date(entry.TIME),
-                            value: parseFloat(entry.VALUE)
-                        }));
-                    return countryData;
-                })
-                .then(countryData => {
-                    setData(prevData => [...prevData, ...countryData]);
-                })
-                .catch(error => {
-                    console.error('Error fetching CSV:', error);
-                });
-        },
-        []
-    );
+    const fetchDataForCountry = useCallback(country => {
+        fetch('./data/merged_data.csv')
+            .then(response => response.text())
+            .then(csvData => {
+                const parsedData = Papa.parse(csvData, { header: true });
+                const countryData = parsedData.data
+                    .filter(entry => entry.LOCATION === country)
+                    .map(entry => ({
+                        date: new Date(entry.TIME),
+                        value: parseFloat(entry.VALUE)
+                    }));
 
+                // Update the data state with country-specific data
+                setData(prevData => ({
+                    ...prevData,
+                    [country]: countryData // Store country data under its name
+                }));
+            })
+            .catch(error => {
+                console.error('Error fetching CSV:', error);
+            });
+    }, []);
+
+
+    // Use useEffect to fetch data for selected countries
     useEffect(() => {
         if (selectedCountry && selectedCountry.length > 0) {
-            // Fetch and process the CSV data for each selected country
-            setData([]); // Clear existing data
+            // Fetch data for each selected country
             selectedCountry.forEach(country => {
                 fetchDataForCountry(country);
             });
         } else {
-            setData([]); // Clear data if no countries are selected
+            setData({}); // Clear data if no countries are selected
         }
     }, [selectedCountry, fetchDataForCountry]);
 
     useEffect(() => {
         // Create chart here using 'data' state
-        if (data.length > 0) {
+        if (Object.keys(data).length > 0) {
             // Clear existing chart content before rendering a new one
             d3.select('#line-chart-container').select('svg').remove();
 
@@ -65,25 +65,15 @@ const LineChart = () => {
                 .append('g')
                 .attr('transform', `translate(${margin.left},${margin.top})`);
 
-            // Group data by country
-            const groupedData = data.reduce((acc, cur) => {
-                if (!acc[cur.LOCATION]) {
-                    acc[cur.LOCATION] = [];
-                }
-                acc[cur.LOCATION].push(cur);
-                return acc;
-            }, {});
-
             const color = d3.scaleOrdinal(d3.schemeCategory10);
-            console.log(data);
 
             // Set up scales
-            const x = d3.scaleTime() // Use time scale for x-axis
-                .domain(d3.extent(data, d => d.date)) // Set the x-domain based on the date range
+            const x = d3.scaleTime()
+                .domain(d3.extent(data[Object.keys(data)[0]], d => d.date)) // Assumes all lines have the same date range
                 .range([0, width]);
 
             const y = d3.scaleLinear()
-                .domain([0, d3.max(data, d => d.value)])
+                .domain([0, d3.max(Object.values(data), values => d3.max(values, v => v.value))]) // Finds the max value across all lines
                 .nice()
                 .range([height, 0]);
 
@@ -92,12 +82,12 @@ const LineChart = () => {
                 .x(d => x(d.date))
                 .y(d => y(d.value));
 
-            // Draw multiple lines based on grouped data
-            Object.entries(groupedData).forEach(([country, countryData]) => {
+            // Draw the lines
+            Object.entries(data).forEach(([country, values]) => {
                 svg.append('path')
-                    .datum(countryData)
+                    .datum(values)
                     .attr('fill', 'none')
-                    .attr('stroke', color(country)) // Use country as a unique identifier for color
+                    .attr('stroke', color(country)) // You might want to use a different color for each line
                     .attr('stroke-width', 1.5)
                     .attr('d', line);
             });

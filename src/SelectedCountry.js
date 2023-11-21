@@ -1,4 +1,3 @@
-// Create a new file called SelectedCountryContext.js
 import { createContext, useContext, useState } from 'react';
 
 const SelectedCountryContext = createContext();

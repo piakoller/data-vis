@@ -68,7 +68,7 @@ const Map = () => {
       }, []);
     
 
-    const width = 1500;
+    const width = 1000;
     const height = width * 0.5;
     const projection = geoMercator().fitExtent(
         [[0, 0], [width * 0.9, height * 0.9]],
