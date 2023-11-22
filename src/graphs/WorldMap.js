@@ -1,14 +1,14 @@
 import React, { useState, useEffect, useMemo } from "react";
-import geo from './components/map.json';
+import geo from '../components/map.json';
 import { geoMercator, geoPath } from 'd3-geo';
 import * as d3 from 'd3';
-import Papa from 'papaparse';
 import { useSelectedCountry } from './SelectedCountry';
+import { fetchWorldMapData } from './DataFetcher';
 
 import Slider from '@mui/material/Slider';
 import Chip from '@mui/material/Chip';
 import { debounce } from 'lodash';
-import './App.css';
+import '../App.css';
 import './WorldMap.css'
 
 const Tooltip = ({ x, y, location, value }) => (
@@ -37,29 +37,12 @@ const Map = () => {
         }
     }, 300);
 
-
-
     useEffect(() => {
-        fetch('./data/merged_data.csv')
-            .then(response => response.text())
-            .then(csvData => {
-                const parsedData = Papa.parse(csvData, { header: true });
-                const formattedData = {};
-
-                parsedData.data.forEach(entry => {
-                    const year = parseInt(entry.TIME);
-                    if (!formattedData[year]) {
-                        formattedData[year] = {};
-                    }
-                    formattedData[year][entry.LOCATION] = parseFloat(entry.VALUE);
-                });
-
-                setData(formattedData);
-            })
-            .catch(error => {
-                console.error('Error fetching CSV:', error);
-            });
-    }, []);
+        fetchWorldMapData()
+          .then(data => {
+            setData(data);
+          });
+      }, []);
 
     const getColor = useMemo(() => {
         const colorScale = d3.scaleSequential(d3.interpolateOranges);

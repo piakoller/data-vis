@@ -1,8 +1,8 @@
 import React from 'react';
 
-import WorldMap from './WorldMap';
-import LineChart from './LineChart';
-import { SelectedCountryProvider } from './SelectedCountry';
+import WorldMap from './graphs/WorldMap';
+import LineChart from './graphs/LineChart';
+import { SelectedCountryProvider } from './graphs/SelectedCountry';
 
 import './App.css';
 
@@ -50,14 +50,14 @@ function App() {
                 </Typography>
               </Item>
             </Grid>
-            <Grid item xs={4}>
+            <Grid item xs={8}>
               <Item>
                 <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                   <LineChart key="unique-key-for-world-map" />
                 </Typography>
               </Item>
             </Grid>
-            <Grid item xs={8}>
+            <Grid item xs={4}>
               <Item>
                 <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                   box 4

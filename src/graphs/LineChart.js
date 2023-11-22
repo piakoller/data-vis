@@ -2,6 +2,7 @@ import React, { useEffect, useState, useCallback } from 'react';
 import * as d3 from 'd3';
 import Papa from 'papaparse';
 import { useSelectedCountry } from './SelectedCountry';
+import { fetchCountryData } from './DataFetcher';
 
 import Tooltip from '@mui/material/Tooltip';
 
@@ -11,28 +12,37 @@ const LineChart = () => {
     const [data, setData] = useState({});
     const [tooltipContent, setTooltipContent] = useState(null);
 
-    const fetchDataForCountry = useCallback(country => {
-        fetch('./data/merged_data.csv')
-            .then(response => response.text())
-            .then(csvData => {
-                const parsedData = Papa.parse(csvData, { header: true });
-                const countryData = parsedData.data
-                    .filter(entry => entry.LOCATION === country)
-                    .map(entry => ({
-                        date: new Date(entry.TIME),
-                        value: parseFloat(entry.VALUE)
-                    }));
+    // const fetchDataForCountry = useCallback(country => {
+    //     fetch('./data/alcohol_modified_extended.csv')
+    //         .then(response => response.text())
+    //         .then(csvData => {
+    //             const parsedData = Papa.parse(csvData, { header: true });
+    //             const countryData = parsedData.data
+    //                 .filter(entry => entry.COUNTRY === country)
+    //                 .map(entry => ({
+    //                     date: new Date(entry.YEAR),
+    //                     value: parseFloat(entry.VALUE)
+    //                 }));
 
-                // Update the data state with country-specific data
-                setData(prevData => ({
-                    ...prevData,
-                    [country]: countryData // Store country data under its name
-                }));
-            })
-            .catch(error => {
-                console.error('Error fetching CSV:', error);
-            });
-    }, []);
+    //             // Update the data state with country-specific data
+    //             setData(prevData => ({
+    //                 ...prevData,
+    //                 [country]: countryData // Store country data under its name
+    //             }));
+    //         })
+    //         .catch(error => {
+    //             console.error('Error fetching CSV:', error);
+    //         });
+    // }, []);
+    const fetchDataForCountry = useCallback(country => {
+        fetchCountryData(country)
+          .then(countryData => {
+            setData(prevData => ({
+              ...prevData,
+              [country]: countryData
+            }));
+          });
+      }, []);
 
 
     // Use useEffect to fetch data for selected countries
