@@ -108,6 +108,22 @@ const Map = () => {
                 <h2>Year: {selectedYear}</h2>
             </div>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, padding: 16 }}>
+                <Chip
+                    key="Select All"
+                    label="Select All"
+                    onClick={() => {
+                        
+                    }}
+                />
+                <Chip
+                    key="Deselect All"
+                    label="Deselect All"
+                    onClick={() => {
+                        
+                    }}
+                />
+            </div>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, padding: 16 }}>
                 {/* Render selected countries as filter chips */}
                 {selectedCountry &&
                     selectedCountry.map((country) => (
