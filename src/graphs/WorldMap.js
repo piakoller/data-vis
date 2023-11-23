@@ -39,17 +39,17 @@ const Map = () => {
 
     useEffect(() => {
         fetchWorldMapData()
-          .then(data => {
-            setData(data);
-          });
-      }, []);
+            .then(data => {
+                setData(data);
+            });
+    }, []);
 
     const getColor = useMemo(() => {
         const colorScale = d3.scaleSequential(d3.interpolateOranges);
         return (value) =>
-          colorScale(value / 25);
-      }, []);
-    
+            colorScale(value / 25);
+    }, []);
+
 
     const width = 1000;
     const height = width * 0.5;
@@ -67,13 +67,15 @@ const Map = () => {
             // Add the country to selectedCountries if it's not already in the list
             if (!selectedCountry.includes(location)) {
                 setSelectedCountry([...selectedCountry, location]);
-            }}
-            else if (selectedCountry.includes(location)) {
+            }
+        }
+        else if (selectedCountry.includes(location)) {
             const updatedSelectedCountries = selectedCountry.filter(country => country !== location);
             setSelectedCountry(updatedSelectedCountries);
         }
 
     };
+    const isCountrySelected = (location) => selectedCountry.includes(location);
 
     return (
         <div width="100%" height="100%" viewBox="0 0 1000 500">
@@ -103,42 +105,42 @@ const Map = () => {
                         />
                     ))}
             </div>
-
             <svg width={width} height={height}>
                 <g className="geo-layer">
                     {geo.features.map(d => {
                         const location = d.properties.sovereignt;
                         const value = data[selectedYear]?.[location] || 0;
-                        const color = getColor(value, location);
-                        const outline = selectedCountry.includes(location) ? 'blue' : '#d0d0d0'
-                        const outlineStroke = selectedCountry.includes(location) ? '3' : '1'
+                        const color = getColor(value.value, location);
+                        const isSelected = isCountrySelected(location);
+                        const fillOpacity = isSelected ? 1 : 0.3; // Change opacity for unselected countries
+                        const outline = isSelected ? data[selectedYear]?.[location]?.color || '#d0d0d0' : '#d0d0d0'; // Access color for the selected country and year
+                        const outlineStroke = isSelected ? '3' : '1';
+                        const scale = isSelected ? 1 : 1; // Adjust scale for selected countries
+
+                        // Calculate the center of the country's path
+                        const bounds = path.bounds(d);
+                        const centerX = (bounds[0][0] + bounds[1][0]) / 2;
+                        const centerY = (bounds[0][1] + bounds[1][1]) / 2;
+
                         return (
                             <g key={d.properties.name}>
-                                <path 
-                                    //class="outlined"
+                                <path
                                     d={path(d)}
                                     fill={color}
+                                    fillOpacity={fillOpacity}
                                     stroke={outline}
                                     strokeWidth={outlineStroke}
+                                    transform={`translate(${centerX}, ${centerY}) scale(${scale}) translate(${-centerX}, ${-centerY})`} // Apply scale transformation around the center of the country
                                     onClick={(e) => {
                                         handleCountryClick(location, value);
                                     }}
-                                    onMouseEnter={(e) => {
-                                        Tooltip(e);
-                                    }}
-                                    onMouseOut={(e) => {
-                                        Tooltip(e);
-                                    }}
-                                    /* selectedCountry={selectedCountry} */
                                 />
-                                {/* {tooltip && (
-                                    <Tooltip x={tooltip.x} y={tooltip.y} location={tooltip.location} value={tooltip.value} />
-                                )} */}
                             </g>
                         );
                     })}
                 </g>
             </svg>
+
         </div>
     );
 };

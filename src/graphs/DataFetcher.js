@@ -11,7 +11,8 @@ export const fetchCountryData = (country) => {
         .filter(entry => entry.COUNTRY === country)
         .map(entry => ({
           date: new Date(entry.YEAR),
-          value: parseFloat(entry.VALUE)
+          value: parseFloat(entry.VALUE),
+          color: entry.COLOR
         }));
       return countryData;
     })
@@ -32,7 +33,10 @@ export const fetchWorldMapData = () => {
         if (!formattedData[year]) {
           formattedData[year] = {};
         }
-        formattedData[year][entry.COUNTRY] = parseFloat(entry.VALUE);
+        formattedData[year][entry.COUNTRY] = {
+          value: parseFloat(entry.VALUE),
+          color: entry.COLOR
+        };
       });
 
       return formattedData;
