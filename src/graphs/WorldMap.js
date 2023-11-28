@@ -76,7 +76,6 @@ const Map = () => {
 
     };
     const isCountrySelected = (location) => selectedCountry.includes(location);
-
     return (
         <div width="100%" height="100%" viewBox="0 0 1000 500">
             <div style={{ padding: 20, width: "50%", margin: "auto" }}>
@@ -88,7 +87,7 @@ const Map = () => {
                     step={1}
                     marks
                     min={1960}
-                    max={2019}
+                    max={2016}
                 />
                 <h2>Year: {selectedYear}</h2>
             </div>
@@ -97,14 +96,14 @@ const Map = () => {
                     key="Select All"
                     label="Select All"
                     onClick={() => {
-                        
+                        // setSelectedCountry(data);
                     }}
                 />
                 <Chip
                     key="Deselect All"
                     label="Deselect All"
                     onClick={() => {
-                        
+                        setSelectedCountry([]);
                     }}
                 />
             </div>
