@@ -96,7 +96,16 @@ const Map = () => {
                     key="Select All"
                     label="Select All"
                     onClick={() => {
-                        // setSelectedCountry(data);
+                        setSelectedCountry(['Albania', 'Andorra', 'Armenia', 'Austria', 'Azerbaijan',
+                        'Belgium', 'Bulgaria', 'Bosnia and Herzegovina', 'Belarus',
+                        'Switzerland', 'Cyprus', 'Czechia', 'Germany', 'Denmark', 'Spain',
+                        'Estonia', 'Finland', 'France', 'United Kingdom', 'Georgia',
+                        'Greece', 'Croatia', 'Hungary', 'Ireland', 'Iceland', 'Israel',
+                        'Italy', 'Kazakhstan', 'Kyrgyzstan', 'Lithuania', 'Luxembourg',
+                        'Latvia', 'Moldova', 'North Macedonia', 'Malta', 'Montenegro',
+                        'Netherlands', 'Norway', 'Poland', 'Portugal', 'Romania', 'Russia',
+                        'Republic of Serbia', 'Slovakia', 'Slovenia', 'Sweden',
+                        'Tajikistan', 'Turkmenistan', 'Turkey', 'Ukraine', 'Uzbekistan']);
                     }}
                 />
                 <Chip
@@ -127,7 +136,7 @@ const Map = () => {
                         const value = data[selectedYear]?.[location] || 0;
                         const color = getColor(value.value, location);
                         const isSelected = isCountrySelected(location);
-                        const fillOpacity = isSelected || selectedCountry ? 1 : 0.3; // Change opacity for unselected countries
+                        const fillOpacity = selectedCountry.length == 0 ? 1 : isSelected ? 1 : 0.3  // Change opacity for unselected countries
                         const outline = isSelected ? data[selectedYear]?.[location]?.color || '#d0d0d0' : '#d0d0d0'; // Access color for the selected country and year
                         const outlineStroke = isSelected ? '3' : '1';
                         const scale = isSelected ? 1 : 1; // Adjust scale for selected countries

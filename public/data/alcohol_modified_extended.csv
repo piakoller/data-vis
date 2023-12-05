@@ -154,6 +154,7 @@ Austria,2012,12.1,#c080f4
 Austria,2013,11.6,#c080f4
 Austria,2014,12.2,#c080f4
 Austria,2015,11.4,#c080f4
+Austria,2016,11.1,#c080f4
 Azerbaijan,1990,2.92,#6aad31
 Azerbaijan,1991,2.88,#6aad31
 Azerbaijan,1992,4.31,#6aad31
@@ -181,6 +182,9 @@ Azerbaijan,2013,2.04,#6aad31
 Azerbaijan,2014,1.95,#6aad31
 Azerbaijan,2015,0.84,#6aad31
 Azerbaijan,2016,0.39,#6aad31
+Belgium,1960,9.69,#af9c31
+Belgium,1961,9.73,#af9c31
+Belgium,1962,9.8,#af9c31
 Belgium,1963,9.88,#af9c31
 Belgium,1964,10.48,#af9c31
 Belgium,1965,10.76,#af9c31
@@ -234,6 +238,8 @@ Belgium,2012,10.09,#af9c31
 Belgium,2013,10.33,#af9c31
 Belgium,2014,10.57,#af9c31
 Belgium,2015,10.36,#af9c31
+Belgium,2016,10.32,#af9c31
+Belgium,2016,10.2,#af9c31
 Bulgaria,1963,7.25,#f76e99
 Bulgaria,1964,6.52,#f76e99
 Bulgaria,1965,7.25,#f76e99
@@ -1235,6 +1241,7 @@ Hungary,2012,11.14,#f55fe7
 Hungary,2013,10.7,#f55fe7
 Hungary,2014,10.88,#f55fe7
 Hungary,2015,10.9,#f55fe7
+Hungary,2016,10.85,#f55fe7
 Ireland,1963,7.39,#3aa6dd
 Ireland,1964,7.67,#3aa6dd
 Ireland,1965,7.7,#3aa6dd
@@ -1484,6 +1491,7 @@ Kazakhstan,2013,6.26,#34b081
 Kazakhstan,2014,6.06,#34b081
 Kazakhstan,2015,5.92,#34b081
 Kazakhstan,2016,5.8,#34b081
+Kosovo,#ffffff
 Kyrgyzstan,1985,7.08,#32b263
 Kyrgyzstan,1986,3.42,#32b263
 Kyrgyzstan,1987,3.01,#32b263
@@ -1758,6 +1766,8 @@ Montenegro,2012,6.49,#35ae9a
 Montenegro,2013,6.47,#35ae9a
 Montenegro,2014,6.53,#35ae9a
 Montenegro,2015,6.41,#35ae9a
+Montenegro,2016,6.36,#35ae9a
+Netherlands,1961,3.95,#d28e32
 Netherlands,1961,3.97,#d28e32
 Netherlands,1962,4.29,#d28e32
 Netherlands,1963,4.63,#d28e32
@@ -1813,6 +1823,10 @@ Netherlands,2012,9.28,#d28e32
 Netherlands,2013,8.54,#d28e32
 Netherlands,2014,8.16,#d28e32
 Netherlands,2015,8.03,#d28e32
+Netherlands,2016,8.00,#d28e32
+Netherlands,2017,7.94,#d28e32
+Netherlands,2018,7.90,#d28e32
+Netherlands,2019,7.88,#d28e32
 Norway,1961,3.74,#ea8032
 Norway,1962,3.64,#ea8032
 Norway,1963,3.74,#ea8032
@@ -2083,6 +2097,7 @@ Romania,2012,10.55,#33b175
 Romania,2013,10.59,#33b175
 Romania,2014,10.46,#33b175
 Romania,2015,10.4,#33b175
+Romania,2016,10.17,#33b175
 Russia,1963,6.19,#cf78f4
 Russia,1964,6.39,#cf78f4
 Russia,1965,6.71,#cf78f4

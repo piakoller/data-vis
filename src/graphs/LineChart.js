@@ -60,9 +60,10 @@ const LineChart = () => {
 
             // Set up scales
             const x = d3.scaleTime()
-                .domain(d3.extent(data[Object.keys(data)[0]], d => d.date)) // Assumes all lines have the same date range
+                //.domain(d3.extent(data[Object.keys(data)[0]], d => d.date)) // Assumes all lines have the same date range
+                .domain([new Date("1960-01-01"), new Date("2016-12-31")]) 
                 .range([0, width]);
-
+                
             const y = d3.scaleLinear()
                 .domain([0, d3.max(Object.values(data), values => d3.max(values, v => v.value))]) // Finds the max value across all lines
                 .nice()
@@ -87,7 +88,6 @@ const LineChart = () => {
                     .attr('stroke-width', 1.5)
                     .attr('d', line);
             });
-
 
             // Draw x-axis
             svg.append('g')
