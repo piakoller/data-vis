@@ -2,6 +2,7 @@ import React from 'react';
 
 import WorldMap from './graphs/WorldMap';
 import LineChart from './graphs/LineChart';
+import BarChart from './graphs/BarChart';
 import { SelectedCountryProvider } from './graphs/SelectedCountry';
 
 import './App.css';
@@ -29,45 +30,45 @@ function App() {
   return (
     <SelectedCountryProvider>
 
-    <div className="App">
-      <header className="App-header">
-        <Box sx={{ flexGrow: 1 }}>
-          <Grid container spacing={2}>
-            <Grid item xs={8}>
-              <Item>
-                <CardContent style={{ height: '100%' }}>
-                  <WorldMap key="unique-key-for-world-map"/>
+      <div className="App">
+        <header className="App-header">
+          <Box sx={{ flexGrow: 1 }}>
+            <Grid container spacing={2}>
+              <Grid item xs={8}>
+                <Item>
+                  <CardContent style={{ height: '100%' }}>
+                    <WorldMap key="unique-key-for-world-map" />
+                    <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                      World Map
+                    </Typography>
+                  </CardContent>
+                </Item>
+              </Grid>
+              <Grid item xs={4}>
+                <Item>
                   <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                    World Map
+                    box2
                   </Typography>
-                </CardContent>
-              </Item>
+                </Item>
+              </Grid>
+              <Grid item xs={8}>
+                <Item>
+                  <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                    <LineChart key="unique-key-for-world-map" />
+                  </Typography>
+                </Item>
+              </Grid>
+              <Grid item xs={4}>
+                <Item>
+                  <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                    <BarChart key="unique-key-for-world-map" />
+                  </Typography>
+                </Item>
+              </Grid>
             </Grid>
-            <Grid item xs={4}>
-              <Item>
-                <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                  box2
-                </Typography>
-              </Item>
-            </Grid>
-            <Grid item xs={8}>
-              <Item>
-                <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                  <LineChart key="unique-key-for-world-map" />
-                </Typography>
-              </Item>
-            </Grid>
-            <Grid item xs={4}>
-              <Item>
-                <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                  box 4
-                </Typography>
-              </Item>
-            </Grid>
-          </Grid>
-        </Box>
-      </header>
-    </div>
+          </Box>
+        </header>
+      </div>
     </SelectedCountryProvider>
   );
 }

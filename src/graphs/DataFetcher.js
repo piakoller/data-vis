@@ -1,6 +1,7 @@
 import Papa from 'papaparse';
 
 const alcohol_path = './data/alcohol_modified_extended.csv'
+const life_path = './data/life-expectancy_extended.csv'
 
 export const fetchCountryData = (country) => {
   return fetch(alcohol_path)
@@ -30,6 +31,32 @@ export const fetchWorldMapData = () => {
 
       parsedData.data.forEach(entry => {
         const year = parseInt(entry.YEAR);
+        if (!formattedData[year]) {
+          formattedData[year] = {};
+        }
+        formattedData[year][entry.COUNTRY] = {
+          value: parseFloat(entry.VALUE),
+          color: entry.COLOR
+        };
+      });
+
+      return formattedData;
+    })
+    .catch(error => {
+      console.error('Error fetching CSV:', error);
+    });
+};
+
+export const fetchLife = () => {
+  return fetch(life_path)
+    .then(response => response.text())
+    .then(csvData => {
+      const parsedData = Papa.parse(csvData, { header: true });
+      const formattedData = {};
+      // const COUNTRY = 'Country Name';
+
+      parsedData.data.forEach(entry => {
+        const year = parseInt(entry.year);
         if (!formattedData[year]) {
           formattedData[year] = {};
         }

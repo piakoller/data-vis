@@ -127,7 +127,7 @@ const Map = () => {
                         const value = data[selectedYear]?.[location] || 0;
                         const color = getColor(value.value, location);
                         const isSelected = isCountrySelected(location);
-                        const fillOpacity = isSelected ? 1 : 0.3; // Change opacity for unselected countries
+                        const fillOpacity = isSelected || selectedCountry ? 1 : 0.3; // Change opacity for unselected countries
                         const outline = isSelected ? data[selectedYear]?.[location]?.color || '#d0d0d0' : '#d0d0d0'; // Access color for the selected country and year
                         const outlineStroke = isSelected ? '3' : '1';
                         const scale = isSelected ? 1 : 1; // Adjust scale for selected countries
