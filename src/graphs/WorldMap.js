@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo } from "react";
 import geo from '../components/map.json';
 import { geoMercator, geoPath } from 'd3-geo';
 import * as d3 from 'd3';
-import { useSelectedCountry } from './SelectedCountry';
+import { useSelectedData } from './Selected';
 import { fetchWorldMapData } from './DataFetcher';
 
 import Slider from '@mui/material/Slider';
@@ -26,8 +26,8 @@ const Tooltip = ({ x, y, location, value }) => (
 
 const Map = () => {
     const [data, setData] = useState({});
-    const [selectedYear, setSelectedYear] = useState(1960); // Default year
-    const { selectedCountry, setSelectedCountry } = useSelectedCountry();
+    //const [selectedYear, setSelectedYear] = useState(1960); // Default year
+    const { selectedCountry, setSelectedCountry, selectedYear, setSelectedYear} = useSelectedData();
 
     const [tooltip, setTooltip] = useState(null);
 
@@ -51,7 +51,7 @@ const Map = () => {
     }, []);
 
 
-    const width = 1000;
+    const width = 800;
     const height = width * 0.5;
     const projection = geoMercator().fitExtent(
         [[0, 0], [width * 0.9, height * 0.9]],
@@ -78,7 +78,7 @@ const Map = () => {
     const isCountrySelected = (location) => selectedCountry.includes(location);
     return (
         <div width="100%" height="100%" viewBox="0 0 1000 500">
-            <div style={{ padding: 20, width: "50%", margin: "auto" }}>
+            {/* <div style={{ padding: 20, width: "50%", margin: "auto" }}>
                 <Slider
                     value={selectedYear}
                     onChange={(event, newValue) => debouncedHandleChange(event, newValue)}
@@ -90,7 +90,7 @@ const Map = () => {
                     max={2016}
                 />
                 <h2>Year: {selectedYear}</h2>
-            </div>
+            </div> */}
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, padding: 16 }}>
                 <Chip
                     key="Select All"

@@ -1,16 +1,16 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import * as d3 from 'd3';
-import { useSelectedCountry } from './SelectedCountry';
+import { useSelectedData } from './Selected';
 import { fetchCountryData } from './DataFetcher';
 
 import Tooltip from '@mui/material/Tooltip';
 
 const LineChart = () => {
-    const { selectedCountry } = useSelectedCountry();
+    const { selectedCountry, selectedYear } = useSelectedData();
     // const { countryColors, assignCountryColors } = ColorAssignerProvider();
 
     const [data, setData] = useState({});
-    const [tooltipContent, setTooltipContent] = useState(null);
+    const [tooltipContent] = useState(null);
 
     const fetchDataForCountry = useCallback(country => {
         fetchCountryData(country)

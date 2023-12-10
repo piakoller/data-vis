@@ -1,7 +1,7 @@
 import Papa from 'papaparse';
 
 const alcohol_path = './data/alcohol_modified_extended.csv'
-const life_path = './data/life-expectancy_extended.csv'
+const life_expectancy_path = './data/life-expectancy-modified.csv'
 
 export const fetchCountryData = (country) => {
   return fetch(alcohol_path)
@@ -47,28 +47,38 @@ export const fetchWorldMapData = () => {
     });
 };
 
-export const fetchLife = () => {
-  return fetch(life_path)
+export const fetchLifeExpectancyData = () => {
+  return fetch(life_expectancy_path)
     .then(response => response.text())
     .then(csvData => {
-      const parsedData = Papa.parse(csvData, { header: true });
-      const formattedData = {};
-      // const COUNTRY = 'Country Name';
+      const lines = csvData.split('\n');
+      const formattedData = [];
 
-      parsedData.data.forEach(entry => {
-        const year = parseInt(entry.year);
-        if (!formattedData[year]) {
-          formattedData[year] = {};
+      // Assuming the first line contains column headers
+      const headers = lines[0].split(',');
+
+      for (let i = 1; i < lines.length; i++) {
+        const values = lines[i].split(',');
+
+        if (values.length === headers.length) {
+          const country = values[0];
+          const year = parseInt(values[1]); // Adjust index to 1 for Year
+          const lifeExpectancy = parseFloat(values[2]); // Adjust index to 2 for Life Expectancy
+
+          if (!isNaN(year) && country && !isNaN(lifeExpectancy)) {
+            formattedData.push({
+              year: year,
+              country: country,
+              lifeExpectancy: lifeExpectancy
+            });
+          }
         }
-        formattedData[year][entry.COUNTRY] = {
-          value: parseFloat(entry.VALUE),
-          color: entry.COLOR
-        };
-      });
-
+      }
       return formattedData;
     })
     .catch(error => {
       console.error('Error fetching CSV:', error);
     });
 };
+
+

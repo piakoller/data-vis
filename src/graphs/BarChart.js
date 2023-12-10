@@ -1,79 +1,75 @@
-import React, { useEffect, useState, useCallback } from 'react';
+import React, { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
-import { fetchCountryData } from './DataFetcher';
+import { fetchLifeExpectancyData } from './DataFetcher';
+import { useSelectedData } from './Selected';
 
 const BarChart = () => {
-    const [data, setData] = useState({});
+    const { selectedCountry, setSelectedCountry, selectedYear } = useSelectedData();
 
-    const fetchDataForCountry = useCallback(country => {
-        fetchCountryData(country)
-            .then(countryData => {
-                setData(countryData);
-            });
-    }, []);
+    const ref = useRef();
+    const width = 700;
+    const height = 325;
+    const marginTop = 30;
+    const marginRight = 0;
+    const marginBottom = 30;
+    const marginLeft = 40;
 
     useEffect(() => {
-        fetchDataForCountry();
-        console.log(data);
+        fetchLifeExpectancyData().then(data => {
+            // Filter the data based on the selected year
+            const yearData = data.filter(d => d.year === selectedYear);
 
-        // Prepare the data in the required format for D3
-        const chartData = Object.entries(data).map(([year, lifeExpectancy]) => ({
-            year,
-            lifeExpectancy
-        }));
+            // Sort the data by life expectancy and take the top 15
+            yearData.sort((a, b) => d3.descending(a.lifeExpectancy, b.lifeExpectancy));
+            const topData = yearData.slice(0, 15);
 
-        // Set up the SVG and chart dimensions
-        const margin = { top: 20, right: 30, bottom: 40, left: 100 };
-        const width = 600 - margin.left - margin.right;
-        const height = 400 - margin.top - margin.bottom;
+            // Set up scales
+            const xScale = d3.scaleBand().range([0, width]).padding(0.5);
+            const yScale = d3.scaleLinear().range([height - marginBottom, marginTop]);
 
-        // Append the SVG to the HTML body
-        const svg = d3.select('body')
-            .append('svg')
-            .attr('width', width + margin.left + margin.right)
-            .attr('height', height + margin.top + margin.bottom)
-            .append('g')
-            .attr('transform', `translate(${margin.left},${margin.top})`);
+            xScale.domain(topData.map(d => d.country));
+            yScale.domain([0, d3.max(topData, d => d.lifeExpectancy)]);
 
-        // Set the X and Y scales
-        const x = d3.scaleLinear()
-            .domain([0, d3.max(chartData, d => d.lifeExpectancy)])
-            .range([0, width]);
+            const svg = d3.select(ref.current);
 
-        const y = d3.scaleBand()
-            .domain(chartData.map(d => d.year))
-            .range([0, height])
-            .padding(0.1);
+            // Remove existing elements
+            svg.selectAll('*').remove();
 
-        // Draw the bars
-        svg.selectAll('.bar')
-            .data(chartData)
-            .enter().append('rect')
-            .attr('class', 'bar')
-            .attr('x', 0)
-            .attr('y', d => y(d.year))
-            .attr('width', d => x(d.lifeExpectancy))
-            .attr('height', y.bandwidth())
-            .attr('fill', 'steelblue');
+            // Draw x-axis
+            svg.append('g')
+                .attr('transform', `translate(0, ${height - marginBottom})`)
+                .call(d3.axisBottom(xScale))
+                .append('text')
+                .attr('x', width / 2)
+                .attr('y', marginTop - 10)
+                .attr('text-anchor', 'middle')
+                .text('Country');
 
-        // Add X and Y axis
-        svg.append('g')
-            .attr('class', 'x-axis')
-            .call(d3.axisBottom(x));
+            // Draw y-axis
+            svg.append('g')
+                .attr('transform', `translate(${marginLeft}, 0)`)
+                .call(d3.axisLeft(yScale))
+                .append('text')
+                .attr('transform', 'rotate(-90)')
+                .attr('y', -marginLeft + 10)
+                .attr('x', -(height / 2))
+                .attr('text-anchor', 'middle')
+                .text('Life Expectancy');
 
-        svg.append('g')
-            .attr('class', 'y-axis')
-            .call(d3.axisLeft(y));
-    }, []);
-    return (
-        <div id="line-chart-container">
-            {(
-                <div>
+            // Draw bars
+            svg.selectAll('.bar')
+                .data(topData)
+                .enter().append('rect')
+                .attr('class', 'bar')
+                .attr('x', d => xScale(d.country))
+                .attr('y', d => yScale(d.lifeExpectancy))
+                .attr('width', xScale.bandwidth() * 0.5)
+                .attr('height', d => height - marginBottom - yScale(d.lifeExpectancy))
+                .attr('fill', 'steelblue');
+        });
+    }, [selectedYear]);
 
-                </div>
-            )}
-
-            {/* <h2>{selectedCountry}</h2> */}
-        </div>);
+    return <svg ref={ref} style={{ width: `${width}px`, height: `${height}px` }} />;
 };
+
 export default BarChart;

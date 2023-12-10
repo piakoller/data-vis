@@ -1,9 +1,10 @@
 import React from 'react';
 
+import MovingSlider from './graphs/Slider';
 import WorldMap from './graphs/WorldMap';
 import LineChart from './graphs/LineChart';
 import BarChart from './graphs/BarChart';
-import { SelectedCountryProvider } from './graphs/SelectedCountry';
+import { SelectedDataProvider } from './graphs/Selected';
 
 import './App.css';
 
@@ -28,13 +29,20 @@ function App() {
   }));
 
   return (
-    <SelectedCountryProvider>
+    <SelectedDataProvider>
 
       <div className="App">
         <header className="App-header">
           <Box sx={{ flexGrow: 1 }}>
             <Grid container spacing={2}>
-              <Grid item xs={8}>
+              <Grid item xs={12}>
+                <Item>
+                  <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                    <MovingSlider key="slider" />
+                  </Typography>
+                </Item>
+              </Grid>
+              <Grid item xs={6}>
                 <Item>
                   <CardContent style={{ height: '100%' }}>
                     <WorldMap key="unique-key-for-world-map" />
@@ -44,24 +52,24 @@ function App() {
                   </CardContent>
                 </Item>
               </Grid>
-              <Grid item xs={4}>
+              <Grid item xs={6}>
                 <Item>
                   <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                    box2
+                    <BarChart key="unique-key-for-world-map" />
                   </Typography>
                 </Item>
               </Grid>
-              <Grid item xs={8}>
+              <Grid item xs={6}>
                 <Item>
                   <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                     <LineChart key="unique-key-for-world-map" />
                   </Typography>
                 </Item>
               </Grid>
-              <Grid item xs={4}>
+              <Grid item xs={6}>
                 <Item>
                   <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                    <BarChart key="unique-key-for-world-map" />
+                    box2
                   </Typography>
                 </Item>
               </Grid>
@@ -69,7 +77,7 @@ function App() {
           </Box>
         </header>
       </div>
-    </SelectedCountryProvider>
+    </SelectedDataProvider>
   );
 }
 
