@@ -4,7 +4,7 @@ import { fetchLifeExpectancyData } from './DataFetcher';
 import { useSelectedData } from './Selected';
 
 const BarChart = () => {
-    const { selectedCountry, setSelectedCountry, selectedYear } = useSelectedData();
+    const { selectedCountry, setSelectedCountry, selectedYear, hoverCountry, setHoverCountry } = useSelectedData();
 
     const ref = useRef();
     const width = 600;
@@ -15,9 +15,12 @@ const BarChart = () => {
 
     useEffect(() => {
         fetchLifeExpectancyData().then(data => {
-            console.log(selectedCountry);
             // Filter the data based on the selected year
             const yearData = data.filter(d => d.year === selectedYear);
+
+            // Find the hovered country data
+            const hoveredCountryData = yearData.find(d => d.country === hoverCountry);
+            const selectedCountryData = selectedCountry.map(country => yearData.find(d => d.country === country)).filter(Boolean);
 
             // Sort the data by life expectancy
             yearData.sort((a, b) => d3.descending(a.lifeExpectancy, b.lifeExpectancy));
@@ -25,6 +28,22 @@ const BarChart = () => {
             // Take top 5 and last 5 countries
             const topData = yearData.slice(0, 5);
             const lastData = yearData.slice(-5);
+
+            const includeHover = !topData.includes(hoveredCountryData) && !lastData.includes(hoveredCountryData);
+            const includeSelected = selectedCountryData.filter(country => !topData.includes(country) && !lastData.includes(country));
+
+            // If the hovered country or any selected country is not in the top or bottom 5, add them to the data
+            if (hoveredCountryData && includeHover) {
+                topData.push(hoveredCountryData);
+            }
+
+            if (includeSelected.length > 0) {
+                includeSelected.forEach(country => {
+                    topData.push(country);
+                });
+            }
+
+
 
             // Combine top and last data
             const combinedData = [...topData, { country: '...', lifeExpectancy: null }, ...lastData];
@@ -82,7 +101,9 @@ const BarChart = () => {
                 .attr('width', xScale.bandwidth())
                 .attr('height', d => d.lifeExpectancy ? height - marginBottom - yScale(d.lifeExpectancy) : 0)
                 .attr('fill', d => {
-                    if (selectedCountry.includes(d.country)) {
+                    if (hoverCountry === d.country) {
+                        return 'red'; // Change the color for the hovered country
+                    } else if (selectedCountry.includes(d.country)) {
                         return 'orange'; // Change the color for the selected country
                     } else if (d.country === '...') {
                         return 'transparent';
@@ -97,10 +118,12 @@ const BarChart = () => {
                     } else {
                         setSelectedCountry(selectedCountry.filter(country => country !== d.country));
                     }
-                });
+                })
+                .on('mouseover', (event, d) => setHoverCountry(d.country)) // Set hoverCountry when mouse enters
+                .on('mouseout', () => setHoverCountry(null)); // Clear hoverCountry when mouse leaves
 
         });
-    }, [selectedYear, setSelectedCountry]);
+    }, [selectedYear, setSelectedCountry, hoverCountry]);
 
     return <svg ref={ref} style={{ width: `${width}px`, height: `${height}px`, marginBottom: `${marginBottom}px`, marginLeft: `${marginLeft}px` }} />;
 };

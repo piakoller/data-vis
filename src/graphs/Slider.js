@@ -27,7 +27,6 @@ const MovingSlider = () => {
     const handleSliderChange = (event, newValue) => {
         setSelectedYear(newValue);
     };
-    console.log(selectedYear);
 
     return (
         <div id="slider">
