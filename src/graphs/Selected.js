@@ -8,10 +8,11 @@ export function useSelectedData() {
 
 export function SelectedDataProvider({ children }) {
   const [selectedCountry, setSelectedCountry] = useState([]);
+  const [hoverCountry, setHoverCountry] = useState([]);
   const [selectedYear, setSelectedYear] = useState(1960); // Default year
 
   return (
-    <SelectedDataContext.Provider value={{ selectedCountry, setSelectedCountry, selectedYear, setSelectedYear }}>
+    <SelectedDataContext.Provider value={{ selectedCountry, setSelectedCountry, hoverCountry, setHoverCountry, selectedYear, setSelectedYear }}>
       {children}
     </SelectedDataContext.Provider>
   );

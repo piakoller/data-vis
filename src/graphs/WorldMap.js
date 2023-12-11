@@ -26,16 +26,9 @@ const Tooltip = ({ x, y, location, value }) => (
 
 const Map = () => {
     const [data, setData] = useState({});
-    //const [selectedYear, setSelectedYear] = useState(1960); // Default year
-    const { selectedCountry, setSelectedCountry, selectedYear, setSelectedYear} = useSelectedData();
+    const { selectedCountry, setSelectedCountry, selectedYear, hoverCountry, setHoverCountry } = useSelectedData();
 
     const [tooltip, setTooltip] = useState(null);
-
-    const debouncedHandleChange = debounce(async (event, newValue) => {
-        if (typeof newValue === 'number') {
-            setSelectedYear(newValue);
-        }
-    }, 300);
 
     useEffect(() => {
         fetchWorldMapData()
@@ -76,6 +69,25 @@ const Map = () => {
 
     };
     const isCountrySelected = (location) => selectedCountry.includes(location);
+
+    const legendWidth = 200;
+    const legendHeight = 20;
+
+    const legendScale = d3.scaleSequential(d3.interpolateOranges)
+        .domain([0, 25]); // Adjust the domain based on your data
+
+    const legendValues = [0, 5, 10, 15, 20, 25]; // Adjust these values based on your data range
+
+    const handleMouseEnter = (location) => {
+        setHoverCountry(location);
+    };
+
+    const handleMouseLeave = () => {
+        setHoverCountry(null);
+    };
+
+console.log(hoverCountry);
+
     return (
         <div width="100%" height="100%" viewBox="0 0 1000 500">
             {/* <div style={{ padding: 20, width: "50%", margin: "auto" }}>
@@ -97,15 +109,15 @@ const Map = () => {
                     label="Select All"
                     onClick={() => {
                         setSelectedCountry(['Albania', 'Andorra', 'Armenia', 'Austria', 'Azerbaijan',
-                        'Belgium', 'Bulgaria', 'Bosnia and Herzegovina', 'Belarus',
-                        'Switzerland', 'Cyprus', 'Czechia', 'Germany', 'Denmark', 'Spain',
-                        'Estonia', 'Finland', 'France', 'United Kingdom', 'Georgia',
-                        'Greece', 'Croatia', 'Hungary', 'Ireland', 'Iceland', 'Israel',
-                        'Italy', 'Kazakhstan', 'Kyrgyzstan', 'Lithuania', 'Luxembourg',
-                        'Latvia', 'Moldova', 'North Macedonia', 'Malta', 'Montenegro',
-                        'Netherlands', 'Norway', 'Poland', 'Portugal', 'Romania', 'Russia',
-                        'Republic of Serbia', 'Slovakia', 'Slovenia', 'Sweden',
-                        'Tajikistan', 'Turkmenistan', 'Turkey', 'Ukraine', 'Uzbekistan']);
+                            'Belgium', 'Bulgaria', 'Bosnia and Herzegovina', 'Belarus',
+                            'Switzerland', 'Cyprus', 'Czechia', 'Germany', 'Denmark', 'Spain',
+                            'Estonia', 'Finland', 'France', 'United Kingdom', 'Georgia',
+                            'Greece', 'Croatia', 'Hungary', 'Ireland', 'Iceland', 'Israel',
+                            'Italy', 'Kazakhstan', 'Kyrgyzstan', 'Lithuania', 'Luxembourg',
+                            'Latvia', 'Moldova', 'North Macedonia', 'Malta', 'Montenegro',
+                            'Netherlands', 'Norway', 'Poland', 'Portugal', 'Romania', 'Russia',
+                            'Republic of Serbia', 'Slovakia', 'Slovenia', 'Sweden',
+                            'Tajikistan', 'Turkmenistan', 'Turkey', 'Ukraine', 'Uzbekistan']);
                     }}
                 />
                 <Chip
@@ -136,7 +148,7 @@ const Map = () => {
                         const value = data[selectedYear]?.[location] || 0;
                         const color = getColor(value.value, location);
                         const isSelected = isCountrySelected(location);
-                        const fillOpacity = selectedCountry.length == 0 ? 1 : isSelected ? 1 : 0.3  // Change opacity for unselected countries
+                        const fillOpacity = selectedCountry.length === 0 ? 1 : isSelected ? 1 : 0.3  // Change opacity for unselected countries
                         const outline = isSelected ? data[selectedYear]?.[location]?.color || '#d0d0d0' : '#d0d0d0'; // Access color for the selected country and year
                         const outlineStroke = isSelected ? '3' : '1';
                         const scale = isSelected ? 1 : 1; // Adjust scale for selected countries
@@ -155,6 +167,8 @@ const Map = () => {
                                     stroke={outline}
                                     strokeWidth={outlineStroke}
                                     transform={`translate(${centerX}, ${centerY}) scale(${scale}) translate(${-centerX}, ${-centerY})`} // Apply scale transformation around the center of the country
+                                    onMouseEnter={() => handleMouseEnter(location)}
+                                    onMouseLeave={handleMouseLeave}
                                     onClick={(e) => {
                                         handleCountryClick(location, value);
                                     }}
@@ -164,8 +178,43 @@ const Map = () => {
                     })}
                 </g>
             </svg>
-
-        </div>
+            {/* Legend */}
+            <svg width={legendWidth} height={legendHeight}>
+                {legendValues.map((value, index) => (
+                    <rect
+                        key={index}
+                        x={index * (legendWidth / legendValues.length)}
+                        y={0}
+                        width={legendWidth / legendValues.length}
+                        height={legendHeight}
+                        fill={legendScale(value)}
+                    />
+                ))}
+                <text x={0} y={legendHeight + 15}>{legendValues[0]}</text>
+                {legendValues.slice(1).map((value, index) => (
+                    <text
+                        key={index + 1}
+                        x={(index + 1) * (legendWidth / legendValues.length)}
+                        y={legendHeight + 15}
+                        textAnchor="middle"
+                    >
+                        {value}
+                    </text>
+                ))}
+                <text x={legendWidth} y={legendHeight + 15} textAnchor="end">{legendValues[legendValues.length - 1]}</text>
+                {/* Legend labels */}
+                {legendValues.map((value, index) => (
+                    <text
+                        key={index}
+                        x={index * (legendWidth / legendValues.length) + (legendWidth / legendValues.length) / 2}
+                        y={legendHeight + 35}
+                        textAnchor="middle"
+                    >
+                        {value}
+                    </text>
+                ))}
+            </svg>
+        </div >
     );
 };
 

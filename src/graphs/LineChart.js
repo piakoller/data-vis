@@ -6,7 +6,7 @@ import { fetchCountryData } from './DataFetcher';
 import Tooltip from '@mui/material/Tooltip';
 
 const LineChart = () => {
-    const { selectedCountry, selectedYear } = useSelectedData();
+    const { selectedCountry, selectedYear, hoverCountry, setHoverCountry } = useSelectedData();
     // const { countryColors, assignCountryColors } = ColorAssignerProvider();
 
     const [data, setData] = useState({});
@@ -14,13 +14,13 @@ const LineChart = () => {
 
     const fetchDataForCountry = useCallback(country => {
         fetchCountryData(country)
-          .then(countryData => {
-            setData(prevData => ({
-              ...prevData,
-              [country]: countryData
-            }));
-          });
-      }, []);
+            .then(countryData => {
+                setData(prevData => ({
+                    ...prevData,
+                    [country]: countryData
+                }));
+            });
+    }, []);
 
     // Use useEffect to fetch data for selected countries
     useEffect(() => {
@@ -56,14 +56,12 @@ const LineChart = () => {
                 .append('g')
                 .attr('transform', `translate(${margin.left},${margin.top})`);
 
-            const color = d3.scaleOrdinal(d3.schemeCategory10);
-
             // Set up scales
             const x = d3.scaleTime()
                 //.domain(d3.extent(data[Object.keys(data)[0]], d => d.date)) // Assumes all lines have the same date range
-                .domain([new Date("1960-01-01"), new Date("2016-12-31")]) 
+                .domain([new Date("1960-01-01"), new Date("2016-12-31")])
                 .range([0, width]);
-                
+
             const y = d3.scaleLinear()
                 .domain([0, d3.max(Object.values(data), values => d3.max(values, v => v.value))]) // Finds the max value across all lines
                 .nice()
@@ -81,12 +79,30 @@ const LineChart = () => {
 
             // Draw the lines for selected countries
             filteredData.forEach(([country, values]) => {
+                const isHovered = hoverCountry === country; // Check if this country is hovered
+
                 svg.append('path')
                     .datum(values)
                     .attr('fill', 'none')
-                    .attr('stroke', values[0].color)
-                    .attr('stroke-width', 1.5)
-                    .attr('d', line);
+                    .attr('stroke', isHovered ? values[0].color : '#d0d0d0') // Change stroke color if hovered, otherwise grey
+                    .attr('stroke-width', isHovered ? 1.5 : 1) // Change stroke width if hovered
+                    .attr('d', line)
+                    .on('mouseover', () => setHoverCountry(country)) // Set hoverCountry when mouse enters
+                    .on('mouseout', () => setHoverCountry(null)); // Clear hoverCountry when mouse leaves
+
+                // Find the data point for the selected year in each country's data
+                const selectedYearData = values.find(d => d.date.getFullYear() === selectedYear);
+
+                if (selectedYearData) {
+                    // Display a circle at the selected year's position on the line
+                    svg.append('circle')
+                        .attr('cx', x(selectedYearData.date))
+                        .attr('cy', y(selectedYearData.value))
+                        .attr('r', 5)
+                        .attr('fill', values[0].color) // Use the color of the line
+                        .attr('stroke', '#fff') // Optional: Add a stroke for better visibility
+                        .attr('stroke-width', 2); // Optional: Adjust stroke width
+                }
             });
 
             // Draw x-axis
@@ -97,7 +113,7 @@ const LineChart = () => {
             // Draw y-axis
             svg.append('g').call(d3.axisLeft(y));
         }
-    }, [data]);
+    }, [data, selectedYear, hoverCountry]);
 
     return (
         <div id="line-chart-container">
