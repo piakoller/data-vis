@@ -54,6 +54,7 @@ Albania,2013,5.06,#f05ef4
 Albania,2014,4.81,#f05ef4
 Albania,2015,4.77,#f05ef4
 Albania,2016,5.07,#f05ef4
+Albania,2019,5.11,#f05ef4
 Andorra,2000,11.96,#8d94f4
 Andorra,2001,12.03,#8d94f4
 Andorra,2002,11.53,#8d94f4
@@ -71,6 +72,7 @@ Andorra,2013,9.78,#8d94f4
 Andorra,2014,9.95,#8d94f4
 Andorra,2015,9.97,#8d94f4
 Andorra,2016,10.06,#8d94f4
+Andorra,2019,11.05,#8d94f4
 Austria,1960,8.91,#c080f4
 Austria,1961,9.31,#c080f4
 Austria,1962,9.7,#c080f4
@@ -128,6 +130,7 @@ Austria,2013,11.6,#c080f4
 Austria,2014,12.2,#c080f4
 Austria,2015,11.4,#c080f4
 Austria,2016,11.1,#c080f4
+Austria,2019,11.97,#8d94f4
 Belgium,1960,9.69,#af9c31
 Belgium,1961,9.73,#af9c31
 Belgium,1962,9.8,#af9c31
@@ -186,6 +189,7 @@ Belgium,2014,10.57,#af9c31
 Belgium,2015,10.36,#af9c31
 Belgium,2016,10.32,#af9c31
 Belgium,2016,10.2,#af9c31
+Belgium,2019,10.28,#af9c31
 Bulgaria,1963,7.25,#f76e99
 Bulgaria,1964,6.52,#f76e99
 Bulgaria,1965,7.25,#f76e99
@@ -240,6 +244,7 @@ Bulgaria,2013,10.74,#f76e99
 Bulgaria,2014,10.67,#f76e99
 Bulgaria,2015,11.3,#f76e99
 Bulgaria,2016,11.49,#f76e99
+Bulgaria,2019,11.92,#f76e99
 Bosnia and Herzegovina,1990,11.87,#37aaba
 Bosnia and Herzegovina,1991,13.79,#37aaba
 Bosnia and Herzegovina,1992,10.03,#37aaba
@@ -267,6 +272,7 @@ Bosnia and Herzegovina,2013,4.43,#37aaba
 Bosnia and Herzegovina,2014,4.34,#37aaba
 Bosnia and Herzegovina,2015,4.33,#37aaba
 Bosnia and Herzegovina,2016,4.44,#37aaba
+Bosnia and Herzegovina,2019,6.38,#37aaba
 Belarus,1980,13.23,#df6df4
 Belarus,1981,13.2,#df6df4
 Belarus,1982,12.67,#df6df4
@@ -304,6 +310,7 @@ Belarus,2013,12.37,#df6df4
 Belarus,2014,11.71,#df6df4
 Belarus,2015,10.09,#df6df4
 Belarus,2016,10.05,#df6df4
+Belarus,2019,10.9,#df6df4
 ,1992,4.73,
 ,1993,4.16,
 ,1994,4.06,
@@ -380,6 +387,7 @@ Switzerland,2013,9.74,#38a9c8
 Switzerland,2014,9.62,#38a9c8
 Switzerland,2015,9.62,#38a9c8
 Switzerland,2016,9.43,#38a9c8
+Switzerland,2019,10.4,#38a9c8
 ,1990,6.54,
 ,1991,7.02,
 ,1992,6.32,
@@ -463,6 +471,7 @@ Czechia,2013,12.84,#35ae93
 Czechia,2014,13.06,#35ae93
 Czechia,2015,12.82,#35ae93
 Czechia,2016,12.99,#35ae93
+Czechia,2019,13.29,#35ae93
 Germany,1961,11.03,#f66da6
 Germany,1962,12.05,#f66da6
 Germany,1963,12.85,#f66da6
@@ -519,6 +528,7 @@ Germany,2013,11.67,#f66da6
 Germany,2014,11.6,#f66da6
 Germany,2015,11.99,#f66da6
 Germany,2016,10.9,#f66da6
+Germany,2019,12.22,#f66da6
 Denmark,1961,6.54,#9f8ef4
 Denmark,1962,6.56,#9f8ef4
 Denmark,1963,6.65,#9f8ef4
@@ -575,6 +585,7 @@ Denmark,2013,9.43,#9f8ef4
 Denmark,2014,9.53,#9f8ef4
 Denmark,2015,9.38,#9f8ef4
 Denmark,2016,9.55,#9f8ef4
+Denmark,2019,9.4,#9f8ef4
 Spain,1962,14.64,#50b131
 Spain,1963,13.56,#50b131
 Spain,1964,13.88,#50b131
@@ -630,6 +641,7 @@ Spain,2013,8.77,#50b131
 Spain,2014,8.7,#50b131
 Spain,2015,8.26,#50b131
 Spain,2016,8.58,#50b131
+Spain,2019,10.91,#50b131
 Estonia,1990,9.84,#38aac1
 Estonia,1991,9.13,#38aac1
 Estonia,1992,7.84,#38aac1
@@ -657,6 +669,7 @@ Estonia,2013,17.75,#38aac1
 Estonia,2014,17.29,#38aac1
 Estonia,2015,16.64,#38aac1
 Estonia,2016,15.35,#38aac1
+Estonia,2019,11.26,#38aac1
 ,1970,9.78,
 ,1971,10.08,
 ,1972,10.42,
@@ -854,6 +867,7 @@ Finland,2013,9.07,#f77460
 Finland,2014,8.75,#f77460
 Finland,2015,8.51,#f77460
 Finland,2016,8.43,#f77460
+Finland,2019,9.16,#f77460
 France,1961,26.04,#9ea231
 France,1962,24.6,#9ea231
 France,1963,24.63,#9ea231
@@ -910,6 +924,7 @@ France,2013,11.64,#9ea231
 France,2014,11.97,#9ea231
 France,2015,11.87,#9ea231
 France,2016,11.74,#9ea231
+France,2019,11.3,#9ea231
 United Kingdom,1961,7.14,#89a731
 United Kingdom,1962,7.09,#89a731
 United Kingdom,1963,7.18,#89a731
@@ -966,6 +981,7 @@ United Kingdom,2013,9.65,#89a731
 United Kingdom,2014,9.69,#89a731
 United Kingdom,2015,9.82,#89a731
 United Kingdom,2016,9.81,#89a731
+United Kingdom,2019,10.82,#89a731
 Greece,1963,9.67,#f566cb
 Greece,1964,9.82,#f566cb
 Greece,1965,9.99,#f566cb
@@ -1020,6 +1036,7 @@ Greece,2013,7.52,#f566cb
 Greece,2014,6.99,#f566cb
 Greece,2015,6.64,#f566cb
 Greece,2016,6.52,#f566cb
+Greece,2019,7.12,#f566cb
 Croatia,1987,13.51,#b79932
 Croatia,1988,11.07,#b79932
 Croatia,1989,10.92,#b79932
@@ -1050,6 +1067,7 @@ Croatia,2013,11.64,#b79932
 Croatia,2014,10.64,#b79932
 Croatia,2015,9.89,#b79932
 Croatia,2016,10.32,#b79932
+Croatia,2019,8.54,#b79932
 Hungary,1961,9.02,#f55fe7
 Hungary,1962,9.26,#f55fe7
 Hungary,1963,9.14,#f55fe7
@@ -1106,6 +1124,7 @@ Hungary,2013,10.7,#f55fe7
 Hungary,2014,10.88,#f55fe7
 Hungary,2015,10.9,#f55fe7
 Hungary,2016,10.85,#f55fe7
+Hungary,2019,10.6,#f55fe7
 Ireland,1963,7.39,#3aa6dd
 Ireland,1964,7.67,#3aa6dd
 Ireland,1965,7.7,#3aa6dd
@@ -1160,6 +1179,7 @@ Ireland,2013,10.64,#3aa6dd
 Ireland,2014,11,#3aa6dd
 Ireland,2015,10.93,#3aa6dd
 Ireland,2016,11.46,#3aa6dd
+Ireland,2019,11.7,#3aa6dd
 Iceland,1961,3.04,#7699f4
 Iceland,1962,3.41,#7699f4
 Iceland,1963,3.55,#7699f4
@@ -1216,62 +1236,7 @@ Iceland,2013,6.8,#7699f4
 Iceland,2014,7.01,#7699f4
 Iceland,2015,7.66,#7699f4
 Iceland,2016,7.5,#7699f4
-Israel,1961,4.39,#31b345
-Israel,1962,4.8,#31b345
-Israel,1963,4.12,#31b345
-Israel,1964,5.05,#31b345
-Israel,1965,4.86,#31b345
-Israel,1966,4.38,#31b345
-Israel,1967,4.48,#31b345
-Israel,1968,4.51,#31b345
-Israel,1969,4.89,#31b345
-Israel,1970,4.56,#31b345
-Israel,1971,4.66,#31b345
-Israel,1972,4.91,#31b345
-Israel,1973,4.86,#31b345
-Israel,1974,4.74,#31b345
-Israel,1975,5.09,#31b345
-Israel,1976,5,#31b345
-Israel,1977,3.92,#31b345
-Israel,1978,3.52,#31b345
-Israel,1979,3.05,#31b345
-Israel,1980,2.92,#31b345
-Israel,1981,2.8,#31b345
-Israel,1982,2.65,#31b345
-Israel,1983,2.8,#31b345
-Israel,1984,2.65,#31b345
-Israel,1985,2.69,#31b345
-Israel,1986,2.26,#31b345
-Israel,1987,2.26,#31b345
-Israel,1988,2.18,#31b345
-Israel,1989,2.03,#31b345
-Israel,1990,1.84,#31b345
-Israel,1991,1.73,#31b345
-Israel,1992,1.81,#31b345
-Israel,1993,2.18,#31b345
-Israel,1994,1.72,#31b345
-Israel,1995,1.5,#31b345
-Israel,1996,1.62,#31b345
-Israel,1997,2.03,#31b345
-Israel,1998,2.09,#31b345
-Israel,1999,2,#31b345
-Israel,2000,2.63,#31b345
-Israel,2001,2.61,#31b345
-Israel,2002,2.55,#31b345
-Israel,2003,2.36,#31b345
-Israel,2004,2.3,#31b345
-Israel,2005,2.41,#31b345
-Israel,2006,2.23,#31b345
-Israel,2007,2.34,#31b345
-Israel,2008,2.48,#31b345
-Israel,2009,2.56,#31b345
-Israel,2010,2.63,#31b345
-Israel,2011,2.66,#31b345
-Israel,2012,2.81,#31b345
-Israel,2013,2.86,#31b345
-Israel,2014,2.71,#31b345
-Israel,2015,2.61,#31b345
-Israel,2016,2.64,#31b345
+Iceland,2019,8.07,#7699f4
 Italy,1961,19.24,#f66ab2
 Italy,1962,19.44,#f66ab2
 Italy,1963,18.18,#f66ab2
@@ -1328,6 +1293,7 @@ Italy,2013,7.35,#f66ab2
 Italy,2014,7.56,#f66ab2
 Italy,2015,7.14,#f66ab2
 Italy,2016,7.08,#f66ab2
+Italy,2019,7.97,#f66ab2
 Kosovo,#ffffff
 Lithuania,1984,13.01,#7caa31
 Lithuania,1985,11.56,#7caa31
@@ -1362,6 +1328,7 @@ Lithuania,2013,15.14,#7caa31
 Lithuania,2014,14.82,#7caa31
 Lithuania,2015,14.42,#7caa31
 Lithuania,2016,13.61,#7caa31
+Lithuania,2019,11.79,#7caa31
 Luxembourg,1961,18.54,#3ba3ec
 Luxembourg,1962,18.33,#3ba3ec
 Luxembourg,1963,18.74,#3ba3ec
@@ -1418,6 +1385,7 @@ Luxembourg,2013,11.55,#3ba3ec
 Luxembourg,2014,11.69,#3ba3ec
 Luxembourg,2015,11.83,#3ba3ec
 Luxembourg,2016,11.22,#3ba3ec
+Luxembourg,2019,11.53,#3ba3ec
 Latvia,1980,13.03,#36acad
 Latvia,1981,12.79,#36acad
 Latvia,1982,12.43,#36acad
@@ -1455,6 +1423,7 @@ Latvia,2013,10.43,#36acad
 Latvia,2014,10.6,#36acad
 Latvia,2015,10.82,#36acad
 Latvia,2016,11.19,#36acad
+Latvia,2019,13.09,#36acad
 Moldova,1992,10.06,#37abb3
 Moldova,1993,11.6,#37abb3
 Moldova,1994,16.31,#37abb3
@@ -1480,6 +1449,7 @@ Moldova,2013,9.62,#37abb3
 Moldova,2014,9.14,#37abb3
 Moldova,2015,9.39,#37abb3
 Moldova,2016,9.3,#37abb3
+Moldova,2019,11.36,#37abb3
 North Macedonia,1992,7,#94a431
 North Macedonia,1993,5.09,#94a431
 North Macedonia,1994,7.54,#94a431
@@ -1516,6 +1486,7 @@ Montenegro,2013,6.47,#35ae9a
 Montenegro,2014,6.53,#35ae9a
 Montenegro,2015,6.41,#35ae9a
 Montenegro,2016,6.36,#35ae9a
+Montenegro,2019,10.34,#35ae9a
 Netherlands,1961,3.95,#d28e32
 Netherlands,1961,3.97,#d28e32
 Netherlands,1962,4.29,#d28e32
@@ -1632,6 +1603,7 @@ Norway,2013,6.22,#ea8032
 Norway,2014,6.06,#ea8032
 Norway,2015,5.97,#ea8032
 Norway,2016,6.03,#ea8032
+Norway,2019,6.8,#ea8032
 ,1970,7.25,
 ,1971,7.34,
 ,1972,7.73,
@@ -1735,6 +1707,7 @@ Poland,2013,10.79,#f563d8
 Poland,2014,10.45,#f563d8
 Poland,2015,10.48,#f563d8
 Poland,2016,10.43,#f563d8
+Poland,2019,11.63,#f563d8
 Portugal,1961,15.02,#39a7d2
 Portugal,1962,15.17,#39a7d2
 Portugal,1963,18.49,#39a7d2
@@ -1791,6 +1764,7 @@ Portugal,2013,10.54,#39a7d2
 Portugal,2014,10.35,#39a7d2
 Portugal,2015,10.54,#39a7d2
 Portugal,2016,10.66,#39a7d2
+Portugal,2019,10.45,#39a7d2
 Romania,1961,5.7,#33b175
 Romania,1962,6.92,#33b175
 Romania,1963,7.01,#33b175
@@ -1847,6 +1821,7 @@ Romania,2013,10.59,#33b175
 Romania,2014,10.46,#33b175
 Romania,2015,10.4,#33b175
 Romania,2016,10.17,#33b175
+Romania,2019,16.99,#33b175
 Russia,1963,6.19,#cf78f4
 Russia,1964,6.39,#cf78f4
 Russia,1965,6.71,#cf78f4
@@ -2001,6 +1976,7 @@ Slovakia,2013,10.54,#f77189
 Slovakia,2014,10.89,#f77189
 Slovakia,2015,10.78,#f77189
 Slovakia,2016,10.14,#f77189
+Slovakia,2019,10.48,#f77189
 Slovenia,1981,16.94,#b087f4
 Slovenia,1982,19.5,#b087f4
 Slovenia,1983,17.28,#b087f4
@@ -2037,6 +2013,7 @@ Slovenia,2013,9.53,#b087f4
 Slovenia,2014,10.92,#b087f4
 Slovenia,2015,11.49,#b087f4
 Slovenia,2016,10.51,#b087f4
+Slovenia,2019,10.98,#b087f4
 Sweden,1961,6.04,#dd8832
 Sweden,1962,6.1,#dd8832
 Sweden,1963,6.03,#dd8832
@@ -2093,6 +2070,7 @@ Sweden,2013,7.32,#dd8832
 Sweden,2014,7.2,#dd8832
 Sweden,2015,7.16,#dd8832
 Sweden,2016,7.18,#dd8832
+Sweden,2019,9.3,#dd8832
 Turkey,1961,0.75,#f8763b
 Turkey,1962,0.81,#f8763b
 Turkey,1963,0.31,#f8763b
@@ -2187,3 +2165,4 @@ Ukraine,2013,7.11,#c89232
 Ukraine,2014,6.22,#c89232
 Ukraine,2015,5.75,#c89232
 Ukraine,2016,5.82,#c89232
+Ukraine,2019,8.7,#c89232

@@ -1,6 +1,6 @@
 import Papa from 'papaparse';
 
-const alcohol_path = './data/alcohol_merged.csv'
+const alcohol_path = './data/alcohol_modified_extended.csv'
 
 const life_expectancy_path = './data/life-expectancy-modified2.csv'
 

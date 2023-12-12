@@ -73,7 +73,7 @@ Andorra,2013,9.78,#8d94f4
 Andorra,2014,9.95,#8d94f4
 Andorra,2015,9.97,#8d94f4
 Andorra,2016,10.06,#8d94f4
-Austria,2019,11.97,
+Austria,2019,11.97,#8d94f4
 Austria,1960,8.91,#c080f4
 Austria,1961,9.31,#c080f4
 Austria,1962,9.7,#c080f4
@@ -131,7 +131,7 @@ Austria,2013,11.6,#c080f4
 Austria,2014,12.2,#c080f4
 Austria,2015,11.4,#c080f4
 Austria,2016,11.1,#c080f4
-Belarus,2019,10.9,
+Belarus,2019,10.9,#df6df4
 Belarus,1980,13.23,#df6df4
 Belarus,1981,13.2,#df6df4
 Belarus,1982,12.67,#df6df4
@@ -169,7 +169,7 @@ Belarus,2013,12.37,#df6df4
 Belarus,2014,11.71,#df6df4
 Belarus,2015,10.09,#df6df4
 Belarus,2016,10.05,#df6df4
-Belgium,2019,10.28,
+Belgium,2019,10.28,#af9c31
 Belgium,1960,9.69,#af9c31
 Belgium,1961,9.73,#af9c31
 Belgium,1962,9.8,#af9c31
@@ -256,7 +256,7 @@ Bosnia and Herzegovina,2013,4.43,#37aaba
 Bosnia and Herzegovina,2014,4.34,#37aaba
 Bosnia and Herzegovina,2015,4.33,#37aaba
 Bosnia and Herzegovina,2016,4.44,#37aaba
-Bulgaria,2019,11.92,
+Bulgaria,2019,11.92,#f76e99
 Bulgaria,1963,7.25,#f76e99
 Bulgaria,1964,6.52,#f76e99
 Bulgaria,1965,7.25,#f76e99
@@ -311,7 +311,7 @@ Bulgaria,2013,10.74,#f76e99
 Bulgaria,2014,10.67,#f76e99
 Bulgaria,2015,11.3,#f76e99
 Bulgaria,2016,11.49,#f76e99
-Croatia,2019,8.54,
+Croatia,2019,8.54,#b79932
 Croatia,1987,13.51,#b79932
 Croatia,1988,11.07,#b79932
 Croatia,1989,10.92,#b79932
@@ -342,7 +342,7 @@ Croatia,2013,11.64,#b79932
 Croatia,2014,10.64,#b79932
 Croatia,2015,9.89,#b79932
 Croatia,2016,10.32,#b79932
-Czechia,2019,13.29,
+Czechia,2019,13.29,#35ae93
 Czechia,1961,9.0,#35ae93
 Czechia,1962,9.12,#35ae93
 Czechia,1963,9.06,#35ae93
@@ -399,7 +399,7 @@ Czechia,2013,12.84,#35ae93
 Czechia,2014,13.06,#35ae93
 Czechia,2015,12.82,#35ae93
 Czechia,2016,12.99,#35ae93
-Denmark,2019,9.4,
+Denmark,2019,9.4,#9f8ef4
 Denmark,1961,6.54,#9f8ef4
 Denmark,1962,6.56,#9f8ef4
 Denmark,1963,6.65,#9f8ef4
@@ -456,7 +456,7 @@ Denmark,2013,9.43,#9f8ef4
 Denmark,2014,9.53,#9f8ef4
 Denmark,2015,9.38,#9f8ef4
 Denmark,2016,9.55,#9f8ef4
-Estonia,2019,11.26,
+Estonia,2019,11.26,#38aac1
 Estonia,1990,9.84,#38aac1
 Estonia,1991,9.13,#38aac1
 Estonia,1992,7.84,#38aac1
@@ -484,7 +484,7 @@ Estonia,2013,17.75,#38aac1
 Estonia,2014,17.29,#38aac1
 Estonia,2015,16.64,#38aac1
 Estonia,2016,15.35,#38aac1
-Finland,2019,9.16,
+Finland,2019,9.16,#f77460
 Finland,1961,2.91,#f77460
 Finland,1962,3.02,#f77460
 Finland,1963,3.07,#f77460
@@ -541,7 +541,7 @@ Finland,2013,9.07,#f77460
 Finland,2014,8.75,#f77460
 Finland,2015,8.51,#f77460
 Finland,2016,8.43,#f77460
-France,2019,11.3,
+France,2019,11.3,#9ea231
 France,1961,26.04,#9ea231
 France,1962,24.6,#9ea231
 France,1963,24.63,#9ea231
@@ -1134,7 +1134,7 @@ Montenegro,2013,6.47,#35ae9a
 Montenegro,2014,6.53,#35ae9a
 Montenegro,2015,6.41,#35ae9a
 Montenegro,2016,6.36,#35ae9a
-Moldova,2019,11.36,
+Moldova,2019,11.36,#37abb3
 Moldova,1992,10.06,#37abb3
 Moldova,1993,11.6,#37abb3
 Moldova,1994,16.31,#37abb3
@@ -1417,23 +1417,23 @@ Portugal,2013,10.54,#39a7d2
 Portugal,2014,10.35,#39a7d2
 Portugal,2015,10.54,#39a7d2
 Portugal,2016,10.66,#39a7d2
-Serbia,2000,7.38,#f668bf
-Serbia,2001,7.53,#f668bf
-Serbia,2002,6.95,#f668bf
-Serbia,2003,7.25,#f668bf
-Serbia,2004,7.42,#f668bf
-Serbia,2005,9.6,#f668bf
-Serbia,2006,8.52,#f668bf
-Serbia,2007,8.72,#f668bf
-Serbia,2008,8.61,#f668bf
-Serbia,2009,8.6,#f668bf
-Serbia,2010,9.09,#f668bf
-Serbia,2011,8.96,#f668bf
-Serbia,2012,9.05,#f668bf
-Serbia,2013,9.06,#f668bf
-Serbia,2014,8.77,#f668bf
-Serbia,2015,9.13,#f668bf
-Serbia,2016,9.17,#f668bf
+Republic of Serbia,2000,7.38,#f668bf
+Republic of Serbia,2001,7.53,#f668bf
+Republic of Serbia,2002,6.95,#f668bf
+Republic of Serbia,2003,7.25,#f668bf
+Republic of Serbia,2004,7.42,#f668bf
+Republic of Serbia,2005,9.6,#f668bf
+Republic of Serbia,2006,8.52,#f668bf
+Republic of Serbia,2007,8.72,#f668bf
+Republic of Serbia,2008,8.61,#f668bf
+Republic of Serbia,2009,8.6,#f668bf
+Republic of Serbia,2010,9.09,#f668bf
+Republic of Serbia,2011,8.96,#f668bf
+Republic of Serbia,2012,9.05,#f668bf
+Republic of Serbia,2013,9.06,#f668bf
+Republic of Serbia,2014,8.77,#f668bf
+Republic of Serbia,2015,9.13,#f668bf
+Republic of Serbia,2016,9.17,#f668bf
 Romania,2019,16.99,#33b175
 Romania,1961,5.7,#33b175
 Romania,1962,6.92,#33b175
