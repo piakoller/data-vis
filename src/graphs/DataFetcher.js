@@ -1,7 +1,7 @@
 import Papa from 'papaparse';
 
 const alcohol_path = './data/alcohol_modified_extended.csv'
-const life_expectancy_path = './data/life-expectancy-modified.csv'
+const life_expectancy_path = './data/life-expectancy-modified2.csv'
 
 export const fetchCountryData = (country) => {
   return fetch(alcohol_path)

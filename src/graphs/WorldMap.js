@@ -106,16 +106,16 @@ const Map = () => {
                     key="Select All"
                     label="Select All"
                     onClick={() => {
-                        setSelectedCountry(['Albania', 'Andorra', 'Armenia', 'Austria', 'Azerbaijan',
+                        setSelectedCountry(['Albania', 'Andorra', 'Austria',
                             'Belgium', 'Bulgaria', 'Bosnia and Herzegovina', 'Belarus',
-                            'Switzerland', 'Cyprus', 'Czechia', 'Germany', 'Denmark', 'Spain',
-                            'Estonia', 'Finland', 'France', 'United Kingdom', 'Georgia',
-                            'Greece', 'Croatia', 'Hungary', 'Ireland', 'Iceland', 'Israel',
-                            'Italy', 'Kazakhstan', 'Kyrgyzstan', 'Lithuania', 'Luxembourg',
-                            'Latvia', 'Moldova', 'North Macedonia', 'Malta', 'Montenegro',
-                            'Netherlands', 'Norway', 'Poland', 'Portugal', 'Romania', 'Russia',
+                            'Switzerland', 'Czechia', 'Germany', 'Denmark', 'Spain',
+                            'Estonia', 'Finland', 'France', 'United Kingdom',
+                            'Greece', 'Croatia', 'Hungary', 'Ireland', 'Iceland',
+                            'Italy', 'Lithuania', 'Luxembourg',
+                            'Latvia', 'Moldova', 'North Macedonia', 'Montenegro',
+                            'Netherlands', 'Norway', 'Poland', 'Portugal', 'Romania',
                             'Republic of Serbia', 'Slovakia', 'Slovenia', 'Sweden',
-                            'Tajikistan', 'Turkmenistan', 'Turkey', 'Ukraine', 'Uzbekistan']);
+                            'Ukraine']);
                     }}
                 />
                 <Chip
