@@ -89,7 +89,7 @@ const Map = () => {
     return (
         <div width="100%" height="100%" viewBox="0 0 1000 500">
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, padding: 16 }}>
-                <Chip
+               {/*  <Chip
                     key="Select All"
                     label="Select All"
                     onClick={() => {
@@ -104,8 +104,9 @@ const Map = () => {
                             'Republic of Serbia', 'Slovakia', 'Slovenia', 'Sweden',
                             'Ukraine']);
                     }}
-                />
+                /> */}
                 <Chip
+                    disabled={selectedCountry.length === 0}
                     key="Deselect All"
                     label="Deselect All"
                     onClick={() => {
@@ -113,15 +114,16 @@ const Map = () => {
                     }}
                 />
             </div>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, padding: 16 }}>
-                {/* Render selected countries as filter chips */}
+            <div style={{ display: 'flex', flexDirection: "column", width: 150, position: "absolute",  gap: 8, padding: 16, overflowY: "auto", height: 400 }}>
+                {/* Render selected countries as filter chips */} 
                 {selectedCountry &&
                     selectedCountry.map((country) => (
                         <Chip
+                            sx={{width: "100%", justifyContent: "space-between", backgroundColor: country.color, padding: 2}}
                             key={country.country}
                             label={country.country}
                             onDelete={() => {
-                                setSelectedCountry(selectedCountry.filter((c) => c !== country));
+                                unselectCountry(country.country);
                             }}
                         />
                     ))}
