@@ -35,7 +35,7 @@ function App() {
         <header className="App-header">
           <Box sx={{ flexGrow: 1 }}>
             <Grid container spacing={2}>
-              <Grid item xs={12}>
+              <Grid item xs={12} style={{ position: 'sticky', top: 0, zIndex: 999, shadow: '0px 0px 20px' }}>
                 <Item>
                   <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                     <MovingSlider key="slider" />

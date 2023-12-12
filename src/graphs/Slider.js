@@ -39,7 +39,7 @@ const MovingSlider = () => {
                     step={1}
                     marks
                     min={1960}
-                    max={2016}
+                    max={2022}
                     disabled={autoPlay}
                 />
                 <h2>Year: {selectedYear}</h2>
