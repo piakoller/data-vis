@@ -22,12 +22,17 @@ const LineChart = () => {
             });
     }, []);
 
+    const getColorForSelected = (location) => {
+        const selected = selectedCountry.find((selected) => selected.country === location);
+        return selected?.color || '#d0d0d0';
+    }
+
     // Use useEffect to fetch data for selected countries
     useEffect(() => {
         if (selectedCountry && selectedCountry.length > 0) {
             // Fetch data for each selected country
             selectedCountry.forEach(country => {
-                fetchDataForCountry(country);
+                fetchDataForCountry(country.country);
             });
         } else {
             setData({}); // Clear data if no countries are selected
@@ -74,7 +79,7 @@ const LineChart = () => {
 
             // Filter data for selected countries
             const filteredData = Object.entries(data).filter(([country]) =>
-                selectedCountry.includes(country)
+                selectedCountry.some((selected) => selected.country === country)
             );
 
             // Draw the lines for selected countries
@@ -84,7 +89,7 @@ const LineChart = () => {
                 svg.append('path')
                     .datum(values)
                     .attr('fill', 'none')
-                    .attr('stroke', isHovered ? values[0].color : '#d0d0d0') // Change stroke color if hovered, otherwise grey
+                    .attr('stroke', isHovered ? getColorForSelected(country) : '#d0d0d0') // Change stroke color if hovered, otherwise grey
                     .attr('stroke-width', isHovered ? 1.5 : 1) // Change stroke width if hovered
                     .attr('d', line)
                     .on('mouseover', () => setHoverCountry(country)) // Set hoverCountry when mouse enters
@@ -99,7 +104,7 @@ const LineChart = () => {
                         .attr('cx', x(selectedYearData.date))
                         .attr('cy', y(selectedYearData.value))
                         .attr('r', 5)
-                        .attr('fill', values[0].color) // Use the color of the line
+                        .attr('fill', getColorForSelected(country)) // Use the color of the line
                         .attr('stroke', '#fff') // Optional: Add a stroke for better visibility
                         .attr('stroke-width', 2); // Optional: Adjust stroke width
                 }
@@ -117,17 +122,6 @@ const LineChart = () => {
 
     return (
         <div id="line-chart-container">
-            {tooltipContent && (
-                <foreignObject x={tooltipContent.x} y={tooltipContent.y} width="100" height="50">
-                    <div>
-                        <Tooltip title={tooltipContent.content}>
-                            <span>{selectedCountry}</span>
-                        </Tooltip>
-                    </div>
-                </foreignObject>
-            )}
-
-            {/* <h2>{selectedCountry}</h2> */}
         </div>);
 };
 

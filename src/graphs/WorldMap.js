@@ -26,7 +26,7 @@ const Tooltip = ({ x, y, location, value }) => (
 
 const Map = () => {
     const [data, setData] = useState({});
-    const { selectedCountry, setSelectedCountry, selectedYear, hoverCountry, setHoverCountry } = useSelectedData();
+    const { selectedCountry, setSelectedCountry, selectedYear, hoverCountry, setHoverCountry, selectCountry, unselectCountry } = useSelectedData();
 
     const [tooltip, setTooltip] = useState(null);
 
@@ -53,22 +53,22 @@ const Map = () => {
     const path = geoPath().projection(projection);
 
 
+    const getColorForSelected = (location) => {
+        const selected = selectedCountry.find((selected) => selected.country === location);
+        return selected?.color || '#d0d0d0';
+    }
+
     const handleCountryClick = (location, value) => {
-        if (!selectedCountry.includes(location)) {
-            setSelectedCountry(location);
+        if (selectedCountry.some((selected) => selected.country === location)) {
+            unselectCountry(location);
+        } 
+        else {
+            selectCountry(location);
             setTooltip({ location, value });
-            // Add the country to selectedCountries if it's not already in the list
-            if (!selectedCountry.includes(location)) {
-                setSelectedCountry([...selectedCountry, location]);
-            }
-        }
-        else if (selectedCountry.includes(location)) {
-            const updatedSelectedCountries = selectedCountry.filter(country => country !== location);
-            setSelectedCountry(updatedSelectedCountries);
         }
 
     };
-    const isCountrySelected = (location) => selectedCountry.includes(location);
+    const isCountrySelected = (location) => selectedCountry.some((selected) => selected.country === location);
 
     const legendWidth = 200;
     const legendHeight = 20;
@@ -88,19 +88,6 @@ const Map = () => {
 
     return (
         <div width="100%" height="100%" viewBox="0 0 1000 500">
-            {/* <div style={{ padding: 20, width: "50%", margin: "auto" }}>
-                <Slider
-                    value={selectedYear}
-                    onChange={(event, newValue) => debouncedHandleChange(event, newValue)}
-                    aria-label="Year"
-                    valueLabelDisplay="auto"
-                    step={1}
-                    marks
-                    min={1960}
-                    max={2016}
-                />
-                <h2>Year: {selectedYear}</h2>
-            </div> */}
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, padding: 16 }}>
                 <Chip
                     key="Select All"
@@ -131,8 +118,8 @@ const Map = () => {
                 {selectedCountry &&
                     selectedCountry.map((country) => (
                         <Chip
-                            key={country}
-                            label={country}
+                            key={country.country}
+                            label={country.country}
                             onDelete={() => {
                                 setSelectedCountry(selectedCountry.filter((c) => c !== country));
                             }}
@@ -147,7 +134,7 @@ const Map = () => {
                         const color = getColor(value.value, location);
                         const isSelected = isCountrySelected(location);
                         const fillOpacity = selectedCountry.length === 0 ? 1 : isSelected ? 1 : 0.3  // Change opacity for unselected countries
-                        const outline = isSelected ? data[selectedYear]?.[location]?.color || '#d0d0d0' : '#d0d0d0'; // Access color for the selected country and year
+                        const outline = isSelected ? getColorForSelected(location) || '#d0d0d0' : '#d0d0d0'; // Access color for the selected country and year
                         const outlineStroke = isSelected ? '3' : '1';
                         const scale = isSelected ? 1 : 1; // Adjust scale for selected countries
 

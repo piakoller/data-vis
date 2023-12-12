@@ -4,7 +4,7 @@ import { fetchLifeExpectancyData } from './DataFetcher';
 import { useSelectedData } from './Selected';
 
 const BarChart = () => {
-    const { selectedCountry, setSelectedCountry, selectedYear, hoverCountry, setHoverCountry } = useSelectedData();
+    const { selectedCountry, setSelectedCountry, selectedYear, hoverCountry, setHoverCountry, selectCountry, unselectCountry } = useSelectedData();
 
     const ref = useRef();
     const width = 600;
@@ -20,7 +20,7 @@ const BarChart = () => {
 
             // Find the hovered country data
             const hoveredCountryData = yearData.find(d => d.country === hoverCountry);
-            const selectedCountryData = selectedCountry.map(country => yearData.find(d => d.country === country)).filter(Boolean);
+            const selectedCountryData = selectedCountry.map(country => yearData.find(d => d.country === country.country)).filter(Boolean);
 
             // Sort the data by life expectancy
             yearData.sort((a, b) => d3.descending(a.lifeExpectancy, b.lifeExpectancy));
@@ -103,7 +103,7 @@ const BarChart = () => {
                 .attr('fill', d => {
                     if (hoverCountry === d.country) {
                         return 'red'; // Change the color for the hovered country
-                    } else if (selectedCountry.includes(d.country)) {
+                    } else if (selectedCountry.some((selected) => selected.country === d.country)) {
                         return 'orange'; // Change the color for the selected country
                     } else if (d.country === '...') {
                         return 'transparent';
@@ -113,10 +113,10 @@ const BarChart = () => {
                 })
                 .on('click', (event, d) => {
                     const { country } = d;
-                    if (!selectedCountry.includes(country) && country !== '...') {
-                        setSelectedCountry([...selectedCountry, country]);
+                    if (!selectedCountry.some((selected) => selected.country === country) && country !== '...') {
+                        selectCountry(country);
                     } else {
-                        setSelectedCountry(selectedCountry.filter(country => country !== d.country));
+                        unselectCountry(country);
                     }
                 })
                 .on('mouseover', (event, d) => setHoverCountry(d.country)) // Set hoverCountry when mouse enters
