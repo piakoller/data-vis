@@ -61,10 +61,25 @@ export function SelectedDataProvider({ children }) {
     }));
   }
 
+  const unselectAll = () => {
+    setSelectedCountry([]);
+    setSelectedColors({
+      '#CC6677': false,
+      '#332288': false,
+      '#DDCC77': false,
+      '#117733': false,
+      '#88CCEE': false,
+      '#882255': false,
+      '#44AA99': false,
+      '#999933': false,
+      '#AA4499': false
+    })
+  }
+
 
 
   return (
-    <SelectedDataContext.Provider value={{ selectedCountry, setSelectedCountry, hoverCountry, setHoverCountry, selectedYear, setSelectedYear, selectCountry, unselectCountry }}>
+    <SelectedDataContext.Provider value={{ selectedCountry, setSelectedCountry, hoverCountry, setHoverCountry, selectedYear, setSelectedYear, selectCountry, unselectCountry, unselectAll }}>
       {children}
     </SelectedDataContext.Provider>
   );

@@ -26,7 +26,7 @@ const Tooltip = ({ x, y, location, value }) => (
 
 const Map = () => {
     const [data, setData] = useState({});
-    const { selectedCountry, setSelectedCountry, selectedYear, hoverCountry, setHoverCountry, selectCountry, unselectCountry } = useSelectedData();
+    const { selectedCountry, setSelectedCountry, selectedYear, hoverCountry, setHoverCountry, selectCountry, unselectCountry, unselectAll } = useSelectedData();
 
     const [tooltip, setTooltip] = useState(null);
 
@@ -110,7 +110,7 @@ const Map = () => {
                     key="Deselect All"
                     label="Deselect All"
                     onClick={() => {
-                        setSelectedCountry([]);
+                        unselectAll();
                     }}
                 />
             </div>
