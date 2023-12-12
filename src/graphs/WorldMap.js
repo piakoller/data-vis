@@ -26,7 +26,7 @@ const Tooltip = ({ x, y, location, value }) => (
 
 const Map = () => {
     const [data, setData] = useState({});
-    const { selectedCountry, setSelectedCountry, selectedYear, hoverCountry, setHoverCountry } = useSelectedData();
+    const { selectedCountry, setSelectedCountry, selectedYear, hoverCountry, setHoverCountry, selectCountry, unselectCountry, unselectAll } = useSelectedData();
 
     const [tooltip, setTooltip] = useState(null);
 
@@ -53,22 +53,22 @@ const Map = () => {
     const path = geoPath().projection(projection);
 
 
+    const getColorForSelected = (location) => {
+        const selected = selectedCountry.find((selected) => selected.country === location);
+        return selected?.color || '#d0d0d0';
+    }
+
     const handleCountryClick = (location, value) => {
-        if (!selectedCountry.includes(location)) {
-            setSelectedCountry(location);
+        if (selectedCountry.some((selected) => selected.country === location)) {
+            unselectCountry(location);
+        } 
+        else {
+            selectCountry(location);
             setTooltip({ location, value });
-            // Add the country to selectedCountries if it's not already in the list
-            if (!selectedCountry.includes(location)) {
-                setSelectedCountry([...selectedCountry, location]);
-            }
-        }
-        else if (selectedCountry.includes(location)) {
-            const updatedSelectedCountries = selectedCountry.filter(country => country !== location);
-            setSelectedCountry(updatedSelectedCountries);
         }
 
     };
-    const isCountrySelected = (location) => selectedCountry.includes(location);
+    const isCountrySelected = (location) => selectedCountry.some((selected) => selected.country === location);
 
     const legendWidth = 200;
     const legendHeight = 20;
@@ -88,53 +88,42 @@ const Map = () => {
 
     return (
         <div width="100%" height="100%" viewBox="0 0 1000 500">
-            {/* <div style={{ padding: 20, width: "50%", margin: "auto" }}>
-                <Slider
-                    value={selectedYear}
-                    onChange={(event, newValue) => debouncedHandleChange(event, newValue)}
-                    aria-label="Year"
-                    valueLabelDisplay="auto"
-                    step={1}
-                    marks
-                    min={1960}
-                    max={2016}
-                />
-                <h2>Year: {selectedYear}</h2>
-            </div> */}
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, padding: 16 }}>
-                <Chip
+               {/*  <Chip
                     key="Select All"
                     label="Select All"
                     onClick={() => {
-                        setSelectedCountry(['Albania', 'Andorra', 'Armenia', 'Austria', 'Azerbaijan',
+                        setSelectedCountry(['Albania', 'Andorra', 'Austria',
                             'Belgium', 'Bulgaria', 'Bosnia and Herzegovina', 'Belarus',
-                            'Switzerland', 'Cyprus', 'Czechia', 'Germany', 'Denmark', 'Spain',
-                            'Estonia', 'Finland', 'France', 'United Kingdom', 'Georgia',
-                            'Greece', 'Croatia', 'Hungary', 'Ireland', 'Iceland', 'Israel',
-                            'Italy', 'Kazakhstan', 'Kyrgyzstan', 'Lithuania', 'Luxembourg',
-                            'Latvia', 'Moldova', 'North Macedonia', 'Malta', 'Montenegro',
-                            'Netherlands', 'Norway', 'Poland', 'Portugal', 'Romania', 'Russia',
+                            'Switzerland', 'Czechia', 'Germany', 'Denmark', 'Spain',
+                            'Estonia', 'Finland', 'France', 'United Kingdom',
+                            'Greece', 'Croatia', 'Hungary', 'Ireland', 'Iceland',
+                            'Italy', 'Lithuania', 'Luxembourg',
+                            'Latvia', 'Moldova', 'North Macedonia', 'Montenegro',
+                            'Netherlands', 'Norway', 'Poland', 'Portugal', 'Romania',
                             'Republic of Serbia', 'Slovakia', 'Slovenia', 'Sweden',
-                            'Tajikistan', 'Turkmenistan', 'Turkey', 'Ukraine', 'Uzbekistan']);
+                            'Ukraine']);
                     }}
-                />
+                /> */}
                 <Chip
+                    disabled={selectedCountry.length === 0}
                     key="Deselect All"
                     label="Deselect All"
                     onClick={() => {
-                        setSelectedCountry([]);
+                        unselectAll();
                     }}
                 />
             </div>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, padding: 16 }}>
-                {/* Render selected countries as filter chips */}
+            <div style={{ display: 'flex', flexDirection: "column", width: 150, position: "absolute",  gap: 8, padding: 16, overflowY: "auto", height: 400 }}>
+                {/* Render selected countries as filter chips */} 
                 {selectedCountry &&
                     selectedCountry.map((country) => (
                         <Chip
-                            key={country}
-                            label={country}
+                            sx={{width: "100%", justifyContent: "space-between", backgroundColor: country.color, padding: 2}}
+                            key={country.country}
+                            label={country.country}
                             onDelete={() => {
-                                setSelectedCountry(selectedCountry.filter((c) => c !== country));
+                                unselectCountry(country.country);
                             }}
                         />
                     ))}
@@ -147,7 +136,7 @@ const Map = () => {
                         const color = getColor(value.value, location);
                         const isSelected = isCountrySelected(location);
                         const fillOpacity = selectedCountry.length === 0 ? 1 : isSelected ? 1 : 0.3  // Change opacity for unselected countries
-                        const outline = isSelected ? data[selectedYear]?.[location]?.color || '#d0d0d0' : '#d0d0d0'; // Access color for the selected country and year
+                        const outline = isSelected ? getColorForSelected(location) || '#d0d0d0' : '#d0d0d0'; // Access color for the selected country and year
                         const outlineStroke = isSelected ? '3' : '1';
                         const scale = isSelected ? 1 : 1; // Adjust scale for selected countries
 
