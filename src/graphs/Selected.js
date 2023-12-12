@@ -8,7 +8,7 @@ export function useSelectedData() {
 
 export function SelectedDataProvider({ children }) {
   const [selectedCountry, setSelectedCountry] = useState([]);
-  const [hoverCountry, setHoverCountry] = useState([]);
+  const [hoverCountry, setHoverCountry] = useState(null);
   const [selectedYear, setSelectedYear] = useState(1960); // Default year
   let colorList = ['#CC6677', '#332288', '#DDCC77', '#117733', '#88CCEE', '#882255', '#44AA99', '#999933', '#AA4499']
   const [selectedColors, setSelectedColors] = useState({
@@ -43,7 +43,7 @@ export function SelectedDataProvider({ children }) {
 
   const selectCountry = (country) => {
     if(selectedCountry.length >= 9){
-      alert("You can only select up to 8 countries")
+      alert("You can only select up to 9 countries")
       return
     }
     let color = pickColor();

@@ -89,8 +89,8 @@ const LineChart = () => {
                 svg.append('path')
                     .datum(values)
                     .attr('fill', 'none')
-                    .attr('stroke', isHovered ? getColorForSelected(country) : '#d0d0d0') // Change stroke color if hovered, otherwise grey
-                    .attr('stroke-width', isHovered ? 1.5 : 1) // Change stroke width if hovered
+                    .attr('stroke', hoverCountry == null ? getColorForSelected(country) : isHovered ? getColorForSelected(country) : '#d0d0d0') // Change stroke color if hovered, otherwise grey
+                    .attr('stroke-width', isHovered ? 2 : 1) // Change stroke width if hovered
                     .attr('d', line)
                     .on('mouseover', () => setHoverCountry(country)) // Set hoverCountry when mouse enters
                     .on('mouseout', () => setHoverCountry(null)); // Clear hoverCountry when mouse leaves
