@@ -72,10 +72,12 @@ const LineChart = () => {
                 .nice()
                 .range([height, 0]);
 
-            // Create line generator
-            const line = d3.line()
+                const line = d3.line()
                 .x(d => x(d.date))
-                .y(d => y(d.value));
+                .y(d => y(d.value))
+                .defined(d => !isNaN(d.value))
+                .curve(d3.curveMonotoneX); // or curveMonotoneY
+              
 
             // Filter data for selected countries
             const filteredData = Object.entries(data).filter(([country]) =>

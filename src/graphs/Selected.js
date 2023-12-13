@@ -42,7 +42,7 @@ export function SelectedDataProvider({ children }) {
 
 
   const selectCountry = (country) => {
-    if(selectedCountry.length >= 9){
+    if (selectedCountry.length >= 9) {
       alert("You can only select up to 8 countries")
       return
     }

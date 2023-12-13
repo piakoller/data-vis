@@ -37,8 +37,6 @@ const Map = () => {
             });
     }, []);
 
-    console.log(data);
-
     const getColor = useMemo(() => {
         const colorScale = d3.scaleSequential(d3.interpolateOranges);
         return (value) =>

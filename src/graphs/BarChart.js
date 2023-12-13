@@ -95,11 +95,17 @@ const BarChart = () => {
                     if (hoverCountry === d.country) {
                         return 'red'; // Change the color for the hovered country
                     } else if (selectedCountry.some((selected) => selected.country === d.country)) {
-                        return 'orange'; // Change the color for the selected country
-                    } else if (d.country === '...') {
+                        // Use the color defined in selected.js for selected countries
+                        const selected = selectedCountry.find((selected) => selected.country === d.country);
+
+                        return selected?.color || '#d0d0d0'
+                    } else if (selectedCountry.some((selected) => selected.country !== d.country)) {
+                        return 'lightgrey';
+                    }
+                    else if (d.country === '...') {
                         return 'transparent';
-                    } else {
-                        return 'steelblue';
+                    } else if (selectCountry){
+                        return 'grey';
                     }
                 })
                 .on('click', (event, d) => {

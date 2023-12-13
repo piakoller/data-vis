@@ -10,9 +10,9 @@ export const fetchCountryData = (country) => {
     .then(csvData => {
       const parsedData = Papa.parse(csvData, { header: true });
       const countryData = parsedData.data
-        .filter(entry => entry.COUNTRY === country)
+        .filter(entry => entry.LOCATION === country && entry['BEVERAGE TYPES'] === 'Alltypes') // Filter by country and beverage type
         .map(entry => ({
-          date: new Date(entry.YEAR),
+          date: new Date(entry.TIME),
           value: parseFloat(entry.VALUE),
           color: entry.COLOR
         }));
@@ -111,15 +111,15 @@ export const fetchHappinessData = () => {
         const values = lines[i].split(',');
 
         if (values.length === headers.length) {
-          const country = values[0];
+          const location = values[0];
           const year = parseInt(values[1]); // Adjust index to 1 for Year
           const happiness = parseFloat(values[2]); // Adjust index to 2 for Life Expectancy
           const rank = parseFloat(values[3])
 
-          if (!isNaN(year) && country && !isNaN(happiness)) {
+          if (!isNaN(year) && location && !isNaN(happiness)) {
             formattedData.push({
               year: year,
-              country: country,
+              location: location,
               happiness: happiness,
               rank: rank
             });
