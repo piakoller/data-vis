@@ -7,7 +7,7 @@ import { fetchWorldMapData } from './DataFetcher';
 
 import Slider from '@mui/material/Slider';
 import Chip from '@mui/material/Chip';
-import { debounce } from 'lodash';
+import { debounce, max } from 'lodash';
 import '../App.css';
 import './WorldMap.css'
 
@@ -37,10 +37,12 @@ const Map = () => {
             });
     }, []);
 
+    console.log(data);
+
     const getColor = useMemo(() => {
         const colorScale = d3.scaleSequential(d3.interpolateOranges);
         return (value) =>
-            colorScale(value / 25);
+            colorScale(value / 15);
     }, []);
 
 

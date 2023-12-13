@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useCallback, useMemo } from 'react';
+import React, { useEffect, useState, useCallback, useMemo, useRef } from 'react';
 import * as d3 from 'd3';
 import { useSelectedData } from './Selected';
 import { fetchCountryData } from './DataFetcher';
@@ -7,7 +7,7 @@ import { styled } from '@mui/material/styles';
 import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
 
 const LineChart = () => {
-    const { selectedCountry, selectedYear, hoverCountry, setHoverCountry } = useSelectedData();
+    const { selectedCountry, selectedYear, setSelectedYear, hoverCountry, setHoverCountry } = useSelectedData();
     // const { countryColors, assignCountryColors } = ColorAssignerProvider();
 
     const [data, setData] = useState({});
@@ -74,7 +74,7 @@ const LineChart = () => {
             d3.select('#line-chart-container').select('svg').remove();
 
             const margin = { top: 20, right: 30, bottom: 30, left: 40 };
-            const width = 600 - margin.left - margin.right;
+            const width = 1200 - margin.left - margin.right;
             const height = 400 - margin.top - margin.bottom;
 
             const svg = d3
@@ -88,7 +88,7 @@ const LineChart = () => {
             // Set up scales
             const x = d3.scaleTime()
                 //.domain(d3.extent(data[Object.keys(data)[0]], d => d.date)) // Assumes all lines have the same date range
-                .domain([new Date("1960-01-01"), new Date("2016-12-31")])
+                .domain([new Date("1960-01-01"), new Date("2023-12-31")])
                 .range([0, width]);
 
             const y = d3.scaleLinear()

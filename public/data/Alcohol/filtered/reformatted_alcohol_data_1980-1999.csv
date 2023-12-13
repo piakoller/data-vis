@@ -1,0 +1,3101 @@
+LOCATION,BEVERAGE TYPES,TIME,VALUE
+Albania,All types,1999,2.19
+Albania,Beer,1999,0.83
+Albania,Wine,1999,0.76
+Albania,Spirits,1999,0.59
+Albania,Other alcoholic beverages,1999,0.0
+Austria,All types,1999,12.8
+Austria,Beer,1999,6.8
+Austria,Wine,1999,4.2
+Austria,Spirits,1999,1.8
+Belarus,All types,1999,12.72
+Belarus,Beer,1999,1.22
+Belarus,Wine,1999,0.83
+Belarus,Spirits,1999,7.85
+Belarus,Other alcoholic beverages,1999,2.83
+Belgium,All types,1999,10.1
+Belgium,Beer,1999,6.06
+Belgium,Wine,1999,2.67
+Belgium,Spirits,1999,1.37
+Belgium,Other alcoholic beverages,1999,0.0
+Bosnia and Herzegovina,All types,1999,8.57
+Bosnia and Herzegovina,Beer,1999,1.59
+Bosnia and Herzegovina,Wine,1999,0.2
+Bosnia and Herzegovina,Spirits,1999,6.78
+Bulgaria,All types,1999,7.65
+Bulgaria,Beer,1999,1.99
+Bulgaria,Wine,1999,2.81
+Bulgaria,Spirits,1999,2.85
+Bulgaria,Other alcoholic beverages,1999,0.0
+Croatia,All types,1999,12.15
+Croatia,Beer,1999,4.56
+Croatia,Wine,1999,6.57
+Croatia,Spirits,1999,1.02
+Croatia,Other alcoholic beverages,1999,0.0
+Czechia,All types,1999,13.85
+Czechia,Beer,1999,7.68
+Czechia,Wine,1999,2.18
+Czechia,Spirits,1999,3.99
+Czechia,Other alcoholic beverages,1999,0.0
+Denmark,All types,1999,11.62
+Denmark,Beer,1999,6.24
+Denmark,Wine,1999,4.01
+Denmark,Spirits,1999,1.37
+Estonia,All types,1999,8.85
+Estonia,Beer,1999,3.93
+Estonia,Wine,1999,0.97
+Estonia,Spirits,1999,3.36
+Estonia,Other alcoholic beverages,1999,0.59
+Finland,All types,1999,8.62
+Finland,Beer,1999,4.34
+Finland,Wine,1999,1.91
+Finland,Spirits,1999,1.1
+Finland,Other alcoholic beverages,1999,1.27
+France,All types,1999,13.15
+France,Beer,1999,2.39
+France,Wine,1999,7.8
+France,Spirits,1999,2.71
+France,Other alcoholic beverages,1999,0.25
+Germany,All types,1999,12.94
+Germany,Beer,1999,7.57
+Germany,Wine,1999,3.0
+Germany,Spirits,1999,2.37
+Germany,Other alcoholic beverages,1999,0.0
+Greece,All types,1999,9.47
+Greece,Beer,1999,2.54
+Greece,Wine,1999,4.57
+Greece,Spirits,1999,2.31
+Greece,Other alcoholic beverages,1999,0.05
+Hungary,All types,1999,12.09
+Hungary,Beer,1999,4.1
+Hungary,Wine,1999,4.37
+Hungary,Spirits,1999,3.62
+Iceland,All types,1999,5.9
+Iceland,Beer,1999,2.89
+Iceland,Wine,1999,1.25
+Iceland,Spirits,1999,1.76
+Iceland,Other alcoholic beverages,1999,0.0
+Ireland,All types,1999,14.95
+Ireland,Beer,1999,9.94
+Ireland,Wine,1999,1.54
+Ireland,Spirits,1999,2.69
+Ireland,Other alcoholic beverages,1999,
+Italy,All types,1999,8.86
+Italy,Beer,1999,1.58
+Italy,Wine,1999,6.6
+Italy,Spirits,1999,0.58
+Latvia,All types,1999,8.84
+Latvia,Beer,1999,2.11
+Latvia,Wine,1999,1.25
+Latvia,Spirits,1999,5.48
+Latvia,Other alcoholic beverages,1999,0.0
+Lithuania,All types,1999,6.75
+Lithuania,Beer,1999,3.42
+Lithuania,Wine,1999,1.12
+Lithuania,Spirits,1999,2.16
+Lithuania,Other alcoholic beverages,1999,0.05
+Luxembourg,All types,1999,12.92
+Luxembourg,Beer,1999,4.98
+Luxembourg,Wine,1999,5.4
+Luxembourg,Spirits,1999,2.54
+Luxembourg,Other alcoholic beverages,1999,0.0
+North Macedonia,All types,1999,5.03
+North Macedonia,Beer,1999,1.92
+North Macedonia,Wine,1999,0.96
+North Macedonia,Spirits,1999,2.15
+North Macedonia,Other alcoholic beverages,1999,0.0
+Norway,All types,1999,5.45
+Norway,Beer,1999,2.84
+Norway,Wine,1999,1.49
+Norway,Spirits,1999,1.05
+Norway,Other alcoholic beverages,1999,0.06
+Poland,All types,1999,8.22
+Poland,Beer,1999,3.74
+Poland,Wine,1999,1.86
+Poland,Spirits,1999,2.62
+Poland,Other alcoholic beverages,1999,0.0
+Portugal,All types,1999,13.18
+Portugal,Beer,1999,3.89
+Portugal,Wine,1999,6.72
+Portugal,Spirits,1999,1.81
+Portugal,Other alcoholic beverages,1999,0.76
+Romania,All types,1999,7.66
+Romania,Beer,1999,3.09
+Romania,Wine,1999,3.52
+Romania,Spirits,1999,1.05
+Romania,Other alcoholic beverages,1999,0.0
+Slovakia,All types,1999,12.13
+Slovakia,Beer,1999,5.36
+Slovakia,Wine,1999,1.76
+Slovakia,Spirits,1999,5.01
+Slovakia,Other alcoholic beverages,1999,0.0
+Slovenia,All types,1999,12.28
+Slovenia,Beer,1999,5.04
+Slovenia,Wine,1999,5.13
+Slovenia,Spirits,1999,1.76
+Slovenia,Other alcoholic beverages,1999,0.34
+Spain,All types,1999,11.33
+Spain,Beer,1999,4.06
+Spain,Wine,1999,4.39
+Spain,Spirits,1999,2.82
+Spain,Other alcoholic beverages,1999,0.06
+Sweden,All types,1999,6.88
+Sweden,Beer,1999,3.65
+Sweden,Wine,1999,2.0
+Sweden,Spirits,1999,1.23
+Sweden,Other alcoholic beverages,1999,0.0
+Switzerland,All types,1999,11.05
+Switzerland,Beer,1999,3.4
+Switzerland,Wine,1999,5.83
+Switzerland,Spirits,1999,1.7
+Switzerland,Other alcoholic beverages,1999,0.12
+Ukraine,All types,1999,3.93
+Ukraine,Beer,1999,1.04
+Ukraine,Wine,1999,0.37
+Ukraine,Spirits,1999,2.51
+Ukraine,Other alcoholic beverages,1999,0.0
+Albania,All types,1998,1.54
+Albania,Beer,1998,0.46
+Albania,Wine,1998,0.62
+Albania,Spirits,1998,0.42
+Albania,Other alcoholic beverages,1998,0.03
+Austria,All types,1998,12.9
+Austria,Beer,1998,6.8
+Austria,Wine,1998,4.3
+Austria,Spirits,1998,1.8
+Belarus,All types,1998,11.72
+Belarus,Beer,1998,1.19
+Belarus,Wine,1998,0.72
+Belarus,Spirits,1998,7.57
+Belarus,Other alcoholic beverages,1998,2.25
+Belgium,All types,1998,9.92
+Belgium,Beer,1998,5.96
+Belgium,Wine,1998,2.59
+Belgium,Spirits,1998,1.37
+Belgium,Other alcoholic beverages,1998,0.0
+Bosnia and Herzegovina,All types,1998,8.37
+Bosnia and Herzegovina,Beer,1998,1.72
+Bosnia and Herzegovina,Wine,1998,0.28
+Bosnia and Herzegovina,Spirits,1998,6.37
+Bulgaria,All types,1998,7.86
+Bulgaria,Beer,1998,1.99
+Bulgaria,Wine,1998,2.91
+Bulgaria,Spirits,1998,2.96
+Bulgaria,Other alcoholic beverages,1998,0.0
+Croatia,All types,1998,13.84
+Croatia,Beer,1998,4.38
+Croatia,Wine,1998,6.78
+Croatia,Spirits,1998,2.68
+Croatia,Other alcoholic beverages,1998,0.0
+Czechia,All types,1998,13.92
+Czechia,Beer,1998,7.78
+Czechia,Wine,1998,2.18
+Czechia,Spirits,1998,3.96
+Czechia,Other alcoholic beverages,1998,0.0
+Denmark,All types,1998,11.69
+Denmark,Beer,1998,6.41
+Denmark,Wine,1998,3.91
+Denmark,Spirits,1998,1.37
+Estonia,All types,1998,8.01
+Estonia,Beer,1998,3.18
+Estonia,Wine,1998,1.11
+Estonia,Spirits,1998,3.49
+Estonia,Other alcoholic beverages,1998,0.23
+Finland,All types,1998,8.6
+Finland,Beer,1998,4.38
+Finland,Wine,1998,1.73
+Finland,Spirits,1998,1.16
+Finland,Other alcoholic beverages,1998,1.33
+France,All types,1998,13.27
+France,Beer,1998,2.38
+France,Wine,1998,7.89
+France,Spirits,1998,2.75
+France,Other alcoholic beverages,1998,0.25
+Germany,All types,1998,12.74
+Germany,Beer,1998,7.02
+Germany,Wine,1998,3.05
+Germany,Spirits,1998,2.67
+Germany,Other alcoholic beverages,1998,
+Greece,All types,1998,9.03
+Greece,Beer,1998,2.49
+Greece,Wine,1998,4.17
+Greece,Spirits,1998,2.32
+Greece,Other alcoholic beverages,1998,0.05
+Hungary,All types,1998,12.69
+Hungary,Beer,1998,4.13
+Hungary,Wine,1998,4.81
+Hungary,Spirits,1998,3.75
+Iceland,All types,1998,5.56
+Iceland,Beer,1998,2.64
+Iceland,Wine,1998,1.18
+Iceland,Spirits,1998,1.74
+Iceland,Other alcoholic beverages,1998,0.0
+Ireland,All types,1998,14.44
+Ireland,Beer,1998,9.93
+Ireland,Wine,1998,1.35
+Ireland,Spirits,1998,2.45
+Ireland,Other alcoholic beverages,1998,0.71
+Italy,All types,1998,8.98
+Italy,Beer,1998,1.57
+Italy,Wine,1998,6.67
+Italy,Spirits,1998,0.7
+Latvia,All types,1998,8.94
+Latvia,Beer,1998,1.61
+Latvia,Wine,1998,1.13
+Latvia,Spirits,1998,6.21
+Latvia,Other alcoholic beverages,1998,0.0
+Lithuania,All types,1998,6.35
+Lithuania,Beer,1998,2.91
+Lithuania,Wine,1998,0.95
+Lithuania,Spirits,1998,2.43
+Lithuania,Other alcoholic beverages,1998,0.06
+Luxembourg,All types,1998,12.88
+Luxembourg,Beer,1998,4.7
+Luxembourg,Wine,1998,5.47
+Luxembourg,Spirits,1998,2.71
+Luxembourg,Other alcoholic beverages,1998,0.0
+North Macedonia,All types,1998,6.24
+North Macedonia,Beer,1998,2.01
+North Macedonia,Wine,1998,1.07
+North Macedonia,Spirits,1998,3.15
+North Macedonia,Other alcoholic beverages,1998,0.0
+Norway,All types,1998,5.24
+Norway,Beer,1998,3.17
+Norway,Wine,1998,1.23
+Norway,Spirits,1998,1.03
+Norway,Other alcoholic beverages,1998,0.0
+Poland,All types,1998,8.32
+Poland,Beer,1998,3.4
+Poland,Wine,1998,1.9
+Poland,Spirits,1998,3.02
+Poland,Other alcoholic beverages,1998,0.0
+Portugal,All types,1998,12.48
+Portugal,Beer,1998,3.8
+Portugal,Wine,1998,7.16
+Portugal,Spirits,1998,0.71
+Portugal,Other alcoholic beverages,1998,0.81
+Romania,All types,1998,7.28
+Romania,Beer,1998,2.76
+Romania,Wine,1998,3.37
+Romania,Spirits,1998,1.15
+Romania,Other alcoholic beverages,1998,0.0
+Slovakia,All types,1998,12.13
+Slovakia,Beer,1998,5.37
+Slovakia,Wine,1998,1.84
+Slovakia,Spirits,1998,4.92
+Slovakia,Other alcoholic beverages,1998,0.0
+Slovenia,All types,1998,14.61
+Slovenia,Beer,1998,4.59
+Slovenia,Wine,1998,7.52
+Slovenia,Spirits,1998,2.15
+Slovenia,Other alcoholic beverages,1998,0.35
+Spain,All types,1998,11.58
+Spain,Beer,1998,3.94
+Spain,Wine,1998,4.62
+Spain,Spirits,1998,2.95
+Spain,Other alcoholic beverages,1998,0.07
+Sweden,All types,1998,6.8
+Sweden,Beer,1998,3.53
+Sweden,Wine,1998,1.98
+Sweden,Spirits,1998,1.29
+Sweden,Other alcoholic beverages,1998,0.0
+Switzerland,All types,1998,11.07
+Switzerland,Beer,1998,3.53
+Switzerland,Wine,1998,5.72
+Switzerland,Spirits,1998,1.7
+Switzerland,Other alcoholic beverages,1998,0.12
+Ukraine,All types,1998,3.74
+Ukraine,Beer,1998,0.85
+Ukraine,Wine,1998,0.42
+Ukraine,Spirits,1998,2.46
+Ukraine,Other alcoholic beverages,1998,0.0
+Albania,All types,1997,2.22
+Albania,Beer,1997,0.48
+Albania,Wine,1997,0.98
+Albania,Spirits,1997,0.77
+Albania,Other alcoholic beverages,1997,0.0
+Austria,All types,1997,12.9
+Austria,Beer,1997,6.7
+Austria,Wine,1997,4.2
+Austria,Spirits,1997,2.0
+Belarus,All types,1997,11.02
+Belarus,Beer,1997,1.14
+Belarus,Wine,1997,0.37
+Belarus,Spirits,1997,7.97
+Belarus,Other alcoholic beverages,1997,1.54
+Belgium,All types,1997,10.92
+Belgium,Beer,1997,6.11
+Belgium,Wine,1997,3.34
+Belgium,Spirits,1997,1.47
+Belgium,Other alcoholic beverages,1997,0.0
+Bosnia and Herzegovina,All types,1997,10.0
+Bosnia and Herzegovina,Beer,1997,1.76
+Bosnia and Herzegovina,Wine,1997,0.21
+Bosnia and Herzegovina,Spirits,1997,8.03
+Bulgaria,All types,1997,8.13
+Bulgaria,Beer,1997,2.31
+Bulgaria,Wine,1997,2.86
+Bulgaria,Spirits,1997,2.96
+Bulgaria,Other alcoholic beverages,1997,0.0
+Croatia,All types,1997,13.21
+Croatia,Beer,1997,4.42
+Croatia,Wine,1997,6.81
+Croatia,Spirits,1997,1.98
+Croatia,Other alcoholic beverages,1997,0.0
+Czechia,All types,1997,14.05
+Czechia,Beer,1997,7.84
+Czechia,Wine,1997,2.18
+Czechia,Spirits,1997,4.03
+Czechia,Other alcoholic beverages,1997,0.0
+Denmark,All types,1997,12.2
+Denmark,Beer,1997,6.92
+Denmark,Wine,1997,3.93
+Denmark,Spirits,1997,1.35
+Estonia,All types,1997,8.3
+Estonia,Beer,1997,2.72
+Estonia,Wine,1997,0.98
+Estonia,Spirits,1997,4.5
+Estonia,Other alcoholic beverages,1997,0.1
+Finland,All types,1997,8.56
+Finland,Beer,1997,4.51
+Finland,Wine,1997,1.65
+Finland,Spirits,1997,1.11
+Finland,Other alcoholic beverages,1997,1.29
+France,All types,1997,13.31
+France,Beer,1997,2.29
+France,Wine,1997,8.02
+France,Spirits,1997,2.75
+France,Other alcoholic beverages,1997,0.25
+Germany,All types,1997,13.0
+Germany,Beer,1997,7.24
+Germany,Wine,1997,3.09
+Germany,Spirits,1997,2.67
+Germany,Other alcoholic beverages,1997,
+Greece,All types,1997,9.5
+Greece,Beer,1997,2.32
+Greece,Wine,1997,4.56
+Greece,Spirits,1997,2.57
+Greece,Other alcoholic beverages,1997,0.05
+Hungary,All types,1997,12.51
+Hungary,Beer,1997,4.16
+Hungary,Wine,1997,4.59
+Hungary,Spirits,1997,3.76
+Iceland,All types,1997,5.1
+Iceland,Beer,1997,2.41
+Iceland,Wine,1997,0.97
+Iceland,Spirits,1997,1.72
+Iceland,Other alcoholic beverages,1997,0.0
+Ireland,All types,1997,14.18
+Ireland,Beer,1997,9.96
+Ireland,Wine,1997,1.2
+Ireland,Spirits,1997,2.34
+Ireland,Other alcoholic beverages,1997,0.68
+Italy,All types,1997,9.12
+Italy,Beer,1997,1.49
+Italy,Wine,1997,6.88
+Italy,Spirits,1997,0.7
+Latvia,All types,1997,8.36
+Latvia,Beer,1997,1.62
+Latvia,Wine,1997,0.84
+Latvia,Spirits,1997,5.9
+Latvia,Other alcoholic beverages,1997,0.0
+Lithuania,All types,1997,7.34
+Lithuania,Beer,1997,2.5
+Lithuania,Wine,1997,0.89
+Lithuania,Spirits,1997,3.92
+Lithuania,Other alcoholic beverages,1997,0.03
+Luxembourg,All types,1997,13.03
+Luxembourg,Beer,1997,4.77
+Luxembourg,Wine,1997,5.56
+Luxembourg,Spirits,1997,2.71
+Luxembourg,Other alcoholic beverages,1997,0.0
+North Macedonia,All types,1997,5.53
+North Macedonia,Beer,1997,1.69
+North Macedonia,Wine,1997,1.08
+North Macedonia,Spirits,1997,2.76
+North Macedonia,Other alcoholic beverages,1997,0.0
+Norway,All types,1997,5.28
+Norway,Beer,1997,2.95
+Norway,Wine,1997,1.28
+Norway,Spirits,1997,1.01
+Norway,Other alcoholic beverages,1997,0.04
+Poland,All types,1997,8.51
+Poland,Beer,1997,3.16
+Poland,Wine,1997,1.79
+Poland,Spirits,1997,3.56
+Poland,Other alcoholic beverages,1997,0.0
+Portugal,All types,1997,12.58
+Portugal,Beer,1997,3.88
+Portugal,Wine,1997,7.22
+Portugal,Spirits,1997,0.71
+Portugal,Other alcoholic beverages,1997,0.77
+Romania,All types,1997,8.74
+Romania,Beer,1997,2.12
+Romania,Wine,1997,4.72
+Romania,Spirits,1997,1.9
+Romania,Other alcoholic beverages,1997,0.0
+Slovakia,All types,1997,13.09
+Slovakia,Beer,1997,5.87
+Slovakia,Wine,1997,2.0
+Slovakia,Spirits,1997,5.22
+Slovakia,Other alcoholic beverages,1997,0.0
+Slovenia,All types,1997,11.44
+Slovenia,Beer,1997,5.0
+Slovenia,Wine,1997,5.29
+Slovenia,Spirits,1997,0.8
+Slovenia,Other alcoholic beverages,1997,0.35
+Spain,All types,1997,11.69
+Spain,Beer,1997,3.95
+Spain,Wine,1997,4.57
+Spain,Spirits,1997,3.08
+Spain,Other alcoholic beverages,1997,0.09
+Sweden,All types,1997,7.11
+Sweden,Beer,1997,3.8
+Sweden,Wine,1997,1.97
+Sweden,Spirits,1997,1.34
+Sweden,Other alcoholic beverages,1997,0.0
+Switzerland,All types,1997,11.21
+Switzerland,Beer,1997,3.41
+Switzerland,Wine,1997,5.85
+Switzerland,Spirits,1997,1.83
+Switzerland,Other alcoholic beverages,1997,0.12
+Ukraine,All types,1997,3.98
+Ukraine,Beer,1997,0.78
+Ukraine,Wine,1997,0.38
+Ukraine,Spirits,1997,2.81
+Ukraine,Other alcoholic beverages,1997,0.0
+Albania,All types,1996,3.12
+Albania,Beer,1996,0.59
+Albania,Wine,1996,1.37
+Albania,Spirits,1996,1.16
+Albania,Other alcoholic beverages,1996,0.0
+Austria,All types,1996,13.5
+Austria,Beer,1996,6.8
+Austria,Wine,1996,4.4
+Austria,Spirits,1996,2.3
+Belarus,All types,1996,10.45
+Belarus,Beer,1996,0.98
+Belarus,Wine,1996,0.28
+Belarus,Spirits,1996,8.16
+Belarus,Other alcoholic beverages,1996,1.03
+Belgium,All types,1996,10.94
+Belgium,Beer,1996,6.2
+Belgium,Wine,1996,3.35
+Belgium,Spirits,1996,1.39
+Belgium,Other alcoholic beverages,1996,0.0
+Bosnia and Herzegovina,All types,1996,9.68
+Bosnia and Herzegovina,Beer,1996,1.46
+Bosnia and Herzegovina,Wine,1996,0.15
+Bosnia and Herzegovina,Spirits,1996,8.07
+Bulgaria,All types,1996,9.18
+Bulgaria,Beer,1996,3.23
+Bulgaria,Wine,1996,2.89
+Bulgaria,Spirits,1996,3.06
+Bulgaria,Other alcoholic beverages,1996,0.0
+Croatia,All types,1996,11.1
+Croatia,Beer,1996,4.1
+Croatia,Wine,1996,5.4
+Croatia,Spirits,1996,1.6
+Croatia,Other alcoholic beverages,1996,0.0
+Czechia,All types,1996,13.78
+Czechia,Beer,1996,7.69
+Czechia,Wine,1996,2.18
+Czechia,Spirits,1996,3.91
+Czechia,Other alcoholic beverages,1996,0.0
+Denmark,All types,1996,12.27
+Denmark,Beer,1996,7.14
+Denmark,Wine,1996,3.78
+Denmark,Spirits,1996,1.35
+Estonia,All types,1996,7.97
+Estonia,Beer,1996,2.24
+Estonia,Wine,1996,0.83
+Estonia,Spirits,1996,4.83
+Estonia,Other alcoholic beverages,1996,0.07
+Finland,All types,1996,8.24
+Finland,Beer,1996,4.43
+Finland,Wine,1996,1.48
+Finland,Spirits,1996,1.08
+Finland,Other alcoholic beverages,1996,1.25
+France,All types,1996,13.77
+France,Beer,1996,2.45
+France,Wine,1996,8.18
+France,Spirits,1996,2.87
+France,Other alcoholic beverages,1996,0.27
+Germany,All types,1996,13.12
+Germany,Beer,1996,7.29
+Germany,Wine,1996,3.06
+Germany,Spirits,1996,2.77
+Germany,Other alcoholic beverages,1996,
+Greece,All types,1996,9.67
+Greece,Beer,1996,2.33
+Greece,Wine,1996,4.47
+Greece,Spirits,1996,2.81
+Greece,Other alcoholic beverages,1996,0.06
+Hungary,All types,1996,12.55
+Hungary,Beer,1996,4.29
+Hungary,Wine,1996,4.37
+Hungary,Spirits,1996,3.89
+Iceland,All types,1996,4.9
+Iceland,Beer,1996,2.2
+Iceland,Wine,1996,0.91
+Iceland,Spirits,1996,1.79
+Iceland,Other alcoholic beverages,1996,0.0
+Ireland,All types,1996,13.66
+Ireland,Beer,1996,9.53
+Ireland,Wine,1996,1.08
+Ireland,Spirits,1996,2.36
+Ireland,Other alcoholic beverages,1996,0.69
+Italy,All types,1996,9.13
+Italy,Beer,1996,1.41
+Italy,Wine,1996,6.98
+Italy,Spirits,1996,0.7
+Latvia,All types,1996,8.37
+Latvia,Beer,1996,1.65
+Latvia,Wine,1996,1.06
+Latvia,Spirits,1996,5.66
+Latvia,Other alcoholic beverages,1996,0.0
+Lithuania,All types,1996,7.13
+Lithuania,Beer,1996,2.1
+Lithuania,Wine,1996,1.26
+Lithuania,Spirits,1996,3.75
+Lithuania,Other alcoholic beverages,1996,0.02
+Luxembourg,All types,1996,13.31
+Luxembourg,Beer,1996,4.87
+Luxembourg,Wine,1996,5.62
+Luxembourg,Spirits,1996,2.82
+Luxembourg,Other alcoholic beverages,1996,0.0
+North Macedonia,All types,1996,5.68
+North Macedonia,Beer,1996,2.01
+North Macedonia,Wine,1996,1.12
+North Macedonia,Spirits,1996,2.54
+North Macedonia,Other alcoholic beverages,1996,0.0
+Norway,All types,1996,5.04
+Norway,Beer,1996,2.88
+Norway,Wine,1996,1.12
+Norway,Spirits,1996,1.02
+Norway,Other alcoholic beverages,1996,0.02
+Poland,All types,1996,7.91
+Poland,Beer,1996,2.74
+Poland,Wine,1996,1.45
+Poland,Spirits,1996,3.72
+Poland,Other alcoholic beverages,1996,0.0
+Portugal,All types,1996,12.84
+Portugal,Beer,1996,3.87
+Portugal,Wine,1996,7.53
+Portugal,Spirits,1996,0.7
+Portugal,Other alcoholic beverages,1996,0.75
+Romania,All types,1996,8.05
+Romania,Beer,1996,2.24
+Romania,Wine,1996,3.8
+Romania,Spirits,1996,2.01
+Romania,Other alcoholic beverages,1996,0.0
+Slovakia,All types,1996,12.86
+Slovakia,Beer,1996,5.78
+Slovakia,Wine,1996,1.95
+Slovakia,Spirits,1996,5.13
+Slovakia,Other alcoholic beverages,1996,0.0
+Slovenia,All types,1996,12.6
+Slovenia,Beer,1996,5.36
+Slovenia,Wine,1996,5.34
+Slovenia,Spirits,1996,1.32
+Slovenia,Other alcoholic beverages,1996,0.58
+Spain,All types,1996,10.86
+Spain,Beer,1996,3.93
+Spain,Wine,1996,3.97
+Spain,Spirits,1996,2.86
+Spain,Other alcoholic beverages,1996,0.1
+Sweden,All types,1996,6.9
+Sweden,Beer,1996,3.65
+Sweden,Wine,1996,1.81
+Sweden,Spirits,1996,1.44
+Sweden,Other alcoholic beverages,1996,0.0
+Switzerland,All types,1996,11.33
+Switzerland,Beer,1996,3.53
+Switzerland,Wine,1996,5.85
+Switzerland,Spirits,1996,1.83
+Switzerland,Other alcoholic beverages,1996,0.12
+Ukraine,All types,1996,3.26
+Ukraine,Beer,1996,0.76
+Ukraine,Wine,1996,0.35
+Ukraine,Spirits,1996,2.1
+Ukraine,Other alcoholic beverages,1996,0.04
+Albania,All types,1995,2.87
+Albania,Beer,1995,1.01
+Albania,Wine,1995,1.05
+Albania,Spirits,1995,0.81
+Albania,Other alcoholic beverages,1995,0.0
+Austria,All types,1995,13.4
+Austria,Beer,1995,6.9
+Austria,Wine,1995,4.5
+Austria,Spirits,1995,2.0
+Belarus,All types,1995,9.35
+Belarus,Beer,1995,0.79
+Belarus,Wine,1995,0.41
+Belarus,Spirits,1995,7.43
+Belarus,Other alcoholic beverages,1995,0.71
+Belgium,All types,1995,11.04
+Belgium,Beer,1995,6.34
+Belgium,Wine,1995,3.35
+Belgium,Spirits,1995,1.35
+Belgium,Other alcoholic beverages,1995,0.0
+Bosnia and Herzegovina,All types,1995,8.47
+Bosnia and Herzegovina,Beer,1995,1.09
+Bosnia and Herzegovina,Wine,1995,0.78
+Bosnia and Herzegovina,Spirits,1995,6.6
+Bulgaria,All types,1995,9.51
+Bulgaria,Beer,1995,3.24
+Bulgaria,Wine,1995,2.92
+Bulgaria,Spirits,1995,3.35
+Bulgaria,Other alcoholic beverages,1995,0.0
+Croatia,All types,1995,10.91
+Croatia,Beer,1995,4.15
+Croatia,Wine,1995,4.95
+Croatia,Spirits,1995,1.81
+Croatia,Other alcoholic beverages,1995,0.0
+Czechia,All types,1995,13.74
+Czechia,Beer,1995,7.72
+Czechia,Wine,1995,2.14
+Czechia,Spirits,1995,3.89
+Czechia,Other alcoholic beverages,1995,0.0
+Denmark,All types,1995,12.16
+Denmark,Beer,1995,7.27
+Denmark,Wine,1995,3.68
+Denmark,Spirits,1995,1.21
+Estonia,All types,1995,8.27
+Estonia,Beer,1995,2.29
+Estonia,Wine,1995,0.58
+Estonia,Spirits,1995,5.37
+Estonia,Other alcoholic beverages,1995,0.03
+Finland,All types,1995,8.31
+Finland,Beer,1995,4.48
+Finland,Wine,1995,1.42
+Finland,Spirits,1995,1.2
+Finland,Other alcoholic beverages,1995,1.29
+France,All types,1995,14.12
+France,Beer,1995,2.43
+France,Wine,1995,8.61
+France,Spirits,1995,2.82
+France,Other alcoholic beverages,1995,0.26
+Germany,All types,1995,13.35
+Germany,Beer,1995,7.52
+Germany,Wine,1995,3.01
+Germany,Spirits,1995,2.82
+Germany,Other alcoholic beverages,1995,
+Greece,All types,1995,10.09
+Greece,Beer,1995,2.4
+Greece,Wine,1995,4.56
+Greece,Spirits,1995,3.07
+Greece,Other alcoholic beverages,1995,0.06
+Hungary,All types,1995,12.56
+Hungary,Beer,1995,4.56
+Hungary,Wine,1995,3.85
+Hungary,Spirits,1995,4.15
+Iceland,All types,1995,4.76
+Iceland,Beer,1995,2.02
+Iceland,Wine,1995,0.81
+Iceland,Spirits,1995,1.93
+Iceland,Other alcoholic beverages,1995,0.0
+Ireland,All types,1995,12.86
+Ireland,Beer,1995,9.16
+Ireland,Wine,1995,0.97
+Ireland,Spirits,1995,2.12
+Ireland,Other alcoholic beverages,1995,0.61
+Italy,All types,1995,9.62
+Italy,Beer,1995,1.49
+Italy,Wine,1995,7.19
+Italy,Spirits,1995,0.94
+Latvia,All types,1995,9.08
+Latvia,Beer,1995,1.74
+Latvia,Wine,1995,1.01
+Latvia,Spirits,1995,6.33
+Latvia,Other alcoholic beverages,1995,0.0
+Lithuania,All types,1995,6.09
+Lithuania,Beer,1995,2.08
+Lithuania,Wine,1995,0.55
+Lithuania,Spirits,1995,3.44
+Lithuania,Other alcoholic beverages,1995,0.02
+Luxembourg,All types,1995,13.61
+Luxembourg,Beer,1995,4.98
+Luxembourg,Wine,1995,5.81
+Luxembourg,Spirits,1995,2.82
+Luxembourg,Other alcoholic beverages,1995,0.0
+North Macedonia,All types,1995,6.63
+North Macedonia,Beer,1995,1.98
+North Macedonia,Wine,1995,1.17
+North Macedonia,Spirits,1995,3.48
+North Macedonia,Other alcoholic beverages,1995,0.0
+Norway,All types,1995,4.79
+Norway,Beer,1995,2.75
+Norway,Wine,1995,1.04
+Norway,Spirits,1995,1.0
+Norway,Other alcoholic beverages,1995,0.0
+Poland,All types,1995,8.01
+Poland,Beer,1995,2.52
+Poland,Wine,1995,0.97
+Poland,Spirits,1995,4.52
+Poland,Other alcoholic beverages,1995,0.0
+Portugal,All types,1995,13.59
+Portugal,Beer,1995,3.92
+Portugal,Wine,1995,8.16
+Portugal,Spirits,1995,0.72
+Portugal,Other alcoholic beverages,1995,0.79
+Romania,All types,1995,8.2
+Romania,Beer,1995,2.46
+Romania,Wine,1995,3.73
+Romania,Spirits,1995,2.01
+Romania,Other alcoholic beverages,1995,0.0
+Slovakia,All types,1995,12.55
+Slovakia,Beer,1995,5.65
+Slovakia,Wine,1995,1.86
+Slovakia,Spirits,1995,5.04
+Slovakia,Other alcoholic beverages,1995,0.0
+Slovenia,All types,1995,13.94
+Slovenia,Beer,1995,5.53
+Slovenia,Wine,1995,6.09
+Slovenia,Spirits,1995,1.76
+Slovenia,Other alcoholic beverages,1995,0.56
+Spain,All types,1995,11.09
+Spain,Beer,1995,3.99
+Spain,Wine,1995,4.03
+Spain,Spirits,1995,2.99
+Spain,Other alcoholic beverages,1995,0.08
+Sweden,All types,1995,7.33
+Sweden,Beer,1995,3.98
+Sweden,Wine,1995,1.71
+Sweden,Spirits,1995,1.64
+Sweden,Other alcoholic beverages,1995,0.0
+Switzerland,All types,1995,11.45
+Switzerland,Beer,1995,3.65
+Switzerland,Wine,1995,5.85
+Switzerland,Spirits,1995,1.83
+Switzerland,Other alcoholic beverages,1995,0.12
+Ukraine,All types,1995,3.72
+Ukraine,Beer,1995,0.85
+Ukraine,Wine,1995,0.3
+Ukraine,Spirits,1995,2.54
+Ukraine,Other alcoholic beverages,1995,0.02
+Albania,All types,1994,2.77
+Albania,Beer,1994,1.27
+Albania,Wine,1994,0.68
+Albania,Spirits,1994,0.82
+Albania,Other alcoholic beverages,1994,0.0
+Austria,All types,1994,12.5
+Austria,Beer,1994,6.9
+Austria,Wine,1994,4.3
+Austria,Spirits,1994,1.3
+Belarus,All types,1994,9.86
+Belarus,Beer,1994,0.88
+Belarus,Wine,1994,0.66
+Belarus,Spirits,1994,7.55
+Belarus,Other alcoholic beverages,1994,0.77
+Belgium,All types,1994,11.12
+Belgium,Beer,1994,6.47
+Belgium,Wine,1994,3.22
+Belgium,Spirits,1994,1.43
+Belgium,Other alcoholic beverages,1994,0.0
+Bosnia and Herzegovina,All types,1994,8.19
+Bosnia and Herzegovina,Beer,1994,1.09
+Bosnia and Herzegovina,Wine,1994,0.43
+Bosnia and Herzegovina,Spirits,1994,6.67
+Bulgaria,All types,1994,9.7
+Bulgaria,Beer,1994,3.26
+Bulgaria,Wine,1994,2.96
+Bulgaria,Spirits,1994,3.48
+Bulgaria,Other alcoholic beverages,1994,0.0
+Croatia,All types,1994,11.61
+Croatia,Beer,1994,4.09
+Croatia,Wine,1994,5.3
+Croatia,Spirits,1994,2.22
+Croatia,Other alcoholic beverages,1994,0.0
+Czechia,All types,1994,13.83
+Czechia,Beer,1994,7.76
+Czechia,Wine,1994,2.15
+Czechia,Spirits,1994,3.91
+Czechia,Other alcoholic beverages,1994,0.0
+Denmark,All types,1994,12.14
+Denmark,Beer,1994,7.34
+Denmark,Wine,1994,3.48
+Denmark,Spirits,1994,1.32
+Estonia,All types,1994,8.18
+Estonia,Beer,1994,2.18
+Estonia,Wine,1994,0.32
+Estonia,Spirits,1994,5.65
+Estonia,Other alcoholic beverages,1994,0.03
+Finland,All types,1994,8.16
+Finland,Beer,1994,4.56
+Finland,Wine,1994,1.3
+Finland,Spirits,1994,1.07
+Finland,Other alcoholic beverages,1994,1.23
+France,All types,1994,14.11
+France,Beer,1994,2.45
+France,Wine,1994,8.56
+France,Spirits,1994,2.84
+France,Other alcoholic beverages,1994,0.26
+Germany,All types,1994,13.37
+Germany,Beer,1994,7.61
+Germany,Wine,1994,2.93
+Germany,Spirits,1994,2.83
+Germany,Other alcoholic beverages,1994,
+Greece,All types,1994,10.43
+Greece,Beer,1994,2.54
+Greece,Wine,1994,4.5
+Greece,Spirits,1994,3.32
+Greece,Other alcoholic beverages,1994,0.07
+Hungary,All types,1994,13.71
+Hungary,Beer,1994,5.15
+Hungary,Wine,1994,4.27
+Hungary,Spirits,1994,4.29
+Iceland,All types,1994,4.61
+Iceland,Beer,1994,1.81
+Iceland,Wine,1994,0.78
+Iceland,Spirits,1994,2.02
+Iceland,Other alcoholic beverages,1994,0.0
+Ireland,All types,1994,12.67
+Ireland,Beer,1994,9.02
+Ireland,Wine,1994,0.9
+Ireland,Spirits,1994,2.14
+Ireland,Other alcoholic beverages,1994,0.62
+Italy,All types,1994,10.12
+Italy,Beer,1994,1.54
+Italy,Wine,1994,7.57
+Italy,Spirits,1994,1.06
+Latvia,All types,1994,9.59
+Latvia,Beer,1994,1.27
+Latvia,Wine,1994,1.64
+Latvia,Spirits,1994,6.68
+Latvia,Other alcoholic beverages,1994,0.0
+Lithuania,All types,1994,3.62
+Lithuania,Beer,1994,2.21
+Lithuania,Wine,1994,0.25
+Lithuania,Spirits,1994,1.16
+Lithuania,Other alcoholic beverages,1994,0.0
+Luxembourg,All types,1994,13.61
+Luxembourg,Beer,1994,5.03
+Luxembourg,Wine,1994,5.75
+Luxembourg,Spirits,1994,2.84
+Luxembourg,Other alcoholic beverages,1994,0.0
+North Macedonia,All types,1994,7.54
+North Macedonia,Beer,1994,2.27
+North Macedonia,Wine,1994,1.81
+North Macedonia,Spirits,1994,3.46
+North Macedonia,Other alcoholic beverages,1994,0.0
+Norway,All types,1994,4.74
+Norway,Beer,1994,2.75
+Norway,Wine,1994,0.99
+Norway,Spirits,1994,1.0
+Norway,Other alcoholic beverages,1994,0.0
+Poland,All types,1994,8.31
+Poland,Beer,1994,2.37
+Poland,Wine,1994,0.99
+Poland,Spirits,1994,4.95
+Poland,Other alcoholic beverages,1994,0.0
+Portugal,All types,1994,14.05
+Portugal,Beer,1994,4.05
+Portugal,Wine,1994,8.43
+Portugal,Spirits,1994,0.78
+Portugal,Other alcoholic beverages,1994,0.79
+Romania,All types,1994,7.84
+Romania,Beer,1994,2.64
+Romania,Wine,1994,3.27
+Romania,Spirits,1994,1.93
+Romania,Other alcoholic beverages,1994,0.0
+Slovakia,All types,1994,13.02
+Slovakia,Beer,1994,6.08
+Slovakia,Wine,1994,1.99
+Slovakia,Spirits,1994,4.95
+Slovakia,Other alcoholic beverages,1994,0.0
+Slovenia,All types,1994,14.8
+Slovenia,Beer,1994,5.52
+Slovenia,Wine,1994,6.14
+Slovenia,Spirits,1994,2.56
+Slovenia,Other alcoholic beverages,1994,0.58
+Spain,All types,1994,11.36
+Spain,Beer,1994,3.99
+Spain,Wine,1994,4.27
+Spain,Spirits,1994,3.02
+Spain,Other alcoholic beverages,1994,0.08
+Sweden,All types,1994,7.71
+Sweden,Beer,1994,4.15
+Sweden,Wine,1994,1.78
+Sweden,Spirits,1994,1.78
+Sweden,Other alcoholic beverages,1994,0.0
+Switzerland,All types,1994,11.79
+Switzerland,Beer,1994,3.77
+Switzerland,Wine,1994,5.96
+Switzerland,Spirits,1994,1.95
+Switzerland,Other alcoholic beverages,1994,0.12
+Ukraine,All types,1994,4.21
+Ukraine,Beer,1994,1.12
+Ukraine,Wine,1994,0.13
+Ukraine,Spirits,1994,2.96
+Ukraine,Other alcoholic beverages,1994,0.0
+Albania,All types,1993,1.49
+Albania,Beer,1993,0.52
+Albania,Wine,1993,0.66
+Albania,Spirits,1993,0.32
+Albania,Other alcoholic beverages,1993,0.0
+Austria,All types,1993,13.5
+Austria,Beer,1993,7.2
+Austria,Wine,1993,4.5
+Austria,Spirits,1993,1.8
+Belarus,All types,1993,10.23
+Belarus,Beer,1993,1.24
+Belarus,Wine,1993,0.48
+Belarus,Spirits,1993,7.87
+Belarus,Other alcoholic beverages,1993,0.64
+Belgium,All types,1993,11.66
+Belgium,Beer,1993,6.68
+Belgium,Wine,1993,3.44
+Belgium,Spirits,1993,1.54
+Belgium,Other alcoholic beverages,1993,0.0
+Bosnia and Herzegovina,All types,1993,8.55
+Bosnia and Herzegovina,Beer,1993,0.92
+Bosnia and Herzegovina,Wine,1993,0.48
+Bosnia and Herzegovina,Spirits,1993,7.15
+Bulgaria,All types,1993,9.86
+Bulgaria,Beer,1993,3.49
+Bulgaria,Wine,1993,2.99
+Bulgaria,Spirits,1993,3.38
+Bulgaria,Other alcoholic beverages,1993,0.0
+Croatia,All types,1993,11.26
+Croatia,Beer,1993,3.29
+Croatia,Wine,1993,6.0
+Croatia,Spirits,1993,1.97
+Croatia,Other alcoholic beverages,1993,0.0
+Czechia,All types,1993,13.72
+Czechia,Beer,1993,7.67
+Czechia,Wine,1993,2.16
+Czechia,Spirits,1993,3.89
+Czechia,Other alcoholic beverages,1993,0.0
+Denmark,All types,1993,11.89
+Denmark,Beer,1993,7.25
+Denmark,Wine,1993,3.34
+Denmark,Spirits,1993,1.3
+Estonia,All types,1993,8.1
+Estonia,Beer,1993,1.85
+Estonia,Wine,1993,0.33
+Estonia,Spirits,1993,5.88
+Estonia,Other alcoholic beverages,1993,0.04
+Finland,All types,1993,8.39
+Finland,Beer,1993,4.71
+Finland,Wine,1993,1.21
+Finland,Spirits,1993,1.14
+Finland,Other alcoholic beverages,1993,1.32
+France,All types,1993,14.24
+France,Beer,1993,2.44
+France,Wine,1993,8.71
+France,Spirits,1993,2.83
+France,Other alcoholic beverages,1993,0.26
+Germany,All types,1993,13.5
+Germany,Beer,1993,7.48
+Germany,Wine,1993,3.07
+Germany,Spirits,1993,2.95
+Germany,Other alcoholic beverages,1993,
+Greece,All types,1993,10.67
+Greece,Beer,1993,2.55
+Greece,Wine,1993,4.71
+Greece,Spirits,1993,3.34
+Greece,Other alcoholic beverages,1993,0.07
+Hungary,All types,1993,14.16
+Hungary,Beer,1993,5.08
+Hungary,Wine,1993,4.63
+Hungary,Spirits,1993,4.44
+Iceland,All types,1993,4.45
+Iceland,Beer,1993,1.49
+Iceland,Wine,1993,0.76
+Iceland,Spirits,1993,2.2
+Iceland,Other alcoholic beverages,1993,0.0
+Ireland,All types,1993,12.34
+Ireland,Beer,1993,8.52
+Ireland,Wine,1993,0.86
+Ireland,Spirits,1993,2.3
+Ireland,Other alcoholic beverages,1993,0.66
+Italy,All types,1993,10.27
+Italy,Beer,1993,1.48
+Italy,Wine,1993,7.64
+Italy,Spirits,1993,1.06
+Latvia,All types,1993,7.95
+Latvia,Beer,1993,1.22
+Latvia,Wine,1993,1.59
+Latvia,Spirits,1993,5.14
+Latvia,Other alcoholic beverages,1993,0.0
+Lithuania,All types,1993,3.88
+Lithuania,Beer,1993,2.17
+Lithuania,Wine,1993,0.39
+Lithuania,Spirits,1993,1.31
+Lithuania,Other alcoholic beverages,1993,0.02
+Luxembourg,All types,1993,13.74
+Luxembourg,Beer,1993,4.96
+Luxembourg,Wine,1993,5.89
+Luxembourg,Spirits,1993,2.89
+Luxembourg,Other alcoholic beverages,1993,0.0
+North Macedonia,All types,1993,5.09
+North Macedonia,Beer,1993,2.39
+North Macedonia,Wine,1993,1.73
+North Macedonia,Spirits,1993,0.97
+North Macedonia,Other alcoholic beverages,1993,0.0
+Norway,All types,1993,4.55
+Norway,Beer,1993,2.67
+Norway,Wine,1993,0.92
+Norway,Spirits,1993,0.96
+Norway,Other alcoholic beverages,1993,0.0
+Poland,All types,1993,8.39
+Poland,Beer,1993,2.16
+Poland,Wine,1993,1.08
+Poland,Spirits,1993,5.15
+Poland,Other alcoholic beverages,1993,0.0
+Portugal,All types,1993,14.17
+Portugal,Beer,1993,3.9
+Portugal,Wine,1993,8.6
+Portugal,Spirits,1993,0.86
+Portugal,Other alcoholic beverages,1993,0.81
+Romania,All types,1993,9.01
+Romania,Beer,1993,2.76
+Romania,Wine,1993,3.87
+Romania,Spirits,1993,2.38
+Romania,Other alcoholic beverages,1993,0.0
+Slovakia,All types,1993,12.04
+Slovakia,Beer,1993,5.91
+Slovakia,Wine,1993,2.06
+Slovakia,Spirits,1993,4.07
+Slovakia,Other alcoholic beverages,1993,0.0
+Slovenia,All types,1993,15.66
+Slovenia,Beer,1993,5.31
+Slovenia,Wine,1993,7.57
+Slovenia,Spirits,1993,2.5
+Slovenia,Other alcoholic beverages,1993,0.28
+Spain,All types,1993,11.67
+Spain,Beer,1993,4.0
+Spain,Wine,1993,4.56
+Spain,Spirits,1993,3.04
+Spain,Other alcoholic beverages,1993,0.07
+Sweden,All types,1993,7.51
+Sweden,Beer,1993,3.93
+Sweden,Wine,1993,1.72
+Sweden,Spirits,1993,1.86
+Sweden,Other alcoholic beverages,1993,0.0
+Switzerland,All types,1993,12.33
+Switzerland,Beer,1993,3.99
+Switzerland,Wine,1993,6.16
+Switzerland,Spirits,1993,1.93
+Switzerland,Other alcoholic beverages,1993,0.24
+Ukraine,All types,1993,5.47
+Ukraine,Beer,1993,1.13
+Ukraine,Wine,1993,0.45
+Ukraine,Spirits,1993,3.9
+Ukraine,Other alcoholic beverages,1993,0.0
+Albania,All types,1992,1.35
+Albania,Beer,1992,0.09
+Albania,Wine,1992,0.67
+Albania,Spirits,1992,0.6
+Albania,Other alcoholic beverages,1992,0.0
+Austria,All types,1992,13.6
+Austria,Beer,1992,7.5
+Austria,Wine,1992,4.6
+Austria,Spirits,1992,1.5
+Belarus,All types,1992,8.7
+Belarus,Beer,1992,1.58
+Belarus,Wine,1992,0.24
+Belarus,Spirits,1992,6.54
+Belarus,Other alcoholic beverages,1992,0.35
+Belgium,All types,1992,11.65
+Belgium,Beer,1992,6.85
+Belgium,Wine,1992,3.33
+Belgium,Spirits,1992,1.47
+Belgium,Other alcoholic beverages,1992,0.0
+Bosnia and Herzegovina,All types,1992,10.03
+Bosnia and Herzegovina,Beer,1992,0.87
+Bosnia and Herzegovina,Wine,1992,0.84
+Bosnia and Herzegovina,Spirits,1992,8.32
+Bulgaria,All types,1992,10.15
+Bulgaria,Beer,1992,3.51
+Bulgaria,Wine,1992,3.13
+Bulgaria,Spirits,1992,3.51
+Bulgaria,Other alcoholic beverages,1992,0.0
+Croatia,All types,1992,11.47
+Croatia,Beer,1992,3.49
+Croatia,Wine,1992,6.3
+Croatia,Spirits,1992,1.68
+Croatia,Other alcoholic beverages,1992,0.0
+Czechia,All types,1992,14.39
+Czechia,Beer,1992,8.22
+Czechia,Wine,1992,2.13
+Czechia,Spirits,1992,4.03
+Czechia,Other alcoholic beverages,1992,0.0
+Denmark,All types,1992,11.94
+Denmark,Beer,1992,7.29
+Denmark,Wine,1992,3.22
+Denmark,Spirits,1992,1.43
+Estonia,All types,1992,7.84
+Estonia,Beer,1992,1.86
+Estonia,Wine,1992,0.28
+Estonia,Spirits,1992,5.67
+Estonia,Other alcoholic beverages,1992,0.03
+Finland,All types,1992,8.88
+Finland,Beer,1992,4.89
+Finland,Wine,1992,1.2
+Finland,Spirits,1992,1.3
+Finland,Other alcoholic beverages,1992,1.5
+France,All types,1992,14.72
+France,Beer,1992,2.56
+France,Wine,1992,8.87
+France,Spirits,1992,3.09
+France,Other alcoholic beverages,1992,0.2
+Germany,All types,1992,13.84
+Germany,Beer,1992,8.22
+Germany,Wine,1992,3.03
+Germany,Spirits,1992,2.59
+Germany,Other alcoholic beverages,1992,
+Greece,All types,1992,9.99
+Greece,Beer,1992,2.45
+Greece,Wine,1992,4.24
+Greece,Spirits,1992,3.23
+Greece,Other alcoholic beverages,1992,0.07
+Hungary,All types,1992,14.82
+Hungary,Beer,1992,5.81
+Hungary,Wine,1992,4.42
+Hungary,Spirits,1992,4.59
+Iceland,All types,1992,4.73
+Iceland,Beer,1992,1.45
+Iceland,Wine,1992,0.79
+Iceland,Spirits,1992,2.49
+Iceland,Other alcoholic beverages,1992,0.0
+Ireland,All types,1992,12.51
+Ireland,Beer,1992,8.9
+Ireland,Wine,1992,0.8
+Ireland,Spirits,1992,2.18
+Ireland,Other alcoholic beverages,1992,0.63
+Italy,All types,1992,10.55
+Italy,Beer,1992,1.53
+Italy,Wine,1992,7.87
+Italy,Spirits,1992,1.18
+Latvia,All types,1992,6.88
+Latvia,Beer,1992,1.25
+Latvia,Wine,1992,1.25
+Latvia,Spirits,1992,4.38
+Latvia,Other alcoholic beverages,1992,0.0
+Lithuania,All types,1992,3.97
+Lithuania,Beer,1992,2.12
+Lithuania,Wine,1992,0.25
+Lithuania,Spirits,1992,1.59
+Lithuania,Other alcoholic beverages,1992,0.01
+Luxembourg,All types,1992,14.18
+Luxembourg,Beer,1992,5.39
+Luxembourg,Wine,1992,5.95
+Luxembourg,Spirits,1992,2.84
+Luxembourg,Other alcoholic beverages,1992,0.0
+North Macedonia,All types,1992,7.0
+North Macedonia,Beer,1992,2.68
+North Macedonia,Wine,1992,2.01
+North Macedonia,Spirits,1992,2.31
+North Macedonia,Other alcoholic beverages,1992,0.0
+Norway,All types,1992,4.67
+Norway,Beer,1992,2.76
+Norway,Wine,1992,0.91
+Norway,Spirits,1992,1.0
+Norway,Other alcoholic beverages,1992,0.0
+Poland,All types,1992,8.27
+Poland,Beer,1992,2.55
+Poland,Wine,1992,1.1
+Poland,Spirits,1992,4.62
+Poland,Other alcoholic beverages,1992,0.0
+Portugal,All types,1992,14.36
+Portugal,Beer,1992,3.94
+Portugal,Wine,1992,8.82
+Portugal,Spirits,1992,0.85
+Portugal,Other alcoholic beverages,1992,0.76
+Romania,All types,1992,8.81
+Romania,Beer,1992,2.78
+Romania,Wine,1992,3.12
+Romania,Spirits,1992,2.91
+Romania,Other alcoholic beverages,1992,0.0
+Slovakia,All types,1992,12.63
+Slovakia,Beer,1992,6.08
+Slovakia,Wine,1992,2.19
+Slovakia,Spirits,1992,4.36
+Slovakia,Other alcoholic beverages,1992,0.0
+Slovenia,All types,1992,15.7
+Slovenia,Beer,1992,4.86
+Slovenia,Wine,1992,7.86
+Slovenia,Spirits,1992,2.53
+Slovenia,Other alcoholic beverages,1992,0.45
+Spain,All types,1992,12.19
+Spain,Beer,1992,4.32
+Spain,Wine,1992,4.49
+Spain,Spirits,1992,3.31
+Spain,Other alcoholic beverages,1992,0.07
+Sweden,All types,1992,7.5
+Sweden,Beer,1992,3.83
+Sweden,Wine,1992,1.7
+Sweden,Spirits,1992,1.97
+Sweden,Other alcoholic beverages,1992,0.0
+Switzerland,All types,1992,12.33
+Switzerland,Beer,1992,3.99
+Switzerland,Wine,1992,6.16
+Switzerland,Spirits,1992,1.93
+Switzerland,Other alcoholic beverages,1992,0.24
+Ukraine,All types,1992,5.54
+Ukraine,Beer,1992,1.36
+Ukraine,Wine,1992,0.57
+Ukraine,Spirits,1992,3.61
+Ukraine,Other alcoholic beverages,1992,0.0
+Albania,All types,1991,1.28
+Albania,Beer,1991,0.18
+Albania,Wine,1991,0.61
+Albania,Spirits,1991,0.49
+Albania,Other alcoholic beverages,1991,0.0
+Austria,All types,1991,14.1
+Austria,Beer,1991,7.3
+Austria,Wine,1991,4.7
+Austria,Spirits,1991,2.1
+Belarus,All types,1991,8.87
+Belarus,Beer,1991,1.92
+Belarus,Wine,1991,1.25
+Belarus,Spirits,1991,5.69
+Belarus,Other alcoholic beverages,1991,0.0
+Belgium,All types,1991,11.44
+Belgium,Beer,1991,6.8
+Belgium,Wine,1991,3.21
+Belgium,Spirits,1991,1.43
+Belgium,Other alcoholic beverages,1991,0.0
+Bosnia and Herzegovina,All types,1991,13.79
+Bosnia and Herzegovina,Beer,1991,2.15
+Bosnia and Herzegovina,Wine,1991,0.68
+Bosnia and Herzegovina,Spirits,1991,10.96
+Bulgaria,All types,1991,9.47
+Bulgaria,Beer,1991,3.15
+Bulgaria,Wine,1991,2.81
+Bulgaria,Spirits,1991,3.51
+Bulgaria,Other alcoholic beverages,1991,0.0
+Croatia,All types,1991,13.69
+Croatia,Beer,1991,3.17
+Croatia,Wine,1991,6.13
+Croatia,Spirits,1991,4.39
+Croatia,Other alcoholic beverages,1991,0.0
+Czechia,All types,1991,13.74
+Czechia,Beer,1991,7.45
+Czechia,Wine,1991,2.12
+Czechia,Spirits,1991,4.16
+Czechia,Other alcoholic beverages,1991,0.0
+Denmark,All types,1991,11.76
+Denmark,Beer,1991,7.25
+Denmark,Wine,1991,2.92
+Denmark,Spirits,1991,1.59
+Estonia,All types,1991,9.13
+Estonia,Beer,1991,1.67
+Estonia,Wine,1991,0.0
+Estonia,Spirits,1991,7.46
+Estonia,Other alcoholic beverages,1991,0.0
+Finland,All types,1991,9.22
+Finland,Beer,1991,4.82
+Finland,Wine,1991,1.15
+Finland,Spirits,1991,1.52
+Finland,Other alcoholic beverages,1991,1.76
+France,All types,1991,14.85
+France,Beer,1991,2.53
+France,Wine,1991,9.21
+France,Spirits,1991,2.85
+France,Other alcoholic beverages,1991,0.26
+Germany,All types,1991,13.92
+Germany,Beer,1991,8.09
+Germany,Wine,1991,3.0
+Germany,Spirits,1991,2.83
+Germany,Other alcoholic beverages,1991,
+Greece,All types,1991,10.18
+Greece,Beer,1991,2.46
+Greece,Wine,1991,4.39
+Greece,Spirits,1991,3.26
+Greece,Other alcoholic beverages,1991,0.07
+Hungary,All types,1991,15.43
+Hungary,Beer,1991,6.26
+Hungary,Wine,1991,4.31
+Hungary,Spirits,1991,4.86
+Iceland,All types,1991,5.14
+Iceland,Beer,1991,1.58
+Iceland,Wine,1991,0.8
+Iceland,Spirits,1991,2.76
+Iceland,Other alcoholic beverages,1991,0.0
+Ireland,All types,1991,12.2
+Ireland,Beer,1991,8.47
+Ireland,Wine,1991,0.74
+Ireland,Spirits,1991,2.33
+Ireland,Other alcoholic beverages,1991,0.67
+Italy,All types,1991,10.82
+Italy,Beer,1991,1.48
+Italy,Wine,1991,8.12
+Italy,Spirits,1991,1.19
+Latvia,All types,1991,6.74
+Latvia,Beer,1991,1.15
+Latvia,Wine,1991,1.27
+Latvia,Spirits,1991,4.32
+Latvia,Other alcoholic beverages,1991,0.0
+Lithuania,All types,1991,8.03
+Lithuania,Beer,1991,2.46
+Lithuania,Wine,1991,0.63
+Lithuania,Spirits,1991,4.94
+Lithuania,Other alcoholic beverages,1991,0.0
+Luxembourg,All types,1991,14.26
+Luxembourg,Beer,1991,5.31
+Luxembourg,Wine,1991,6.11
+Luxembourg,Spirits,1991,2.84
+Luxembourg,Other alcoholic beverages,1991,0.0
+North Macedonia,All types,1991,
+North Macedonia,Beer,1991,
+North Macedonia,Wine,1991,
+North Macedonia,Spirits,1991,
+North Macedonia,Other alcoholic beverages,1991,
+Norway,All types,1991,4.9
+Norway,Beer,1991,2.85
+Norway,Wine,1991,0.93
+Norway,Spirits,1991,1.12
+Norway,Other alcoholic beverages,1991,0.0
+Poland,All types,1991,8.63
+Poland,Beer,1991,2.47
+Poland,Wine,1991,1.25
+Poland,Spirits,1991,4.91
+Poland,Other alcoholic beverages,1991,0.0
+Portugal,All types,1991,14.78
+Portugal,Beer,1991,4.07
+Portugal,Wine,1991,9.07
+Portugal,Spirits,1991,0.85
+Portugal,Other alcoholic beverages,1991,0.79
+Romania,All types,1991,8.91
+Romania,Beer,1991,2.71
+Romania,Wine,1991,3.31
+Romania,Spirits,1991,2.89
+Romania,Other alcoholic beverages,1991,0.0
+Slovakia,All types,1991,13.24
+Slovakia,Beer,1991,6.09
+Slovakia,Wine,1991,2.36
+Slovakia,Spirits,1991,4.79
+Slovakia,Other alcoholic beverages,1991,0.0
+Slovenia,All types,1991,13.18
+Slovenia,Beer,1991,3.07
+Slovenia,Wine,1991,7.79
+Slovenia,Spirits,1991,2.31
+Slovenia,Other alcoholic beverages,1991,0.01
+Spain,All types,1991,12.88
+Spain,Beer,1991,4.39
+Spain,Wine,1991,5.07
+Spain,Spirits,1991,3.34
+Spain,Other alcoholic beverages,1991,0.08
+Sweden,All types,1991,7.47
+Sweden,Beer,1991,3.74
+Sweden,Wine,1991,1.66
+Sweden,Spirits,1991,2.07
+Sweden,Other alcoholic beverages,1991,0.0
+Switzerland,All types,1991,12.9
+Switzerland,Beer,1991,4.1
+Switzerland,Wine,1991,6.39
+Switzerland,Spirits,1991,2.17
+Switzerland,Other alcoholic beverages,1991,0.24
+Ukraine,All types,1991,5.86
+Ukraine,Beer,1991,1.61
+Ukraine,Wine,1991,0.83
+Ukraine,Spirits,1991,3.41
+Ukraine,Other alcoholic beverages,1991,0.0
+Albania,All types,1990,2.03
+Albania,Beer,1990,0.42
+Albania,Wine,1990,0.65
+Albania,Spirits,1990,0.96
+Albania,Other alcoholic beverages,1990,0.0
+Austria,All types,1990,13.9
+Austria,Beer,1990,7.3
+Austria,Wine,1990,4.8
+Austria,Spirits,1990,1.8
+Belarus,All types,1990,7.85
+Belarus,Beer,1990,1.87
+Belarus,Wine,1990,1.28
+Belarus,Spirits,1990,4.7
+Belarus,Other alcoholic beverages,1990,0.0
+Belgium,All types,1990,12.18
+Belgium,Beer,1990,7.37
+Belgium,Wine,1990,3.34
+Belgium,Spirits,1990,1.47
+Belgium,Other alcoholic beverages,1990,0.0
+Bosnia and Herzegovina,All types,1990,11.87
+Bosnia and Herzegovina,Beer,1990,2.68
+Bosnia and Herzegovina,Wine,1990,0.59
+Bosnia and Herzegovina,Spirits,1990,8.6
+Bulgaria,All types,1990,11.46
+Bulgaria,Beer,1990,4.2
+Bulgaria,Wine,1990,3.24
+Bulgaria,Spirits,1990,4.02
+Bulgaria,Other alcoholic beverages,1990,0.0
+Croatia,All types,1990,15.9
+Croatia,Beer,1990,3.9
+Croatia,Wine,1990,7.6
+Croatia,Spirits,1990,4.4
+Croatia,Other alcoholic beverages,1990,0.0
+Czechia,All types,1990,
+Czechia,Beer,1990,
+Czechia,Wine,1990,
+Czechia,Spirits,1990,
+Czechia,Other alcoholic beverages,1990,
+Denmark,All types,1990,11.85
+Denmark,Beer,1990,7.45
+Denmark,Wine,1990,2.82
+Denmark,Spirits,1990,1.58
+Estonia,All types,1990,9.84
+Estonia,Beer,1990,3.15
+Estonia,Wine,1990,0.0
+Estonia,Spirits,1990,6.69
+Estonia,Other alcoholic beverages,1990,0.0
+Finland,All types,1990,9.53
+Finland,Beer,1990,4.78
+Finland,Wine,1990,1.02
+Finland,Spirits,1990,1.73
+Finland,Other alcoholic beverages,1990,2.0
+France,All types,1990,15.73
+France,Beer,1990,2.6
+France,Wine,1990,10.01
+France,Spirits,1990,2.86
+France,Other alcoholic beverages,1990,0.26
+Germany,All types,1990,14.89
+Germany,Beer,1990,8.51
+Germany,Wine,1990,3.73
+Germany,Spirits,1990,2.66
+Germany,Other alcoholic beverages,1990,
+Greece,All types,1990,10.33
+Greece,Beer,1990,2.48
+Greece,Wine,1990,4.49
+Greece,Spirits,1990,3.29
+Greece,Other alcoholic beverages,1990,0.07
+Hungary,All types,1990,16.15
+Hungary,Beer,1990,6.59
+Hungary,Wine,1990,4.17
+Hungary,Spirits,1990,5.39
+Iceland,All types,1990,5.24
+Iceland,Beer,1990,1.73
+Iceland,Wine,1990,0.76
+Iceland,Spirits,1990,2.75
+Iceland,Other alcoholic beverages,1990,0.0
+Ireland,All types,1990,12.13
+Ireland,Beer,1990,8.41
+Ireland,Wine,1990,0.71
+Ireland,Spirits,1990,2.33
+Ireland,Other alcoholic beverages,1990,0.68
+Italy,All types,1990,10.99
+Italy,Beer,1990,1.5
+Italy,Wine,1990,8.22
+Italy,Spirits,1990,1.19
+Latvia,All types,1990,6.72
+Latvia,Beer,1990,1.01
+Latvia,Wine,1990,1.39
+Latvia,Spirits,1990,4.31
+Latvia,Other alcoholic beverages,1990,0.0
+Lithuania,All types,1990,7.05
+Lithuania,Beer,1990,2.62
+Lithuania,Wine,1990,0.31
+Lithuania,Spirits,1990,4.11
+Lithuania,Other alcoholic beverages,1990,0.0
+Luxembourg,All types,1990,15.03
+Luxembourg,Beer,1990,5.56
+Luxembourg,Wine,1990,6.72
+Luxembourg,Spirits,1990,2.76
+Luxembourg,Other alcoholic beverages,1990,0.0
+North Macedonia,All types,1990,
+North Macedonia,Beer,1990,
+North Macedonia,Wine,1990,
+North Macedonia,Spirits,1990,
+North Macedonia,Other alcoholic beverages,1990,
+Norway,All types,1990,4.99
+Norway,Beer,1990,2.81
+Norway,Wine,1990,0.95
+Norway,Spirits,1990,1.24
+Norway,Other alcoholic beverages,1990,0.0
+Poland,All types,1990,8.16
+Poland,Beer,1990,2.02
+Poland,Wine,1990,1.08
+Poland,Spirits,1990,5.06
+Poland,Other alcoholic beverages,1990,0.0
+Portugal,All types,1990,15.21
+Portugal,Beer,1990,4.1
+Portugal,Wine,1990,9.33
+Portugal,Spirits,1990,0.92
+Portugal,Other alcoholic beverages,1990,0.86
+Romania,All types,1990,8.92
+Romania,Beer,1990,2.89
+Romania,Wine,1990,3.17
+Romania,Spirits,1990,2.86
+Romania,Other alcoholic beverages,1990,0.0
+Slovakia,All types,1990,
+Slovakia,Beer,1990,6.4
+Slovakia,Wine,1990,2.34
+Slovakia,Spirits,1990,4.75
+Slovakia,Other alcoholic beverages,1990,
+Slovenia,All types,1990,13.79
+Slovenia,Beer,1990,3.34
+Slovenia,Wine,1990,8.03
+Slovenia,Spirits,1990,2.42
+Slovenia,Other alcoholic beverages,1990,0.0
+Spain,All types,1990,12.98
+Spain,Beer,1990,4.46
+Spain,Wine,1990,5.1
+Spain,Spirits,1990,3.35
+Spain,Other alcoholic beverages,1990,0.07
+Sweden,All types,1990,7.41
+Sweden,Beer,1990,3.66
+Sweden,Wine,1990,1.65
+Sweden,Spirits,1990,2.1
+Sweden,Other alcoholic beverages,1990,0.0
+Switzerland,All types,1990,12.99
+Switzerland,Beer,1990,4.09
+Switzerland,Wine,1990,6.5
+Switzerland,Spirits,1990,2.17
+Switzerland,Other alcoholic beverages,1990,0.24
+Ukraine,All types,1990,5.67
+Ukraine,Beer,1990,1.7
+Ukraine,Wine,1990,0.81
+Ukraine,Spirits,1990,3.16
+Ukraine,Other alcoholic beverages,1990,0.0
+Albania,All types,1989,1.73
+Albania,Beer,1989,0.52
+Albania,Wine,1989,0.46
+Albania,Spirits,1989,0.75
+Albania,Other alcoholic beverages,1989,
+Austria,All types,1989,13.9
+Austria,Beer,1989,7.1
+Austria,Wine,1989,4.9
+Austria,Spirits,1989,1.9
+Belarus,All types,1989,7.98
+Belarus,Beer,1989,1.83
+Belarus,Wine,1989,1.34
+Belarus,Spirits,1989,4.81
+Belarus,Other alcoholic beverages,1989,0.0
+Belgium,All types,1989,11.61
+Belgium,Beer,1989,7.01
+Belgium,Wine,1989,3.09
+Belgium,Spirits,1989,1.51
+Belgium,Other alcoholic beverages,1989,0.0
+Bosnia and Herzegovina,All types,1989,
+Bosnia and Herzegovina,Beer,1989,
+Bosnia and Herzegovina,Wine,1989,
+Bosnia and Herzegovina,Spirits,1989,
+Bulgaria,All types,1989,11.43
+Bulgaria,Beer,1989,4.43
+Bulgaria,Wine,1989,3.02
+Bulgaria,Spirits,1989,3.98
+Bulgaria,Other alcoholic beverages,1989,0.0
+Croatia,All types,1989,10.92
+Croatia,Beer,1989,2.87
+Croatia,Wine,1989,5.1
+Croatia,Spirits,1989,2.95
+Croatia,Other alcoholic beverages,1989,0.0
+Czechia,All types,1989,13.01
+Czechia,Beer,1989,6.75
+Czechia,Wine,1989,1.95
+Czechia,Spirits,1989,4.31
+Czechia,Other alcoholic beverages,1989,
+Denmark,All types,1989,11.65
+Denmark,Beer,1989,7.45
+Denmark,Wine,1989,2.55
+Denmark,Spirits,1989,1.65
+Estonia,All types,1989,
+Estonia,Beer,1989,
+Estonia,Wine,1989,
+Estonia,Spirits,1989,
+Estonia,Other alcoholic beverages,1989,
+Finland,All types,1989,9.42
+Finland,Beer,1989,4.55
+Finland,Wine,1989,0.98
+Finland,Spirits,1989,1.8
+Finland,Other alcoholic beverages,1989,2.09
+France,All types,1989,16.05
+France,Beer,1989,2.56
+France,Wine,1989,10.24
+France,Spirits,1989,2.98
+France,Other alcoholic beverages,1989,0.27
+Germany,All types,1989,14.64
+Germany,Beer,1989,8.47
+Germany,Wine,1989,3.74
+Germany,Spirits,1989,2.43
+Germany,Other alcoholic beverages,1989,
+Greece,All types,1989,10.15
+Greece,Beer,1989,2.4
+Greece,Wine,1989,4.12
+Greece,Spirits,1989,3.56
+Greece,Other alcoholic beverages,1989,0.07
+Hungary,All types,1989,16.29
+Hungary,Beer,1989,6.55
+Hungary,Wine,1989,3.44
+Hungary,Spirits,1989,6.3
+Iceland,All types,1989,5.35
+Iceland,Beer,1989,1.83
+Iceland,Wine,1989,0.67
+Iceland,Spirits,1989,2.85
+Iceland,Other alcoholic beverages,1989,0.01
+Ireland,All types,1989,11.79
+Ireland,Beer,1989,8.07
+Ireland,Wine,1989,0.68
+Ireland,Spirits,1989,2.36
+Ireland,Other alcoholic beverages,1989,0.68
+Italy,All types,1989,10.95
+Italy,Beer,1989,1.31
+Italy,Wine,1989,8.27
+Italy,Spirits,1989,1.32
+Latvia,All types,1989,7.51
+Latvia,Beer,1989,1.44
+Latvia,Wine,1989,1.44
+Latvia,Spirits,1989,4.16
+Latvia,Other alcoholic beverages,1989,0.0
+Lithuania,All types,1989,8.14
+Lithuania,Beer,1989,
+Lithuania,Wine,1989,
+Lithuania,Spirits,1989,
+Lithuania,Other alcoholic beverages,1989,
+Luxembourg,All types,1989,15.21
+Luxembourg,Beer,1989,5.51
+Luxembourg,Wine,1989,6.99
+Luxembourg,Spirits,1989,2.71
+Luxembourg,Other alcoholic beverages,1989,
+North Macedonia,All types,1989,
+North Macedonia,Beer,1989,
+North Macedonia,Wine,1989,
+North Macedonia,Spirits,1989,
+North Macedonia,Other alcoholic beverages,1989,
+Norway,All types,1989,5.08
+Norway,Beer,1989,2.78
+Norway,Wine,1989,0.97
+Norway,Spirits,1989,1.33
+Norway,Other alcoholic beverages,1989,0.0
+Poland,All types,1989,9.33
+Poland,Beer,1989,2.03
+Poland,Wine,1989,1.22
+Poland,Spirits,1989,6.08
+Poland,Other alcoholic beverages,1989,
+Portugal,All types,1989,14.64
+Portugal,Beer,1989,4.23
+Portugal,Wine,1989,9.48
+Portugal,Spirits,1989,0.92
+Portugal,Other alcoholic beverages,1989,0.72
+Romania,All types,1989,8.67
+Romania,Beer,1989,3.34
+Romania,Wine,1989,2.44
+Romania,Spirits,1989,2.63
+Romania,Other alcoholic beverages,1989,
+Slovakia,All types,1989,12.7
+Slovakia,Beer,1989,6.32
+Slovakia,Wine,1989,2.1
+Slovakia,Spirits,1989,4.28
+Slovakia,Other alcoholic beverages,1989,0.0
+Slovenia,All types,1989,12.96
+Slovenia,Beer,1989,2.72
+Slovenia,Wine,1989,7.56
+Slovenia,Spirits,1989,2.69
+Slovenia,Other alcoholic beverages,1989,0.0
+Spain,All types,1989,13.28
+Spain,Beer,1989,4.45
+Spain,Wine,1989,5.33
+Spain,Spirits,1989,3.5
+Spain,Other alcoholic beverages,1989,0.0
+Sweden,All types,1989,7.47
+Sweden,Beer,1989,3.55
+Sweden,Wine,1989,1.67
+Sweden,Spirits,1989,2.25
+Sweden,Other alcoholic beverages,1989,0.0
+Switzerland,All types,1989,13.86
+Switzerland,Beer,1989,4.17
+Switzerland,Wine,1989,7.14
+Switzerland,Spirits,1989,2.28
+Switzerland,Other alcoholic beverages,1989,0.26
+Ukraine,All types,1989,5.32
+Ukraine,Beer,1989,1.65
+Ukraine,Wine,1989,0.99
+Ukraine,Spirits,1989,2.68
+Ukraine,Other alcoholic beverages,1989,
+Albania,All types,1988,1.67
+Albania,Beer,1988,0.56
+Albania,Wine,1988,0.37
+Albania,Spirits,1988,0.74
+Albania,Other alcoholic beverages,1988,
+Austria,All types,1988,13.7
+Austria,Beer,1988,7.0
+Austria,Wine,1988,4.8
+Austria,Spirits,1988,1.9
+Belarus,All types,1988,4.55
+Belarus,Beer,1988,1.65
+Belarus,Wine,1988,0.0
+Belarus,Spirits,1988,2.9
+Belarus,Other alcoholic beverages,1988,0.0
+Belgium,All types,1988,12.52
+Belgium,Beer,1988,7.25
+Belgium,Wine,1988,3.41
+Belgium,Spirits,1988,1.86
+Belgium,Other alcoholic beverages,1988,0.0
+Bosnia and Herzegovina,All types,1988,
+Bosnia and Herzegovina,Beer,1988,
+Bosnia and Herzegovina,Wine,1988,
+Bosnia and Herzegovina,Spirits,1988,
+Bulgaria,All types,1988,11.17
+Bulgaria,Beer,1988,4.26
+Bulgaria,Wine,1988,3.22
+Bulgaria,Spirits,1988,3.69
+Bulgaria,Other alcoholic beverages,1988,0.0
+Croatia,All types,1988,11.07
+Croatia,Beer,1988,3.13
+Croatia,Wine,1988,5.03
+Croatia,Spirits,1988,2.91
+Croatia,Other alcoholic beverages,1988,0.0
+Czechia,All types,1988,12.84
+Czechia,Beer,1988,6.71
+Czechia,Wine,1988,1.85
+Czechia,Spirits,1988,4.28
+Czechia,Other alcoholic beverages,1988,
+Denmark,All types,1988,11.9
+Denmark,Beer,1988,7.27
+Denmark,Wine,1988,2.88
+Denmark,Spirits,1988,1.75
+Estonia,All types,1988,
+Estonia,Beer,1988,
+Estonia,Wine,1988,
+Estonia,Spirits,1988,
+Estonia,Other alcoholic beverages,1988,
+Finland,All types,1988,9.03
+Finland,Beer,1988,4.23
+Finland,Wine,1988,0.93
+Finland,Spirits,1988,1.8
+Finland,Other alcoholic beverages,1988,2.07
+France,All types,1988,15.86
+France,Beer,1988,2.47
+France,Wine,1988,10.28
+France,Spirits,1988,2.85
+France,Other alcoholic beverages,1988,0.26
+Germany,All types,1988,14.61
+Germany,Beer,1988,8.45
+Germany,Wine,1988,3.67
+Germany,Spirits,1988,2.49
+Germany,Other alcoholic beverages,1988,
+Greece,All types,1988,10.1
+Greece,Beer,1988,2.45
+Greece,Wine,1988,4.13
+Greece,Spirits,1988,3.45
+Greece,Other alcoholic beverages,1988,0.07
+Hungary,All types,1988,15.34
+Hungary,Beer,1988,6.5
+Hungary,Wine,1988,3.15
+Hungary,Spirits,1988,5.69
+Iceland,All types,1988,5.47
+Iceland,Beer,1988,1.07
+Iceland,Wine,1988,0.9
+Iceland,Spirits,1988,3.5
+Iceland,Other alcoholic beverages,1988,0.01
+Ireland,All types,1988,11.39
+Ireland,Beer,1988,7.67
+Ireland,Wine,1988,0.65
+Ireland,Spirits,1988,2.38
+Ireland,Other alcoholic beverages,1988,0.69
+Italy,All types,1988,11.41
+Italy,Beer,1988,1.42
+Italy,Wine,1988,8.5
+Italy,Spirits,1988,1.46
+Latvia,All types,1988,6.27
+Latvia,Beer,1988,1.69
+Latvia,Wine,1988,1.14
+Latvia,Spirits,1988,3.5
+Latvia,Other alcoholic beverages,1988,0.0
+Lithuania,All types,1988,7.11
+Lithuania,Beer,1988,
+Lithuania,Wine,1988,
+Lithuania,Spirits,1988,
+Lithuania,Other alcoholic beverages,1988,
+Luxembourg,All types,1988,15.11
+Luxembourg,Beer,1988,5.46
+Luxembourg,Wine,1988,6.98
+Luxembourg,Spirits,1988,2.67
+Luxembourg,Other alcoholic beverages,1988,
+North Macedonia,All types,1988,
+North Macedonia,Beer,1988,
+North Macedonia,Wine,1988,
+North Macedonia,Spirits,1988,
+North Macedonia,Other alcoholic beverages,1988,
+Norway,All types,1988,5.26
+Norway,Beer,1988,2.84
+Norway,Wine,1988,0.97
+Norway,Spirits,1988,1.45
+Norway,Other alcoholic beverages,1988,0.0
+Poland,All types,1988,9.52
+Poland,Beer,1988,2.0
+Poland,Wine,1988,1.33
+Poland,Spirits,1988,6.2
+Poland,Other alcoholic beverages,1988,
+Portugal,All types,1988,12.92
+Portugal,Beer,1988,4.01
+Portugal,Wine,1988,8.0
+Portugal,Spirits,1988,0.91
+Portugal,Other alcoholic beverages,1988,0.69
+Romania,All types,1988,10.4
+Romania,Beer,1988,3.36
+Romania,Wine,1988,4.06
+Romania,Spirits,1988,2.63
+Romania,Other alcoholic beverages,1988,
+Slovakia,All types,1988,12.77
+Slovakia,Beer,1988,6.51
+Slovakia,Wine,1988,2.07
+Slovakia,Spirits,1988,4.19
+Slovakia,Other alcoholic beverages,1988,0.0
+Slovenia,All types,1988,14.96
+Slovenia,Beer,1988,3.31
+Slovenia,Wine,1988,8.39
+Slovenia,Spirits,1988,3.27
+Slovenia,Other alcoholic beverages,1988,0.0
+Spain,All types,1988,13.52
+Spain,Beer,1988,4.34
+Spain,Wine,1988,5.64
+Spain,Spirits,1988,3.54
+Spain,Other alcoholic beverages,1988,0.0
+Sweden,All types,1988,7.31
+Sweden,Beer,1988,3.39
+Sweden,Wine,1988,1.63
+Sweden,Spirits,1988,2.29
+Sweden,Other alcoholic beverages,1988,0.0
+Switzerland,All types,1988,14.03
+Switzerland,Beer,1988,4.13
+Switzerland,Wine,1988,7.2
+Switzerland,Spirits,1988,2.41
+Switzerland,Other alcoholic beverages,1988,0.29
+Ukraine,All types,1988,4.43
+Ukraine,Beer,1988,1.58
+Ukraine,Wine,1988,0.94
+Ukraine,Spirits,1988,1.91
+Ukraine,Other alcoholic beverages,1988,
+Albania,All types,1987,1.63
+Albania,Beer,1987,0.58
+Albania,Wine,1987,0.41
+Albania,Spirits,1987,0.64
+Albania,Other alcoholic beverages,1987,
+Austria,All types,1987,13.5
+Austria,Beer,1987,6.9
+Austria,Wine,1987,4.7
+Austria,Spirits,1987,1.9
+Belarus,All types,1987,5.71
+Belarus,Beer,1987,
+Belarus,Wine,1987,
+Belarus,Spirits,1987,
+Belarus,Other alcoholic beverages,1987,
+Belgium,All types,1987,13.16
+Belgium,Beer,1987,7.42
+Belgium,Wine,1987,3.1
+Belgium,Spirits,1987,2.64
+Belgium,Other alcoholic beverages,1987,0.0
+Bosnia and Herzegovina,All types,1987,
+Bosnia and Herzegovina,Beer,1987,
+Bosnia and Herzegovina,Wine,1987,
+Bosnia and Herzegovina,Spirits,1987,
+Bulgaria,All types,1987,10.91
+Bulgaria,Beer,1987,4.2
+Bulgaria,Wine,1987,3.13
+Bulgaria,Spirits,1987,3.58
+Bulgaria,Other alcoholic beverages,1987,0.0
+Croatia,All types,1987,13.51
+Croatia,Beer,1987,3.27
+Croatia,Wine,1987,6.58
+Croatia,Spirits,1987,3.66
+Croatia,Other alcoholic beverages,1987,0.0
+Czechia,All types,1987,13.2
+Czechia,Beer,1987,6.93
+Czechia,Wine,1987,1.96
+Czechia,Spirits,1987,4.31
+Czechia,Other alcoholic beverages,1987,
+Denmark,All types,1987,11.74
+Denmark,Beer,1987,7.17
+Denmark,Wine,1987,2.75
+Denmark,Spirits,1987,1.82
+Estonia,All types,1987,
+Estonia,Beer,1987,
+Estonia,Wine,1987,
+Estonia,Spirits,1987,
+Estonia,Other alcoholic beverages,1987,
+Finland,All types,1987,8.75
+Finland,Beer,1987,3.88
+Finland,Wine,1987,0.89
+Finland,Spirits,1987,1.85
+Finland,Other alcoholic beverages,1987,2.13
+France,All types,1987,15.9
+France,Beer,1987,2.45
+France,Wine,1987,10.42
+France,Spirits,1987,2.77
+France,Other alcoholic beverages,1987,0.26
+Germany,All types,1987,14.82
+Germany,Beer,1987,8.52
+Germany,Wine,1987,3.66
+Germany,Spirits,1987,2.65
+Germany,Other alcoholic beverages,1987,
+Greece,All types,1987,9.82
+Greece,Beer,1987,2.26
+Greece,Wine,1987,4.41
+Greece,Spirits,1987,3.09
+Greece,Other alcoholic beverages,1987,0.06
+Hungary,All types,1987,15.7
+Hungary,Beer,1987,6.42
+Hungary,Wine,1987,3.32
+Hungary,Spirits,1987,5.96
+Iceland,All types,1987,5.64
+Iceland,Beer,1987,1.08
+Iceland,Wine,1987,1.01
+Iceland,Spirits,1987,3.55
+Iceland,Other alcoholic beverages,1987,0.01
+Ireland,All types,1987,10.99
+Ireland,Beer,1987,7.49
+Ireland,Wine,1987,0.59
+Ireland,Spirits,1987,2.25
+Ireland,Other alcoholic beverages,1987,0.65
+Italy,All types,1987,11.76
+Italy,Beer,1987,1.43
+Italy,Wine,1987,8.89
+Italy,Spirits,1987,1.47
+Latvia,All types,1987,5.75
+Latvia,Beer,1987,1.46
+Latvia,Wine,1987,1.05
+Latvia,Spirits,1987,3.26
+Latvia,Other alcoholic beverages,1987,0.0
+Lithuania,All types,1987,6.22
+Lithuania,Beer,1987,
+Lithuania,Wine,1987,
+Lithuania,Spirits,1987,
+Lithuania,Other alcoholic beverages,1987,
+Luxembourg,All types,1987,15.23
+Luxembourg,Beer,1987,5.48
+Luxembourg,Wine,1987,7.04
+Luxembourg,Spirits,1987,2.71
+Luxembourg,Other alcoholic beverages,1987,
+North Macedonia,All types,1987,
+North Macedonia,Beer,1987,
+North Macedonia,Wine,1987,
+North Macedonia,Spirits,1987,
+North Macedonia,Other alcoholic beverages,1987,
+Norway,All types,1987,5.38
+Norway,Beer,1987,2.82
+Norway,Wine,1987,0.93
+Norway,Spirits,1987,1.63
+Norway,Other alcoholic beverages,1987,0.0
+Poland,All types,1987,9.41
+Poland,Beer,1987,1.94
+Poland,Wine,1987,1.29
+Poland,Spirits,1987,6.18
+Poland,Other alcoholic beverages,1987,
+Portugal,All types,1987,12.35
+Portugal,Beer,1987,3.36
+Portugal,Wine,1987,8.21
+Portugal,Spirits,1987,0.79
+Portugal,Other alcoholic beverages,1987,0.86
+Romania,All types,1987,10.29
+Romania,Beer,1987,0.38
+Romania,Wine,1987,4.06
+Romania,Spirits,1987,2.64
+Romania,Other alcoholic beverages,1987,
+Slovakia,All types,1987,13.24
+Slovakia,Beer,1987,6.54
+Slovakia,Wine,1987,2.42
+Slovakia,Spirits,1987,4.28
+Slovakia,Other alcoholic beverages,1987,0.0
+Slovenia,All types,1987,16.64
+Slovenia,Beer,1987,3.54
+Slovenia,Wine,1987,9.9
+Slovenia,Spirits,1987,3.2
+Slovenia,Other alcoholic beverages,1987,0.0
+Spain,All types,1987,14.41
+Spain,Beer,1987,4.26
+Spain,Wine,1987,6.45
+Spain,Spirits,1987,3.7
+Spain,Other alcoholic beverages,1987,0.0
+Sweden,All types,1987,7.07
+Sweden,Beer,1987,3.13
+Sweden,Wine,1987,1.57
+Sweden,Spirits,1987,2.37
+Sweden,Other alcoholic beverages,1987,0.0
+Switzerland,All types,1987,14.02
+Switzerland,Beer,1987,4.17
+Switzerland,Wine,1987,7.16
+Switzerland,Spirits,1987,2.41
+Switzerland,Other alcoholic beverages,1987,0.28
+Ukraine,All types,1987,4.01
+Ukraine,Beer,1987,1.45
+Ukraine,Wine,1987,0.9
+Ukraine,Spirits,1987,1.66
+Ukraine,Other alcoholic beverages,1987,
+Albania,All types,1986,1.39
+Albania,Beer,1986,0.57
+Albania,Wine,1986,0.24
+Albania,Spirits,1986,0.57
+Albania,Other alcoholic beverages,1986,
+Austria,All types,1986,13.6
+Austria,Beer,1986,7.2
+Austria,Wine,1986,4.6
+Austria,Spirits,1986,1.8
+Belarus,All types,1986,7.57
+Belarus,Beer,1986,
+Belarus,Wine,1986,
+Belarus,Spirits,1986,
+Belarus,Other alcoholic beverages,1986,
+Belgium,All types,1986,12.72
+Belgium,Beer,1986,7.36
+Belgium,Wine,1986,2.93
+Belgium,Spirits,1986,2.43
+Belgium,Other alcoholic beverages,1986,0.0
+Bosnia and Herzegovina,All types,1986,
+Bosnia and Herzegovina,Beer,1986,
+Bosnia and Herzegovina,Wine,1986,
+Bosnia and Herzegovina,Spirits,1986,
+Bulgaria,All types,1986,11.47
+Bulgaria,Beer,1986,4.07
+Bulgaria,Wine,1986,3.08
+Bulgaria,Spirits,1986,4.32
+Bulgaria,Other alcoholic beverages,1986,0.0
+Croatia,All types,1986,
+Croatia,Beer,1986,
+Croatia,Wine,1986,
+Croatia,Spirits,1986,
+Croatia,Other alcoholic beverages,1986,
+Czechia,All types,1986,13.01
+Czechia,Beer,1986,6.82
+Czechia,Wine,1986,1.76
+Czechia,Spirits,1986,4.43
+Czechia,Other alcoholic beverages,1986,
+Denmark,All types,1986,12.26
+Denmark,Beer,1986,7.67
+Denmark,Wine,1986,2.66
+Denmark,Spirits,1986,1.93
+Estonia,All types,1986,
+Estonia,Beer,1986,
+Estonia,Wine,1986,
+Estonia,Spirits,1986,
+Estonia,Other alcoholic beverages,1986,
+Finland,All types,1986,8.51
+Finland,Beer,1986,3.7
+Finland,Wine,1986,0.88
+Finland,Spirits,1986,1.82
+Finland,Other alcoholic beverages,1986,2.11
+France,All types,1986,16.13
+France,Beer,1986,2.55
+France,Wine,1986,10.62
+France,Spirits,1986,2.71
+France,Other alcoholic beverages,1986,0.25
+Germany,All types,1986,14.72
+Germany,Beer,1986,8.68
+Germany,Wine,1986,3.32
+Germany,Spirits,1986,2.72
+Germany,Other alcoholic beverages,1986,
+Greece,All types,1986,8.92
+Greece,Beer,1986,2.2
+Greece,Wine,1986,3.3
+Greece,Spirits,1986,3.35
+Greece,Other alcoholic beverages,1986,0.07
+Hungary,All types,1986,16.67
+Hungary,Beer,1986,6.37
+Hungary,Wine,1986,3.57
+Hungary,Spirits,1986,6.73
+Iceland,All types,1986,5.47
+Iceland,Beer,1986,1.07
+Iceland,Wine,1986,1.03
+Iceland,Spirits,1986,3.37
+Iceland,Other alcoholic beverages,1986,0.01
+Ireland,All types,1986,11.23
+Ireland,Beer,1986,7.56
+Ireland,Wine,1986,0.58
+Ireland,Spirits,1986,2.41
+Ireland,Other alcoholic beverages,1986,0.69
+Italy,All types,1986,12.37
+Italy,Beer,1986,1.43
+Italy,Wine,1986,9.39
+Italy,Spirits,1986,1.48
+Latvia,All types,1986,7.79
+Latvia,Beer,1986,1.36
+Latvia,Wine,1986,1.19
+Latvia,Spirits,1986,5.15
+Latvia,Other alcoholic beverages,1986,0.09
+Lithuania,All types,1986,8.04
+Lithuania,Beer,1986,
+Lithuania,Wine,1986,
+Lithuania,Spirits,1986,
+Lithuania,Other alcoholic beverages,1986,
+Luxembourg,All types,1986,15.3
+Luxembourg,Beer,1986,5.62
+Luxembourg,Wine,1986,6.97
+Luxembourg,Spirits,1986,2.71
+Luxembourg,Other alcoholic beverages,1986,
+North Macedonia,All types,1986,
+North Macedonia,Beer,1986,
+North Macedonia,Wine,1986,
+North Macedonia,Spirits,1986,
+North Macedonia,Other alcoholic beverages,1986,
+Norway,All types,1986,5.27
+Norway,Beer,1986,2.83
+Norway,Wine,1986,0.83
+Norway,Spirits,1986,1.61
+Norway,Other alcoholic beverages,1986,0.0
+Poland,All types,1986,9.18
+Poland,Beer,1986,1.92
+Poland,Wine,1986,1.24
+Poland,Spirits,1986,6.02
+Poland,Other alcoholic beverages,1986,
+Portugal,All types,1986,13.49
+Portugal,Beer,1986,3.0
+Portugal,Wine,1986,9.84
+Portugal,Spirits,1986,0.66
+Portugal,Other alcoholic beverages,1986,0.93
+Romania,All types,1986,10.31
+Romania,Beer,1986,3.19
+Romania,Wine,1986,4.07
+Romania,Spirits,1986,2.64
+Romania,Other alcoholic beverages,1986,
+Slovakia,All types,1986,13.3
+Slovakia,Beer,1986,6.88
+Slovakia,Wine,1986,2.13
+Slovakia,Spirits,1986,4.29
+Slovakia,Other alcoholic beverages,1986,0.0
+Slovenia,All types,1986,18.13
+Slovenia,Beer,1986,3.71
+Slovenia,Wine,1986,10.78
+Slovenia,Spirits,1986,3.64
+Slovenia,Other alcoholic beverages,1986,0.0
+Spain,All types,1986,14.37
+Spain,Beer,1986,3.99
+Spain,Wine,1986,6.65
+Spain,Spirits,1986,3.73
+Spain,Other alcoholic beverages,1986,0.0
+Sweden,All types,1986,7.21
+Sweden,Beer,1986,3.04
+Sweden,Wine,1986,1.6
+Sweden,Spirits,1986,2.57
+Sweden,Other alcoholic beverages,1986,0.0
+Switzerland,All types,1986,14.07
+Switzerland,Beer,1986,4.19
+Switzerland,Wine,1986,7.04
+Switzerland,Spirits,1986,2.54
+Switzerland,Other alcoholic beverages,1986,0.3
+Ukraine,All types,1986,4.39
+Ukraine,Beer,1986,1.34
+Ukraine,Wine,1986,1.01
+Ukraine,Spirits,1986,2.04
+Ukraine,Other alcoholic beverages,1986,
+Albania,All types,1985,1.6
+Albania,Beer,1985,0.51
+Albania,Wine,1985,0.23
+Albania,Spirits,1985,0.86
+Albania,Other alcoholic beverages,1985,
+Austria,All types,1985,13.3
+Austria,Beer,1985,6.7
+Austria,Wine,1985,4.8
+Austria,Spirits,1985,1.8
+Belarus,All types,1985,11.41
+Belarus,Beer,1985,
+Belarus,Wine,1985,
+Belarus,Spirits,1985,
+Belarus,Other alcoholic beverages,1985,
+Belgium,All types,1985,13.14
+Belgium,Beer,1985,7.45
+Belgium,Wine,1985,3.08
+Belgium,Spirits,1985,2.61
+Belgium,Other alcoholic beverages,1985,0.0
+Bosnia and Herzegovina,All types,1985,
+Bosnia and Herzegovina,Beer,1985,
+Bosnia and Herzegovina,Wine,1985,
+Bosnia and Herzegovina,Spirits,1985,
+Bulgaria,All types,1985,10.92
+Bulgaria,Beer,1985,4.02
+Bulgaria,Wine,1985,2.82
+Bulgaria,Spirits,1985,4.08
+Bulgaria,Other alcoholic beverages,1985,0.0
+Croatia,All types,1985,
+Croatia,Beer,1985,
+Croatia,Wine,1985,
+Croatia,Spirits,1985,
+Croatia,Other alcoholic beverages,1985,
+Czechia,All types,1985,14.24
+Czechia,Beer,1985,7.33
+Czechia,Wine,1985,2.3
+Czechia,Spirits,1985,4.61
+Czechia,Other alcoholic beverages,1985,
+Denmark,All types,1985,12.2
+Denmark,Beer,1985,7.44
+Denmark,Wine,1985,2.79
+Denmark,Spirits,1985,1.97
+Estonia,All types,1985,
+Estonia,Beer,1985,
+Estonia,Wine,1985,
+Estonia,Spirits,1985,
+Estonia,Other alcoholic beverages,1985,
+Finland,All types,1985,8.02
+Finland,Beer,1985,3.48
+Finland,Wine,1985,0.83
+Finland,Spirits,1985,1.74
+Finland,Other alcoholic beverages,1985,2.01
+France,All types,1985,16.59
+France,Beer,1985,2.54
+France,Wine,1985,11.1
+France,Spirits,1985,2.7
+France,Other alcoholic beverages,1985,0.25
+Germany,All types,1985,15.14
+Germany,Beer,1985,8.66
+Germany,Wine,1985,3.66
+Germany,Spirits,1985,2.82
+Germany,Other alcoholic beverages,1985,
+Greece,All types,1985,10.88
+Greece,Beer,1985,2.11
+Greece,Wine,1985,5.21
+Greece,Spirits,1985,3.49
+Greece,Other alcoholic beverages,1985,0.07
+Hungary,All types,1985,16.74
+Hungary,Beer,1985,5.92
+Hungary,Wine,1985,3.81
+Hungary,Spirits,1985,7.01
+Iceland,All types,1985,5.34
+Iceland,Beer,1985,1.16
+Iceland,Wine,1985,1.09
+Iceland,Spirits,1985,3.09
+Iceland,Other alcoholic beverages,1985,0.02
+Ireland,All types,1985,11.62
+Ireland,Beer,1985,7.72
+Ireland,Wine,1985,0.6
+Ireland,Spirits,1985,2.56
+Ireland,Other alcoholic beverages,1985,0.75
+Italy,All types,1985,13.22
+Italy,Beer,1985,1.37
+Italy,Wine,1985,10.29
+Italy,Spirits,1985,1.62
+Latvia,All types,1985,10.85
+Latvia,Beer,1985,1.68
+Latvia,Wine,1985,2.34
+Latvia,Spirits,1985,6.55
+Latvia,Other alcoholic beverages,1985,0.28
+Lithuania,All types,1985,11.56
+Lithuania,Beer,1985,
+Lithuania,Wine,1985,
+Lithuania,Spirits,1985,
+Lithuania,Other alcoholic beverages,1985,
+Luxembourg,All types,1985,15.74
+Luxembourg,Beer,1985,5.6
+Luxembourg,Wine,1985,7.38
+Luxembourg,Spirits,1985,2.76
+Luxembourg,Other alcoholic beverages,1985,
+North Macedonia,All types,1985,
+North Macedonia,Beer,1985,
+North Macedonia,Wine,1985,
+North Macedonia,Spirits,1985,
+North Macedonia,Other alcoholic beverages,1985,
+Norway,All types,1985,5.22
+Norway,Beer,1985,2.63
+Norway,Wine,1985,0.82
+Norway,Spirits,1985,1.77
+Norway,Other alcoholic beverages,1985,0.0
+Poland,All types,1985,8.5
+Poland,Beer,1985,1.73
+Poland,Wine,1985,1.3
+Poland,Spirits,1985,5.47
+Poland,Other alcoholic beverages,1985,
+Portugal,All types,1985,13.93
+Portugal,Beer,1985,2.49
+Portugal,Wine,1985,10.9
+Portugal,Spirits,1985,0.54
+Portugal,Other alcoholic beverages,1985,1.08
+Romania,All types,1985,10.09
+Romania,Beer,1985,2.95
+Romania,Wine,1985,4.09
+Romania,Spirits,1985,2.65
+Romania,Other alcoholic beverages,1985,
+Slovakia,All types,1985,13.82
+Slovakia,Beer,1985,6.72
+Slovakia,Wine,1985,2.6
+Slovakia,Spirits,1985,4.5
+Slovakia,Other alcoholic beverages,1985,0.0
+Slovenia,All types,1985,15.07
+Slovenia,Beer,1985,3.3
+Slovenia,Wine,1985,8.63
+Slovenia,Spirits,1985,3.15
+Slovenia,Other alcoholic beverages,1985,0.0
+Spain,All types,1985,14.47
+Spain,Beer,1985,3.97
+Spain,Wine,1985,6.86
+Spain,Spirits,1985,3.64
+Spain,Other alcoholic beverages,1985,0.0
+Sweden,All types,1985,6.9
+Sweden,Beer,1985,2.85
+Sweden,Wine,1985,1.55
+Sweden,Spirits,1985,2.5
+Sweden,Other alcoholic beverages,1985,0.0
+Switzerland,All types,1985,14.37
+Switzerland,Beer,1985,4.19
+Switzerland,Wine,1985,7.21
+Switzerland,Spirits,1985,2.67
+Switzerland,Other alcoholic beverages,1985,0.3
+Ukraine,All types,1985,6.62
+Ukraine,Beer,1985,1.75
+Ukraine,Wine,1985,1.81
+Ukraine,Spirits,1985,3.06
+Ukraine,Other alcoholic beverages,1985,
+Albania,All types,1984,1.58
+Albania,Beer,1984,0.43
+Albania,Wine,1984,0.25
+Albania,Spirits,1984,0.9
+Albania,Other alcoholic beverages,1984,
+Austria,All types,1984,13.9
+Austria,Beer,1984,6.9
+Austria,Wine,1984,5.1
+Austria,Spirits,1984,1.9
+Belarus,All types,1984,12.7
+Belarus,Beer,1984,
+Belarus,Wine,1984,
+Belarus,Spirits,1984,
+Belarus,Other alcoholic beverages,1984,
+Belgium,All types,1984,13.26
+Belgium,Beer,1984,7.79
+Belgium,Wine,1984,3.11
+Belgium,Spirits,1984,2.36
+Belgium,Other alcoholic beverages,1984,0.0
+Bosnia and Herzegovina,All types,1984,
+Bosnia and Herzegovina,Beer,1984,
+Bosnia and Herzegovina,Wine,1984,
+Bosnia and Herzegovina,Spirits,1984,
+Bulgaria,All types,1984,11.37
+Bulgaria,Beer,1984,4.05
+Bulgaria,Wine,1984,3.28
+Bulgaria,Spirits,1984,4.04
+Bulgaria,Other alcoholic beverages,1984,0.0
+Croatia,All types,1984,
+Croatia,Beer,1984,
+Croatia,Wine,1984,
+Croatia,Spirits,1984,
+Croatia,Other alcoholic beverages,1984,
+Czechia,All types,1984,14.29
+Czechia,Beer,1984,7.75
+Czechia,Wine,1984,2.24
+Czechia,Spirits,1984,4.3
+Czechia,Other alcoholic beverages,1984,
+Denmark,All types,1984,12.4
+Denmark,Beer,1984,8.0
+Denmark,Wine,1984,2.56
+Denmark,Spirits,1984,1.84
+Estonia,All types,1984,
+Estonia,Beer,1984,
+Estonia,Wine,1984,
+Estonia,Spirits,1984,
+Estonia,Other alcoholic beverages,1984,
+Finland,All types,1984,8.06
+Finland,Beer,1984,3.35
+Finland,Wine,1984,0.85
+Finland,Spirits,1984,1.79
+Finland,Other alcoholic beverages,1984,2.07
+France,All types,1984,16.89
+France,Beer,1984,2.62
+France,Wine,1984,11.45
+France,Spirits,1984,2.58
+France,Other alcoholic beverages,1984,0.24
+Germany,All types,1984,15.14
+Germany,Beer,1984,8.67
+Germany,Wine,1984,3.7
+Germany,Spirits,1984,2.78
+Germany,Other alcoholic beverages,1984,
+Greece,All types,1984,11.59
+Greece,Beer,1984,1.99
+Greece,Wine,1984,6.16
+Greece,Spirits,1984,3.37
+Greece,Other alcoholic beverages,1984,0.07
+Hungary,All types,1984,16.82
+Hungary,Beer,1984,5.59
+Hungary,Wine,1984,4.72
+Hungary,Spirits,1984,6.51
+Iceland,All types,1984,5.37
+Iceland,Beer,1984,1.17
+Iceland,Wine,1984,1.19
+Iceland,Spirits,1984,3.01
+Iceland,Other alcoholic beverages,1984,0.01
+Ireland,All types,1984,11.07
+Ireland,Beer,1984,7.74
+Ireland,Wine,1984,0.57
+Ireland,Spirits,1984,2.14
+Ireland,Other alcoholic beverages,1984,0.62
+Italy,All types,1984,14.08
+Italy,Beer,1984,1.19
+Italy,Wine,1984,11.2
+Italy,Spirits,1984,1.63
+Latvia,All types,1984,12.35
+Latvia,Beer,1984,2.01
+Latvia,Wine,1984,2.59
+Latvia,Spirits,1984,7.5
+Latvia,Other alcoholic beverages,1984,0.25
+Lithuania,All types,1984,13.01
+Lithuania,Beer,1984,
+Lithuania,Wine,1984,
+Lithuania,Spirits,1984,
+Lithuania,Other alcoholic beverages,1984,
+Luxembourg,All types,1984,15.9
+Luxembourg,Beer,1984,5.64
+Luxembourg,Wine,1984,7.57
+Luxembourg,Spirits,1984,2.68
+Luxembourg,Other alcoholic beverages,1984,
+North Macedonia,All types,1984,
+North Macedonia,Beer,1984,
+North Macedonia,Wine,1984,
+North Macedonia,Spirits,1984,
+North Macedonia,Other alcoholic beverages,1984,
+Norway,All types,1984,4.98
+Norway,Beer,1984,2.65
+Norway,Wine,1984,0.71
+Norway,Spirits,1984,1.62
+Norway,Other alcoholic beverages,1984,0.0
+Poland,All types,1984,8.31
+Poland,Beer,1984,1.78
+Poland,Wine,1984,1.21
+Poland,Spirits,1984,5.32
+Poland,Other alcoholic beverages,1984,
+Portugal,All types,1984,16.37
+Portugal,Beer,1984,2.46
+Portugal,Wine,1984,13.5
+Portugal,Spirits,1984,0.41
+Portugal,Other alcoholic beverages,1984,1.13
+Romania,All types,1984,10.14
+Romania,Beer,1984,2.94
+Romania,Wine,1984,4.11
+Romania,Spirits,1984,2.67
+Romania,Other alcoholic beverages,1984,
+Slovakia,All types,1984,14.33
+Slovakia,Beer,1984,7.62
+Slovakia,Wine,1984,2.55
+Slovakia,Spirits,1984,4.16
+Slovakia,Other alcoholic beverages,1984,0.0
+Slovenia,All types,1984,17.23
+Slovenia,Beer,1984,3.42
+Slovenia,Wine,1984,10.12
+Slovenia,Spirits,1984,3.69
+Slovenia,Other alcoholic beverages,1984,0.0
+Spain,All types,1984,14.49
+Spain,Beer,1984,3.87
+Spain,Wine,1984,6.94
+Spain,Spirits,1984,3.68
+Spain,Other alcoholic beverages,1984,0.0
+Sweden,All types,1984,6.82
+Sweden,Beer,1984,2.72
+Sweden,Wine,1984,1.55
+Sweden,Spirits,1984,2.55
+Sweden,Other alcoholic beverages,1984,0.0
+Switzerland,All types,1984,14.33
+Switzerland,Beer,1984,4.17
+Switzerland,Wine,1984,7.29
+Switzerland,Spirits,1984,2.56
+Switzerland,Other alcoholic beverages,1984,0.31
+Ukraine,All types,1984,7.08
+Ukraine,Beer,1984,1.83
+Ukraine,Wine,1984,2.19
+Ukraine,Spirits,1984,3.06
+Ukraine,Other alcoholic beverages,1984,
+Albania,All types,1983,1.68
+Albania,Beer,1983,0.45
+Albania,Wine,1983,0.29
+Albania,Spirits,1983,0.94
+Albania,Other alcoholic beverages,1983,
+Austria,All types,1983,14.0
+Austria,Beer,1983,6.8
+Austria,Wine,1983,5.3
+Austria,Spirits,1983,1.9
+Belarus,All types,1983,12.43
+Belarus,Beer,1983,
+Belarus,Wine,1983,
+Belarus,Spirits,1983,
+Belarus,Other alcoholic beverages,1983,
+Belgium,All types,1983,13.55
+Belgium,Beer,1983,7.92
+Belgium,Wine,1983,2.95
+Belgium,Spirits,1983,2.68
+Belgium,Other alcoholic beverages,1983,0.0
+Bosnia and Herzegovina,All types,1983,
+Bosnia and Herzegovina,Beer,1983,
+Bosnia and Herzegovina,Wine,1983,
+Bosnia and Herzegovina,Spirits,1983,
+Bulgaria,All types,1983,10.96
+Bulgaria,Beer,1983,3.91
+Bulgaria,Wine,1983,3.17
+Bulgaria,Spirits,1983,3.88
+Bulgaria,Other alcoholic beverages,1983,0.0
+Croatia,All types,1983,
+Croatia,Beer,1983,
+Croatia,Wine,1983,
+Croatia,Spirits,1983,
+Croatia,Other alcoholic beverages,1983,
+Czechia,All types,1983,14.14
+Czechia,Beer,1983,7.68
+Czechia,Wine,1983,2.11
+Czechia,Spirits,1983,4.35
+Czechia,Other alcoholic beverages,1983,
+Denmark,All types,1983,12.81
+Denmark,Beer,1983,8.31
+Denmark,Wine,1983,2.58
+Denmark,Spirits,1983,1.92
+Estonia,All types,1983,
+Estonia,Beer,1983,
+Estonia,Wine,1983,
+Estonia,Spirits,1983,
+Estonia,Other alcoholic beverages,1983,
+Finland,All types,1983,7.94
+Finland,Beer,1983,3.23
+Finland,Wine,1983,0.93
+Finland,Spirits,1983,1.65
+Finland,Other alcoholic beverages,1983,2.13
+France,All types,1983,17.72
+France,Beer,1983,2.78
+France,Wine,1983,11.91
+France,Spirits,1983,2.77
+France,Other alcoholic beverages,1983,0.26
+Germany,All types,1983,15.75
+Germany,Beer,1983,8.97
+Germany,Wine,1983,3.84
+Germany,Spirits,1983,2.95
+Germany,Other alcoholic beverages,1983,
+Greece,All types,1983,11.78
+Greece,Beer,1983,1.86
+Greece,Wine,1983,6.21
+Greece,Spirits,1983,3.64
+Greece,Other alcoholic beverages,1983,0.07
+Hungary,All types,1983,16.39
+Hungary,Beer,1983,5.69
+Hungary,Wine,1983,4.56
+Hungary,Spirits,1983,6.14
+Iceland,All types,1983,5.11
+Iceland,Beer,1983,1.11
+Iceland,Wine,1983,1.14
+Iceland,Spirits,1983,2.86
+Iceland,Other alcoholic beverages,1983,0.01
+Ireland,All types,1983,10.87
+Ireland,Beer,1983,7.73
+Ireland,Wine,1983,0.55
+Ireland,Spirits,1983,2.0
+Ireland,Other alcoholic beverages,1983,0.58
+Italy,All types,1983,14.55
+Italy,Beer,1983,1.32
+Italy,Wine,1983,11.49
+Italy,Spirits,1983,1.64
+Latvia,All types,1983,12.33
+Latvia,Beer,1983,2.47
+Latvia,Wine,1983,2.6
+Latvia,Spirits,1983,7.1
+Latvia,Other alcoholic beverages,1983,0.16
+Lithuania,All types,1983,
+Lithuania,Beer,1983,
+Lithuania,Wine,1983,
+Lithuania,Spirits,1983,
+Lithuania,Other alcoholic beverages,1983,
+Luxembourg,All types,1983,16.61
+Luxembourg,Beer,1983,5.87
+Luxembourg,Wine,1983,7.87
+Luxembourg,Spirits,1983,2.86
+Luxembourg,Other alcoholic beverages,1983,
+North Macedonia,All types,1983,
+North Macedonia,Beer,1983,
+North Macedonia,Wine,1983,
+North Macedonia,Spirits,1983,
+North Macedonia,Other alcoholic beverages,1983,
+Norway,All types,1983,4.85
+Norway,Beer,1983,2.57
+Norway,Wine,1983,0.65
+Norway,Spirits,1983,1.63
+Norway,Other alcoholic beverages,1983,0.0
+Poland,All types,1983,8.25
+Poland,Beer,1983,1.84
+Poland,Wine,1983,0.98
+Poland,Spirits,1983,5.43
+Poland,Other alcoholic beverages,1983,
+Portugal,All types,1983,15.88
+Portugal,Beer,1983,2.31
+Portugal,Wine,1983,13.16
+Portugal,Spirits,1983,0.42
+Portugal,Other alcoholic beverages,1983,1.15
+Romania,All types,1983,10.21
+Romania,Beer,1983,3.02
+Romania,Wine,1983,4.14
+Romania,Spirits,1983,2.69
+Romania,Other alcoholic beverages,1983,
+Slovakia,All types,1983,14.85
+Slovakia,Beer,1983,8.13
+Slovakia,Wine,1983,2.46
+Slovakia,Spirits,1983,4.26
+Slovakia,Other alcoholic beverages,1983,0.0
+Slovenia,All types,1983,17.28
+Slovenia,Beer,1983,3.54
+Slovenia,Wine,1983,10.04
+Slovenia,Spirits,1983,3.7
+Slovenia,Other alcoholic beverages,1983,0.0
+Spain,All types,1983,16.18
+Spain,Beer,1983,3.88
+Spain,Wine,1983,8.32
+Spain,Spirits,1983,3.98
+Spain,Other alcoholic beverages,1983,0.0
+Sweden,All types,1983,6.96
+Sweden,Beer,1983,2.75
+Sweden,Wine,1983,1.45
+Sweden,Spirits,1983,2.76
+Sweden,Other alcoholic beverages,1983,0.0
+Switzerland,All types,1983,14.41
+Switzerland,Beer,1983,4.3
+Switzerland,Wine,1983,7.09
+Switzerland,Spirits,1983,2.69
+Switzerland,Other alcoholic beverages,1983,0.33
+Ukraine,All types,1983,6.99
+Ukraine,Beer,1983,1.8
+Ukraine,Wine,1983,2.26
+Ukraine,Spirits,1983,2.93
+Ukraine,Other alcoholic beverages,1983,
+Albania,All types,1982,1.51
+Albania,Beer,1982,0.45
+Albania,Wine,1982,0.2
+Albania,Spirits,1982,0.86
+Albania,Other alcoholic beverages,1982,
+Austria,All types,1982,13.5
+Austria,Beer,1982,6.6
+Austria,Wine,1982,5.0
+Austria,Spirits,1982,1.9
+Belarus,All types,1982,12.67
+Belarus,Beer,1982,
+Belarus,Wine,1982,
+Belarus,Spirits,1982,
+Belarus,Other alcoholic beverages,1982,
+Belgium,All types,1982,13.72
+Belgium,Beer,1982,8.23
+Belgium,Wine,1982,2.96
+Belgium,Spirits,1982,2.53
+Belgium,Other alcoholic beverages,1982,0.0
+Bosnia and Herzegovina,All types,1982,
+Bosnia and Herzegovina,Beer,1982,
+Bosnia and Herzegovina,Wine,1982,
+Bosnia and Herzegovina,Spirits,1982,
+Bulgaria,All types,1982,11.2
+Bulgaria,Beer,1982,3.81
+Bulgaria,Wine,1982,3.49
+Bulgaria,Spirits,1982,3.9
+Bulgaria,Other alcoholic beverages,1982,0.0
+Croatia,All types,1982,
+Croatia,Beer,1982,
+Croatia,Wine,1982,
+Croatia,Spirits,1982,
+Croatia,Other alcoholic beverages,1982,
+Czechia,All types,1982,14.12
+Czechia,Beer,1982,7.34
+Czechia,Wine,1982,2.11
+Czechia,Spirits,1982,4.67
+Czechia,Other alcoholic beverages,1982,
+Denmark,All types,1982,12.47
+Denmark,Beer,1982,8.03
+Denmark,Wine,1982,2.39
+Denmark,Spirits,1982,2.05
+Estonia,All types,1982,
+Estonia,Beer,1982,
+Estonia,Wine,1982,
+Estonia,Spirits,1982,
+Estonia,Other alcoholic beverages,1982,
+Finland,All types,1982,7.92
+Finland,Beer,1982,3.17
+Finland,Wine,1982,0.97
+Finland,Spirits,1982,1.75
+Finland,Other alcoholic beverages,1982,2.03
+France,All types,1982,18.25
+France,Beer,1982,2.79
+France,Wine,1982,12.37
+France,Spirits,1982,2.83
+France,Other alcoholic beverages,1982,0.26
+Germany,All types,1982,15.69
+Germany,Beer,1982,9.0
+Germany,Wine,1982,3.62
+Germany,Spirits,1982,3.08
+Germany,Other alcoholic beverages,1982,
+Greece,All types,1982,11.01
+Greece,Beer,1982,1.9
+Greece,Wine,1982,4.99
+Greece,Spirits,1982,4.04
+Greece,Other alcoholic beverages,1982,0.08
+Hungary,All types,1982,16.82
+Hungary,Beer,1982,5.76
+Hungary,Wine,1982,4.91
+Hungary,Spirits,1982,6.15
+Iceland,All types,1982,4.92
+Iceland,Beer,1982,1.02
+Iceland,Wine,1982,1.02
+Iceland,Spirits,1982,2.88
+Iceland,Other alcoholic beverages,1982,0.01
+Ireland,All types,1982,11.9
+Ireland,Beer,1982,8.27
+Ireland,Wine,1982,0.59
+Ireland,Spirits,1982,2.37
+Ireland,Other alcoholic beverages,1982,0.67
+Italy,All types,1982,14.5
+Italy,Beer,1982,1.31
+Italy,Wine,1982,11.48
+Italy,Spirits,1982,1.78
+Latvia,All types,1982,12.43
+Latvia,Beer,1982,2.43
+Latvia,Wine,1982,2.96
+Latvia,Spirits,1982,6.75
+Latvia,Other alcoholic beverages,1982,0.3
+Lithuania,All types,1982,
+Lithuania,Beer,1982,
+Lithuania,Wine,1982,
+Lithuania,Spirits,1982,
+Lithuania,Other alcoholic beverages,1982,
+Luxembourg,All types,1982,16.84
+Luxembourg,Beer,1982,5.9
+Luxembourg,Wine,1982,7.99
+Luxembourg,Spirits,1982,2.95
+Luxembourg,Other alcoholic beverages,1982,
+North Macedonia,All types,1982,
+North Macedonia,Beer,1982,
+North Macedonia,Wine,1982,
+North Macedonia,Spirits,1982,
+North Macedonia,Other alcoholic beverages,1982,
+Norway,All types,1982,4.83
+Norway,Beer,1982,2.69
+Norway,Wine,1982,0.57
+Norway,Spirits,1982,1.57
+Norway,Other alcoholic beverages,1982,0.0
+Poland,All types,1982,8.54
+Poland,Beer,1982,1.84
+Poland,Wine,1982,1.16
+Poland,Spirits,1982,5.54
+Poland,Other alcoholic beverages,1982,
+Portugal,All types,1982,16.99
+Portugal,Beer,1982,2.53
+Portugal,Wine,1982,14.04
+Portugal,Spirits,1982,0.42
+Portugal,Other alcoholic beverages,1982,1.07
+Romania,All types,1982,10.28
+Romania,Beer,1982,3.04
+Romania,Wine,1982,4.17
+Romania,Spirits,1982,2.71
+Romania,Other alcoholic beverages,1982,
+Slovakia,All types,1982,15.2
+Slovakia,Beer,1982,8.03
+Slovakia,Wine,1982,2.41
+Slovakia,Spirits,1982,4.76
+Slovakia,Other alcoholic beverages,1982,0.0
+Slovenia,All types,1982,19.5
+Slovenia,Beer,1982,4.02
+Slovenia,Wine,1982,11.46
+Slovenia,Spirits,1982,4.01
+Slovenia,Other alcoholic beverages,1982,0.0
+Spain,All types,1982,16.23
+Spain,Beer,1982,3.81
+Spain,Wine,1982,8.4
+Spain,Spirits,1982,4.02
+Spain,Other alcoholic beverages,1982,0.0
+Sweden,All types,1982,7.29
+Sweden,Beer,1982,2.87
+Sweden,Wine,1982,1.41
+Sweden,Spirits,1982,3.01
+Sweden,Other alcoholic beverages,1982,0.0
+Switzerland,All types,1982,14.71
+Switzerland,Beer,1982,4.42
+Switzerland,Wine,1982,7.28
+Switzerland,Spirits,1982,2.71
+Switzerland,Other alcoholic beverages,1982,0.31
+Ukraine,All types,1982,6.96
+Ukraine,Beer,1982,1.81
+Ukraine,Wine,1982,2.35
+Ukraine,Spirits,1982,2.8
+Ukraine,Other alcoholic beverages,1982,
+Albania,All types,1981,1.84
+Albania,Beer,1981,0.46
+Albania,Wine,1981,0.4
+Albania,Spirits,1981,0.97
+Albania,Other alcoholic beverages,1981,
+Austria,All types,1981,13.5
+Austria,Beer,1981,6.5
+Austria,Wine,1981,5.0
+Austria,Spirits,1981,2.0
+Belarus,All types,1981,13.2
+Belarus,Beer,1981,
+Belarus,Wine,1981,
+Belarus,Spirits,1981,
+Belarus,Other alcoholic beverages,1981,
+Belgium,All types,1981,13.25
+Belgium,Beer,1981,7.73
+Belgium,Wine,1981,2.87
+Belgium,Spirits,1981,2.65
+Belgium,Other alcoholic beverages,1981,0.0
+Bosnia and Herzegovina,All types,1981,
+Bosnia and Herzegovina,Beer,1981,
+Bosnia and Herzegovina,Wine,1981,
+Bosnia and Herzegovina,Spirits,1981,
+Bulgaria,All types,1981,11.34
+Bulgaria,Beer,1981,3.71
+Bulgaria,Wine,1981,3.56
+Bulgaria,Spirits,1981,4.07
+Bulgaria,Other alcoholic beverages,1981,0.0
+Croatia,All types,1981,
+Croatia,Beer,1981,
+Croatia,Wine,1981,
+Croatia,Spirits,1981,
+Croatia,Other alcoholic beverages,1981,
+Czechia,All types,1981,14.23
+Czechia,Beer,1981,7.22
+Czechia,Wine,1981,2.3
+Czechia,Spirits,1981,4.71
+Czechia,Other alcoholic beverages,1981,
+Denmark,All types,1981,12.09
+Denmark,Beer,1981,7.86
+Denmark,Wine,1981,2.22
+Denmark,Spirits,1981,2.01
+Estonia,All types,1981,
+Estonia,Beer,1981,
+Estonia,Wine,1981,
+Estonia,Spirits,1981,
+Estonia,Other alcoholic beverages,1981,
+Finland,All types,1981,8.01
+Finland,Beer,1981,3.25
+Finland,Wine,1981,1.07
+Finland,Spirits,1981,1.71
+Finland,Other alcoholic beverages,1981,1.98
+France,All types,1981,18.33
+France,Beer,1981,2.82
+France,Wine,1981,12.55
+France,Spirits,1981,2.71
+France,Other alcoholic beverages,1981,0.25
+Germany,All types,1981,16.01
+Germany,Beer,1981,8.98
+Germany,Wine,1981,3.62
+Germany,Spirits,1981,3.41
+Germany,Other alcoholic beverages,1981,
+Greece,All types,1981,12.04
+Greece,Beer,1981,1.92
+Greece,Wine,1981,6.38
+Greece,Spirits,1981,3.66
+Greece,Other alcoholic beverages,1981,0.08
+Hungary,All types,1981,16.73
+Hungary,Beer,1981,5.73
+Hungary,Wine,1981,4.59
+Hungary,Spirits,1981,6.41
+Iceland,All types,1981,5.05
+Iceland,Beer,1981,1.06
+Iceland,Wine,1981,0.94
+Iceland,Spirits,1981,3.05
+Iceland,Other alcoholic beverages,1981,0.01
+Ireland,All types,1981,12.51
+Ireland,Beer,1981,8.38
+Ireland,Wine,1981,0.62
+Ireland,Spirits,1981,2.72
+Ireland,Other alcoholic beverages,1981,0.79
+Italy,All types,1981,15.07
+Italy,Beer,1981,1.15
+Italy,Wine,1981,12.13
+Italy,Spirits,1981,1.79
+Latvia,All types,1981,12.79
+Latvia,Beer,1981,2.4
+Latvia,Wine,1981,3.16
+Latvia,Spirits,1981,6.87
+Latvia,Other alcoholic beverages,1981,0.35
+Lithuania,All types,1981,
+Lithuania,Beer,1981,
+Lithuania,Wine,1981,
+Lithuania,Spirits,1981,
+Lithuania,Other alcoholic beverages,1981,
+Luxembourg,All types,1981,17.04
+Luxembourg,Beer,1981,5.9
+Luxembourg,Wine,1981,8.09
+Luxembourg,Spirits,1981,3.06
+Luxembourg,Other alcoholic beverages,1981,
+North Macedonia,All types,1981,
+North Macedonia,Beer,1981,
+North Macedonia,Wine,1981,
+North Macedonia,Spirits,1981,
+North Macedonia,Other alcoholic beverages,1981,
+Norway,All types,1981,5.32
+Norway,Beer,1981,2.57
+Norway,Wine,1981,0.69
+Norway,Spirits,1981,2.06
+Norway,Other alcoholic beverages,1981,0.0
+Poland,All types,1981,11.21
+Poland,Beer,1981,1.94
+Poland,Wine,1981,1.56
+Poland,Spirits,1981,7.71
+Poland,Other alcoholic beverages,1981,
+Portugal,All types,1981,15.38
+Portugal,Beer,1981,2.48
+Portugal,Wine,1981,12.48
+Portugal,Spirits,1981,0.42
+Portugal,Other alcoholic beverages,1981,0.97
+Romania,All types,1981,10.48
+Romania,Beer,1981,3.06
+Romania,Wine,1981,4.32
+Romania,Spirits,1981,2.72
+Romania,Other alcoholic beverages,1981,
+Slovakia,All types,1981,15.02
+Slovakia,Beer,1981,7.74
+Slovakia,Wine,1981,2.76
+Slovakia,Spirits,1981,4.52
+Slovakia,Other alcoholic beverages,1981,0.0
+Slovenia,All types,1981,16.94
+Slovenia,Beer,1981,4.11
+Slovenia,Wine,1981,8.91
+Slovenia,Spirits,1981,3.91
+Slovenia,Other alcoholic beverages,1981,0.0
+Spain,All types,1981,16.84
+Spain,Beer,1981,3.73
+Spain,Wine,1981,8.78
+Spain,Spirits,1981,4.33
+Spain,Other alcoholic beverages,1981,0.0
+Sweden,All types,1981,7.14
+Sweden,Beer,1981,2.78
+Sweden,Wine,1981,1.32
+Sweden,Spirits,1981,3.04
+Sweden,Other alcoholic beverages,1981,0.0
+Switzerland,All types,1981,14.58
+Switzerland,Beer,1981,4.34
+Switzerland,Wine,1981,7.32
+Switzerland,Spirits,1981,2.6
+Switzerland,Other alcoholic beverages,1981,0.32
+Ukraine,All types,1981,7.48
+Ukraine,Beer,1981,1.72
+Ukraine,Wine,1981,2.45
+Ukraine,Spirits,1981,3.31
+Ukraine,Other alcoholic beverages,1981,
+Albania,All types,1980,1.79
+Albania,Beer,1980,0.44
+Albania,Wine,1980,0.44
+Albania,Spirits,1980,0.91
+Albania,Other alcoholic beverages,1980,
+Austria,All types,1980,13.6
+Austria,Beer,1980,6.5
+Austria,Wine,1980,5.1
+Austria,Spirits,1980,2.0
+Belarus,All types,1980,13.23
+Belarus,Beer,1980,
+Belarus,Wine,1980,
+Belarus,Spirits,1980,
+Belarus,Other alcoholic beverages,1980,
+Belgium,All types,1980,13.99
+Belgium,Beer,1980,8.2
+Belgium,Wine,1980,2.83
+Belgium,Spirits,1980,2.96
+Belgium,Other alcoholic beverages,1980,0.0
+Bosnia and Herzegovina,All types,1980,
+Bosnia and Herzegovina,Beer,1980,
+Bosnia and Herzegovina,Wine,1980,
+Bosnia and Herzegovina,Spirits,1980,
+Bulgaria,All types,1980,10.84
+Bulgaria,Beer,1980,3.68
+Bulgaria,Wine,1980,3.11
+Bulgaria,Spirits,1980,4.05
+Bulgaria,Other alcoholic beverages,1980,0.0
+Croatia,All types,1980,
+Croatia,Beer,1980,
+Croatia,Wine,1980,
+Croatia,Spirits,1980,
+Croatia,Other alcoholic beverages,1980,
+Czechia,All types,1980,13.99
+Czechia,Beer,1980,7.16
+Czechia,Wine,1980,2.23
+Czechia,Spirits,1980,4.6
+Czechia,Other alcoholic beverages,1980,
+Denmark,All types,1980,11.5
+Denmark,Beer,1980,7.68
+Denmark,Wine,1980,1.95
+Denmark,Spirits,1980,1.87
+Estonia,All types,1980,
+Estonia,Beer,1980,
+Estonia,Wine,1980,
+Estonia,Spirits,1980,
+Estonia,Other alcoholic beverages,1980,
+Finland,All types,1980,7.94
+Finland,Beer,1980,3.26
+Finland,Wine,1980,0.93
+Finland,Spirits,1980,1.74
+Finland,Other alcoholic beverages,1980,2.01
+France,All types,1980,18.97
+France,Beer,1980,2.85
+France,Wine,1980,12.88
+France,Spirits,1980,2.97
+France,Other alcoholic beverages,1980,0.27
+Germany,All types,1980,16.45
+Germany,Beer,1980,8.95
+Germany,Wine,1980,3.75
+Germany,Spirits,1980,3.74
+Germany,Other alcoholic beverages,1980,
+Greece,All types,1980,13.21
+Greece,Beer,1980,1.7
+Greece,Wine,1980,6.4
+Greece,Spirits,1980,5.01
+Greece,Other alcoholic beverages,1980,0.1
+Hungary,All types,1980,16.88
+Hungary,Beer,1980,5.51
+Hungary,Wine,1980,5.35
+Hungary,Spirits,1980,6.02
+Iceland,All types,1980,4.97
+Iceland,Beer,1980,0.99
+Iceland,Wine,1980,0.9
+Iceland,Spirits,1980,3.08
+Iceland,Other alcoholic beverages,1980,0.01
+Ireland,All types,1980,13.19
+Ireland,Beer,1980,8.78
+Ireland,Wine,1980,0.62
+Ireland,Spirits,1980,2.94
+Ireland,Other alcoholic beverages,1980,0.85
+Italy,All types,1980,16.73
+Italy,Beer,1980,1.07
+Italy,Wine,1980,13.15
+Italy,Spirits,1980,2.44
+Latvia,All types,1980,13.03
+Latvia,Beer,1980,2.35
+Latvia,Wine,1980,3.35
+Latvia,Spirits,1980,6.92
+Latvia,Other alcoholic beverages,1980,0.41
+Lithuania,All types,1980,
+Lithuania,Beer,1980,
+Lithuania,Wine,1980,
+Lithuania,Spirits,1980,
+Lithuania,Other alcoholic beverages,1980,
+Luxembourg,All types,1980,17.57
+Luxembourg,Beer,1980,5.9
+Luxembourg,Wine,1980,8.32
+Luxembourg,Spirits,1980,3.36
+Luxembourg,Other alcoholic beverages,1980,
+North Macedonia,All types,1980,
+North Macedonia,Beer,1980,
+North Macedonia,Wine,1980,
+North Macedonia,Spirits,1980,
+North Macedonia,Other alcoholic beverages,1980,
+Norway,All types,1980,5.98
+Norway,Beer,1980,2.77
+Norway,Wine,1980,0.75
+Norway,Spirits,1980,2.46
+Norway,Other alcoholic beverages,1980,0.0
+Poland,All types,1980,10.66
+Poland,Beer,1980,1.98
+Poland,Wine,1980,1.51
+Poland,Spirits,1980,7.18
+Poland,Other alcoholic beverages,1980,
+Portugal,All types,1980,14.91
+Portugal,Beer,1980,2.94
+Portugal,Wine,1980,11.54
+Portugal,Spirits,1980,0.43
+Portugal,Other alcoholic beverages,1980,0.77
+Romania,All types,1980,10.91
+Romania,Beer,1980,2.99
+Romania,Wine,1980,4.34
+Romania,Spirits,1980,3.14
+Romania,Other alcoholic beverages,1980,
+Slovakia,All types,1980,14.93
+Slovakia,Beer,1980,7.82
+Slovakia,Wine,1980,2.71
+Slovakia,Spirits,1980,4.4
+Slovakia,Other alcoholic beverages,1980,0.0
+Slovenia,All types,1980,
+Slovenia,Beer,1980,
+Slovenia,Wine,1980,
+Slovenia,Spirits,1980,
+Slovenia,Other alcoholic beverages,1980,
+Spain,All types,1980,17.69
+Spain,Beer,1980,3.64
+Spain,Wine,1980,9.69
+Spain,Spirits,1980,4.36
+Spain,Other alcoholic beverages,1980,0.0
+Sweden,All types,1980,7.65
+Sweden,Beer,1980,2.94
+Sweden,Wine,1980,1.3
+Sweden,Spirits,1980,3.41
+Sweden,Other alcoholic beverages,1980,0.0
+Switzerland,All types,1980,14.25
+Switzerland,Beer,1980,4.3
+Switzerland,Wine,1980,7.11
+Switzerland,Spirits,1980,2.54
+Switzerland,Other alcoholic beverages,1980,0.31
+Ukraine,All types,1980,7.67
+Ukraine,Beer,1980,1.67
+Ukraine,Wine,1980,2.44
+Ukraine,Spirits,1980,3.56
+Ukraine,Other alcoholic beverages,1980,

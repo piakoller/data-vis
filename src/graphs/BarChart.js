@@ -51,13 +51,11 @@ const BarChart = () => {
             // Set up scales
             const xScale = d3.scaleLinear().range([marginLeft, width - marginLeft]);
             const yScale = d3.scaleBand().range([height - marginBottom, marginTop]).padding(0.5);
-/*             const yScale = d3.scaleBand().range([height - marginBottom, marginTop]).padding(0.5);
-            const xScale = d3.scaleLinear().range([marginLeft, width - marginLeft]); */
+            /*             const yScale = d3.scaleBand().range([height - marginBottom, marginTop]).padding(0.5);
+                        const xScale = d3.scaleLinear().range([marginLeft, width - marginLeft]); */
 
-            xScale.domain([50,90]);
+            xScale.domain([50, 90]);
             yScale.domain(combinedData.map(d => d.country));
-            /* yScale.domain(combinedData.map(d => d.country));
-            xScale.domain([50, 90]); */
 
             const svg = d3.select(ref.current);
 
@@ -68,29 +66,18 @@ const BarChart = () => {
             svg.append('g')
                 .attr('transform', `translate(0, ${height - marginBottom})`)
                 .call(d3.axisBottom(xScale).tickSizeOuter(0))
-                /* .selectAll("text")
-                .style("text-anchor", "end")
-                .attr("dx", "-.8em")
-                .attr("dy", ".15em")
-                .attr("transform", "rotate(-35)"); */
 
             // Draw y-axis
             svg.append('g')
                 .attr('transform', `translate(${marginLeft}, 0)`)
                 .call(d3.axisLeft(yScale))
-                /* .append('text')
-                .attr('transform', 'rotate(-65)')
-                .attr('y', -marginLeft + 20)
-                .attr('x', -(height / 2))
-                .attr('text-anchor', 'middle')
-                .text('Life Expectancy'); */
 
             // Add values at the top of the bars
             svg.selectAll('.label')
                 .data(combinedData)
                 .enter().append('text')
                 .attr('class', 'label')
-                .attr('x', d => xScale(d.lifeExpectancy) + 5) 
+                .attr('x', d => xScale(d.lifeExpectancy) + 5)
                 .attr('y', d => yScale(d.country) + yScale.bandwidth() / 2)
                 .attr('text-anchor', 'start')
                 .text(d => d.lifeExpectancy ? d.lifeExpectancy.toFixed(1) : '');
@@ -124,7 +111,10 @@ const BarChart = () => {
                     }
                 })
                 .on('mouseover', (event, d) => setHoverCountry(d.country)) // Set hoverCountry when mouse enters
-                .on('mouseout', () => setHoverCountry(null)); // Clear hoverCountry when mouse leaves
+                .on('mouseout', () => setHoverCountry(null)) // Clear hoverCountry when mouse leaves
+                .transition()
+                .duration(1000) // Set the duration for the transition in milliseconds
+                .on('end', /* Optional callback function after transition completes */);
 
         });
     }, [selectedYear, setSelectedCountry, hoverCountry]);
