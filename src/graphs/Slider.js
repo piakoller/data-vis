@@ -49,7 +49,7 @@ const MovingSlider = () => {
                     disabled={autoPlay}
                 />
                 <h2 style={fontStyle}>Year: {selectedYear}</h2>
-                <Button style={fontStyle2} variant="text" onClick={() => setAutoPlay(!autoPlay)}>
+                <Button style={fontStyle} variant="text" onClick={() => setAutoPlay(!autoPlay)}>
                     {autoPlay ? 'Pause' : 'Play'} Animation
                 </Button>
             </div>
