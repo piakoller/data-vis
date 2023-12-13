@@ -1,16 +1,40 @@
-import React, { useEffect, useState, useCallback } from 'react';
+import React, { useEffect, useState, useCallback, useMemo } from 'react';
 import * as d3 from 'd3';
 import { useSelectedData } from './Selected';
 import { fetchCountryData } from './DataFetcher';
+import { styled } from '@mui/material/styles';
 
-import Tooltip from '@mui/material/Tooltip';
+import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
 
 const LineChart = () => {
     const { selectedCountry, selectedYear, hoverCountry, setHoverCountry } = useSelectedData();
     // const { countryColors, assignCountryColors } = ColorAssignerProvider();
 
     const [data, setData] = useState({});
-    const [tooltipContent] = useState(null);
+    const [tooltipContent, setTooltipContent] = useState(null);
+    let timer = null;
+
+    const positionRef = React.useRef({
+        x: 0,
+        y: 0,
+    });
+    const popperRef = React.useRef(null);
+    const areaRef = React.useRef(null);
+
+
+    const handleMouseMove = (event) => {
+        positionRef.current = { x: event.clientX, y: event.clientY };
+
+        if (popperRef.current != null) {
+            popperRef.current.update();
+        }
+    };
+
+
+    const addTooltipContent = (country) => {
+        
+        setTooltipContent(country)
+    }
 
     const fetchDataForCountry = useCallback(country => {
         fetchCountryData(country)
@@ -82,18 +106,29 @@ const LineChart = () => {
                 selectedCountry.some((selected) => selected.country === country)
             );
 
+
             // Draw the lines for selected countries
             filteredData.forEach(([country, values]) => {
                 const isHovered = hoverCountry === country; // Check if this country is hovered
-
                 svg.append('path')
                     .datum(values)
                     .attr('fill', 'none')
                     .attr('stroke', hoverCountry == null ? getColorForSelected(country) : isHovered ? getColorForSelected(country) : '#d0d0d0') // Change stroke color if hovered, otherwise grey
                     .attr('stroke-width', isHovered ? 2 : 1) // Change stroke width if hovered
                     .attr('d', line)
-                    .on('mouseover', () => setHoverCountry(country)) // Set hoverCountry when mouse enters
-                    .on('mouseout', () => setHoverCountry(null)); // Clear hoverCountry when mouse leaves
+                    .on('mouseover', (event) => {
+                        handleMouseMove(event)
+                        setHoverCountry(country)
+                        addTooltipContent(country)
+                    }
+
+                    ) // Set hoverCountry when mouse enters
+                    .on('mouseout', () => {
+                        setHoverCountry(null)
+                        setTooltipContent(null)
+                    }
+
+                    ); // Clear hoverCountry when mouse leaves
 
                 // Find the data point for the selected year in each country's data
                 const selectedYearData = values.find(d => d.date.getFullYear() === selectedYear);
@@ -120,9 +155,38 @@ const LineChart = () => {
         }
     }, [data, selectedYear, hoverCountry]);
 
+    const HtmlTooltip = styled(({ className, ...props }) => (
+        <Tooltip {...props} classes={{ popper: className }} />
+    ))(({ theme }) => ({
+        [`& .${tooltipClasses.tooltip}`]: {
+            backgroundColor: "red",
+        },
+    }));
+
     return (
-        <div id="line-chart-container">
-        </div>);
+        <Tooltip
+            open={tooltipContent != null}
+            title={tooltipContent}
+            arrow
+            placement="top"
+            PopperProps={{
+                popperRef,
+                anchorEl: {
+                    getBoundingClientRect: () => {
+                        return new DOMRect(
+                            positionRef.current.x,
+                            positionRef.current.y,
+                            0,
+                            0,
+                        );
+                    },
+                },
+            }}
+        >
+            <div id="line-chart-container" ref={areaRef}>
+            </div>
+        </Tooltip>
+    );
 };
 
 export default LineChart;
