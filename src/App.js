@@ -4,6 +4,8 @@ import MovingSlider from './graphs/Slider';
 import WorldMap from './graphs/WorldMap';
 import LineChart from './graphs/LineChart';
 import BarChart from './graphs/BarChart';
+import ScatterPlot from './graphs/ScatterPlot';
+
 import { SelectedDataProvider } from './graphs/Selected';
 
 import './App.css';
@@ -51,7 +53,7 @@ function App() {
               </Grid>
               <Grid item xs={6}>
                 <Item>
-                <h2>Alcohol Consumption in Europe</h2>
+                  <h2>Alcohol Consumption in Europe</h2>
                   <CardContent style={{ height: '100%' }}>
                     <WorldMap key="unique-key-for-world-map" />
                     <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
@@ -62,7 +64,7 @@ function App() {
               </Grid>
               <Grid item xs={6}>
                 <Item>
-                <h2>Life Expectancy in Europe</h2>
+                  <h2>Life Expectancy in Europe</h2>
                   <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                     <BarChart key="unique-key-for-world-map" />
                   </Typography>
@@ -70,7 +72,7 @@ function App() {
               </Grid>
               <Grid item xs={6}>
                 <Item>
-                <h2>Alcohol Consumption over the years</h2>
+                  <h2>Alcohol Consumption over the years</h2>
                   <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                     <LineChart key="unique-key-for-world-map" />
                   </Typography>
@@ -78,9 +80,9 @@ function App() {
               </Grid>
               <Grid item xs={6}>
                 <Item>
-                <h2>Scatter Plot - Alcohol Consumption and Happiness in Europe</h2>
+                  <h2>Scatter Plot - Alcohol Consumption and Happiness in Europe</h2>
                   <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                    box2
+                    <ScatterPlot key="unique-key-for-world-map" />
                   </Typography>
                 </Item>
               </Grid>
