@@ -2,16 +2,11 @@ import React, { useState, useEffect } from "react";
 import { useSelectedData } from './Selected';
 import Slider from '@mui/material/Slider';
 import Button from '@mui/material/Button';
+import 'C:/Users/anton/Desktop/data-vis/src/App.css';
 
 const MovingSlider = () => {
     const { selectedYear, setSelectedYear } = useSelectedData();
     const [autoPlay, setAutoPlay] = useState(false);
-
-    const fontStyle = {
-        //fontSize: '50px',
-        //color: '#497cb8',
-        fontFamily: 'Kalnia, serif',
-      };
 
     useEffect(() => {
         let intervalId;
@@ -48,8 +43,8 @@ const MovingSlider = () => {
                     max={2022}
                     disabled={autoPlay}
                 />
-                <h2 style={fontStyle}>Year: {selectedYear}</h2>
-                <Button style={fontStyle} variant="text" onClick={() => setAutoPlay(!autoPlay)}>
+                <h2 id='fontstyle'>Year: {selectedYear}</h2>
+                <Button id='fontstyle' variant="text" onClick={() => setAutoPlay(!autoPlay)}>
                     {autoPlay ? 'Pause' : 'Play'} Animation
                 </Button>
             </div>

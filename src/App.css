@@ -67,3 +67,15 @@
 .input-range__track {
   transition: none;
 }
+
+#headerstyle {
+  font-weight: bolder;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 36px;
+}
+
+#fontstyle {
+  font-weight: bolder;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+}
