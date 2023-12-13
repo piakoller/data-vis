@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useSelectedData } from './Selected';
 import Slider from '@mui/material/Slider';
 import Button from '@mui/material/Button';
+import '../App.css'
 
 const MovingSlider = () => {
     const { selectedYear, setSelectedYear } = useSelectedData();
@@ -48,8 +49,8 @@ const MovingSlider = () => {
                     max={2021}
                     disabled={autoPlay}
                 />
-                <h2 style={fontStyle}>Year: {selectedYear}</h2>
-                <Button style={fontStyle} variant="text" onClick={() => setAutoPlay(!autoPlay)}>
+                <h2 id='fontstyle'>Year: {selectedYear}</h2>
+                <Button id='fontstyle' variant="text" onClick={() => setAutoPlay(!autoPlay)}>
                     {autoPlay ? 'Pause' : 'Play'} Animation
                 </Button>
             </div>

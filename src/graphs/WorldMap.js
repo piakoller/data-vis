@@ -17,6 +17,8 @@ import './WorldMap.css'
 const Map = () => {
     const [data, setData] = useState({});
     const { selectedCountry, setSelectedCountry, selectedYear, hoverCountry, setHoverCountry, selectCountry, unselectCountry, unselectAll } = useSelectedData();
+    const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
+
 
     const [tooltipContent, setTooltipContent] = useState(null);
 
@@ -27,18 +29,26 @@ const Map = () => {
     const popperRef = React.useRef(null);
     const areaRef = React.useRef(null);
 
-
+    // Update tooltip position on mouse move
     const handleMouseMove = (event) => {
-        positionRef.current = { x: event.clientX, y: event.clientY };
+        setTooltipPosition({ x: event.clientX, y: event.clientY });
+    };
 
-        if (popperRef.current != null) {
-            popperRef.current.update();
+    const addTooltipContent = (country) => {
+        const selectedYearData = data[selectedYear]?.[country];
+    
+        if (selectedYearData) {
+            const tooltipValue = `Country: ${country}, Year: ${selectedYear}, `;
+            const beverageValues = Object.entries(selectedYearData)
+                .filter(([beverage]) => ['Wine', 'Beer', 'Spirits', 'Other alcoholic beverages'].includes(beverage))
+                .map(([beverage, value]) => `${beverage}: ${value}`)
+                .join(', ');
+    
+            setTooltipContent(`${tooltipValue}${beverageValues}`);
+        } else {
+            setTooltipContent(null);
         }
     };
-    const addTooltipContent = (country) => {
-
-        setTooltipContent(country)
-    }
 
     useEffect(() => {
         fetchWorldMapData()
@@ -152,19 +162,11 @@ const Map = () => {
                 title={tooltipContent}
                 arrow
                 placement="top"
-                PopperProps={{
-                    popperRef,
-                    anchorEl: {
-                        getBoundingClientRect: () => {
-                            return new DOMRect(
-                                positionRef.current.x,
-                                positionRef.current.y,
-                                0,
-                                0,
-                            );
-                        },
-                    },
-                }}
+                enterTouchDelay={0}
+                interactive
+                leaveTouchDelay={1500}
+                disableTouchListener
+                leaveDelay={200}
             >
                 <div>
                     <svg width={width} height={height}>
@@ -195,6 +197,7 @@ const Map = () => {
                                             transform={`translate(${centerX}, ${centerY}) scale(${scale}) translate(${-centerX}, ${-centerY})`} // Apply scale transformation around the center of the country
                                             onMouseEnter={() => handleMouseEnter(location)}
                                             onMouseLeave={handleMouseLeave}
+                                            onMouseMove={handleMouseMove}
                                             onClick={(e) => {
                                                 handleCountryClick(location, value);
                                             }}

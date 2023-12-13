@@ -21,7 +21,6 @@ const LineChart = () => {
     const popperRef = React.useRef(null);
     const areaRef = React.useRef(null);
 
-
     const handleMouseMove = (event) => {
         positionRef.current = { x: event.clientX, y: event.clientY };
 
@@ -31,11 +30,16 @@ const LineChart = () => {
     };
 
 
-    const addTooltipContent = (country) => {
-        
+    const addTooltipContentCircle = useCallback((country, value) => {
+        const selectedYearData = data[country]?.find(d => d.date.getFullYear() === selectedYear);
+        const tooltipValue = selectedYearData ? `Country: ${country}, Year: ${selectedYear}, Value: ${selectedYearData.value}` : null;
+        setTooltipContent(tooltipValue);
+      }, [data, selectedYear]);
+    
+    const addTooltipContentCountry = useCallback((country) => {
         setTooltipContent(country)
-    }
-
+    },[]);
+    
     const fetchDataForCountry = useCallback(country => {
         fetchCountryData(country)
             .then(countryData => {
@@ -121,7 +125,7 @@ const LineChart = () => {
                     .on('mouseover', (event) => {
                         handleMouseMove(event)
                         setHoverCountry(country)
-                        addTooltipContent(country)
+                        addTooltipContentCountry(country)
                     }
 
                     ) // Set hoverCountry when mouse enters
@@ -143,7 +147,12 @@ const LineChart = () => {
                         .attr('r', 5)
                         .attr('fill', getColorForSelected(country)) // Use the color of the line
                         .attr('stroke', '#fff') // Optional: Add a stroke for better visibility
-                        .attr('stroke-width', 2); // Optional: Adjust stroke width
+                        .attr('stroke-width', 2) // Optional: Adjust stroke width
+                        .on('mouseover', (event) => {
+                            handleMouseMove(event);
+                            setHoverCountry(country);
+                            addTooltipContentCircle(country);
+                          });
                 }
             });
 

@@ -7,7 +7,7 @@
 .App-header {
   font-size: calc(10px + 2vmin);
   padding: 2%;
-  background-color: #b5d3e8;
+  background-color: #E10075;
 }
 
 .App-link {
@@ -66,4 +66,16 @@
 
 .input-range__track {
   transition: none;
+}
+
+#headerstyle {
+  font-weight: bolder;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 36px;
+}
+
+#fontstyle {
+  font-weight: bolder;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 16px;
 }

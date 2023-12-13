@@ -30,29 +30,28 @@ export const fetchWorldMapData = () => {
       const parsedData = Papa.parse(csvData, { header: true });
       const formattedData = {};
 
-      // parsedData.data.forEach(entry => {
-      //   const year = parseInt(entry.TIME);
-      //   if (!formattedData[year]) {
-      //     formattedData[year] = {};
-      //   }
-      //   formattedData[year][entry.LOCATION] = {
-      //     value: parseFloat(entry.Value),
-      //     color: entry.COLOR
-      //   };
-      // });
       parsedData.data.forEach(entry => {
         const year = parseInt(entry.TIME);
         const location = entry.LOCATION;
         const beverageType = entry['BEVERAGE TYPES'];
 
-        if (beverageType === 'Alltypes') {
+        // Check if the beverage type is in the specified list
+        if (['Wine', 'Beer', 'Spirits', 'Other alcoholic beverages', 'Alltypes'].includes(beverageType)) {
           if (!formattedData[year]) {
             formattedData[year] = {};
           }
-          formattedData[year][location] = {
-            value: parseFloat(entry.VALUE),
-            color: entry.COLOR
-          };
+
+          if (beverageType === 'Alltypes') {
+            formattedData[year][location] = {
+              value: parseFloat(entry.VALUE),
+              color: entry.COLOR
+            };
+          } else {
+            if (!formattedData[year][location]) {
+              formattedData[year][location] = {};
+            }
+            formattedData[year][location][beverageType] = parseFloat(entry.VALUE);
+          }
         }
       });
 
