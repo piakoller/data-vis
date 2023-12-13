@@ -50,7 +50,7 @@ const LineChart = () => {
             d3.select('#line-chart-container').select('svg').remove();
 
             const margin = { top: 20, right: 30, bottom: 30, left: 40 };
-            const width = 600 - margin.left - margin.right;
+            const width = 1200 - margin.left - margin.right;
             const height = 400 - margin.top - margin.bottom;
 
             const svg = d3
