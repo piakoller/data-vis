@@ -22,12 +22,19 @@ const Map = () => {
 
     const [tooltipContent, setTooltipContent] = useState(null);
 
-    const positionRef = React.useRef({
-        x: 0,
-        y: 0,
-    });
-    const popperRef = React.useRef(null);
-    const areaRef = React.useRef(null);
+    // Add a function to calculate contrasting text color
+    const getContrastColor = (hexColor) => {
+        // Convert hex color to RGB
+        const r = parseInt(hexColor.substr(1, 2), 16);
+        const g = parseInt(hexColor.substr(3, 2), 16);
+        const b = parseInt(hexColor.substr(5, 2), 16);
+
+        // Calculate relative luminance
+        const luminance = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
+
+        // Return white for dark backgrounds, black for light backgrounds
+        return luminance > 0.5 ? '#000000' : '#FFFFFF';
+    };
 
     // Update tooltip position on mouse move
     const handleMouseMove = (event) => {
@@ -36,14 +43,14 @@ const Map = () => {
 
     const addTooltipContent = (country) => {
         const selectedYearData = data[selectedYear]?.[country];
-    
+
         if (selectedYearData) {
             const tooltipValue = `Country: ${country}, Year: ${selectedYear}, `;
             const beverageValues = Object.entries(selectedYearData)
                 .filter(([beverage]) => ['Wine', 'Beer', 'Spirits', 'Other alcoholic beverages'].includes(beverage))
                 .map(([beverage, value]) => `${beverage}: ${value}`)
                 .join(', ');
-    
+
             setTooltipContent(`${tooltipValue}${beverageValues}`);
         } else {
             setTooltipContent(null);
@@ -58,10 +65,15 @@ const Map = () => {
     }, []);
 
     const getColor = useMemo(() => {
-        const colorScale = d3.scaleSequential(d3.interpolateOranges);
-        return (value) =>
-            colorScale(value / 15);
-    }, []);
+        const colorScale = d3.scaleSequential(d3.interpolateGreys);
+        return (value) => {
+          if (value) {
+            return colorScale(value / 25);
+          } else {
+            return '#FFFFFF'; // Default to white when there's no value
+          }
+        };
+      }, []);
 
 
     const width = 800;
@@ -148,7 +160,13 @@ const Map = () => {
                 {selectedCountry &&
                     selectedCountry.map((country) => (
                         <Chip
-                            sx={{ width: "100%", justifyContent: "space-between", backgroundColor: country.color, padding: 2 }}
+                            sx={{
+                                width: '100%',
+                                justifyContent: 'space-between',
+                                backgroundColor: country.color,
+                                padding: 2,
+                                color: getContrastColor(country.color), // Set the font color dynamically
+                            }}
                             key={country.country}
                             label={country.country}
                             onDelete={() => {

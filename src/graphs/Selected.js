@@ -12,15 +12,15 @@ export function SelectedDataProvider({ children }) {
   const [selectedYear, setSelectedYear] = useState(1960); // Default year
   let colorList = ['#CC6677', '#332288', '#DDCC77', '#117733', '#88CCEE', '#882255', '#44AA99', '#999933', '#AA4499']
   const [selectedColors, setSelectedColors] = useState({
-    '#CC6677': false,
-    '#332288': false,
-    '#DDCC77': false,
-    '#117733': false,
-    '#88CCEE': false,
-    '#882255': false,
-    '#44AA99': false,
-    '#999933': false,
-    '#AA4499': false
+    '#00ff00': false,
+    '#ff4500': false,
+    '#b03060': false,
+    '#ffd700': false,
+    '#000080': false,
+    '#ff1493': false,
+    '#00bfff': false,
+    '#00ffff': false,
+    '#006400': false,
   });
   const pickColor = () => {
     const colorKeys = Object.keys(selectedColors);
@@ -64,15 +64,15 @@ export function SelectedDataProvider({ children }) {
   const unselectAll = () => {
     setSelectedCountry([]);
     setSelectedColors({
-      '#CC6677': false,
-      '#332288': false,
-      '#DDCC77': false,
-      '#117733': false,
-      '#88CCEE': false,
-      '#882255': false,
-      '#44AA99': false,
-      '#999933': false,
-      '#AA4499': false
+      '#00ff00': false,
+      '#ff4500': false,
+      '#b03060': false,
+      '#ffd700': false,
+      '#000080': false,
+      '#ff1493': false,
+      '#00bfff': false,
+      '#00ffff': false,
+      '#006400': false,
     })
   }
 
