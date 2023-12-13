@@ -10,7 +10,7 @@ const MovingSlider = () => {
     const fontStyle = {
         //fontSize: '50px',
         //color: '#497cb8',
-        fontFamily: 'Kalnia, serif',
+        //fontFamily: 'Kalnia, serif',
       };
 
     useEffect(() => {
@@ -45,7 +45,7 @@ const MovingSlider = () => {
                     step={1}
                     marks
                     min={1960}
-                    max={2022}
+                    max={2021}
                     disabled={autoPlay}
                 />
                 <h2 style={fontStyle}>Year: {selectedYear}</h2>

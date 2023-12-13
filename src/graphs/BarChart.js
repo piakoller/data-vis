@@ -117,10 +117,7 @@ const BarChart = () => {
                     }
                 })
                 .on('mouseover', (event, d) => setHoverCountry(d.country)) // Set hoverCountry when mouse enters
-                .on('mouseout', () => setHoverCountry(null)) // Clear hoverCountry when mouse leaves
-                .transition()
-                .duration(1000) // Set the duration for the transition in milliseconds
-                .on('end', /* Optional callback function after transition completes */);
+                .on('mouseout', () => setHoverCountry(null)); // Clear hoverCountry when mouse leaves
 
         });
     }, [selectedYear, setSelectedCountry, hoverCountry]);

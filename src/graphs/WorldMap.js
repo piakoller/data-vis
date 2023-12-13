@@ -5,30 +5,40 @@ import * as d3 from 'd3';
 import { useSelectedData } from './Selected';
 import { fetchWorldMapData } from './DataFetcher';
 
+import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
+import { styled } from '@mui/material/styles';
+
 import Slider from '@mui/material/Slider';
 import Chip from '@mui/material/Chip';
 import { debounce, max } from 'lodash';
 import '../App.css';
 import './WorldMap.css'
 
-const Tooltip = ({ x, y, location, value }) => (
-    <foreignObject x={x} y={y} width={200} height={100}>
-        <div style={{ background: 'white', borderRadius: '10px', padding: '3px', outline: '1px solid black' }}>
-            <h4>{location}</h4>
-            <p>{value}</p>
-        </div>
-        <div style={{ background: 'white', borderRadius: '8px', padding: '3px', outline: '1px solid black' }}>
-            <h4>{location}</h4>
-            <p>{value}</p>
-        </div>
-    </foreignObject>
-);
-
 const Map = () => {
     const [data, setData] = useState({});
     const { selectedCountry, setSelectedCountry, selectedYear, hoverCountry, setHoverCountry, selectCountry, unselectCountry, unselectAll } = useSelectedData();
 
-    const [tooltip, setTooltip] = useState(null);
+    const [tooltipContent, setTooltipContent] = useState(null);
+
+    const positionRef = React.useRef({
+        x: 0,
+        y: 0,
+    });
+    const popperRef = React.useRef(null);
+    const areaRef = React.useRef(null);
+
+
+    const handleMouseMove = (event) => {
+        positionRef.current = { x: event.clientX, y: event.clientY };
+
+        if (popperRef.current != null) {
+            popperRef.current.update();
+        }
+    };
+    const addTooltipContent = (country) => {
+
+        setTooltipContent(country)
+    }
 
     useEffect(() => {
         fetchWorldMapData()
@@ -61,10 +71,9 @@ const Map = () => {
     const handleCountryClick = (location, value) => {
         if (selectedCountry.some((selected) => selected.country === location)) {
             unselectCountry(location);
-        } 
+        }
         else {
             selectCountry(location);
-            setTooltip({ location, value });
         }
 
     };
@@ -80,16 +89,26 @@ const Map = () => {
 
     const handleMouseEnter = (location) => {
         setHoverCountry(location);
+        // handleMouseMove(location)
+        addTooltipContent(location)
     };
 
     const handleMouseLeave = () => {
         setHoverCountry(null);
+        setTooltipContent(null)
     };
+    const HtmlTooltip = styled(({ className, ...props }) => (
+        <Tooltip {...props} classes={{ popper: className }} />
+    ))(({ theme }) => ({
+        [`& .${tooltipClasses.tooltip}`]: {
+            backgroundColor: "red",
+        },
+    }));
 
     return (
         <div width="100%" height="100%" viewBox="0 0 1000 500">
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, padding: 16 }}>
-               {/*  <Chip
+                {/*  <Chip
                     key="Select All"
                     label="Select All"
                     onClick={() => {
@@ -114,12 +133,12 @@ const Map = () => {
                     }}
                 />
             </div>
-            <div style={{ display: 'flex', flexDirection: "column", width: 150, position: "absolute",  gap: 8, padding: 16, overflowY: "auto", height: 400 }}>
-                {/* Render selected countries as filter chips */} 
+            <div style={{ display: 'flex', flexDirection: "column", width: 150, position: "absolute", gap: 8, padding: 16, overflowY: "auto", height: 400 }}>
+                {/* Render selected countries as filter chips */}
                 {selectedCountry &&
                     selectedCountry.map((country) => (
                         <Chip
-                            sx={{width: "100%", justifyContent: "space-between", backgroundColor: country.color, padding: 2}}
+                            sx={{ width: "100%", justifyContent: "space-between", backgroundColor: country.color, padding: 2 }}
                             key={country.country}
                             label={country.country}
                             onDelete={() => {
@@ -128,43 +147,65 @@ const Map = () => {
                         />
                     ))}
             </div>
-            <svg width={width} height={height}>
-                <g className="geo-layer">
-                    {geo.features.map(d => {
-                        const location = d.properties.sovereignt;
-                        const value = data[selectedYear]?.[location] || 0;
-                        const color = getColor(value.value, location);
-                        const isSelected = isCountrySelected(location);
-                        const fillOpacity = selectedCountry.length === 0 ? 1 : isSelected ? 1 : 0.3  // Change opacity for unselected countries
-                        const outline = isSelected ? getColorForSelected(location) || '#d0d0d0' : '#d0d0d0'; // Access color for the selected country and year
-                        const outlineStroke = isSelected ? '3' : '1';
-                        const scale = isSelected ? 1 : 1; // Adjust scale for selected countries
+            <Tooltip
+                open={tooltipContent != null}
+                title={tooltipContent}
+                arrow
+                placement="top"
+                PopperProps={{
+                    popperRef,
+                    anchorEl: {
+                        getBoundingClientRect: () => {
+                            return new DOMRect(
+                                positionRef.current.x,
+                                positionRef.current.y,
+                                0,
+                                0,
+                            );
+                        },
+                    },
+                }}
+            >
+                <div>
+                    <svg width={width} height={height}>
+                        <g className="geo-layer">
+                            {geo.features.map(d => {
+                                const location = d.properties.sovereignt;
+                                const value = data[selectedYear]?.[location] || 0;
+                                const color = getColor(value.value, location);
+                                const isSelected = isCountrySelected(location);
+                                const fillOpacity = selectedCountry.length === 0 ? 1 : isSelected ? 1 : 0.3  // Change opacity for unselected countries
+                                const outline = isSelected ? getColorForSelected(location) || '#d0d0d0' : '#d0d0d0'; // Access color for the selected country and year
+                                const outlineStroke = isSelected ? '3' : '1';
+                                const scale = isSelected ? 1 : 1; // Adjust scale for selected countries
 
-                        // Calculate the center of the country's path
-                        const bounds = path.bounds(d);
-                        const centerX = (bounds[0][0] + bounds[1][0]) / 2;
-                        const centerY = (bounds[0][1] + bounds[1][1]) / 2;
+                                // Calculate the center of the country's path
+                                const bounds = path.bounds(d);
+                                const centerX = (bounds[0][0] + bounds[1][0]) / 2;
+                                const centerY = (bounds[0][1] + bounds[1][1]) / 2;
 
-                        return (
-                            <g key={d.properties.name}>
-                                <path
-                                    d={path(d)}
-                                    fill={color}
-                                    fillOpacity={fillOpacity}
-                                    stroke={outline}
-                                    strokeWidth={outlineStroke}
-                                    transform={`translate(${centerX}, ${centerY}) scale(${scale}) translate(${-centerX}, ${-centerY})`} // Apply scale transformation around the center of the country
-                                    onMouseEnter={() => handleMouseEnter(location)}
-                                    onMouseLeave={handleMouseLeave}
-                                    onClick={(e) => {
-                                        handleCountryClick(location, value);
-                                    }}
-                                />
-                            </g>
-                        );
-                    })}
-                </g>
-            </svg>
+                                return (
+                                    <g key={d.properties.name}>
+                                        <path
+                                            d={path(d)}
+                                            fill={color}
+                                            fillOpacity={fillOpacity}
+                                            stroke={outline}
+                                            strokeWidth={outlineStroke}
+                                            transform={`translate(${centerX}, ${centerY}) scale(${scale}) translate(${-centerX}, ${-centerY})`} // Apply scale transformation around the center of the country
+                                            onMouseEnter={() => handleMouseEnter(location)}
+                                            onMouseLeave={handleMouseLeave}
+                                            onClick={(e) => {
+                                                handleCountryClick(location, value);
+                                            }}
+                                        />
+                                    </g>
+                                );
+                            })}
+                        </g>
+                    </svg>
+                </div>
+            </Tooltip>
             {/* Legend */}
             <svg width={legendWidth} height={legendHeight}>
                 {legendValues.map((value, index) => (
