@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useSelectedData } from './Selected';
 import Slider from '@mui/material/Slider';
 import Button from '@mui/material/Button';
-import 'C:/Users/anton/Desktop/data-vis/src/App.css';
+import '../App.css'
 
 const MovingSlider = () => {
     const { selectedYear, setSelectedYear } = useSelectedData();
