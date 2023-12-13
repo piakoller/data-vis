@@ -7,6 +7,12 @@ const MovingSlider = () => {
     const { selectedYear, setSelectedYear } = useSelectedData();
     const [autoPlay, setAutoPlay] = useState(false);
 
+    const fontStyle = {
+        //fontSize: '50px',
+        //color: '#497cb8',
+        fontFamily: 'Kalnia, serif',
+      };
+
     useEffect(() => {
         let intervalId;
 
@@ -30,7 +36,7 @@ const MovingSlider = () => {
 
     return (
         <div id="slider">
-            <div style={{ padding: 20, width: "50%", margin: "auto" }}>
+            <div style={{ padding: 0, width: "50%", margin: "auto" }}>
                 <Slider
                     value={selectedYear}
                     onChange={handleSliderChange}
@@ -42,8 +48,8 @@ const MovingSlider = () => {
                     max={2022}
                     disabled={autoPlay}
                 />
-                <h2>Year: {selectedYear}</h2>
-                <Button variant="text" onClick={() => setAutoPlay(!autoPlay)}>
+                <h2 style={fontStyle}>Year: {selectedYear}</h2>
+                <Button style={fontStyle} variant="text" onClick={() => setAutoPlay(!autoPlay)}>
                     {autoPlay ? 'Pause' : 'Play'} Animation
                 </Button>
             </div>
