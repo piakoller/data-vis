@@ -65,10 +65,10 @@ const Map = () => {
     }, []);
 
     const getColor = useMemo(() => {
-        const colorScale = d3.scaleSequential(d3.interpolateGreys);
+        const colorScale = d3.scaleSequential(d3.interpolateOranges);
         return (value) => {
           if (value) {
-            return colorScale(value / 25);
+            return colorScale(value / 28);
           } else {
             return '#FFFFFF'; // Default to white when there's no value
           }
@@ -263,7 +263,12 @@ const Map = () => {
                     </text>
                 ))}
             </svg>
-        </div >
+        <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '10px', marginLeft: '250px', marginRight: '245px' }}>
+        {legendValues.map((value, index) => (
+          <div key={index}>{value}</div>
+        ))}
+        </div>
+    </div >
     );
 };
 
