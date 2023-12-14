@@ -37,7 +37,6 @@ function App() {
             <Grid container spacing={2}>
               <Grid item xs={12} style={{ position: 'sticky', top: 0, zIndex: 999, shadow: '0px 0px 20px' }}>
                 <Item>
-                  <h2 id='fontstyle'>Select a year!</h2>
                   <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                     <MovingSlider key="slider" />
                   </Typography>

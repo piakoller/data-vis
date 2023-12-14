@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useSelectedData } from './Selected';
 import Slider from '@mui/material/Slider';
-import Button from '@mui/material/Button';
-import '../App.css'
+import PlayArrowIcon from '@mui/icons-material/PlayArrow';
+import PauseIcon from '@mui/icons-material/Pause';
+import IconButton from '@mui/material/IconButton';
 
 const MovingSlider = () => {
     const { selectedYear, setSelectedYear } = useSelectedData();
@@ -11,8 +12,9 @@ const MovingSlider = () => {
     const fontStyle = {
         //fontSize: '50px',
         //color: '#497cb8',
-        //fontFamily: 'Kalnia, serif',
-      };
+        fontFamily: 'Roboto, sans-serif',
+        width: 250,
+    };
 
     useEffect(() => {
         let intervalId;
@@ -38,21 +40,24 @@ const MovingSlider = () => {
     return (
         <div id="slider">
             <div style={{ padding: 0, width: "50%", margin: "auto" }}>
-                <Slider
-                    value={selectedYear}
-                    onChange={handleSliderChange}
-                    aria-label="Year"
-                    valueLabelDisplay="auto"
-                    step={1}
-                    marks
-                    min={1960}
-                    max={2021}
-                    disabled={autoPlay}
-                />
-                <h2 id='fontstyle'>Year: {selectedYear}</h2>
-                <Button id='fontstyle' variant="text" onClick={() => setAutoPlay(!autoPlay)}>
-                    {autoPlay ? 'Pause' : 'Play'} Animation
-                </Button>
+                <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
+                <h2 style={{ textAlign: "center", width: 200 }}>Year: {selectedYear}</h2>
+                    <IconButton aria-label="Play" size="large" onClick={() => setAutoPlay(!autoPlay)}>
+                        {autoPlay ? <PauseIcon color="primary" /> : <PlayArrowIcon color="primary" />}
+                    </IconButton>
+
+                    <Slider
+                        value={selectedYear}
+                        onChange={handleSliderChange}
+                        aria-label="Year"
+                        valueLabelDisplay="auto"
+                        step={1}
+                        marks
+                        min={1960}
+                        max={2022}
+                        disabled={autoPlay}
+                    />
+                </div>
             </div>
         </div>
     );
