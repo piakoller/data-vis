@@ -16,6 +16,8 @@ import Typography from '@mui/material/Typography';
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
+import { IconButton } from '@mui/material';
+import InfoIcon from '@mui/icons-material/Info';
 
 
 function App() {
@@ -36,7 +38,10 @@ function App() {
           <Box sx={{ flexGrow: 1 }}>
             <Grid container spacing={2}>
               <Grid item xs={12} style={{ position: 'sticky', top: 0, zIndex: 999, shadow: '0px 0px 20px' }}>
-                <Item>
+              <Item style={{position: "relative"}}>
+                  <IconButton aria-label="info" size="large" style={{position: "absolute", top: 0, right: 0, shadow: '0px 0px 20px' }}>
+                    <InfoIcon color='blue' />
+                  </IconButton>
                   <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                     <MovingSlider key="slider" />
                   </Typography>
