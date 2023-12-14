@@ -11,6 +11,8 @@ const ScatterPlot = () => {
     const [selectedYear, setSelectedYear] = useState(2012);
     const [dataPerYear, setDataPerYear] = useState();
     const [tooltipContent, setTooltipContent] = useState(null);
+    const { selectedCountry, setSelectedCountry, hoverCountry, setHoverCountry, selectCountry, unselectCountry } = useSelectedData();
+
 
     useEffect(() => {
         fetchAlcoholAndHappinessData()
@@ -91,13 +93,42 @@ const ScatterPlot = () => {
                 .attr('cx', d => xScale(d.alcohol))
                 .attr('cy', d => yScale(d.happiness)) // Assuming value field for world data
                 .attr('r', 5)
-                .attr('fill', "blue")
+                .attr('fill', d => {
+                    if (hoverCountry === d.country) {
+                        return '#1976D2'; // Change the color for the hovered country
+                    } else if (selectedCountry.some((selected) => selected.country === d.country)) {
+                        // Use the color defined in selected.js for selected countries
+                        const selected = selectedCountry.find((selected) => selected.country === d.country);
+
+                        return selected?.color || '#d0d0d0'
+                    } else if (selectedCountry.some((selected) => selected.country !== d.country)) {
+                        return 'lightgrey';
+                    }
+                    else if (d.country === '...') {
+                        return 'transparent';
+                    } else if (selectCountry){
+                        return 'grey';
+                    }
+                })
                 .on('mouseover', function (event, d) {
                     setTooltipContent(`Country: ${d.country}, Alcohol: ${d.alcohol}, Happiness: ${d.happiness}`);
+                    setHoverCountry(d.country);
+                })
+                .on('mouseout', function () {
+                    setTooltipContent(null);
+                    setHoverCountry(null);
+                })
+                .on('click', (event, d) => {
+                    const { country } = d;
+                    if (!selectedCountry.some((selected) => selected.country === country) && country !== '...') {
+                        selectCountry(country);
+                    } else {
+                        unselectCountry(country);
+                    }
                 })
                 .style('opacity', 0)
                 .transition()
-                .duration(500)
+                .duration(100)
                 .delay((d, i) => i * 10)
                 .style('opacity', 1)
 
@@ -127,7 +158,7 @@ const ScatterPlot = () => {
                 .style('text-anchor', 'middle')
                 .text('Happiness');
         }
-    }, [selectedYear]);
+    }, [selectedYear, hoverCountry]);
 
     return (
         <Tooltip
