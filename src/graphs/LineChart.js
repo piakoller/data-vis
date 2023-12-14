@@ -131,7 +131,7 @@ const LineChart = () => {
                     ) // Set hoverCountry when mouse enters
                     .on('mouseout', () => {
                         setHoverCountry(null)
-                        setTooltipContent(null)
+                        addTooltipContentCountry(null)
                     }
 
                     ); // Clear hoverCountry when mouse leaves
@@ -152,7 +152,10 @@ const LineChart = () => {
                             handleMouseMove(event);
                             setHoverCountry(country);
                             addTooltipContentCircle(country);
-                          });
+                          })
+                        .on('mouseout', (event) => {
+                            addTooltipContentCircle(null);
+                        });
                 }
             });
 
