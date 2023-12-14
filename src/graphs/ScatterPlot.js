@@ -10,7 +10,7 @@ const ScatterPlot = () => {
     const [data, setData] = useState();
     const [dataPerYear, setDataPerYear] = useState();
     const [tooltipContent, setTooltipContent] = useState(null);
-    const { selectedCountry, hoverCountry, setHoverCountry, selectedYear } = useSelectedData();
+    const { selectedCountry, hoverCountry, setHoverCountry, selectedYear, unselectCountry, selectCountry } = useSelectedData();
 
     let timer = null;
 
@@ -118,13 +118,27 @@ const ScatterPlot = () => {
             circles.enter()
                 .append('circle')
                 .attr('r', 5)
-                .attr('fill', "blue")
                 .attr('cx', d => xScale(d.alcohol)) // Set the initial x position
                 .attr('cy', d => yScale(d.happiness)) // Set the initial y position
-                .on('mouseover', (event, d) => {
+                .attr('fill', d => {
+                    if (selectedCountry.some((selected) => selected.country === d.country)) {
+                        // Use the color defined in selected.js for selected countries
+                        const selected = selectedCountry.find((selected) => selected.country === d.country);
+
+                        return selected?.color || '#d0d0d0'
+                    } else if (selectedCountry.some((selected) => selected.country !== d.country)) {
+                        return 'lightgrey';
+                    }
+                    else if (d.country === '...') {
+                        return 'transparent';
+                    } else if (selectCountry) {
+                        return 'grey';
+                    }
+                })
+                .on('mouseover', function (event, d) {
                     handleMouseMove(event);
-                    setTooltipContent(`Country: ${d.country}, Alcohol: ${d.alcohol}, Happiness: ${d.happiness}`);
-                    // Clear the tooltip content after a delay
+                    setTooltipContent(`Country: ${d.country}, Alcohol: ${d.alcohol}, Happiness: ${(d.happiness).toFixed(2)}`);
+                    setHoverCountry(d.country);
                     timer = setTimeout(() => {
                         setTooltipContent(null)
                     }, 3000); // 2000 ms = 2 seconds
@@ -133,10 +147,6 @@ const ScatterPlot = () => {
                     clearTimeout(timer); // Clear the timeout if the mouse leaves before the delay
                     setTooltipContent(null) // Clear the tooltip content
                 })
-                .transition() // Start a transition
-                .duration(500) // Transition duration
-                .attr('cx', d => xScale(d.alcohol)) // Animate the x position
-                .attr('cy', d => yScale(d.happiness)); // Animate the y position
 
             // For the circles that are no longer present, remove them
             circles.exit().remove();
@@ -167,7 +177,7 @@ const ScatterPlot = () => {
                 .style('text-anchor', 'middle')
                 .text('Happiness');
         }
-    }, [selectedYear]);
+    }, [selectedYear, selectCountry]);
 
     return (
         <Tooltip
