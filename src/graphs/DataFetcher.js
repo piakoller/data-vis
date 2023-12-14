@@ -3,6 +3,7 @@ import Papa from 'papaparse';
 const alcohol_path = './data/Alcohol/filtered/combined_alcohol_data.csv'
 const life_expectancy_path = './data/LifeExpectancy/life-expectancy-modified2.csv'
 const happiness_path = './data/Happiness/happiness_europe.csv'
+const alcohol_and_happiness_path = './data/alc_and_happiness_combined.csv'
 
 export const fetchCountryData = (country) => {
   return fetch(alcohol_path)
@@ -131,3 +132,39 @@ export const fetchHappinessData = () => {
       console.error('Error fetching CSV:', error);
     });
 };
+
+export const fetchAlcoholAndHappinessData = () => {
+  return fetch(alcohol_and_happiness_path)
+    .then(response => response.text())
+    .then(csvData => {
+      const lines = csvData.split('\n');
+      const formattedData = [];
+
+      // Assuming the first line contains column headers
+      const headers = lines[0].split(',');
+
+      for (let i = 1; i < lines.length; i++) {
+        const values = lines[i].split(',');
+
+        if (values.length === headers.length) {
+          const year = parseInt(values[1]); // Adjust index to 1 for Year
+          const country = values[2]
+          const alcohol = parseFloat(values[3]); // Adjust index to 2 for Life Expectancy
+          const happiness = parseFloat(values[4])
+
+          if (!isNaN(year) && country && !isNaN(happiness) && !isNaN(alcohol)) {
+            formattedData.push({
+              year: year,
+              country: country,
+              happiness: happiness,
+              alcohol: alcohol
+            });
+          }
+        }
+      }
+      return formattedData;
+    })
+    .catch(error => {
+      console.error('Error fetching CSV:', error);
+    });
+}

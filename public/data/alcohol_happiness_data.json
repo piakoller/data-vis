@@ -1,0 +1,6532 @@
+{
+  "2012": [
+    {
+      "country": "Albania",
+      "alcohol": 4.43,
+      "happiness": 5.510124207
+    },
+    {
+      "country": "Albania",
+      "alcohol": 1.34,
+      "happiness": 5.510124207
+    },
+    {
+      "country": "Albania",
+      "alcohol": 1.12,
+      "happiness": 5.510124207
+    },
+    {
+      "country": "Albania",
+      "alcohol": 1.88,
+      "happiness": 5.510124207
+    },
+    {
+      "country": "Albania",
+      "alcohol": 0.09,
+      "happiness": 5.510124207
+    },
+    {
+      "country": "Austria",
+      "alcohol": 12.1,
+      "happiness": 7.400688648
+    },
+    {
+      "country": "Austria",
+      "alcohol": 6.3,
+      "happiness": 7.400688648
+    },
+    {
+      "country": "Austria",
+      "alcohol": 4.1,
+      "happiness": 7.400688648
+    },
+    {
+      "country": "Austria",
+      "alcohol": 1.7,
+      "happiness": 7.400688648
+    },
+    {
+      "country": "Austria",
+      "alcohol": 0.0,
+      "happiness": 7.400688648
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 13.56,
+      "happiness": 5.749043465
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 2.19,
+      "happiness": 5.749043465
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 0.76,
+      "happiness": 5.749043465
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 6.58,
+      "happiness": 5.749043465
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 4.03,
+      "happiness": 5.749043465
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 10.09,
+      "happiness": 6.935122013
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 4.78,
+      "happiness": 6.935122013
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 3.72,
+      "happiness": 6.935122013
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 1.54,
+      "happiness": 6.935122013
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 0.05,
+      "happiness": 6.935122013
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 4.83,
+      "happiness": 4.773144722
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 3.69,
+      "happiness": 4.773144722
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 0.42,
+      "happiness": 4.773144722
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 0.58,
+      "happiness": 4.773144722
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 0.14,
+      "happiness": 4.773144722
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 10.88,
+      "happiness": 4.222297192
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 4.28,
+      "happiness": 4.222297192
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 1.93,
+      "happiness": 4.222297192
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 4.62,
+      "happiness": 4.222297192
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 0.05,
+      "happiness": 4.222297192
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 10.58,
+      "happiness": 6.027634621
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 4.55,
+      "happiness": 6.027634621
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 4.78,
+      "happiness": 6.027634621
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 1.25,
+      "happiness": 6.027634621
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 0.38,
+      "happiness": 6.027634621
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 12.83,
+      "happiness": 6.334149361
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 6.93,
+      "happiness": 6.334149361
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 2.77,
+      "happiness": 6.334149361
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 3.12,
+      "happiness": 6.334149361
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 0.0,
+      "happiness": 6.334149361
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 9.23,
+      "happiness": 7.519909382
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 3.55,
+      "happiness": 7.519909382
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 4.09,
+      "happiness": 7.519909382
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 1.51,
+      "happiness": 7.519909382
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 0.08,
+      "happiness": 7.519909382
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 16.96,
+      "happiness": 5.363927841
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 6.19,
+      "happiness": 5.363927841
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 2.01,
+      "happiness": 5.363927841
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 6.75,
+      "happiness": 5.363927841
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 2.01,
+      "happiness": 5.363927841
+    },
+    {
+      "country": "Finland",
+      "alcohol": 9.27,
+      "happiness": 7.420209408
+    },
+    {
+      "country": "Finland",
+      "alcohol": 4.27,
+      "happiness": 7.420209408
+    },
+    {
+      "country": "Finland",
+      "alcohol": 1.89,
+      "happiness": 7.420209408
+    },
+    {
+      "country": "Finland",
+      "alcohol": 1.38,
+      "happiness": 7.420209408
+    },
+    {
+      "country": "Finland",
+      "alcohol": 1.74,
+      "happiness": 7.420209408
+    },
+    {
+      "country": "France",
+      "alcohol": 12.22,
+      "happiness": 6.649365425
+    },
+    {
+      "country": "France",
+      "alcohol": 2.15,
+      "happiness": 6.649365425
+    },
+    {
+      "country": "France",
+      "alcohol": 7.33,
+      "happiness": 6.649365425
+    },
+    {
+      "country": "France",
+      "alcohol": 2.54,
+      "happiness": 6.649365425
+    },
+    {
+      "country": "France",
+      "alcohol": 0.2,
+      "happiness": 6.649365425
+    },
+    {
+      "country": "Germany",
+      "alcohol": 11.32,
+      "happiness": 6.702362061
+    },
+    {
+      "country": "Germany",
+      "alcohol": 6.01,
+      "happiness": 6.702362061
+    },
+    {
+      "country": "Germany",
+      "alcohol": 3.23,
+      "happiness": 6.702362061
+    },
+    {
+      "country": "Germany",
+      "alcohol": 2.08,
+      "happiness": 6.702362061
+    },
+    {
+      "country": "Germany",
+      "alcohol": 0.0,
+      "happiness": 6.702362061
+    },
+    {
+      "country": "Greece",
+      "alcohol": 7.62,
+      "happiness": 5.096354008
+    },
+    {
+      "country": "Greece",
+      "alcohol": 2.18,
+      "happiness": 5.096354008
+    },
+    {
+      "country": "Greece",
+      "alcohol": 3.8,
+      "happiness": 5.096354008
+    },
+    {
+      "country": "Greece",
+      "alcohol": 1.54,
+      "happiness": 5.096354008
+    },
+    {
+      "country": "Greece",
+      "alcohol": 0.09,
+      "happiness": 5.096354008
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 11.13,
+      "happiness": 4.683358192
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 4.08,
+      "happiness": 4.683358192
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 3.19,
+      "happiness": 4.683358192
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 3.86,
+      "happiness": 4.683358192
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 0.0,
+      "happiness": 4.683358192
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 6.82,
+      "happiness": 7.590660095
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 3.77,
+      "happiness": 7.590660095
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 1.95,
+      "happiness": 7.590660095
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 1.1,
+      "happiness": 7.590660095
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 0.0,
+      "happiness": 7.590660095
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 11.38,
+      "happiness": 6.964645386
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 5.32,
+      "happiness": 6.964645386
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 2.91,
+      "happiness": 6.964645386
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 2.28,
+      "happiness": 6.964645386
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 0.88,
+      "happiness": 6.964645386
+    },
+    {
+      "country": "Italy",
+      "alcohol": 7.48,
+      "happiness": 5.839313984
+    },
+    {
+      "country": "Italy",
+      "alcohol": 1.7,
+      "happiness": 5.839313984
+    },
+    {
+      "country": "Italy",
+      "alcohol": 4.99,
+      "happiness": 5.839313984
+    },
+    {
+      "country": "Italy",
+      "alcohol": 0.79,
+      "happiness": 5.839313984
+    },
+    {
+      "country": "Italy",
+      "alcohol": 0.0,
+      "happiness": 5.839313984
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 10.2,
+      "happiness": 5.125025272
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 4.67,
+      "happiness": 5.125025272
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 1.16,
+      "happiness": 5.125025272
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 3.77,
+      "happiness": 5.125025272
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 0.6,
+      "happiness": 5.125025272
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 14.97,
+      "happiness": 5.771037102
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 5.64,
+      "happiness": 5.771037102
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 1.45,
+      "happiness": 5.771037102
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 5.67,
+      "happiness": 5.771037102
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 2.22,
+      "happiness": 5.771037102
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 11.67,
+      "happiness": 6.964097023
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 4.08,
+      "happiness": 6.964097023
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 5.28,
+      "happiness": 6.964097023
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 2.31,
+      "happiness": 6.964097023
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 0.0,
+      "happiness": 6.964097023
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 9.37,
+      "happiness": 5.218724251
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 4.28,
+      "happiness": 5.218724251
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 2.41,
+      "happiness": 5.218724251
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 2.52,
+      "happiness": 5.218724251
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 0.16,
+      "happiness": 5.218724251
+    },
+    {
+      "country": "Norway",
+      "alcohol": 6.21,
+      "happiness": 7.678277016
+    },
+    {
+      "country": "Norway",
+      "alcohol": 2.67,
+      "happiness": 7.678277016
+    },
+    {
+      "country": "Norway",
+      "alcohol": 2.29,
+      "happiness": 7.678277016
+    },
+    {
+      "country": "Norway",
+      "alcohol": 1.11,
+      "happiness": 7.678277016
+    },
+    {
+      "country": "Norway",
+      "alcohol": 0.14,
+      "happiness": 7.678277016
+    },
+    {
+      "country": "Poland",
+      "alcohol": 10.21,
+      "happiness": 5.87593174
+    },
+    {
+      "country": "Poland",
+      "alcohol": 5.84,
+      "happiness": 5.87593174
+    },
+    {
+      "country": "Poland",
+      "alcohol": 0.83,
+      "happiness": 5.87593174
+    },
+    {
+      "country": "Poland",
+      "alcohol": 3.53,
+      "happiness": 5.87593174
+    },
+    {
+      "country": "Poland",
+      "alcohol": 0.0,
+      "happiness": 5.87593174
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 9.76,
+      "happiness": 4.993962288
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 2.64,
+      "happiness": 4.993962288
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 5.34,
+      "happiness": 4.993962288
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 1.4,
+      "happiness": 4.993962288
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 0.38,
+      "happiness": 4.993962288
+    },
+    {
+      "country": "Romania",
+      "alcohol": 9.66,
+      "happiness": 5.166874886
+    },
+    {
+      "country": "Romania",
+      "alcohol": 5.35,
+      "happiness": 5.166874886
+    },
+    {
+      "country": "Romania",
+      "alcohol": 3.0,
+      "happiness": 5.166874886
+    },
+    {
+      "country": "Romania",
+      "alcohol": 1.3,
+      "happiness": 5.166874886
+    },
+    {
+      "country": "Romania",
+      "alcohol": 0.0,
+      "happiness": 5.166874886
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 10.14,
+      "happiness": 5.91105938
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 3.66,
+      "happiness": 5.91105938
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 2.12,
+      "happiness": 5.91105938
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 4.36,
+      "happiness": 5.91105938
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 0.0,
+      "happiness": 5.91105938
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 10.95,
+      "happiness": 6.062891006
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 4.58,
+      "happiness": 6.062891006
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 5.5,
+      "happiness": 6.062891006
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 0.87,
+      "happiness": 6.062891006
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 0.0,
+      "happiness": 6.062891006
+    },
+    {
+      "country": "Spain",
+      "alcohol": 8.6,
+      "happiness": 6.290690422
+    },
+    {
+      "country": "Spain",
+      "alcohol": 4.12,
+      "happiness": 6.290690422
+    },
+    {
+      "country": "Spain",
+      "alcohol": 2.13,
+      "happiness": 6.290690422
+    },
+    {
+      "country": "Spain",
+      "alcohol": 2.18,
+      "happiness": 6.290690422
+    },
+    {
+      "country": "Spain",
+      "alcohol": 0.17,
+      "happiness": 6.290690422
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 7.23,
+      "happiness": 7.560147762
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 2.63,
+      "happiness": 7.560147762
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 3.43,
+      "happiness": 7.560147762
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 1.05,
+      "happiness": 7.560147762
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 0.12,
+      "happiness": 7.560147762
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 9.87,
+      "happiness": 7.776208878
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 3.17,
+      "happiness": 7.776208878
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 4.7,
+      "happiness": 7.776208878
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 1.88,
+      "happiness": 7.776208878
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 0.12,
+      "happiness": 7.776208878
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 8.54,
+      "happiness": 5.030342102
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 3.29,
+      "happiness": 5.030342102
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 0.42,
+      "happiness": 5.030342102
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 4.76,
+      "happiness": 5.030342102
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 0.08,
+      "happiness": 5.030342102
+    },
+    {
+      "country": "United Kingdom",
+      "alcohol": 9.6,
+      "happiness": 6.880784035
+    }
+  ],
+  "2013": [
+    {
+      "country": "Albania",
+      "alcohol": 4.28,
+      "happiness": 4.550647736
+    },
+    {
+      "country": "Albania",
+      "alcohol": 1.34,
+      "happiness": 4.550647736
+    },
+    {
+      "country": "Albania",
+      "alcohol": 1.07,
+      "happiness": 4.550647736
+    },
+    {
+      "country": "Albania",
+      "alcohol": 1.79,
+      "happiness": 4.550647736
+    },
+    {
+      "country": "Albania",
+      "alcohol": 0.08,
+      "happiness": 4.550647736
+    },
+    {
+      "country": "Austria",
+      "alcohol": 12.1,
+      "happiness": 7.498802662
+    },
+    {
+      "country": "Austria",
+      "alcohol": 6.1,
+      "happiness": 7.498802662
+    },
+    {
+      "country": "Austria",
+      "alcohol": 3.9,
+      "happiness": 7.498802662
+    },
+    {
+      "country": "Austria",
+      "alcohol": 2.1,
+      "happiness": 7.498802662
+    },
+    {
+      "country": "Austria",
+      "alcohol": 0.0,
+      "happiness": 7.498802662
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 12.58,
+      "happiness": 5.876466274
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 2.36,
+      "happiness": 5.876466274
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 0.84,
+      "happiness": 5.876466274
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 5.4,
+      "happiness": 5.876466274
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 3.97,
+      "happiness": 5.876466274
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 10.33,
+      "happiness": 7.10366106
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 4.6,
+      "happiness": 7.10366106
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 3.87,
+      "happiness": 7.10366106
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 1.42,
+      "happiness": 7.10366106
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 0.44,
+      "happiness": 7.10366106
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 4.69,
+      "happiness": 5.123664379
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 3.53,
+      "happiness": 5.123664379
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 0.46,
+      "happiness": 5.123664379
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 0.55,
+      "happiness": 5.123664379
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 0.15,
+      "happiness": 5.123664379
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 10.32,
+      "happiness": 3.993020535
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 4.24,
+      "happiness": 3.993020535
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 1.52,
+      "happiness": 3.993020535
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 4.5,
+      "happiness": 3.993020535
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 0.06,
+      "happiness": 3.993020535
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 10.39,
+      "happiness": 5.885462761
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 4.61,
+      "happiness": 5.885462761
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 4.51,
+      "happiness": 5.885462761
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 1.28,
+      "happiness": 5.885462761
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 0.36,
+      "happiness": 5.885462761
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 12.54,
+      "happiness": 6.697655678
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 6.87,
+      "happiness": 6.697655678
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 2.63,
+      "happiness": 6.697655678
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 3.04,
+      "happiness": 6.697655678
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 0.0,
+      "happiness": 6.697655678
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 9.44,
+      "happiness": 7.588606834
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 3.48,
+      "happiness": 7.588606834
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 4.31,
+      "happiness": 7.588606834
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 1.57,
+      "happiness": 7.588606834
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 0.07,
+      "happiness": 7.588606834
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 17.75,
+      "happiness": 5.367445946
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 6.38,
+      "happiness": 5.367445946
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 2.18,
+      "happiness": 5.367445946
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 7.09,
+      "happiness": 5.367445946
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 2.1,
+      "happiness": 5.367445946
+    },
+    {
+      "country": "Finland",
+      "alcohol": 9.08,
+      "happiness": 7.444635868
+    },
+    {
+      "country": "Finland",
+      "alcohol": 4.28,
+      "happiness": 7.444635868
+    },
+    {
+      "country": "Finland",
+      "alcohol": 1.84,
+      "happiness": 7.444635868
+    },
+    {
+      "country": "Finland",
+      "alcohol": 1.3,
+      "happiness": 7.444635868
+    },
+    {
+      "country": "Finland",
+      "alcohol": 1.65,
+      "happiness": 7.444635868
+    },
+    {
+      "country": "France",
+      "alcohol": 11.73,
+      "happiness": 6.66712141
+    },
+    {
+      "country": "France",
+      "alcohol": 1.8,
+      "happiness": 6.66712141
+    },
+    {
+      "country": "France",
+      "alcohol": 7.13,
+      "happiness": 6.66712141
+    },
+    {
+      "country": "France",
+      "alcohol": 2.5,
+      "happiness": 6.66712141
+    },
+    {
+      "country": "France",
+      "alcohol": 0.3,
+      "happiness": 6.66712141
+    },
+    {
+      "country": "Germany",
+      "alcohol": 11.08,
+      "happiness": 6.965125084
+    },
+    {
+      "country": "Germany",
+      "alcohol": 5.88,
+      "happiness": 6.965125084
+    },
+    {
+      "country": "Germany",
+      "alcohol": 3.12,
+      "happiness": 6.965125084
+    },
+    {
+      "country": "Germany",
+      "alcohol": 2.08,
+      "happiness": 6.965125084
+    },
+    {
+      "country": "Germany",
+      "alcohol": 0.0,
+      "happiness": 6.965125084
+    },
+    {
+      "country": "Greece",
+      "alcohol": 7.55,
+      "happiness": 4.720251083
+    },
+    {
+      "country": "Greece",
+      "alcohol": 2.19,
+      "happiness": 4.720251083
+    },
+    {
+      "country": "Greece",
+      "alcohol": 3.72,
+      "happiness": 4.720251083
+    },
+    {
+      "country": "Greece",
+      "alcohol": 1.55,
+      "happiness": 4.720251083
+    },
+    {
+      "country": "Greece",
+      "alcohol": 0.09,
+      "happiness": 4.720251083
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 10.73,
+      "happiness": 4.914466858
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 3.78,
+      "happiness": 4.914466858
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 3.2,
+      "happiness": 4.914466858
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 3.74,
+      "happiness": 4.914466858
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 0.0,
+      "happiness": 4.914466858
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 6.8,
+      "happiness": 7.501394272
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 3.74,
+      "happiness": 7.501394272
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 1.96,
+      "happiness": 7.501394272
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 1.1,
+      "happiness": 7.501394272
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 0.0,
+      "happiness": 7.501394272
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 10.51,
+      "happiness": 6.760085106
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 4.99,
+      "happiness": 6.760085106
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 2.65,
+      "happiness": 6.760085106
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 2.01,
+      "happiness": 6.760085106
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 0.86,
+      "happiness": 6.760085106
+    },
+    {
+      "country": "Italy",
+      "alcohol": 7.35,
+      "happiness": 6.009373665
+    },
+    {
+      "country": "Italy",
+      "alcohol": 1.7,
+      "happiness": 6.009373665
+    },
+    {
+      "country": "Italy",
+      "alcohol": 4.86,
+      "happiness": 6.009373665
+    },
+    {
+      "country": "Italy",
+      "alcohol": 0.79,
+      "happiness": 6.009373665
+    },
+    {
+      "country": "Italy",
+      "alcohol": 0.0,
+      "happiness": 6.009373665
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 10.43,
+      "happiness": 5.069770336
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 4.7,
+      "happiness": 5.069770336
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 1.1,
+      "happiness": 5.069770336
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 3.99,
+      "happiness": 5.069770336
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 0.64,
+      "happiness": 5.069770336
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 14.92,
+      "happiness": 5.595689297
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 5.32,
+      "happiness": 5.595689297
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 1.5,
+      "happiness": 5.595689297
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 5.8,
+      "happiness": 5.595689297
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 2.29,
+      "happiness": 5.595689297
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 11.25,
+      "happiness": 7.130809307
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 3.84,
+      "happiness": 7.130809307
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 5.12,
+      "happiness": 7.130809307
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 2.29,
+      "happiness": 7.130809307
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 0.0,
+      "happiness": 7.130809307
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 9.62,
+      "happiness": 5.074341774
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 3.94,
+      "happiness": 5.074341774
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 2.89,
+      "happiness": 5.074341774
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 2.61,
+      "happiness": 5.074341774
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 0.18,
+      "happiness": 5.074341774
+    },
+    {
+      "country": "Poland",
+      "alcohol": 10.8,
+      "happiness": 5.746131897
+    },
+    {
+      "country": "Poland",
+      "alcohol": 5.74,
+      "happiness": 5.746131897
+    },
+    {
+      "country": "Poland",
+      "alcohol": 0.82,
+      "happiness": 5.746131897
+    },
+    {
+      "country": "Poland",
+      "alcohol": 4.23,
+      "happiness": 5.746131897
+    },
+    {
+      "country": "Poland",
+      "alcohol": 0.0,
+      "happiness": 5.746131897
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 9.52,
+      "happiness": 5.157688141
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 2.58,
+      "happiness": 5.157688141
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 5.16,
+      "happiness": 5.157688141
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 1.4,
+      "happiness": 5.157688141
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 0.38,
+      "happiness": 5.157688141
+    },
+    {
+      "country": "Romania",
+      "alcohol": 9.65,
+      "happiness": 5.081584454
+    },
+    {
+      "country": "Romania",
+      "alcohol": 5.14,
+      "happiness": 5.081584454
+    },
+    {
+      "country": "Romania",
+      "alcohol": 3.08,
+      "happiness": 5.081584454
+    },
+    {
+      "country": "Romania",
+      "alcohol": 1.42,
+      "happiness": 5.081584454
+    },
+    {
+      "country": "Romania",
+      "alcohol": 0.0,
+      "happiness": 5.081584454
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 9.9,
+      "happiness": 5.936527252
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 3.42,
+      "happiness": 5.936527252
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 2.36,
+      "happiness": 5.936527252
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 4.13,
+      "happiness": 5.936527252
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 0.0,
+      "happiness": 5.936527252
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 9.53,
+      "happiness": 5.974888802
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 4.55,
+      "happiness": 5.974888802
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 4.09,
+      "happiness": 5.974888802
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 0.89,
+      "happiness": 5.974888802
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 0.0,
+      "happiness": 5.974888802
+    },
+    {
+      "country": "Spain",
+      "alcohol": 8.55,
+      "happiness": 6.150027275
+    },
+    {
+      "country": "Spain",
+      "alcohol": 4.13,
+      "happiness": 6.150027275
+    },
+    {
+      "country": "Spain",
+      "alcohol": 2.09,
+      "happiness": 6.150027275
+    },
+    {
+      "country": "Spain",
+      "alcohol": 2.18,
+      "happiness": 6.150027275
+    },
+    {
+      "country": "Spain",
+      "alcohol": 0.16,
+      "happiness": 6.150027275
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 7.32,
+      "happiness": 7.434010506
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 2.65,
+      "happiness": 7.434010506
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 3.5,
+      "happiness": 7.434010506
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 1.06,
+      "happiness": 7.434010506
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 0.11,
+      "happiness": 7.434010506
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 8.73,
+      "happiness": 4.710802555
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 3.22,
+      "happiness": 4.710802555
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 0.42,
+      "happiness": 4.710802555
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 5.01,
+      "happiness": 4.710802555
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 0.08,
+      "happiness": 4.710802555
+    },
+    {
+      "country": "United Kingdom",
+      "alcohol": 9.4,
+      "happiness": 6.918055058
+    }
+  ],
+  "2014": [
+    {
+      "country": "Albania",
+      "alcohol": 4.1,
+      "happiness": 4.813763142
+    },
+    {
+      "country": "Albania",
+      "alcohol": 1.29,
+      "happiness": 4.813763142
+    },
+    {
+      "country": "Albania",
+      "alcohol": 0.99,
+      "happiness": 4.813763142
+    },
+    {
+      "country": "Albania",
+      "alcohol": 1.74,
+      "happiness": 4.813763142
+    },
+    {
+      "country": "Albania",
+      "alcohol": 0.08,
+      "happiness": 4.813763142
+    },
+    {
+      "country": "Austria",
+      "alcohol": 12.4,
+      "happiness": 6.949999809
+    },
+    {
+      "country": "Austria",
+      "alcohol": 6.2,
+      "happiness": 6.949999809
+    },
+    {
+      "country": "Austria",
+      "alcohol": 4.2,
+      "happiness": 6.949999809
+    },
+    {
+      "country": "Austria",
+      "alcohol": 2.0,
+      "happiness": 6.949999809
+    },
+    {
+      "country": "Austria",
+      "alcohol": 0.0,
+      "happiness": 6.949999809
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 11.29,
+      "happiness": 5.812400818
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 2.16,
+      "happiness": 5.812400818
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 0.84,
+      "happiness": 5.812400818
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 4.76,
+      "happiness": 5.812400818
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 3.52,
+      "happiness": 5.812400818
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 10.57,
+      "happiness": 6.855329037
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 4.72,
+      "happiness": 6.855329037
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 3.97,
+      "happiness": 6.855329037
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 1.47,
+      "happiness": 6.855329037
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 0.41,
+      "happiness": 6.855329037
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 4.69,
+      "happiness": 5.248954296
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 3.52,
+      "happiness": 5.248954296
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 0.47,
+      "happiness": 5.248954296
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 0.55,
+      "happiness": 5.248954296
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 0.15,
+      "happiness": 5.248954296
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 10.3,
+      "happiness": 4.438439846
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 4.04,
+      "happiness": 4.438439846
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 1.8,
+      "happiness": 4.438439846
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 4.39,
+      "happiness": 4.438439846
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 0.08,
+      "happiness": 4.438439846
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 9.5,
+      "happiness": 5.380692482
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 4.25,
+      "happiness": 5.380692482
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 3.94,
+      "happiness": 5.380692482
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 1.32,
+      "happiness": 5.380692482
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 0.36,
+      "happiness": 5.380692482
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 12.75,
+      "happiness": 6.483729839
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 6.88,
+      "happiness": 6.483729839
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 2.74,
+      "happiness": 6.483729839
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 3.13,
+      "happiness": 6.483729839
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 0.0,
+      "happiness": 6.483729839
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 9.55,
+      "happiness": 7.507559299
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 3.57,
+      "happiness": 7.507559299
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 4.31,
+      "happiness": 7.507559299
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 1.59,
+      "happiness": 7.507559299
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 0.08,
+      "happiness": 7.507559299
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 17.29,
+      "happiness": 5.55598259
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 6.14,
+      "happiness": 5.55598259
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 2.18,
+      "happiness": 5.55598259
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 6.77,
+      "happiness": 5.55598259
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 2.2,
+      "happiness": 5.55598259
+    },
+    {
+      "country": "Finland",
+      "alcohol": 8.76,
+      "happiness": 7.384571075
+    },
+    {
+      "country": "Finland",
+      "alcohol": 4.17,
+      "happiness": 7.384571075
+    },
+    {
+      "country": "Finland",
+      "alcohol": 1.8,
+      "happiness": 7.384571075
+    },
+    {
+      "country": "Finland",
+      "alcohol": 1.24,
+      "happiness": 7.384571075
+    },
+    {
+      "country": "Finland",
+      "alcohol": 1.54,
+      "happiness": 7.384571075
+    },
+    {
+      "country": "France",
+      "alcohol": 12.07,
+      "happiness": 6.466867924
+    },
+    {
+      "country": "France",
+      "alcohol": 2.26,
+      "happiness": 6.466867924
+    },
+    {
+      "country": "France",
+      "alcohol": 7.04,
+      "happiness": 6.466867924
+    },
+    {
+      "country": "France",
+      "alcohol": 2.47,
+      "happiness": 6.466867924
+    },
+    {
+      "country": "France",
+      "alcohol": 0.3,
+      "happiness": 6.466867924
+    },
+    {
+      "country": "Germany",
+      "alcohol": 11.07,
+      "happiness": 6.984214306
+    },
+    {
+      "country": "Germany",
+      "alcohol": 5.88,
+      "happiness": 6.984214306
+    },
+    {
+      "country": "Germany",
+      "alcohol": 3.11,
+      "happiness": 6.984214306
+    },
+    {
+      "country": "Germany",
+      "alcohol": 2.07,
+      "happiness": 6.984214306
+    },
+    {
+      "country": "Germany",
+      "alcohol": 0.0,
+      "happiness": 6.984214306
+    },
+    {
+      "country": "Greece",
+      "alcohol": 7.06,
+      "happiness": 4.75623703
+    },
+    {
+      "country": "Greece",
+      "alcohol": 2.15,
+      "happiness": 4.75623703
+    },
+    {
+      "country": "Greece",
+      "alcohol": 3.29,
+      "happiness": 4.75623703
+    },
+    {
+      "country": "Greece",
+      "alcohol": 1.54,
+      "happiness": 4.75623703
+    },
+    {
+      "country": "Greece",
+      "alcohol": 0.09,
+      "happiness": 4.75623703
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 10.92,
+      "happiness": 5.18056345
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 3.9,
+      "happiness": 5.18056345
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 2.93,
+      "happiness": 5.18056345
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 4.09,
+      "happiness": 5.18056345
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 0.0,
+      "happiness": 5.18056345
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 10.88,
+      "happiness": 7.018379211
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 5.2,
+      "happiness": 7.018379211
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 2.83,
+      "happiness": 7.018379211
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 1.99,
+      "happiness": 7.018379211
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 0.86,
+      "happiness": 7.018379211
+    },
+    {
+      "country": "Italy",
+      "alcohol": 7.56,
+      "happiness": 6.026585102
+    },
+    {
+      "country": "Italy",
+      "alcohol": 1.73,
+      "happiness": 6.026585102
+    },
+    {
+      "country": "Italy",
+      "alcohol": 4.97,
+      "happiness": 6.026585102
+    },
+    {
+      "country": "Italy",
+      "alcohol": 0.86,
+      "happiness": 6.026585102
+    },
+    {
+      "country": "Italy",
+      "alcohol": 0.0,
+      "happiness": 6.026585102
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 10.6,
+      "happiness": 5.729115486
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 4.8,
+      "happiness": 5.729115486
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 1.2,
+      "happiness": 5.729115486
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 4.0,
+      "happiness": 5.729115486
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 0.6,
+      "happiness": 5.729115486
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 14.9,
+      "happiness": 6.125723839
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 5.46,
+      "happiness": 6.125723839
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 1.51,
+      "happiness": 6.125723839
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 5.81,
+      "happiness": 6.125723839
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 2.12,
+      "happiness": 6.125723839
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 11.42,
+      "happiness": 6.89112711
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 4.07,
+      "happiness": 6.89112711
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 5.08,
+      "happiness": 6.89112711
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 2.27,
+      "happiness": 6.89112711
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 0.0,
+      "happiness": 6.89112711
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 8.55,
+      "happiness": 5.282720566
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 3.58,
+      "happiness": 5.282720566
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 2.09,
+      "happiness": 5.282720566
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 2.69,
+      "happiness": 5.282720566
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 0.2,
+      "happiness": 5.282720566
+    },
+    {
+      "country": "Norway",
+      "alcohol": 6.06,
+      "happiness": 7.444470882
+    },
+    {
+      "country": "Norway",
+      "alcohol": 2.62,
+      "happiness": 7.444470882
+    },
+    {
+      "country": "Norway",
+      "alcohol": 2.25,
+      "happiness": 7.444470882
+    },
+    {
+      "country": "Norway",
+      "alcohol": 1.04,
+      "happiness": 7.444470882
+    },
+    {
+      "country": "Norway",
+      "alcohol": 0.15,
+      "happiness": 7.444470882
+    },
+    {
+      "country": "Poland",
+      "alcohol": 10.45,
+      "happiness": 5.750282288
+    },
+    {
+      "country": "Poland",
+      "alcohol": 5.8,
+      "happiness": 5.750282288
+    },
+    {
+      "country": "Poland",
+      "alcohol": 0.89,
+      "happiness": 5.750282288
+    },
+    {
+      "country": "Poland",
+      "alcohol": 3.76,
+      "happiness": 5.750282288
+    },
+    {
+      "country": "Poland",
+      "alcohol": 0.0,
+      "happiness": 5.750282288
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 10.2,
+      "happiness": 5.12691164
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 2.47,
+      "happiness": 5.12691164
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 5.96,
+      "happiness": 5.12691164
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 1.4,
+      "happiness": 5.12691164
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 0.38,
+      "happiness": 5.12691164
+    },
+    {
+      "country": "Romania",
+      "alcohol": 9.48,
+      "happiness": 5.726893425
+    },
+    {
+      "country": "Romania",
+      "alcohol": 4.86,
+      "happiness": 5.726893425
+    },
+    {
+      "country": "Romania",
+      "alcohol": 3.21,
+      "happiness": 5.726893425
+    },
+    {
+      "country": "Romania",
+      "alcohol": 1.42,
+      "happiness": 5.726893425
+    },
+    {
+      "country": "Romania",
+      "alcohol": 0.0,
+      "happiness": 5.726893425
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 10.26,
+      "happiness": 6.1388731
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 3.3,
+      "happiness": 6.1388731
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 2.83,
+      "happiness": 6.1388731
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 4.13,
+      "happiness": 6.1388731
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 0.0,
+      "happiness": 6.1388731
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 10.92,
+      "happiness": 5.678395271
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 5.37,
+      "happiness": 5.678395271
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 4.73,
+      "happiness": 5.678395271
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 0.82,
+      "happiness": 5.678395271
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 0.0,
+      "happiness": 5.678395271
+    },
+    {
+      "country": "Spain",
+      "alcohol": 7.85,
+      "happiness": 6.456477642
+    },
+    {
+      "country": "Spain",
+      "alcohol": 4.31,
+      "happiness": 6.456477642
+    },
+    {
+      "country": "Spain",
+      "alcohol": 1.21,
+      "happiness": 6.456477642
+    },
+    {
+      "country": "Spain",
+      "alcohol": 2.16,
+      "happiness": 6.456477642
+    },
+    {
+      "country": "Spain",
+      "alcohol": 0.17,
+      "happiness": 6.456477642
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 7.2,
+      "happiness": 7.239147663
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 2.64,
+      "happiness": 7.239147663
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 3.46,
+      "happiness": 7.239147663
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 0.99,
+      "happiness": 7.239147663
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 0.11,
+      "happiness": 7.239147663
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 9.62,
+      "happiness": 7.492803574
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 3.17,
+      "happiness": 7.492803574
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 4.58,
+      "happiness": 7.492803574
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 1.76,
+      "happiness": 7.492803574
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 0.12,
+      "happiness": 7.492803574
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 7.58,
+      "happiness": 4.297329903
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 2.94,
+      "happiness": 4.297329903
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 0.35,
+      "happiness": 4.297329903
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 4.22,
+      "happiness": 4.297329903
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 0.08,
+      "happiness": 4.297329903
+    },
+    {
+      "country": "United Kingdom",
+      "alcohol": 9.4,
+      "happiness": 6.758147717
+    }
+  ],
+  "2015": [
+    {
+      "country": "Albania",
+      "alcohol": 4.33,
+      "happiness": 4.606650829
+    },
+    {
+      "country": "Albania",
+      "alcohol": 1.48,
+      "happiness": 4.606650829
+    },
+    {
+      "country": "Albania",
+      "alcohol": 1.1,
+      "happiness": 4.606650829
+    },
+    {
+      "country": "Albania",
+      "alcohol": 1.68,
+      "happiness": 4.606650829
+    },
+    {
+      "country": "Albania",
+      "alcohol": 0.08,
+      "happiness": 4.606650829
+    },
+    {
+      "country": "Austria",
+      "alcohol": 11.6,
+      "happiness": 7.07644701
+    },
+    {
+      "country": "Austria",
+      "alcohol": 6.1,
+      "happiness": 7.07644701
+    },
+    {
+      "country": "Austria",
+      "alcohol": 3.6,
+      "happiness": 7.07644701
+    },
+    {
+      "country": "Austria",
+      "alcohol": 1.9,
+      "happiness": 7.07644701
+    },
+    {
+      "country": "Austria",
+      "alcohol": 0.0,
+      "happiness": 7.07644701
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 9.79,
+      "happiness": 5.718907833
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 2.0,
+      "happiness": 5.718907833
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 0.75,
+      "happiness": 5.718907833
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 4.24,
+      "happiness": 5.718907833
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 2.79,
+      "happiness": 5.718907833
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 10.36,
+      "happiness": 6.904219151
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 4.6,
+      "happiness": 6.904219151
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 3.97,
+      "happiness": 6.904219151
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 1.47,
+      "happiness": 6.904219151
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 0.32,
+      "happiness": 6.904219151
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 4.9,
+      "happiness": 5.117177963
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 3.72,
+      "happiness": 5.117177963
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 0.46,
+      "happiness": 5.117177963
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 0.56,
+      "happiness": 5.117177963
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 0.15,
+      "happiness": 5.117177963
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 10.89,
+      "happiness": 4.865401268
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 4.22,
+      "happiness": 4.865401268
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 1.95,
+      "happiness": 4.865401268
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 4.62,
+      "happiness": 4.865401268
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 0.1,
+      "happiness": 4.865401268
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 9.64,
+      "happiness": 5.205438137
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 4.55,
+      "happiness": 5.205438137
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 3.76,
+      "happiness": 5.205438137
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 1.33,
+      "happiness": 5.205438137
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 0.36,
+      "happiness": 5.205438137
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 12.76,
+      "happiness": 6.608017445
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 6.87,
+      "happiness": 6.608017445
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 2.66,
+      "happiness": 6.608017445
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 3.23,
+      "happiness": 6.608017445
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 0.0,
+      "happiness": 6.608017445
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 9.42,
+      "happiness": 7.514424801
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 3.45,
+      "happiness": 7.514424801
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 4.26,
+      "happiness": 7.514424801
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 1.65,
+      "happiness": 7.514424801
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 0.07,
+      "happiness": 7.514424801
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 16.72,
+      "happiness": 5.628908634
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 6.0,
+      "happiness": 5.628908634
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 2.25,
+      "happiness": 5.628908634
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 6.47,
+      "happiness": 5.628908634
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 2.0,
+      "happiness": 5.628908634
+    },
+    {
+      "country": "Finland",
+      "alcohol": 8.52,
+      "happiness": 7.447925568
+    },
+    {
+      "country": "Finland",
+      "alcohol": 4.13,
+      "happiness": 7.447925568
+    },
+    {
+      "country": "Finland",
+      "alcohol": 1.75,
+      "happiness": 7.447925568
+    },
+    {
+      "country": "Finland",
+      "alcohol": 1.18,
+      "happiness": 7.447925568
+    },
+    {
+      "country": "Finland",
+      "alcohol": 1.45,
+      "happiness": 7.447925568
+    },
+    {
+      "country": "France",
+      "alcohol": 11.87,
+      "happiness": 6.357625008
+    },
+    {
+      "country": "France",
+      "alcohol": 2.16,
+      "happiness": 6.357625008
+    },
+    {
+      "country": "France",
+      "alcohol": 7.09,
+      "happiness": 6.357625008
+    },
+    {
+      "country": "France",
+      "alcohol": 2.42,
+      "happiness": 6.357625008
+    },
+    {
+      "country": "France",
+      "alcohol": 0.2,
+      "happiness": 6.357625008
+    },
+    {
+      "country": "Germany",
+      "alcohol": 11.06,
+      "happiness": 7.037137508
+    },
+    {
+      "country": "Germany",
+      "alcohol": 5.88,
+      "happiness": 7.037137508
+    },
+    {
+      "country": "Germany",
+      "alcohol": 3.11,
+      "happiness": 7.037137508
+    },
+    {
+      "country": "Germany",
+      "alcohol": 2.07,
+      "happiness": 7.037137508
+    },
+    {
+      "country": "Germany",
+      "alcohol": 0.0,
+      "happiness": 7.037137508
+    },
+    {
+      "country": "Greece",
+      "alcohol": 6.68,
+      "happiness": 5.622519016
+    },
+    {
+      "country": "Greece",
+      "alcohol": 2.1,
+      "happiness": 5.622519016
+    },
+    {
+      "country": "Greece",
+      "alcohol": 3.01,
+      "happiness": 5.622519016
+    },
+    {
+      "country": "Greece",
+      "alcohol": 1.48,
+      "happiness": 5.622519016
+    },
+    {
+      "country": "Greece",
+      "alcohol": 0.08,
+      "happiness": 5.622519016
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 10.95,
+      "happiness": 5.34438324
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 3.92,
+      "happiness": 5.34438324
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 3.4,
+      "happiness": 5.34438324
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 3.62,
+      "happiness": 5.34438324
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 0.0,
+      "happiness": 5.34438324
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 7.66,
+      "happiness": 7.498070717
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 4.26,
+      "happiness": 7.498070717
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 2.15,
+      "happiness": 7.498070717
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 1.25,
+      "happiness": 7.498070717
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 0.0,
+      "happiness": 7.498070717
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 10.81,
+      "happiness": 6.830125332
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 5.1,
+      "happiness": 6.830125332
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 2.88,
+      "happiness": 6.830125332
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 2.02,
+      "happiness": 6.830125332
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 0.8,
+      "happiness": 6.830125332
+    },
+    {
+      "country": "Italy",
+      "alcohol": 7.14,
+      "happiness": 5.847683907
+    },
+    {
+      "country": "Italy",
+      "alcohol": 1.79,
+      "happiness": 5.847683907
+    },
+    {
+      "country": "Italy",
+      "alcohol": 4.62,
+      "happiness": 5.847683907
+    },
+    {
+      "country": "Italy",
+      "alcohol": 0.74,
+      "happiness": 5.847683907
+    },
+    {
+      "country": "Italy",
+      "alcohol": 0.0,
+      "happiness": 5.847683907
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 10.8,
+      "happiness": 5.880597591
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 4.8,
+      "happiness": 5.880597591
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 1.2,
+      "happiness": 5.880597591
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 4.1,
+      "happiness": 5.880597591
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 0.7,
+      "happiness": 5.880597591
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 14.2,
+      "happiness": 5.711378098
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 5.36,
+      "happiness": 5.711378098
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 1.14,
+      "happiness": 5.711378098
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 5.78,
+      "happiness": 5.711378098
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 1.92,
+      "happiness": 5.711378098
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 11.37,
+      "happiness": 6.701571465
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 4.02,
+      "happiness": 6.701571465
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 5.1,
+      "happiness": 6.701571465
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 2.25,
+      "happiness": 6.701571465
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 0.0,
+      "happiness": 6.701571465
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 8.49,
+      "happiness": 5.124921322
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 3.5,
+      "happiness": 5.124921322
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 1.98,
+      "happiness": 5.124921322
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 2.81,
+      "happiness": 5.124921322
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 0.2,
+      "happiness": 5.124921322
+    },
+    {
+      "country": "Norway",
+      "alcohol": 5.97,
+      "happiness": 7.603433609
+    },
+    {
+      "country": "Norway",
+      "alcohol": 2.57,
+      "happiness": 7.603433609
+    },
+    {
+      "country": "Norway",
+      "alcohol": 2.22,
+      "happiness": 7.603433609
+    },
+    {
+      "country": "Norway",
+      "alcohol": 1.03,
+      "happiness": 7.603433609
+    },
+    {
+      "country": "Norway",
+      "alcohol": 0.15,
+      "happiness": 7.603433609
+    },
+    {
+      "country": "Poland",
+      "alcohol": 10.47,
+      "happiness": 6.007021904
+    },
+    {
+      "country": "Poland",
+      "alcohol": 5.82,
+      "happiness": 6.007021904
+    },
+    {
+      "country": "Poland",
+      "alcohol": 0.89,
+      "happiness": 6.007021904
+    },
+    {
+      "country": "Poland",
+      "alcohol": 3.76,
+      "happiness": 6.007021904
+    },
+    {
+      "country": "Poland",
+      "alcohol": 0.0,
+      "happiness": 6.007021904
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 10.34,
+      "happiness": 5.080866337
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 2.57,
+      "happiness": 5.080866337
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 6.05,
+      "happiness": 5.080866337
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 1.34,
+      "happiness": 5.080866337
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 0.37,
+      "happiness": 5.080866337
+    },
+    {
+      "country": "Romania",
+      "alcohol": 9.45,
+      "happiness": 5.777491093
+    },
+    {
+      "country": "Romania",
+      "alcohol": 5.22,
+      "happiness": 5.777491093
+    },
+    {
+      "country": "Romania",
+      "alcohol": 2.7,
+      "happiness": 5.777491093
+    },
+    {
+      "country": "Romania",
+      "alcohol": 1.54,
+      "happiness": 5.777491093
+    },
+    {
+      "country": "Romania",
+      "alcohol": 0.0,
+      "happiness": 5.777491093
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 10.27,
+      "happiness": 6.162004471
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 3.42,
+      "happiness": 6.162004471
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 2.6,
+      "happiness": 6.162004471
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 4.25,
+      "happiness": 6.162004471
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 0.0,
+      "happiness": 6.162004471
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 11.49,
+      "happiness": 5.740642071
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 5.73,
+      "happiness": 5.740642071
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 4.9,
+      "happiness": 5.740642071
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 0.86,
+      "happiness": 5.740642071
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 0.0,
+      "happiness": 5.740642071
+    },
+    {
+      "country": "Spain",
+      "alcohol": 10.35,
+      "happiness": 6.380663395
+    },
+    {
+      "country": "Spain",
+      "alcohol": 4.17,
+      "happiness": 6.380663395
+    },
+    {
+      "country": "Spain",
+      "alcohol": 3.7,
+      "happiness": 6.380663395
+    },
+    {
+      "country": "Spain",
+      "alcohol": 2.31,
+      "happiness": 6.380663395
+    },
+    {
+      "country": "Spain",
+      "alcohol": 0.18,
+      "happiness": 6.380663395
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 7.13,
+      "happiness": 7.28892231
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 2.62,
+      "happiness": 7.28892231
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 3.4,
+      "happiness": 7.28892231
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 1.0,
+      "happiness": 7.28892231
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 0.11,
+      "happiness": 7.28892231
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 9.62,
+      "happiness": 7.572136879
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 3.17,
+      "happiness": 7.572136879
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 4.58,
+      "happiness": 7.572136879
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 1.76,
+      "happiness": 7.572136879
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 0.12,
+      "happiness": 7.572136879
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 6.04,
+      "happiness": 3.964542866
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 2.51,
+      "happiness": 3.964542866
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 0.32,
+      "happiness": 3.964542866
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 3.15,
+      "happiness": 3.964542866
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 0.07,
+      "happiness": 3.964542866
+    },
+    {
+      "country": "United Kingdom",
+      "alcohol": 9.5,
+      "happiness": 6.515445232
+    }
+  ],
+  "2016": [
+    {
+      "country": "Albania",
+      "alcohol": 4.38,
+      "happiness": 4.511100769
+    },
+    {
+      "country": "Albania",
+      "alcohol": 1.52,
+      "happiness": 4.511100769
+    },
+    {
+      "country": "Albania",
+      "alcohol": 1.17,
+      "happiness": 4.511100769
+    },
+    {
+      "country": "Albania",
+      "alcohol": 1.61,
+      "happiness": 4.511100769
+    },
+    {
+      "country": "Albania",
+      "alcohol": 0.08,
+      "happiness": 4.511100769
+    },
+    {
+      "country": "Austria",
+      "alcohol": 11.7,
+      "happiness": 7.048071861
+    },
+    {
+      "country": "Austria",
+      "alcohol": 6.1,
+      "happiness": 7.048071861
+    },
+    {
+      "country": "Austria",
+      "alcohol": 3.7,
+      "happiness": 7.048071861
+    },
+    {
+      "country": "Austria",
+      "alcohol": 1.9,
+      "happiness": 7.048071861
+    },
+    {
+      "country": "Austria",
+      "alcohol": 0.0,
+      "happiness": 7.048071861
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 9.74,
+      "happiness": 5.177899361
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 2.07,
+      "happiness": 5.177899361
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 0.8,
+      "happiness": 5.177899361
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 4.51,
+      "happiness": 5.177899361
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 2.37,
+      "happiness": 5.177899361
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 9.42,
+      "happiness": 6.948936462
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 4.46,
+      "happiness": 6.948936462
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 3.47,
+      "happiness": 6.948936462
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 1.15,
+      "happiness": 6.948936462
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 0.34,
+      "happiness": 6.948936462
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 5.04,
+      "happiness": 5.180865288
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 3.85,
+      "happiness": 5.180865288
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 0.45,
+      "happiness": 5.180865288
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 0.57,
+      "happiness": 5.180865288
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 0.16,
+      "happiness": 5.180865288
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 11.13,
+      "happiness": 4.837560654
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 4.37,
+      "happiness": 4.837560654
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 2.01,
+      "happiness": 4.837560654
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 4.61,
+      "happiness": 4.837560654
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 0.14,
+      "happiness": 4.837560654
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 10.0,
+      "happiness": 5.416875362
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 4.62,
+      "happiness": 5.416875362
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 4.03,
+      "happiness": 5.416875362
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 1.34,
+      "happiness": 5.416875362
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 0.37,
+      "happiness": 5.416875362
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 12.92,
+      "happiness": 6.735627174
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 6.88,
+      "happiness": 6.735627174
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 2.76,
+      "happiness": 6.735627174
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 3.28,
+      "happiness": 6.735627174
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 0.0,
+      "happiness": 6.735627174
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 9.51,
+      "happiness": 7.55778265
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 3.56,
+      "happiness": 7.55778265
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 4.25,
+      "happiness": 7.55778265
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 1.62,
+      "happiness": 7.55778265
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 0.08,
+      "happiness": 7.55778265
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 15.61,
+      "happiness": 5.649675369
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 5.69,
+      "happiness": 5.649675369
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 2.35,
+      "happiness": 5.649675369
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 5.97,
+      "happiness": 5.649675369
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 1.6,
+      "happiness": 5.649675369
+    },
+    {
+      "country": "Finland",
+      "alcohol": 8.44,
+      "happiness": 7.659843445
+    },
+    {
+      "country": "Finland",
+      "alcohol": 4.11,
+      "happiness": 7.659843445
+    },
+    {
+      "country": "Finland",
+      "alcohol": 1.74,
+      "happiness": 7.659843445
+    },
+    {
+      "country": "Finland",
+      "alcohol": 1.15,
+      "happiness": 7.659843445
+    },
+    {
+      "country": "Finland",
+      "alcohol": 1.43,
+      "happiness": 7.659843445
+    },
+    {
+      "country": "France",
+      "alcohol": 11.74,
+      "happiness": 6.475208759
+    },
+    {
+      "country": "France",
+      "alcohol": 2.21,
+      "happiness": 6.475208759
+    },
+    {
+      "country": "France",
+      "alcohol": 6.9,
+      "happiness": 6.475208759
+    },
+    {
+      "country": "France",
+      "alcohol": 2.43,
+      "happiness": 6.475208759
+    },
+    {
+      "country": "France",
+      "alcohol": 0.2,
+      "happiness": 6.475208759
+    },
+    {
+      "country": "Germany",
+      "alcohol": 10.96,
+      "happiness": 6.873763084
+    },
+    {
+      "country": "Germany",
+      "alcohol": 5.77,
+      "happiness": 6.873763084
+    },
+    {
+      "country": "Germany",
+      "alcohol": 3.11,
+      "happiness": 6.873763084
+    },
+    {
+      "country": "Germany",
+      "alcohol": 2.08,
+      "happiness": 6.873763084
+    },
+    {
+      "country": "Germany",
+      "alcohol": 0.0,
+      "happiness": 6.873763084
+    },
+    {
+      "country": "Greece",
+      "alcohol": 6.68,
+      "happiness": 5.302619457
+    },
+    {
+      "country": "Greece",
+      "alcohol": 2.15,
+      "happiness": 5.302619457
+    },
+    {
+      "country": "Greece",
+      "alcohol": 2.96,
+      "happiness": 5.302619457
+    },
+    {
+      "country": "Greece",
+      "alcohol": 1.47,
+      "happiness": 5.302619457
+    },
+    {
+      "country": "Greece",
+      "alcohol": 0.09,
+      "happiness": 5.302619457
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 11.28,
+      "happiness": 5.448901653
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 3.93,
+      "happiness": 5.448901653
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 3.61,
+      "happiness": 5.448901653
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 3.74,
+      "happiness": 5.448901653
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 0.0,
+      "happiness": 5.448901653
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 7.49,
+      "happiness": 7.510034561
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 4.24,
+      "happiness": 7.510034561
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 2.09,
+      "happiness": 7.510034561
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 1.16,
+      "happiness": 7.510034561
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 0.0,
+      "happiness": 7.510034561
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 11.3,
+      "happiness": 7.04073143
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 5.23,
+      "happiness": 7.04073143
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 3.03,
+      "happiness": 7.04073143
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 2.18,
+      "happiness": 7.04073143
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 0.86,
+      "happiness": 7.04073143
+    },
+    {
+      "country": "Italy",
+      "alcohol": 7.1,
+      "happiness": 5.95452404
+    },
+    {
+      "country": "Italy",
+      "alcohol": 1.82,
+      "happiness": 5.95452404
+    },
+    {
+      "country": "Italy",
+      "alcohol": 4.58,
+      "happiness": 5.95452404
+    },
+    {
+      "country": "Italy",
+      "alcohol": 0.69,
+      "happiness": 5.95452404
+    },
+    {
+      "country": "Italy",
+      "alcohol": 0.0,
+      "happiness": 5.95452404
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 11.3,
+      "happiness": 5.940446377
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 4.8,
+      "happiness": 5.940446377
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 1.3,
+      "happiness": 5.940446377
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 4.5,
+      "happiness": 5.940446377
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 0.7,
+      "happiness": 5.940446377
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 13.47,
+      "happiness": 5.865552425
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 5.13,
+      "happiness": 5.865552425
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 1.05,
+      "happiness": 5.865552425
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 5.54,
+      "happiness": 5.865552425
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 1.74,
+      "happiness": 5.865552425
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 11.25,
+      "happiness": 6.967340946
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 3.99,
+      "happiness": 6.967340946
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 5.01,
+      "happiness": 6.967340946
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 2.25,
+      "happiness": 6.967340946
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 0.0,
+      "happiness": 6.967340946
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 9.13,
+      "happiness": 5.304066181
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 3.54,
+      "happiness": 5.304066181
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 2.45,
+      "happiness": 5.304066181
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 2.93,
+      "happiness": 5.304066181
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 0.21,
+      "happiness": 5.304066181
+    },
+    {
+      "country": "Norway",
+      "alcohol": 6.03,
+      "happiness": 7.596331596
+    },
+    {
+      "country": "Norway",
+      "alcohol": 2.65,
+      "happiness": 7.596331596
+    },
+    {
+      "country": "Norway",
+      "alcohol": 2.21,
+      "happiness": 7.596331596
+    },
+    {
+      "country": "Norway",
+      "alcohol": 1.01,
+      "happiness": 7.596331596
+    },
+    {
+      "country": "Norway",
+      "alcohol": 0.16,
+      "happiness": 7.596331596
+    },
+    {
+      "country": "Poland",
+      "alcohol": 10.43,
+      "happiness": 6.162076473
+    },
+    {
+      "country": "Poland",
+      "alcohol": 5.84,
+      "happiness": 6.162076473
+    },
+    {
+      "country": "Poland",
+      "alcohol": 0.83,
+      "happiness": 6.162076473
+    },
+    {
+      "country": "Poland",
+      "alcohol": 3.76,
+      "happiness": 6.162076473
+    },
+    {
+      "country": "Poland",
+      "alcohol": 0.0,
+      "happiness": 6.162076473
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 10.37,
+      "happiness": 5.446637154
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 2.62,
+      "happiness": 5.446637154
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 6.04,
+      "happiness": 5.446637154
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 1.34,
+      "happiness": 5.446637154
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 0.37,
+      "happiness": 5.446637154
+    },
+    {
+      "country": "Romania",
+      "alcohol": 9.57,
+      "happiness": 5.96887064
+    },
+    {
+      "country": "Romania",
+      "alcohol": 5.25,
+      "happiness": 5.96887064
+    },
+    {
+      "country": "Romania",
+      "alcohol": 2.55,
+      "happiness": 5.96887064
+    },
+    {
+      "country": "Romania",
+      "alcohol": 1.77,
+      "happiness": 5.96887064
+    },
+    {
+      "country": "Romania",
+      "alcohol": 0.0,
+      "happiness": 5.96887064
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 9.91,
+      "happiness": 5.993163109
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 3.19,
+      "happiness": 5.993163109
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 2.36,
+      "happiness": 5.993163109
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 4.37,
+      "happiness": 5.993163109
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 0.0,
+      "happiness": 5.993163109
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 10.51,
+      "happiness": 5.936821461
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 4.35,
+      "happiness": 5.936821461
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 5.32,
+      "happiness": 5.936821461
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 0.84,
+      "happiness": 5.936821461
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 0.0,
+      "happiness": 5.936821461
+    },
+    {
+      "country": "Spain",
+      "alcohol": 10.81,
+      "happiness": 6.318612099
+    },
+    {
+      "country": "Spain",
+      "alcohol": 4.31,
+      "happiness": 6.318612099
+    },
+    {
+      "country": "Spain",
+      "alcohol": 3.86,
+      "happiness": 6.318612099
+    },
+    {
+      "country": "Spain",
+      "alcohol": 2.46,
+      "happiness": 6.318612099
+    },
+    {
+      "country": "Spain",
+      "alcohol": 0.19,
+      "happiness": 6.318612099
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 7.15,
+      "happiness": 7.368744373
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 2.65,
+      "happiness": 7.368744373
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 3.39,
+      "happiness": 7.368744373
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 1.0,
+      "happiness": 7.368744373
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 0.11,
+      "happiness": 7.368744373
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 9.28,
+      "happiness": 7.458519936
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 3.05,
+      "happiness": 7.458519936
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 4.34,
+      "happiness": 7.458519936
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 1.76,
+      "happiness": 7.458519936
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 0.12,
+      "happiness": 7.458519936
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 5.72,
+      "happiness": 4.028690338
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 2.36,
+      "happiness": 4.028690338
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 0.31,
+      "happiness": 4.028690338
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 3.0,
+      "happiness": 4.028690338
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 0.04,
+      "happiness": 4.028690338
+    },
+    {
+      "country": "United Kingdom",
+      "alcohol": 9.5,
+      "happiness": 6.8242836
+    }
+  ],
+  "2017": [
+    {
+      "country": "Albania",
+      "alcohol": 4.39,
+      "happiness": 4.639548302
+    },
+    {
+      "country": "Albania",
+      "alcohol": 1.64,
+      "happiness": 4.639548302
+    },
+    {
+      "country": "Albania",
+      "alcohol": 1.11,
+      "happiness": 4.639548302
+    },
+    {
+      "country": "Albania",
+      "alcohol": 1.56,
+      "happiness": 4.639548302
+    },
+    {
+      "country": "Albania",
+      "alcohol": 0.08,
+      "happiness": 4.639548302
+    },
+    {
+      "country": "Austria",
+      "alcohol": 11.6,
+      "happiness": 7.293727875
+    },
+    {
+      "country": "Austria",
+      "alcohol": 6.1,
+      "happiness": 7.293727875
+    },
+    {
+      "country": "Austria",
+      "alcohol": 3.6,
+      "happiness": 7.293727875
+    },
+    {
+      "country": "Austria",
+      "alcohol": 1.9,
+      "happiness": 7.293727875
+    },
+    {
+      "country": "Austria",
+      "alcohol": 0.0,
+      "happiness": 7.293727875
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 9.76,
+      "happiness": 5.552915096
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 2.05,
+      "happiness": 5.552915096
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 0.85,
+      "happiness": 5.552915096
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 4.49,
+      "happiness": 5.552915096
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 2.38,
+      "happiness": 5.552915096
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 9.3,
+      "happiness": 6.928347588
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 4.42,
+      "happiness": 6.928347588
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 3.42,
+      "happiness": 6.928347588
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 1.13,
+      "happiness": 6.928347588
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 0.34,
+      "happiness": 6.928347588
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 5.25,
+      "happiness": 5.089902401
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 4.01,
+      "happiness": 5.089902401
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 0.48,
+      "happiness": 5.089902401
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 0.6,
+      "happiness": 5.089902401
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 0.17,
+      "happiness": 5.089902401
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 10.93,
+      "happiness": 5.096901894
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 4.32,
+      "happiness": 5.096901894
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 1.72,
+      "happiness": 5.096901894
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 4.72,
+      "happiness": 5.096901894
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 0.16,
+      "happiness": 5.096901894
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 9.7,
+      "happiness": 5.343165874
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 4.65,
+      "happiness": 5.343165874
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 3.7,
+      "happiness": 5.343165874
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 1.35,
+      "happiness": 5.343165874
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 0.38,
+      "happiness": 5.343165874
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 12.73,
+      "happiness": 6.789567947
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 6.77,
+      "happiness": 6.789567947
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 2.73,
+      "happiness": 6.789567947
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 3.24,
+      "happiness": 6.789567947
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 0.0,
+      "happiness": 6.789567947
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 9.3,
+      "happiness": 7.593702316
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 3.44,
+      "happiness": 7.593702316
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 4.15,
+      "happiness": 7.593702316
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 1.64,
+      "happiness": 7.593702316
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 0.08,
+      "happiness": 7.593702316
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 13.08,
+      "happiness": 5.938395977
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 4.93,
+      "happiness": 5.938395977
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 2.17,
+      "happiness": 5.938395977
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 4.64,
+      "happiness": 5.938395977
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 1.34,
+      "happiness": 5.938395977
+    },
+    {
+      "country": "Finland",
+      "alcohol": 8.37,
+      "happiness": 7.788251877
+    },
+    {
+      "country": "Finland",
+      "alcohol": 4.04,
+      "happiness": 7.788251877
+    },
+    {
+      "country": "Finland",
+      "alcohol": 1.75,
+      "happiness": 7.788251877
+    },
+    {
+      "country": "Finland",
+      "alcohol": 1.14,
+      "happiness": 7.788251877
+    },
+    {
+      "country": "Finland",
+      "alcohol": 1.44,
+      "happiness": 7.788251877
+    },
+    {
+      "country": "France",
+      "alcohol": 11.69,
+      "happiness": 6.635222435
+    },
+    {
+      "country": "France",
+      "alcohol": 2.3,
+      "happiness": 6.635222435
+    },
+    {
+      "country": "France",
+      "alcohol": 6.79,
+      "happiness": 6.635222435
+    },
+    {
+      "country": "France",
+      "alcohol": 2.41,
+      "happiness": 6.635222435
+    },
+    {
+      "country": "France",
+      "alcohol": 0.19,
+      "happiness": 6.635222435
+    },
+    {
+      "country": "Germany",
+      "alcohol": 10.86,
+      "happiness": 7.074324608
+    },
+    {
+      "country": "Germany",
+      "alcohol": 5.66,
+      "happiness": 7.074324608
+    },
+    {
+      "country": "Germany",
+      "alcohol": 3.12,
+      "happiness": 7.074324608
+    },
+    {
+      "country": "Germany",
+      "alcohol": 2.08,
+      "happiness": 7.074324608
+    },
+    {
+      "country": "Germany",
+      "alcohol": 0.0,
+      "happiness": 7.074324608
+    },
+    {
+      "country": "Greece",
+      "alcohol": 6.67,
+      "happiness": 5.14824152
+    },
+    {
+      "country": "Greece",
+      "alcohol": 2.05,
+      "happiness": 5.14824152
+    },
+    {
+      "country": "Greece",
+      "alcohol": 3.0,
+      "happiness": 5.14824152
+    },
+    {
+      "country": "Greece",
+      "alcohol": 1.52,
+      "happiness": 5.14824152
+    },
+    {
+      "country": "Greece",
+      "alcohol": 0.09,
+      "happiness": 5.14824152
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 10.79,
+      "happiness": 6.065038681
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 3.96,
+      "happiness": 6.065038681
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 3.33,
+      "happiness": 6.065038681
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 3.5,
+      "happiness": 6.065038681
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 0.0,
+      "happiness": 6.065038681
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 7.75,
+      "happiness": 7.476213932
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 4.42,
+      "happiness": 7.476213932
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 2.14,
+      "happiness": 7.476213932
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 1.19,
+      "happiness": 7.476213932
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 0.0,
+      "happiness": 7.476213932
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 11.13,
+      "happiness": 7.060155392
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 5.05,
+      "happiness": 7.060155392
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 3.0,
+      "happiness": 7.060155392
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 2.23,
+      "happiness": 7.060155392
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 0.86,
+      "happiness": 7.060155392
+    },
+    {
+      "country": "Italy",
+      "alcohol": 7.37,
+      "happiness": 6.198870182
+    },
+    {
+      "country": "Italy",
+      "alcohol": 1.88,
+      "happiness": 6.198870182
+    },
+    {
+      "country": "Italy",
+      "alcohol": 4.71,
+      "happiness": 6.198870182
+    },
+    {
+      "country": "Italy",
+      "alcohol": 0.79,
+      "happiness": 6.198870182
+    },
+    {
+      "country": "Italy",
+      "alcohol": 0.0,
+      "happiness": 6.198870182
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 12.6,
+      "happiness": 5.977817535
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 5.3,
+      "happiness": 5.977817535
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 1.4,
+      "happiness": 5.977817535
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 5.1,
+      "happiness": 5.977817535
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 0.8,
+      "happiness": 5.977817535
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 12.14,
+      "happiness": 6.272940636
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 4.79,
+      "happiness": 6.272940636
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 0.83,
+      "happiness": 6.272940636
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 5.04,
+      "happiness": 6.272940636
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 1.48,
+      "happiness": 6.272940636
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 11.18,
+      "happiness": 7.061380863
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 3.98,
+      "happiness": 7.061380863
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 4.95,
+      "happiness": 7.061380863
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 2.24,
+      "happiness": 7.061380863
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 0.0,
+      "happiness": 7.061380863
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 9.56,
+      "happiness": 5.614798546
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 3.71,
+      "happiness": 5.614798546
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 2.55,
+      "happiness": 5.614798546
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 3.06,
+      "happiness": 5.614798546
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 0.23,
+      "happiness": 5.614798546
+    },
+    {
+      "country": "Norway",
+      "alcohol": 6.0,
+      "happiness": 7.578744888
+    },
+    {
+      "country": "Norway",
+      "alcohol": 2.63,
+      "happiness": 7.578744888
+    },
+    {
+      "country": "Norway",
+      "alcohol": 2.19,
+      "happiness": 7.578744888
+    },
+    {
+      "country": "Norway",
+      "alcohol": 1.01,
+      "happiness": 7.578744888
+    },
+    {
+      "country": "Norway",
+      "alcohol": 0.17,
+      "happiness": 7.578744888
+    },
+    {
+      "country": "Poland",
+      "alcohol": 10.53,
+      "happiness": 6.201268196
+    },
+    {
+      "country": "Poland",
+      "alcohol": 5.78,
+      "happiness": 6.201268196
+    },
+    {
+      "country": "Poland",
+      "alcohol": 0.87,
+      "happiness": 6.201268196
+    },
+    {
+      "country": "Poland",
+      "alcohol": 3.87,
+      "happiness": 6.201268196
+    },
+    {
+      "country": "Poland",
+      "alcohol": 0.0,
+      "happiness": 6.201268196
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 10.37,
+      "happiness": 5.711499214
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 2.62,
+      "happiness": 5.711499214
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 6.04,
+      "happiness": 5.711499214
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 1.34,
+      "happiness": 5.711499214
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 0.37,
+      "happiness": 5.711499214
+    },
+    {
+      "country": "Romania",
+      "alcohol": 10.14,
+      "happiness": 6.089904785
+    },
+    {
+      "country": "Romania",
+      "alcohol": 5.28,
+      "happiness": 6.089904785
+    },
+    {
+      "country": "Romania",
+      "alcohol": 3.09,
+      "happiness": 6.089904785
+    },
+    {
+      "country": "Romania",
+      "alcohol": 1.77,
+      "happiness": 6.089904785
+    },
+    {
+      "country": "Romania",
+      "alcohol": 0.0,
+      "happiness": 6.089904785
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 9.69,
+      "happiness": 6.365509033
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 3.43,
+      "happiness": 6.365509033
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 2.13,
+      "happiness": 6.365509033
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 4.13,
+      "happiness": 6.365509033
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 0.0,
+      "happiness": 6.365509033
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 10.12,
+      "happiness": 6.166837692
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 4.59,
+      "happiness": 6.166837692
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 4.6,
+      "happiness": 6.166837692
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 0.93,
+      "happiness": 6.166837692
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 0.0,
+      "happiness": 6.166837692
+    },
+    {
+      "country": "Spain",
+      "alcohol": 10.85,
+      "happiness": 6.230173111
+    },
+    {
+      "country": "Spain",
+      "alcohol": 4.5,
+      "happiness": 6.230173111
+    },
+    {
+      "country": "Spain",
+      "alcohol": 3.87,
+      "happiness": 6.230173111
+    },
+    {
+      "country": "Spain",
+      "alcohol": 2.3,
+      "happiness": 6.230173111
+    },
+    {
+      "country": "Spain",
+      "alcohol": 0.18,
+      "happiness": 6.230173111
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 7.04,
+      "happiness": 7.286804676
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 2.57,
+      "happiness": 7.286804676
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 3.36,
+      "happiness": 7.286804676
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 0.99,
+      "happiness": 7.286804676
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 0.12,
+      "happiness": 7.286804676
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 9.16,
+      "happiness": 7.473593235
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 3.05,
+      "happiness": 7.473593235
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 4.23,
+      "happiness": 7.473593235
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 1.76,
+      "happiness": 7.473593235
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 0.12,
+      "happiness": 7.473593235
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 5.13,
+      "happiness": 4.311067104
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 2.43,
+      "happiness": 4.311067104
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 0.29,
+      "happiness": 4.311067104
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 2.38,
+      "happiness": 4.311067104
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 0.04,
+      "happiness": 4.311067104
+    },
+    {
+      "country": "United Kingdom",
+      "alcohol": 9.7,
+      "happiness": 7.103273392
+    }
+  ],
+  "2018": [
+    {
+      "country": "Albania",
+      "alcohol": 4.44,
+      "happiness": 5.004402637
+    },
+    {
+      "country": "Albania",
+      "alcohol": 1.75,
+      "happiness": 5.004402637
+    },
+    {
+      "country": "Albania",
+      "alcohol": 1.12,
+      "happiness": 5.004402637
+    },
+    {
+      "country": "Albania",
+      "alcohol": 1.5,
+      "happiness": 5.004402637
+    },
+    {
+      "country": "Albania",
+      "alcohol": 0.08,
+      "happiness": 5.004402637
+    },
+    {
+      "country": "Austria",
+      "alcohol": 11.6,
+      "happiness": 7.396001816
+    },
+    {
+      "country": "Austria",
+      "alcohol": 6.1,
+      "happiness": 7.396001816
+    },
+    {
+      "country": "Austria",
+      "alcohol": 3.6,
+      "happiness": 7.396001816
+    },
+    {
+      "country": "Austria",
+      "alcohol": 1.9,
+      "happiness": 7.396001816
+    },
+    {
+      "country": "Austria",
+      "alcohol": 0.0,
+      "happiness": 7.396001816
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 10.08,
+      "happiness": 5.233769894
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 2.18,
+      "happiness": 5.233769894
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 0.9,
+      "happiness": 5.233769894
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 4.52,
+      "happiness": 5.233769894
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 2.48,
+      "happiness": 5.233769894
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 9.22,
+      "happiness": 6.89217186
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 4.4,
+      "happiness": 6.89217186
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 3.41,
+      "happiness": 6.89217186
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 1.1,
+      "happiness": 6.89217186
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 0.31,
+      "happiness": 6.89217186
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 5.44,
+      "happiness": 5.887401104
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 4.19,
+      "happiness": 5.887401104
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 0.47,
+      "happiness": 5.887401104
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 0.61,
+      "happiness": 5.887401104
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 0.17,
+      "happiness": 5.887401104
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 11.53,
+      "happiness": 5.098813534
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 4.44,
+      "happiness": 5.098813534
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 2.07,
+      "happiness": 5.098813534
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 4.85,
+      "happiness": 5.098813534
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 0.17,
+      "happiness": 5.098813534
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 9.63,
+      "happiness": 5.536271095
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 4.75,
+      "happiness": 5.536271095
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 3.52,
+      "happiness": 5.536271095
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 1.36,
+      "happiness": 5.536271095
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 0.39,
+      "happiness": 5.536271095
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 12.73,
+      "happiness": 7.034165382
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 6.77,
+      "happiness": 7.034165382
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 2.73,
+      "happiness": 7.034165382
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 3.24,
+      "happiness": 7.034165382
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 0.0,
+      "happiness": 7.034165382
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 9.32,
+      "happiness": 7.648785591
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 3.45,
+      "happiness": 7.648785591
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 4.22,
+      "happiness": 7.648785591
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 1.65,
+      "happiness": 7.648785591
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 0.0,
+      "happiness": 7.648785591
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 10.81,
+      "happiness": 6.091302395
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 3.61,
+      "happiness": 6.091302395
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 1.9,
+      "happiness": 6.091302395
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 4.32,
+      "happiness": 6.091302395
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 0.98,
+      "happiness": 6.091302395
+    },
+    {
+      "country": "Finland",
+      "alcohol": 8.37,
+      "happiness": 7.85810709
+    },
+    {
+      "country": "Finland",
+      "alcohol": 3.97,
+      "happiness": 7.85810709
+    },
+    {
+      "country": "Finland",
+      "alcohol": 1.72,
+      "happiness": 7.85810709
+    },
+    {
+      "country": "Finland",
+      "alcohol": 1.1,
+      "happiness": 7.85810709
+    },
+    {
+      "country": "Finland",
+      "alcohol": 1.58,
+      "happiness": 7.85810709
+    },
+    {
+      "country": "France",
+      "alcohol": 11.24,
+      "happiness": 6.665903568
+    },
+    {
+      "country": "France",
+      "alcohol": 2.43,
+      "happiness": 6.665903568
+    },
+    {
+      "country": "France",
+      "alcohol": 6.29,
+      "happiness": 6.665903568
+    },
+    {
+      "country": "France",
+      "alcohol": 2.35,
+      "happiness": 6.665903568
+    },
+    {
+      "country": "France",
+      "alcohol": 0.17,
+      "happiness": 6.665903568
+    },
+    {
+      "country": "Germany",
+      "alcohol": 10.88,
+      "happiness": 7.118364334
+    },
+    {
+      "country": "Germany",
+      "alcohol": 5.67,
+      "happiness": 7.118364334
+    },
+    {
+      "country": "Germany",
+      "alcohol": 3.13,
+      "happiness": 7.118364334
+    },
+    {
+      "country": "Germany",
+      "alcohol": 2.08,
+      "happiness": 7.118364334
+    },
+    {
+      "country": "Germany",
+      "alcohol": 0.0,
+      "happiness": 7.118364334
+    },
+    {
+      "country": "Greece",
+      "alcohol": 6.45,
+      "happiness": 5.40928936
+    },
+    {
+      "country": "Greece",
+      "alcohol": 2.13,
+      "happiness": 5.40928936
+    },
+    {
+      "country": "Greece",
+      "alcohol": 2.75,
+      "happiness": 5.40928936
+    },
+    {
+      "country": "Greece",
+      "alcohol": 1.48,
+      "happiness": 5.40928936
+    },
+    {
+      "country": "Greece",
+      "alcohol": 0.1,
+      "happiness": 5.40928936
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 10.79,
+      "happiness": 5.935770988
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 3.96,
+      "happiness": 5.935770988
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 3.33,
+      "happiness": 5.935770988
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 3.5,
+      "happiness": 5.935770988
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 0.0,
+      "happiness": 5.935770988
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 11.15,
+      "happiness": 6.962335587
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 5.1,
+      "happiness": 6.962335587
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 2.89,
+      "happiness": 6.962335587
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 2.31,
+      "happiness": 6.962335587
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 0.85,
+      "happiness": 6.962335587
+    },
+    {
+      "country": "Italy",
+      "alcohol": 7.81,
+      "happiness": 6.516526699
+    },
+    {
+      "country": "Italy",
+      "alcohol": 1.94,
+      "happiness": 6.516526699
+    },
+    {
+      "country": "Italy",
+      "alcohol": 5.08,
+      "happiness": 6.516526699
+    },
+    {
+      "country": "Italy",
+      "alcohol": 0.79,
+      "happiness": 6.516526699
+    },
+    {
+      "country": "Italy",
+      "alcohol": 0.0,
+      "happiness": 6.516526699
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 13.2,
+      "happiness": 5.901154041
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 5.3,
+      "happiness": 5.901154041
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 1.6,
+      "happiness": 5.901154041
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 5.3,
+      "happiness": 5.901154041
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 1.0,
+      "happiness": 5.901154041
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 11.77,
+      "happiness": 6.308878899
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 4.59,
+      "happiness": 6.308878899
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 0.82,
+      "happiness": 6.308878899
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 4.88,
+      "happiness": 6.308878899
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 1.48,
+      "happiness": 6.308878899
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 10.98,
+      "happiness": 7.242630959
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 4.05,
+      "happiness": 7.242630959
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 4.71,
+      "happiness": 7.242630959
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 2.22,
+      "happiness": 7.242630959
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 0.0,
+      "happiness": 7.242630959
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 9.87,
+      "happiness": 5.650189877
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 3.83,
+      "happiness": 5.650189877
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 2.67,
+      "happiness": 5.650189877
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 3.14,
+      "happiness": 5.650189877
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 0.23,
+      "happiness": 5.650189877
+    },
+    {
+      "country": "Norway",
+      "alcohol": 6.02,
+      "happiness": 7.444262028
+    },
+    {
+      "country": "Norway",
+      "alcohol": 2.66,
+      "happiness": 7.444262028
+    },
+    {
+      "country": "Norway",
+      "alcohol": 2.2,
+      "happiness": 7.444262028
+    },
+    {
+      "country": "Norway",
+      "alcohol": 0.97,
+      "happiness": 7.444262028
+    },
+    {
+      "country": "Norway",
+      "alcohol": 0.19,
+      "happiness": 7.444262028
+    },
+    {
+      "country": "Poland",
+      "alcohol": 10.62,
+      "happiness": 6.111485004
+    },
+    {
+      "country": "Poland",
+      "alcohol": 5.9,
+      "happiness": 6.111485004
+    },
+    {
+      "country": "Poland",
+      "alcohol": 0.85,
+      "happiness": 6.111485004
+    },
+    {
+      "country": "Poland",
+      "alcohol": 3.88,
+      "happiness": 6.111485004
+    },
+    {
+      "country": "Poland",
+      "alcohol": 0.0,
+      "happiness": 6.111485004
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 10.37,
+      "happiness": 5.919822693
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 2.62,
+      "happiness": 5.919822693
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 6.04,
+      "happiness": 5.919822693
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 1.34,
+      "happiness": 5.919822693
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 0.37,
+      "happiness": 5.919822693
+    },
+    {
+      "country": "Romania",
+      "alcohol": 10.96,
+      "happiness": 6.150878906
+    },
+    {
+      "country": "Romania",
+      "alcohol": 5.33,
+      "happiness": 6.150878906
+    },
+    {
+      "country": "Romania",
+      "alcohol": 3.38,
+      "happiness": 6.150878906
+    },
+    {
+      "country": "Romania",
+      "alcohol": 2.25,
+      "happiness": 6.150878906
+    },
+    {
+      "country": "Romania",
+      "alcohol": 0.0,
+      "happiness": 6.150878906
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 10.05,
+      "happiness": 6.23511076
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 3.43,
+      "happiness": 6.23511076
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 2.25,
+      "happiness": 6.23511076
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 4.38,
+      "happiness": 6.23511076
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 0.0,
+      "happiness": 6.23511076
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 9.99,
+      "happiness": 6.249419212
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 4.66,
+      "happiness": 6.249419212
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 4.13,
+      "happiness": 6.249419212
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 1.2,
+      "happiness": 6.249419212
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 0.0,
+      "happiness": 6.249419212
+    },
+    {
+      "country": "Spain",
+      "alcohol": 10.39,
+      "happiness": 6.513370991
+    },
+    {
+      "country": "Spain",
+      "alcohol": 4.57,
+      "happiness": 6.513370991
+    },
+    {
+      "country": "Spain",
+      "alcohol": 3.33,
+      "happiness": 6.513370991
+    },
+    {
+      "country": "Spain",
+      "alcohol": 2.3,
+      "happiness": 6.513370991
+    },
+    {
+      "country": "Spain",
+      "alcohol": 0.18,
+      "happiness": 6.513370991
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 7.2,
+      "happiness": 7.374792099
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 2.69,
+      "happiness": 7.374792099
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 3.38,
+      "happiness": 7.374792099
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 1.0,
+      "happiness": 7.374792099
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 0.13,
+      "happiness": 7.374792099
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 9.17,
+      "happiness": 7.508586884
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 3.17,
+      "happiness": 7.508586884
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 4.23,
+      "happiness": 7.508586884
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 1.65,
+      "happiness": 7.508586884
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 0.12,
+      "happiness": 7.508586884
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 5.44,
+      "happiness": 4.661909103
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 2.44,
+      "happiness": 4.661909103
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 0.31,
+      "happiness": 4.661909103
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 2.64,
+      "happiness": 4.661909103
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 0.05,
+      "happiness": 4.661909103
+    },
+    {
+      "country": "United Kingdom",
+      "alcohol": 9.8,
+      "happiness": 7.233445168
+    }
+  ],
+  "2019": [
+    {
+      "country": "Albania",
+      "alcohol": 4.4,
+      "happiness": 4.995317936
+    },
+    {
+      "country": "Albania",
+      "alcohol": 1.75,
+      "happiness": 4.995317936
+    },
+    {
+      "country": "Albania",
+      "alcohol": 1.15,
+      "happiness": 4.995317936
+    },
+    {
+      "country": "Albania",
+      "alcohol": 1.43,
+      "happiness": 4.995317936
+    },
+    {
+      "country": "Albania",
+      "alcohol": 0.08,
+      "happiness": 4.995317936
+    },
+    {
+      "country": "Austria",
+      "alcohol": 11.9,
+      "happiness": 7.195361137
+    },
+    {
+      "country": "Austria",
+      "alcohol": 6.3,
+      "happiness": 7.195361137
+    },
+    {
+      "country": "Austria",
+      "alcohol": 3.7,
+      "happiness": 7.195361137
+    },
+    {
+      "country": "Austria",
+      "alcohol": 1.9,
+      "happiness": 7.195361137
+    },
+    {
+      "country": "Austria",
+      "alcohol": 0.0,
+      "happiness": 7.195361137
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 10.57,
+      "happiness": 5.821453094
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 2.26,
+      "happiness": 5.821453094
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 0.98,
+      "happiness": 5.821453094
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 4.67,
+      "happiness": 5.821453094
+    },
+    {
+      "country": "Belarus",
+      "alcohol": 2.66,
+      "happiness": 5.821453094
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 9.15,
+      "happiness": 6.772138119
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 4.35,
+      "happiness": 6.772138119
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 3.41,
+      "happiness": 6.772138119
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 1.09,
+      "happiness": 6.772138119
+    },
+    {
+      "country": "Belgium",
+      "alcohol": 0.3,
+      "happiness": 6.772138119
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 5.46,
+      "happiness": 6.01552248
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 4.19,
+      "happiness": 6.01552248
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 0.47,
+      "happiness": 6.01552248
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 0.62,
+      "happiness": 6.01552248
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "alcohol": 0.17,
+      "happiness": 6.01552248
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 11.18,
+      "happiness": 5.108438015
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 4.44,
+      "happiness": 5.108438015
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 1.72,
+      "happiness": 5.108438015
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 4.96,
+      "happiness": 5.108438015
+    },
+    {
+      "country": "Bulgaria",
+      "alcohol": 0.06,
+      "happiness": 5.108438015
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 9.64,
+      "happiness": 5.625743866
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 4.75,
+      "happiness": 5.625743866
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 3.52,
+      "happiness": 5.625743866
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 1.37,
+      "happiness": 5.625743866
+    },
+    {
+      "country": "Croatia",
+      "alcohol": 0.36,
+      "happiness": 5.625743866
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 9.16,
+      "happiness": 7.693003178
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 3.42,
+      "happiness": 7.693003178
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 4.08,
+      "happiness": 7.693003178
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 1.66,
+      "happiness": 7.693003178
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 0.0,
+      "happiness": 7.693003178
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 11.65,
+      "happiness": 6.034641266
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 4.0,
+      "happiness": 6.034641266
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 1.92,
+      "happiness": 6.034641266
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 4.6,
+      "happiness": 6.034641266
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 1.13,
+      "happiness": 6.034641266
+    },
+    {
+      "country": "Finland",
+      "alcohol": 8.23,
+      "happiness": 7.780347824
+    },
+    {
+      "country": "Finland",
+      "alcohol": 3.76,
+      "happiness": 7.780347824
+    },
+    {
+      "country": "Finland",
+      "alcohol": 1.59,
+      "happiness": 7.780347824
+    },
+    {
+      "country": "Finland",
+      "alcohol": 1.96,
+      "happiness": 7.780347824
+    },
+    {
+      "country": "Finland",
+      "alcohol": 0.91,
+      "happiness": 7.780347824
+    },
+    {
+      "country": "France",
+      "alcohol": 11.44,
+      "happiness": 6.689644337
+    },
+    {
+      "country": "France",
+      "alcohol": 2.52,
+      "happiness": 6.689644337
+    },
+    {
+      "country": "France",
+      "alcohol": 6.44,
+      "happiness": 6.689644337
+    },
+    {
+      "country": "France",
+      "alcohol": 2.3,
+      "happiness": 6.689644337
+    },
+    {
+      "country": "France",
+      "alcohol": 0.18,
+      "happiness": 6.689644337
+    },
+    {
+      "country": "Germany",
+      "alcohol": 10.56,
+      "happiness": 7.035472393
+    },
+    {
+      "country": "Germany",
+      "alcohol": 5.57,
+      "happiness": 7.035472393
+    },
+    {
+      "country": "Germany",
+      "alcohol": 3.02,
+      "happiness": 7.035472393
+    },
+    {
+      "country": "Germany",
+      "alcohol": 1.97,
+      "happiness": 7.035472393
+    },
+    {
+      "country": "Germany",
+      "alcohol": 0.0,
+      "happiness": 7.035472393
+    },
+    {
+      "country": "Greece",
+      "alcohol": 6.33,
+      "happiness": 5.952157497
+    },
+    {
+      "country": "Greece",
+      "alcohol": 2.13,
+      "happiness": 5.952157497
+    },
+    {
+      "country": "Greece",
+      "alcohol": 2.66,
+      "happiness": 5.952157497
+    },
+    {
+      "country": "Greece",
+      "alcohol": 1.45,
+      "happiness": 5.952157497
+    },
+    {
+      "country": "Greece",
+      "alcohol": 0.08,
+      "happiness": 5.952157497
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 10.79,
+      "happiness": 6.000259876
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 3.96,
+      "happiness": 6.000259876
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 3.33,
+      "happiness": 6.000259876
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 3.5,
+      "happiness": 6.000259876
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 0.0,
+      "happiness": 6.000259876
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 7.72,
+      "happiness": 7.532504559
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 4.39,
+      "happiness": 7.532504559
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 2.11,
+      "happiness": 7.532504559
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 1.22,
+      "happiness": 7.532504559
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 0.0,
+      "happiness": 7.532504559
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 10.91,
+      "happiness": 7.254841328
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 4.92,
+      "happiness": 7.254841328
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 2.88,
+      "happiness": 7.254841328
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 2.29,
+      "happiness": 7.254841328
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 0.82,
+      "happiness": 7.254841328
+    },
+    {
+      "country": "Italy",
+      "alcohol": 7.65,
+      "happiness": 6.445416927
+    },
+    {
+      "country": "Italy",
+      "alcohol": 1.99,
+      "happiness": 6.445416927
+    },
+    {
+      "country": "Italy",
+      "alcohol": 4.83,
+      "happiness": 6.445416927
+    },
+    {
+      "country": "Italy",
+      "alcohol": 0.83,
+      "happiness": 6.445416927
+    },
+    {
+      "country": "Italy",
+      "alcohol": 0.0,
+      "happiness": 6.445416927
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 12.9,
+      "happiness": 5.969753742
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 4.9,
+      "happiness": 5.969753742
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 1.7,
+      "happiness": 5.969753742
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 5.3,
+      "happiness": 5.969753742
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 1.0,
+      "happiness": 5.969753742
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 11.93,
+      "happiness": 6.064097881
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 4.61,
+      "happiness": 6.064097881
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 0.88,
+      "happiness": 6.064097881
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 4.96,
+      "happiness": 6.064097881
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 1.48,
+      "happiness": 6.064097881
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 11.0,
+      "happiness": 7.404015541
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 4.04,
+      "happiness": 7.404015541
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 4.73,
+      "happiness": 7.404015541
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 2.14,
+      "happiness": 7.404015541
+    },
+    {
+      "country": "Luxembourg",
+      "alcohol": 0.0,
+      "happiness": 7.404015541
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 9.91,
+      "happiness": 5.386024952
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 3.83,
+      "happiness": 5.386024952
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 2.68,
+      "happiness": 5.386024952
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 3.22,
+      "happiness": 5.386024952
+    },
+    {
+      "country": "Montenegro",
+      "alcohol": 0.16,
+      "happiness": 5.386024952
+    },
+    {
+      "country": "Norway",
+      "alcohol": 6.05,
+      "happiness": 7.442139626
+    },
+    {
+      "country": "Norway",
+      "alcohol": 2.63,
+      "happiness": 7.442139626
+    },
+    {
+      "country": "Norway",
+      "alcohol": 2.23,
+      "happiness": 7.442139626
+    },
+    {
+      "country": "Norway",
+      "alcohol": 1.0,
+      "happiness": 7.442139626
+    },
+    {
+      "country": "Norway",
+      "alcohol": 0.19,
+      "happiness": 7.442139626
+    },
+    {
+      "country": "Poland",
+      "alcohol": 10.96,
+      "happiness": 6.24209404
+    },
+    {
+      "country": "Poland",
+      "alcohol": 5.72,
+      "happiness": 6.24209404
+    },
+    {
+      "country": "Poland",
+      "alcohol": 0.88,
+      "happiness": 6.24209404
+    },
+    {
+      "country": "Poland",
+      "alcohol": 4.36,
+      "happiness": 6.24209404
+    },
+    {
+      "country": "Poland",
+      "alcohol": 0.0,
+      "happiness": 6.24209404
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 10.37,
+      "happiness": 6.095473289
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 2.62,
+      "happiness": 6.095473289
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 6.04,
+      "happiness": 6.095473289
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 1.34,
+      "happiness": 6.095473289
+    },
+    {
+      "country": "Portugal",
+      "alcohol": 0.37,
+      "happiness": 6.095473289
+    },
+    {
+      "country": "Romania",
+      "alcohol": 10.96,
+      "happiness": 6.129942417
+    },
+    {
+      "country": "Romania",
+      "alcohol": 5.33,
+      "happiness": 6.129942417
+    },
+    {
+      "country": "Romania",
+      "alcohol": 3.38,
+      "happiness": 6.129942417
+    },
+    {
+      "country": "Romania",
+      "alcohol": 2.25,
+      "happiness": 6.129942417
+    },
+    {
+      "country": "Romania",
+      "alcohol": 0.0,
+      "happiness": 6.129942417
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 10.3,
+      "happiness": 6.243428707
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 4.14,
+      "happiness": 6.243428707
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 2.01,
+      "happiness": 6.243428707
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 4.14,
+      "happiness": 6.243428707
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 0.0,
+      "happiness": 6.243428707
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 11.05,
+      "happiness": 6.665273666
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 4.54,
+      "happiness": 6.665273666
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 5.26,
+      "happiness": 6.665273666
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 1.26,
+      "happiness": 6.665273666
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 0.0,
+      "happiness": 6.665273666
+    },
+    {
+      "country": "Spain",
+      "alcohol": 10.73,
+      "happiness": 6.457449436
+    },
+    {
+      "country": "Spain",
+      "alcohol": 4.67,
+      "happiness": 6.457449436
+    },
+    {
+      "country": "Spain",
+      "alcohol": 3.52,
+      "happiness": 6.457449436
+    },
+    {
+      "country": "Spain",
+      "alcohol": 2.34,
+      "happiness": 6.457449436
+    },
+    {
+      "country": "Spain",
+      "alcohol": 0.19,
+      "happiness": 6.457449436
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 7.1,
+      "happiness": 7.398092747
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 2.6,
+      "happiness": 7.398092747
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 3.4,
+      "happiness": 7.398092747
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 1.0,
+      "happiness": 7.398092747
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 0.1,
+      "happiness": 7.398092747
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 9.41,
+      "happiness": 7.69422102
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 3.17,
+      "happiness": 7.69422102
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 4.35,
+      "happiness": 7.69422102
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 1.76,
+      "happiness": 7.69422102
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 0.12,
+      "happiness": 7.69422102
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 5.69,
+      "happiness": 4.701762199
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 2.44,
+      "happiness": 4.701762199
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 0.32,
+      "happiness": 4.701762199
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 2.88,
+      "happiness": 4.701762199
+    },
+    {
+      "country": "Ukraine",
+      "alcohol": 0.05,
+      "happiness": 4.701762199
+    },
+    {
+      "country": "United Kingdom",
+      "alcohol": 9.7,
+      "happiness": 7.157151222
+    }
+  ],
+  "2020": [
+    {
+      "country": "Austria",
+      "alcohol": 11.3,
+      "happiness": 7.213489056
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 11.6,
+      "happiness": 6.897091389
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 9.7,
+      "happiness": 7.514631271
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 10.8,
+      "happiness": 6.452563763
+    },
+    {
+      "country": "Finland",
+      "alcohol": 8.2,
+      "happiness": 7.889349937
+    },
+    {
+      "country": "France",
+      "alcohol": 10.4,
+      "happiness": 6.714111805
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 10.4,
+      "happiness": 6.038049698
+    },
+    {
+      "country": "Iceland",
+      "alcohol": 7.4,
+      "happiness": 7.575489521
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 10.1,
+      "happiness": 7.034930706
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 12.1,
+      "happiness": 6.229008675
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 11.4,
+      "happiness": 6.39137888
+    },
+    {
+      "country": "Netherlands",
+      "alcohol": 7.8,
+      "happiness": 7.504447937
+    },
+    {
+      "country": "Norway",
+      "alcohol": 7.2,
+      "happiness": 7.290032387
+    },
+    {
+      "country": "Poland",
+      "alcohol": 10.9,
+      "happiness": 6.139455318
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 10.2,
+      "happiness": 6.519098282
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 9.8,
+      "happiness": 6.462076187
+    },
+    {
+      "country": "Spain",
+      "alcohol": 8.7,
+      "happiness": 6.502175331
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 7.5,
+      "happiness": 7.314341068
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 8.5,
+      "happiness": 7.508435249
+    },
+    {
+      "country": "United Kingdom",
+      "alcohol": 9.7,
+      "happiness": 6.798177242
+    }
+  ],
+  "2021": [
+    {
+      "country": "Austria",
+      "alcohol": 11.1,
+      "happiness": 7.079640865
+    },
+    {
+      "country": "Czechia",
+      "alcohol": 11.6,
+      "happiness": 6.942496777
+    },
+    {
+      "country": "Denmark",
+      "alcohol": 10.4,
+      "happiness": 7.698747158
+    },
+    {
+      "country": "Estonia",
+      "alcohol": 11.1,
+      "happiness": 6.553915501
+    },
+    {
+      "country": "Finland",
+      "alcohol": 8.1,
+      "happiness": 7.794377804
+    },
+    {
+      "country": "France",
+      "alcohol": 10.5,
+      "happiness": 6.656206608
+    },
+    {
+      "country": "Hungary",
+      "alcohol": 10.4,
+      "happiness": 6.226647854
+    },
+    {
+      "country": "Ireland",
+      "alcohol": 9.5,
+      "happiness": 6.827651978
+    },
+    {
+      "country": "Latvia",
+      "alcohol": 12.2,
+      "happiness": 6.353090763
+    },
+    {
+      "country": "Lithuania",
+      "alcohol": 12.1,
+      "happiness": 6.864572525
+    },
+    {
+      "country": "Netherlands",
+      "alcohol": 8.1,
+      "happiness": 7.314151287
+    },
+    {
+      "country": "Norway",
+      "alcohol": 7.4,
+      "happiness": 7.361573696
+    },
+    {
+      "country": "Poland",
+      "alcohol": 11.0,
+      "happiness": 5.978068829
+    },
+    {
+      "country": "Slovakia",
+      "alcohol": 9.6,
+      "happiness": 6.418503761
+    },
+    {
+      "country": "Slovenia",
+      "alcohol": 10.6,
+      "happiness": 6.761220932
+    },
+    {
+      "country": "Spain",
+      "alcohol": 10.5,
+      "happiness": 6.469611168
+    },
+    {
+      "country": "Sweden",
+      "alcohol": 7.6,
+      "happiness": 7.439280033
+    },
+    {
+      "country": "Switzerland",
+      "alcohol": 8.5,
+      "happiness": 7.327672482
+    },
+    {
+      "country": "United Kingdom",
+      "alcohol": 10.0,
+      "happiness": 6.866961956
+    }
+  ]
+}
