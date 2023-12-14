@@ -8,9 +8,25 @@ import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
 const ScatterPlot = () => {
     const svgRef = useRef();
     const [data, setData] = useState();
-    const [selectedYear, setSelectedYear] = useState(2012);
     const [dataPerYear, setDataPerYear] = useState();
     const [tooltipContent, setTooltipContent] = useState(null);
+    const { selectedCountry, hoverCountry, setHoverCountry, selectedYear } = useSelectedData();
+
+    let timer = null;
+
+    const positionRef = React.useRef({
+        x: 0,
+        y: 0,
+    });
+    const popperRef = React.useRef(null);
+
+    const handleMouseMove = (event) => {
+        positionRef.current = { x: event.clientX, y: event.clientY };
+
+        if (popperRef.current != null) {
+            popperRef.current.update();
+        }
+    };
 
     useEffect(() => {
         fetchAlcoholAndHappinessData()
@@ -26,7 +42,7 @@ const ScatterPlot = () => {
 
 
     useEffect(() => {
-        if (selectedYear) {
+        if (selectedYear >= 2012 && selectedYear <= 2021) {
             const margin = { top: 20, right: 30, bottom: 40, left: 50 };
             const width = 600 - margin.left - margin.right;
             const height = 400 - margin.top - margin.bottom;
@@ -50,11 +66,14 @@ const ScatterPlot = () => {
                     .ticks(10)
             }
 
+            d3.select(svgRef.current).selectAll("*").remove();
+
             const svg = d3.select(svgRef.current)
                 .attr('width', width + margin.left + margin.right)
                 .attr('height', height + margin.top + margin.bottom)
                 .append('g')
                 .attr('transform', `translate(${margin.left},${margin.top})`);
+
 
 
             // Add the X gridlines
@@ -84,22 +103,43 @@ const ScatterPlot = () => {
                 .domain(['happiness', 'worldMap'])
                 .range(['blue', 'green']); // Change colors as needed
 
-            svg.selectAll('circle')
-                .data(combined_data[selectedYear])
-                .enter()
+            // Join the new data with the old data
+            const circles = svg.selectAll('circle')
+                .data(combined_data[selectedYear], d => d.country); // Use the country as the key
+
+            // For the circles that are already present, update their positions
+            circles
+                .transition() // Start a transition
+                .duration(500) // Transition duration
+                .attr('cx', d => xScale(d.alcohol)) // Animate the x position
+                .attr('cy', d => yScale(d.happiness)); // Animate the y position
+
+            // For the new circles, set their initial positions to their old positions and then transition to the new positions
+            circles.enter()
                 .append('circle')
-                .attr('cx', d => xScale(d.alcohol))
-                .attr('cy', d => yScale(d.happiness)) // Assuming value field for world data
                 .attr('r', 5)
                 .attr('fill', "blue")
-                .on('mouseover', function (event, d) {
+                .attr('cx', d => xScale(d.alcohol)) // Set the initial x position
+                .attr('cy', d => yScale(d.happiness)) // Set the initial y position
+                .on('mouseover', (event, d) => {
+                    handleMouseMove(event);
                     setTooltipContent(`Country: ${d.country}, Alcohol: ${d.alcohol}, Happiness: ${d.happiness}`);
+                    // Clear the tooltip content after a delay
+                    timer = setTimeout(() => {
+                        setTooltipContent(null)
+                    }, 3000); // 2000 ms = 2 seconds
                 })
-                .style('opacity', 0)
-                .transition()
-                .duration(500)
-                .delay((d, i) => i * 10)
-                .style('opacity', 1)
+                .on('mouseout', () => {
+                    clearTimeout(timer); // Clear the timeout if the mouse leaves before the delay
+                    setTooltipContent(null) // Clear the tooltip content
+                })
+                .transition() // Start a transition
+                .duration(500) // Transition duration
+                .attr('cx', d => xScale(d.alcohol)) // Animate the x position
+                .attr('cy', d => yScale(d.happiness)); // Animate the y position
+
+            // For the circles that are no longer present, remove them
+            circles.exit().remove();
 
 
             // X-axis
@@ -135,11 +175,19 @@ const ScatterPlot = () => {
             title={tooltipContent}
             arrow
             placement="top"
-            enterTouchDelay={0}
-            interactive
-            leaveTouchDelay={1500}
-            disableTouchListener
-            leaveDelay={200}
+            PopperProps={{
+                popperRef,
+                anchorEl: {
+                    getBoundingClientRect: () => {
+                        return new DOMRect(
+                            positionRef.current.x,
+                            positionRef.current.y,
+                            0,
+                            0,
+                        );
+                    },
+                },
+            }}
         >
             <svg ref={svgRef}></svg>
         </Tooltip>

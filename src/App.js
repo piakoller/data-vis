@@ -47,14 +47,6 @@ function App() {
                   </Typography>
                 </Item>
               </Grid>
-              <Grid item xs={12}>
-                <Item>
-                  <h2 id='fontstyle'>Scatter Plot - Alcohol Consumption and Happiness in Europe</h2>
-                  <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                    <ScatterPlot key="unique-key-for-world-map" />
-                  </Typography>
-                </Item>
-              </Grid>
               <Grid item xs={6}>
                 <Item>
                 <h2 id='fontstyle'>Alcohol Consumption in Europe</h2>
@@ -79,6 +71,14 @@ function App() {
                 <h2 id='fontstyle'>Alcohol Consumption over the years</h2>
                   <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                     <LineChart key="unique-key-for-world-map" />
+                  </Typography>
+                </Item>
+              </Grid>
+              <Grid item xs={12}>
+                <Item>
+                  <h2 id='fontstyle'>Scatter Plot - Alcohol Consumption and Happiness in Europe</h2>
+                  <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                    <ScatterPlot key="unique-key-for-world-map" />
                   </Typography>
                 </Item>
               </Grid>

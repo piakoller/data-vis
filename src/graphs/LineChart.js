@@ -126,15 +126,16 @@ const LineChart = () => {
                         handleMouseMove(event)
                         setHoverCountry(country)
                         addTooltipContentCountry(country)
-                    }
-
-                    ) // Set hoverCountry when mouse enters
+                        // Clear the tooltip content after a delay
+                        timer = setTimeout(() => {
+                            setTooltipContent(null)
+                        }, 2000); // 2000 ms = 2 seconds
+                    })
                     .on('mouseout', () => {
                         setHoverCountry(null)
-                        addTooltipContentCountry(null)
-                    }
-
-                    ); // Clear hoverCountry when mouse leaves
+                        clearTimeout(timer); // Clear the timeout if the mouse leaves before the delay
+                        setTooltipContent(null) // Clear the tooltip content
+                    });
 
                 // Find the data point for the selected year in each country's data
                 const selectedYearData = values.find(d => d.date.getFullYear() === selectedYear);
@@ -153,12 +154,11 @@ const LineChart = () => {
                             setHoverCountry(country);
                             addTooltipContentCircle(country);
                           })
-                        .on('mouseout', (event) => {
+                        .on('mouseleave', (event) => {
                             addTooltipContentCircle(null);
                         });
                 }
             });
-
             // Draw x-axis
             svg.append('g')
                 .attr('transform', `translate(0,${height})`)
