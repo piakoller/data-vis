@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
 import { fetchLifeExpectancyData } from './DataFetcher';
 import { useSelectedData } from './Selected';
+import { size } from 'lodash';
 
 const BarChart = () => {
     const { selectedCountry, setSelectedCountry, selectedYear, hoverCountry, setHoverCountry, selectCountry, unselectCountry } = useSelectedData();
@@ -72,6 +73,14 @@ const BarChart = () => {
                 .attr('transform', `translate(${marginLeft}, 0)`)
                 .call(d3.axisLeft(yScale))
 
+            // Add x-axis label
+            svg.append('text')
+                .attr('transform', `translate(${width / 2}, ${height - marginBottom + 40})`) // Adjust the position as needed
+                .style('text-anchor', 'middle')
+                .style('font-family', "'Trebuchet MS', sans-serif")
+                .style('font-size', '16px')
+                .text('Life Expectancy in years');
+
             // Add values at the top of the bars
             svg.selectAll('.label')
                 .data(combinedData)
@@ -80,6 +89,7 @@ const BarChart = () => {
                 .attr('x', d => xScale(d.lifeExpectancy) + 5)
                 .attr('y', d => yScale(d.country) + yScale.bandwidth() / 2)
                 .attr('text-anchor', 'start')
+                .style('font-size', '12px')
                 .text(d => d.lifeExpectancy ? d.lifeExpectancy.toFixed(1) : '');
 
             // Draw bars

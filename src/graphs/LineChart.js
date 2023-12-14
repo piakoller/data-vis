@@ -77,7 +77,7 @@ const LineChart = () => {
             // Clear existing chart content before rendering a new one
             d3.select('#line-chart-container').select('svg').remove();
 
-            const margin = { top: 20, right: 30, bottom: 30, left: 40 };
+            const margin = { top: 20, right: 30, bottom: 50, left: 40 };
             const width = 1200 - margin.left - margin.right;
             const height = 400 - margin.top - margin.bottom;
 
@@ -166,6 +166,21 @@ const LineChart = () => {
 
             // Draw y-axis
             svg.append('g').call(d3.axisLeft(y));
+
+            // Add x-axis label
+            svg.append('text')
+                .attr('transform', `translate(${width / 2}, ${height - margin.bottom + 80})`) // Adjust the position as needed
+                .style('text-anchor', 'middle')
+                .style('font-family', "'Trebuchet MS', sans-serif")
+                .style('font-size', '16px')
+                .text('years');
+
+            // Add y-axis label
+            svg.append('text')
+                .attr('transform', `translate(${margin.left - 68}, ${height / 2 + 125}) rotate(-90)`) // Adjust the position and rotation as needed                .style('text-anchor', 'middle')
+                .style('font-family', "'Trebuchet MS', sans-serif")
+                .style('font-size', '16px')
+                .text('liters of alcoholic beverages per capita');
         }
     }, [data, selectedYear, hoverCountry]);
 
