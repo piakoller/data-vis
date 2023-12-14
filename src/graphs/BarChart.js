@@ -103,7 +103,7 @@ const BarChart = () => {
                 .attr('height', yScale.bandwidth())
                 .attr('fill', d => {
                     if (hoverCountry === d.country) {
-                        return 'red'; // Change the color for the hovered country
+                        return '#1976D2'; // Change the color for the hovered country
                     } else if (selectedCountry.some((selected) => selected.country === d.country)) {
                         // Use the color defined in selected.js for selected countries
                         const selected = selectedCountry.find((selected) => selected.country === d.country);

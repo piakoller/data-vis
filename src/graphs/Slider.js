@@ -22,7 +22,7 @@ const MovingSlider = () => {
         if (autoPlay) {
             intervalId = setInterval(() => {
                 setSelectedYear(prevYear => {
-                    const nextYear = prevYear < 2016 ? prevYear + 1 : 1960; // Reset to 1960 after reaching 2016
+                    const nextYear = prevYear < 2021 ? prevYear + 1 : 1960; // Reset to 1960 after reaching 2021
                     return nextYear;
                 });
             }, 500);
@@ -54,7 +54,7 @@ const MovingSlider = () => {
                         step={1}
                         marks
                         min={1960}
-                        max={2022}
+                        max={2021}
                         disabled={autoPlay}
                     />
                 </div>
