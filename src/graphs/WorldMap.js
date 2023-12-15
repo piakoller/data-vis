@@ -130,22 +130,6 @@ const Map = () => {
     return (
         <div width="100%" height="100%" viewBox="0 0 1000 500">
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, padding: 16 }}>
-                {/*  <Chip
-                    key="Select All"
-                    label="Select All"
-                    onClick={() => {
-                        setSelectedCountry(['Albania', 'Andorra', 'Austria',
-                            'Belgium', 'Bulgaria', 'Bosnia and Herzegovina', 'Belarus',
-                            'Switzerland', 'Czechia', 'Germany', 'Denmark', 'Spain',
-                            'Estonia', 'Finland', 'France', 'United Kingdom',
-                            'Greece', 'Croatia', 'Hungary', 'Ireland', 'Iceland',
-                            'Italy', 'Lithuania', 'Luxembourg',
-                            'Latvia', 'Moldova', 'North Macedonia', 'Montenegro',
-                            'Netherlands', 'Norway', 'Poland', 'Portugal', 'Romania',
-                            'Republic of Serbia', 'Slovakia', 'Slovenia', 'Sweden',
-                            'Ukraine']);
-                    }}
-                /> */}
                 <Chip
                     disabled={selectedCountry.length === 0}
                     key="Deselect All"

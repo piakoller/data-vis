@@ -36,13 +36,10 @@ const ScatterPlot = () => {
 
     }, []);
 
-    useEffect(() => {
-        console.log(combined_data[2012].length)
-    }, [selectedYear]);
 
 
     useEffect(() => {
-        if (selectedYear >= 2012 && selectedYear <= 2021) {
+        if (selectedYear <= 2021) {
             const margin = { top: 20, right: 30, bottom: 40, left: 50 };
             const width = 800 - margin.left - margin.right;
             const height = 600 - margin.top - margin.bottom;
@@ -99,8 +96,10 @@ const ScatterPlot = () => {
                 .domain(['happiness', 'worldMap'])
                 .range(['blue', 'green']);
 
+
+
             const circles = svg.selectAll('circle')
-                .data(combined_data[selectedYear], d => d.country);
+                .data(selectedYear < 2012 ? combined_data[2012] : combined_data[selectedYear], d => d.country);
 
             circles
                 .transition()
@@ -147,8 +146,7 @@ const ScatterPlot = () => {
                 })
                 .on('mouseover', function (event, d) {
                     handleMouseMove(event);
-                    setTooltipContent(`Country: ${d.country}, Alcohol: ${d.alcohol}, Happiness: ${(d.happiness).toFixed(2)}`);
-                    setHoverCountry(d.country);
+                    setTooltipContent(`Country: ${d.country}, Alcohol: ${d.alcohol}, Happiness: ${(d.happiness).toFixed(2)}, Happiness Rank: ${d.rank}`);
                     timer = setTimeout(() => {
                         setTooltipContent(null)
                     }, 3000); // 2000 ms = 2 seconds
@@ -157,6 +155,14 @@ const ScatterPlot = () => {
                     clearTimeout(timer);
                     setTooltipContent(null)
                 })
+                .on('click', function (event, d) {
+                    if (selectedCountry.some((selected) => selected.country === d.country)) {
+                        unselectCountry(d.country);
+                    } else {
+                        selectCountry(d.country);
+                    }
+                }
+                );
 
             circles.exit().remove();
 
@@ -187,6 +193,7 @@ const ScatterPlot = () => {
                 .text('Happiness');
         }
     }, [selectedYear, selectCountry]);
+
 
     return (
         <Tooltip

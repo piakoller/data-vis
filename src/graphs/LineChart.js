@@ -129,6 +129,7 @@ const LineChart = () => {
                         // Clear the tooltip content after a delay
                         timer = setTimeout(() => {
                             setTooltipContent(null)
+                            setHoverCountry(null)
                         }, 2000); // 2000 ms = 2 seconds
                     })
                     .on('mouseout', () => {

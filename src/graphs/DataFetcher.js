@@ -149,15 +149,23 @@ export const fetchAlcoholAndHappinessData = () => {
         if (values.length === headers.length) {
           const year = parseInt(values[1]); // Adjust index to 1 for Year
           const country = values[2]
-          const alcohol = parseFloat(values[3]); // Adjust index to 2 for Life Expectancy
+          const alcohol = parseFloat(values[3]) // Adjust index to 2 for Life Expectancy
           const happiness = parseFloat(values[4])
+          const social = parseFloat(values[5])
+          const freedom = parseFloat(values[6])
+          const generosity = parseFloat(values[7])
+          const rank = parseInt(values[8])
 
           if (!isNaN(year) && country && !isNaN(happiness) && !isNaN(alcohol)) {
             formattedData.push({
               year: year,
               country: country,
               happiness: happiness,
-              alcohol: alcohol
+              alcohol: alcohol,
+              social: social,
+              freedom: freedom,
+              generosity: generosity,
+              rank: rank
             });
           }
         }

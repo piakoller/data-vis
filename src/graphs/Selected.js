@@ -16,10 +16,10 @@ export function SelectedDataProvider({ children }) {
     '#99DDFF': false,
     '#44BB99': false,
     '#BBCC33': false,
-    '#AAAA00': false,
     '#EEDD88': false,
     '#EE8866': false,
     '#FFAABB': false,
+    '#AAAA00': false,
   });
   const pickColor = () => {
     const colorKeys = Object.keys(selectedColors);
@@ -67,10 +67,10 @@ export function SelectedDataProvider({ children }) {
     '#99DDFF': false,
     '#44BB99': false,
     '#BBCC33': false,
-    '#AAAA00': false,
     '#EEDD88': false,
     '#EE8866': false,
     '#FFAABB': false,
+    '#AAAA00': false,
     })
   }
 
