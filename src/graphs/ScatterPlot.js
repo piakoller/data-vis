@@ -44,15 +44,15 @@ const ScatterPlot = () => {
     useEffect(() => {
         if (selectedYear >= 2012 && selectedYear <= 2021) {
             const margin = { top: 20, right: 30, bottom: 40, left: 50 };
-            const width = 600 - margin.left - margin.right;
-            const height = 400 - margin.top - margin.bottom;
+            const width = 800 - margin.left - margin.right;
+            const height = 600 - margin.top - margin.bottom;
 
             const xScale = d3.scaleLinear()
-                .domain([0, 26]) // Assuming the years range from 2005 to 2022
+                .domain([0, 26])
                 .range([0, width]);
 
             const yScale = d3.scaleLinear()
-                .domain([0, 10]) // Assuming happiness and value fields
+                .domain([0, 10])
                 .range([height, 0]);
 
             function make_x_gridlines() {
@@ -60,7 +60,7 @@ const ScatterPlot = () => {
                     .ticks(10)
             }
 
-            // Gridlines in y axis function
+
             function make_y_gridlines() {
                 return d3.axisLeft(yScale)
                     .ticks(10)
@@ -76,8 +76,6 @@ const ScatterPlot = () => {
 
 
 
-            // Add the X gridlines
-            // Add the X gridlines
             svg.append("g")
                 .attr("class", "grid")
                 .attr("transform", "translate(0," + height + ")")
@@ -85,55 +83,67 @@ const ScatterPlot = () => {
                     .tickSize(-height)
                     .tickFormat("")
                 )
-                .style("stroke", "#ccc") // Change the color of the gridlines
-                .style("opacity", "0.2"); // Change the opacity of the gridlines
+                .style("stroke", "#ccc")
+                .style("opacity", "0.2");
 
-            // Add the Y gridlines
             svg.append("g")
                 .attr("class", "grid")
                 .call(make_y_gridlines()
                     .tickSize(-width)
                     .tickFormat("")
                 )
-                .style("stroke", "#ccc") // Change the color of the gridlines
-                .style("opacity", "0.2"); // Change the opacity of the gridlines
+                .style("stroke", "#ccc")
+                .style("opacity", "0.2");
 
-            // Define colors for happiness and world map data
             const colorScale = d3.scaleOrdinal()
                 .domain(['happiness', 'worldMap'])
-                .range(['blue', 'green']); // Change colors as needed
+                .range(['blue', 'green']);
 
-            // Join the new data with the old data
             const circles = svg.selectAll('circle')
-                .data(combined_data[selectedYear], d => d.country); // Use the country as the key
+                .data(combined_data[selectedYear], d => d.country);
 
-            // For the circles that are already present, update their positions
             circles
-                .transition() // Start a transition
-                .duration(500) // Transition duration
-                .attr('cx', d => xScale(d.alcohol)) // Animate the x position
-                .attr('cy', d => yScale(d.happiness)); // Animate the y position
+                .transition()
+                .duration(500)
+                .attr('cx', d => xScale(d.alcohol))
+                .attr('cy', d => yScale(d.happiness));
 
-            // For the new circles, set their initial positions to their old positions and then transition to the new positions
             circles.enter()
                 .append('circle')
-                .attr('r', 5)
-                .attr('cx', d => xScale(d.alcohol)) // Set the initial x position
-                .attr('cy', d => yScale(d.happiness)) // Set the initial y position
+                .attr('r', 10)
+                .attr('cx', d => xScale(d.alcohol))
+                .attr('cy', d => yScale(d.happiness))
                 .attr('fill', d => {
+                    let color;
                     if (selectedCountry.some((selected) => selected.country === d.country)) {
                         // Use the color defined in selected.js for selected countries
                         const selected = selectedCountry.find((selected) => selected.country === d.country);
-
-                        return selected?.color || '#d0d0d0'
+                        color = selected?.color || '#d0d0d0';
                     } else if (selectedCountry.some((selected) => selected.country !== d.country)) {
-                        return 'lightgrey';
-                    }
-                    else if (d.country === '...') {
-                        return 'transparent';
+                        color = 'lightgrey';
+                    } else if (d.country === '...') {
+                        color = 'transparent';
                     } else if (selectCountry) {
-                        return 'grey';
+                        color = 'grey';
                     }
+                    let rgb = d3.rgb(color);
+                    rgb.opacity = 0.7;
+                    return rgb;
+                })
+                .attr('stroke-width', 2)
+                .attr('stroke', d => {
+                    let color;
+                    if (selectedCountry.some((selected) => selected.country === d.country)) {
+                        const selected = selectedCountry.find((selected) => selected.country === d.country);
+                        color = selected?.color || '#d0d0d0';
+                    } else if (selectedCountry.some((selected) => selected.country !== d.country)) {
+                        color = 'lightgrey';
+                    } else if (d.country === '...') {
+                        color = 'transparent';
+                    } else if (selectCountry) {
+                        color = 'grey';
+                    }
+                    return color; // Set the stroke color
                 })
                 .on('mouseover', function (event, d) {
                     handleMouseMove(event);
@@ -144,11 +154,10 @@ const ScatterPlot = () => {
                     }, 3000); // 2000 ms = 2 seconds
                 })
                 .on('mouseout', () => {
-                    clearTimeout(timer); // Clear the timeout if the mouse leaves before the delay
-                    setTooltipContent(null) // Clear the tooltip content
+                    clearTimeout(timer);
+                    setTooltipContent(null)
                 })
 
-            // For the circles that are no longer present, remove them
             circles.exit().remove();
 
 

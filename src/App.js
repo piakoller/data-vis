@@ -55,8 +55,8 @@ function App() {
           <Box sx={{ flexGrow: 1 }}>
             <Grid container spacing={2}>
               <Grid item xs={12} style={{ position: 'sticky', top: 0, zIndex: 999, shadow: '0px 0px 20px' }}>
-              <Item style={{position: "relative"}}>
-                  <IconButton aria-label="info" size="large" style={{position: "absolute", top: 0, right: 0, shadow: '0px 0px 20px' }} onClick={handleOpen}>
+                <Item style={{ position: "relative" }}>
+                  <IconButton aria-label="info" size="large" style={{ position: "absolute", top: 0, right: 0, shadow: '0px 0px 20px' }} onClick={handleOpen}>
                     <InfoIcon color='blue' />
                   </IconButton>
                   <Modal
@@ -91,7 +91,7 @@ function App() {
                   <CardContent style={{ height: '100%' }}>
                     <WorldMap key="unique-key-for-world-map" />
                     <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                      
+
                     </Typography>
                   </CardContent>
                 </Item>
@@ -100,17 +100,17 @@ function App() {
                 <Item>
                   <h2 id='fontstyle'>Life Expectancy in Europe</h2>
                   <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                    <BarChart key="unique-key-for-world-map" />
+                    <BarChart key="unique-key-for-bar-chart" />
                   </Typography>
                 </Item>
               </Grid>
               <Grid item xs={6}>
-                <Item>
-                  <h2 id='fontstyle'>Scatter Plot - Alcohol Consumption and Happiness in Europe</h2>
-                  <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                    <ScatterPlot key="unique-key-for-world-map" />
-                  </Typography>
-                </Item>
+                  <Item>
+                    <h2 id='fontstyle'>Scatter Plot - Alcohol Consumption and Happiness in Europe</h2>
+                    <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                      <ScatterPlot key="unique-key-for-scatter-plot" />
+                    </Typography>
+                  </Item>
               </Grid>
               <Grid item xs={6}>
                 <Item>
@@ -124,7 +124,7 @@ function App() {
                 <Item>
                   <h2 id='fontstyle'>Alcohol Consumption over the years</h2>
                   <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                    <LineChart key="unique-key-for-world-map" />
+                    <LineChart key="unique-key-for-line-chart" />
                   </Typography>
                 </Item>
               </Grid>
