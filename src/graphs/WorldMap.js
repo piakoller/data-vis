@@ -51,21 +51,22 @@ const Map = () => {
         }
     };
 
-    const addTooltipContent = (country) => {
+    const addTooltipContent = (country, value) => {
         const selectedYearData = data[selectedYear]?.[country];
-
+   
         if (selectedYearData) {
-            const tooltipValue = `Country: ${country}, Year: ${selectedYear}, `;
+            const tooltipValue = `Country: ${country}, Year: ${selectedYear}, Alltypes: ${value.value}`;
             const beverageValues = Object.entries(selectedYearData)
-                .filter(([beverage]) => ['Wine', 'Beer', 'Spirits', 'Other alcoholic beverages'].includes(beverage))
+                .filter(([beverage]) => ['Wine', 'Beer', 'Spirits', 'Other alcoholic beverages', 'Alltypes'].includes(beverage))
                 .map(([beverage, value]) => `${beverage}: ${value}`)
                 .join(', ');
-
-            setTooltipContent(`${tooltipValue}${beverageValues}`);
+    
+            setTooltipContent(`${tooltipValue}, ${beverageValues}`);
         } else {
             setTooltipContent(null);
         }
     };
+    
 
     useEffect(() => {
         fetchWorldMapData()
@@ -119,10 +120,10 @@ const Map = () => {
 
     const legendValues = [0, 5, 10, 15, 20, 25]; // Adjust these values based on your data range
 
-    const handleMouseEnter = (location) => {
+    const handleMouseEnter = (location, value) => {
         setHoverCountry(location);
         // handleMouseMove(location)
-        addTooltipContent(location)
+        addTooltipContent(location, value)
     };
 
     const handleMouseLeave = () => {
@@ -215,7 +216,7 @@ const Map = () => {
                                             stroke={outline}
                                             strokeWidth={outlineStroke}
                                             transform={`translate(${centerX}, ${centerY}) scale(${scale}) translate(${-centerX}, ${-centerY})`} // Apply scale transformation around the center of the country
-                                            onMouseEnter={() => handleMouseEnter(location)}
+                                            onMouseEnter={() => handleMouseEnter(location, value)}
                                             onMouseLeave={handleMouseLeave}
                                             onMouseMove={handleMouseMove}
                                             onClick={(e) => {

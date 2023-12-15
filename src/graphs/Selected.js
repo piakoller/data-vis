@@ -10,6 +10,18 @@ export function SelectedDataProvider({ children }) {
   const [selectedCountry, setSelectedCountry] = useState([]);
   const [hoverCountry, setHoverCountry] = useState(null);
   const [selectedYear, setSelectedYear] = useState(1960); // Default year
+
+  const allCountries = ['Albania', 'Andorra', 'Armenia', 'Austria', 'Azerbaijan',
+  'Belgium', 'Bulgaria', 'Bosnia and Herzegovina', 'Belarus',
+  'Switzerland', 'Cyprus', 'Czechia', 'Germany', 'Denmark', 'Spain',
+  'Estonia', 'Finland', 'France', 'United Kingdom', 'Georgia',
+  'Greece', 'Croatia', 'Hungary', 'Ireland', 'Iceland', 'Israel',
+  'Italy', 'Kazakhstan', 'Kyrgyzstan', 'Lithuania', 'Luxembourg',
+  'Latvia', 'Moldova', 'North Macedonia', 'Malta', 'Montenegro',
+  'Netherlands', 'Norway', 'Poland', 'Portugal', 'Romania', 'Russia',
+  'Republic of Serbia', 'Slovakia', 'Slovenia', 'Sweden',
+  'Tajikistan', 'Turkmenistan', 'Turkey', 'Ukraine', 'Uzbekistan']
+
   let colorList = ['#CC6677', '#332288', '#DDCC77', '#117733', '#88CCEE', '#882255', '#44AA99', '#999933', '#AA4499']
   const [selectedColors, setSelectedColors] = useState({
     '#77AADD': false,
@@ -37,8 +49,6 @@ export function SelectedDataProvider({ children }) {
 
     return null;
   };
-
-
 
   const selectCountry = (country) => {
     if(selectedCountry.length >= 8){
@@ -77,7 +87,7 @@ export function SelectedDataProvider({ children }) {
 
 
   return (
-    <SelectedDataContext.Provider value={{ selectedCountry, setSelectedCountry, hoverCountry, setHoverCountry, selectedYear, setSelectedYear, selectCountry, unselectCountry, unselectAll }}>
+    <SelectedDataContext.Provider value={{ selectedCountry, setSelectedCountry, hoverCountry, setHoverCountry, selectedYear, setSelectedYear, selectCountry, unselectCountry, unselectAll, allCountries }}>
       {children}
     </SelectedDataContext.Provider>
   );

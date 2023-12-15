@@ -41,7 +41,7 @@ const ScatterPlot = () => {
     useEffect(() => {
         if (selectedYear <= 2021) {
             const margin = { top: 20, right: 30, bottom: 40, left: 50 };
-            const width = 650 - margin.left - margin.right;
+            const width = 550 - margin.left - margin.right;
             const height = 500 - margin.top - margin.bottom;
 
             const xScale = d3.scaleLinear()

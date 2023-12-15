@@ -34,12 +34,12 @@ const LineChart = () => {
         const selectedYearData = data[country]?.find(d => d.date.getFullYear() === selectedYear);
         const tooltipValue = selectedYearData ? `Country: ${country}, Year: ${selectedYear}, Value: ${selectedYearData.value}` : null;
         setTooltipContent(tooltipValue);
-      }, [data, selectedYear]);
-    
+    }, [data, selectedYear]);
+
     const addTooltipContentCountry = useCallback((country) => {
         setTooltipContent(country)
-    },[]);
-    
+    }, []);
+
     const fetchDataForCountry = useCallback(country => {
         fetchCountryData(country)
             .then(countryData => {
@@ -55,15 +55,39 @@ const LineChart = () => {
         return selected?.color || '#d0d0d0';
     }
 
-    // Use useEffect to fetch data for selected countries
     useEffect(() => {
+        const allCountries = ['Albania', 'Andorra', 'Armenia', 'Austria', 'Azerbaijan',
+            'Belgium', 'Bulgaria', 'Bosnia and Herzegovina', 'Belarus',
+            'Switzerland', 'Cyprus', 'Czechia', 'Germany', 'Denmark', 'Spain',
+            'Estonia', 'Finland', 'France', 'United Kingdom', 'Georgia',
+            'Greece', 'Croatia', 'Hungary', 'Ireland', 'Iceland', 'Israel',
+            'Italy', 'Kazakhstan', 'Kyrgyzstan', 'Lithuania', 'Luxembourg',
+            'Latvia', 'Moldova', 'North Macedonia', 'Malta', 'Montenegro',
+            'Netherlands', 'Norway', 'Poland', 'Portugal', 'Romania', 'Russia',
+            'Republic of Serbia', 'Slovakia', 'Slovenia', 'Sweden',
+            'Tajikistan', 'Turkmenistan', 'Turkey', 'Ukraine', 'Uzbekistan']
+
         if (selectedCountry && selectedCountry.length > 0) {
             // Fetch data for each selected country
             selectedCountry.forEach(country => {
                 fetchDataForCountry(country.country);
             });
         } else {
-            setData({}); // Clear data if no countries are selected
+            const fetchAllCountriesData = async () => {
+                try {
+                    for (const country of allCountries) {
+                        const countryData = await fetchCountryData(country);
+                        setData(prevData => ({
+                            ...prevData,
+                            [country]: countryData
+                        }));
+                    }
+                } catch (error) {
+                    console.error('Error fetching data for all countries:', error);
+                }
+            };
+
+            fetchAllCountriesData();
         }
     }, [selectedCountry, fetchDataForCountry]);
 
@@ -100,12 +124,12 @@ const LineChart = () => {
                 .nice()
                 .range([height, 0]);
 
-                const line = d3.line()
+            const line = d3.line()
                 .x(d => x(d.date))
                 .y(d => y(d.value))
                 .defined(d => !isNaN(d.value))
                 .curve(d3.curveMonotoneX); // or curveMonotoneY
-              
+
 
             // Filter data for selected countries
             const filteredData = Object.entries(data).filter(([country]) =>
@@ -154,7 +178,7 @@ const LineChart = () => {
                             handleMouseMove(event);
                             setHoverCountry(country);
                             addTooltipContentCircle(country);
-                          })
+                        })
                         .on('mouseleave', (event) => {
                             addTooltipContentCircle(null);
                         });
