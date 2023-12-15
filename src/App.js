@@ -5,6 +5,7 @@ import WorldMap from './graphs/WorldMap';
 import LineChart from './graphs/LineChart';
 import BarChart from './graphs/BarChart';
 import ScatterPlot from './graphs/ScatterPlot';
+import PieChartHandler from './graphs/PieChartHandler';
 
 import { SelectedDataProvider } from './graphs/Selected';
 
@@ -112,9 +113,9 @@ function App() {
               </Grid>
               <Grid item xs={6}>
                 <Item>
-                  <h2 id='fontstyle'>Scatter Plot - Alcohol Consumption and Happiness in Europe</h2>
+                  <h2 id='fontstyle'>Pie Chart over alcoholic beverage distribution</h2>
                   <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                    <ScatterPlot key="unique-key-for-world-map" />
+                    <PieChartHandler key="unique-key-for-pie-chart" />
                   </Typography>
                 </Item>
               </Grid>
