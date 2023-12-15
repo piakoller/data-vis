@@ -103,7 +103,7 @@ const PieChartHandler = () => {
     const { selectedCountry, setSelectedCountry, selectedYear, hoverCountry, setHoverCountry, selectCountry, unselectCountry, unselectAll } = useSelectedData();
     const color = d3.scaleOrdinal()
         .domain(['beer', 'wine', 'spirits', 'other alcoholic beverages'])
-        .range(['#f28e1c', '#722F37', '#635147', '#004488']);
+        .range(['#f28e1c', '#9a4191', '#e84b65', '#004488']);
     const legendData = [
         { beverage: 'beer' },
         { beverage: 'wine' },
