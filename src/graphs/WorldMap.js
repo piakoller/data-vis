@@ -22,6 +22,13 @@ const Map = () => {
 
     const [tooltipContent, setTooltipContent] = useState(null);
 
+    const positionRef = React.useRef({
+        x: 0,
+        y: 0,
+    });
+    const popperRef = React.useRef(null);
+    const areaRef = React.useRef(null);
+
     // Add a function to calculate contrasting text color
     const getContrastColor = (hexColor) => {
         // Convert hex color to RGB
@@ -36,9 +43,12 @@ const Map = () => {
         return luminance > 0.5 ? '#000000' : '#FFFFFF';
     };
 
-    // Update tooltip position on mouse move
     const handleMouseMove = (event) => {
-        setTooltipPosition({ x: event.clientX, y: event.clientY });
+        positionRef.current = { x: event.clientX, y: event.clientY };
+
+        if (popperRef.current != null) {
+            popperRef.current.update();
+        }
     };
 
     const addTooltipContent = (country) => {
@@ -160,16 +170,24 @@ const Map = () => {
                     ))}
             </div>
             <Tooltip
-                open={tooltipContent != null}
-                title={tooltipContent}
-                arrow
-                placement="top"
-                enterTouchDelay={0}
-                interactive
-                leaveTouchDelay={1500}
-                disableTouchListener
-                leaveDelay={200}
-            >
+            open={tooltipContent != null}
+            title={tooltipContent}
+            arrow
+            placement="top"
+            PopperProps={{
+                popperRef,
+                anchorEl: {
+                    getBoundingClientRect: () => {
+                        return new DOMRect(
+                            positionRef.current.x,
+                            positionRef.current.y,
+                            0,
+                            0,
+                        );
+                    },
+                },
+            }}
+        >
                 <div>
                     <svg width={width} height={height}>
                         <g className="geo-layer">

@@ -103,7 +103,7 @@ const BarChart = () => {
                 .attr('height', yScale.bandwidth())
                 .attr('fill', d => {
                     if (hoverCountry === d.country) {
-                        return '#1976D2'; // Change the color for the hovered country
+                        return '#214E4E'; // Change the color for the hovered country
                     } else if (selectedCountry.some((selected) => selected.country === d.country)) {
                         // Use the color defined in selected.js for selected countries
                         const selected = selectedCountry.find((selected) => selected.country === d.country);
@@ -115,7 +115,7 @@ const BarChart = () => {
                     else if (d.country === '...') {
                         return 'transparent';
                     } else if (selectCountry){
-                        return 'grey';
+                        return '#1976D2';
                     }
                 })
                 .on('click', (event, d) => {

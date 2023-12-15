@@ -174,14 +174,14 @@ const LineChart = () => {
                 .style('text-anchor', 'middle')
                 .style('font-family', "'Trebuchet MS', sans-serif")
                 .style('font-size', '16px')
-                .text('years');
+                .text('Years');
 
             // Add y-axis label
             svg.append('text')
                 .attr('transform', `translate(${margin.left - 68}, ${height / 2 + 125}) rotate(-90)`) // Adjust the position and rotation as needed                .style('text-anchor', 'middle')
                 .style('font-family', "'Trebuchet MS', sans-serif")
                 .style('font-size', '16px')
-                .text('liters of pure alcohol per capita');
+                .text('Liters of pure alcohol per capita');
         }
     }, [data, selectedYear, hoverCountry]);
 

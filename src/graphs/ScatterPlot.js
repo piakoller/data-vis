@@ -41,8 +41,8 @@ const ScatterPlot = () => {
     useEffect(() => {
         if (selectedYear <= 2021) {
             const margin = { top: 20, right: 30, bottom: 40, left: 50 };
-            const width = 800 - margin.left - margin.right;
-            const height = 600 - margin.top - margin.bottom;
+            const width = 650 - margin.left - margin.right;
+            const height = 500 - margin.top - margin.bottom;
 
             const xScale = d3.scaleLinear()
                 .domain([0, 26])
@@ -126,13 +126,21 @@ const ScatterPlot = () => {
                         color = 'grey';
                     }
                     let rgb = d3.rgb(color);
-                    rgb.opacity = 0.7;
+                    if(d.country === hoverCountry){
+                        rgb.opacity = 1;
+                    }
+                    else {
+                        rgb.opacity = 0.7;
+                    }
                     return rgb;
                 })
-                .attr('stroke-width', 2)
+                .attr('stroke-width', d => { if(d.country === hoverCountry) {return 4} else {return 2} })
                 .attr('stroke', d => {
                     let color;
-                    if (selectedCountry.some((selected) => selected.country === d.country)) {
+                    if( d.country === hoverCountry){
+                        color = '#214E4E';
+                    }
+                    else if (selectedCountry.some((selected) => selected.country === d.country)) {
                         const selected = selectedCountry.find((selected) => selected.country === d.country);
                         color = selected?.color || '#d0d0d0';
                     } else if (selectedCountry.some((selected) => selected.country !== d.country)) {
@@ -146,7 +154,7 @@ const ScatterPlot = () => {
                 })
                 .on('mouseover', function (event, d) {
                     handleMouseMove(event);
-                    setTooltipContent(`Country: ${d.country}, Alcohol: ${d.alcohol}, Happiness: ${(d.happiness).toFixed(2)}, Happiness Rank: ${d.rank}`);
+                    setTooltipContent(`Country: ${d.country}, Alcohol: ${d.alcohol}, Happiness: ${(d.happiness).toFixed(2)}`);
                     timer = setTimeout(() => {
                         setTooltipContent(null)
                     }, 3000); // 2000 ms = 2 seconds

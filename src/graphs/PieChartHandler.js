@@ -21,7 +21,7 @@ function parseData(data, year, country) {
 }
 
 // PieChart component
-function PieChart({ data, color }) {
+function PieChart({ data, color, setHoverCountry, country }) {
     const ref = useRef();
 
     useEffect(() => {
@@ -45,7 +45,14 @@ function PieChart({ data, color }) {
             .data(pie(data))
             .enter().append("path")
             .attr("fill", d => color(d.data.beverage))
-            .attr("d", arc);
+            .attr("d", arc)
+            .on("mouseover", function (d) {
+                setHoverCountry(country);
+            })
+            .on("mouseout", function (d) {
+                setHoverCountry(null);
+            });
+
 
         // Calculate the total value of all slices
         const total = data.reduce((sum, d) => sum + d.value, 0);
@@ -129,7 +136,7 @@ const PieChartHandler = () => {
                         return data.length > 0 && (
                             <div key={index} style={{ textAlign: 'center' }}>
                                 <h2>{selectedCountry[index].country}</h2>
-                                <PieChart data={data} color={color} />
+                                <PieChart data={data} color={color} setHoverCountry={setHoverCountry} country={selectedCountry[index].country} />
                             </div>
                         );
                     }

@@ -104,7 +104,7 @@ function App() {
                   </Typography>
                 </Item>
               </Grid>
-              <Grid item xs={6}>
+              <Grid item xs={5}>
                   <Item>
                     <h2 id='fontstyle'>Scatter Plot - Alcohol Consumption and Happiness in Europe</h2>
                     <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
@@ -112,7 +112,7 @@ function App() {
                     </Typography>
                   </Item>
               </Grid>
-              <Grid item xs={6}>
+              <Grid item xs={7}>
                 <Item>
                   <h2 id='fontstyle'>Pie Chart over alcoholic beverage distribution</h2>
                   <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
