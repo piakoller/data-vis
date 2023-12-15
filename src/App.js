@@ -66,7 +66,7 @@ function App() {
                   >
                     <Box sx={style}>
                       <Typography id="modal-modal-title" variant="h6" component="h2">
-                        Data Explanation
+                        Explanations
                       </Typography>
                       <Typography id="modal-modal-description" sx={{ mt: 2 }}>
                         <p>Alcohol Data is provided by the World Health Organization:</p>
@@ -75,6 +75,7 @@ function App() {
                         <p>The Happiness Data is provided by the World Happiness Report:</p>
                         <p>The World Happiness Report is a publication of the Sustainable Development Solutions Network, powered by the Gallup World Poll data. The World Happiness Report reflects a worldwide demand for more attention to happiness and well-being as criteria for government policy. It reviews the state of happiness in the world today and shows how the science of happiness explains personal and national variations in happiness.
                         </p>
+                        <p>The used colorscale is Paul Tol's light qualitative color scheme: <a href="https://personal.sron.nl/~pault/" target="_blank">Link</a></p>
                       </Typography>
                     </Box>
                   </Modal>
